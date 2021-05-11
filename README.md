@@ -7,7 +7,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats#wakatime-week-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=pboling" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=pboling&theme=tokyonight" />
 </a>
 
 I build big things and small things out of tiny bits.
