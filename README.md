@@ -10,8 +10,9 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=pboling&theme=tokyonight" />
 </a>
 
-I build big things and small things out of tiny bits.
+## How it's going...
 
+- 👷 I build big things and small things out of tiny bits.
 - 🔭 I’m currently working on switching my gem libraries to use Github Actions for CI
 - 🌱 I’m currently learning Rust
 - 👯 I’m looking to collaborate on getting [v2 of the oauth2 gem out the door](https://github.com/oauth-xx/oauth2/milestone/1)
