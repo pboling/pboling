@@ -6,9 +6,6 @@
 <a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
 </a>
-<a href="https://github.com/anuraghazra/github-readme-stats#wakatime-week-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=pboling&theme=tokyonight" />
-</a>
 
 ## How it's going...
 
