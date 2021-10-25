@@ -7,6 +7,13 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
 </a>
 
+## How it started...
+
+<figure>
+  <img src="/macaque.jpg" alt="Holding a black caiman, Amazon River, Brazil. 1997">
+  <figcaption>A cheeky me holding a baby black caiman, Amazon River, Brazil, June 24, 1997, shortly after completing my first programming course - Pascal. The <a href="https://en.wikipedia.org/wiki/Black_caiman">black caiman</a>, a baby specimen of the family Alligatoridae and order Crocodilia, was unharmed, and released back to the water, where it promptly continued following its mother. Full grown they are among the largest alligators and crocodiles in the world.</figcaption>
+</figure>
+
 ## How it's going...
 
 - 👷 I build big things and small things out of tiny bits.
