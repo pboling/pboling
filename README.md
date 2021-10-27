@@ -26,7 +26,7 @@
 - 📫 How to [reach me](https://about.me/peter.boling)
 - 😄 Pronouns: He/Him
 - 🗨️ I speak 3 languages fluently, and for a 4th I'm learning to eat sambal and speak Bahasa Indonesia!
-- 👷‍♂️ I help refugees and ex-refugees in Ghana🇬🇭 and Liberia🇱🇷, respectively, through Hope For Tomorrow, a Liberian NGO.  DM me if interested in knowning more.
+- 👷‍♂️ I help refugees and ex-refugees in Ghana🇬🇭 and Liberia🇱🇷, respectively, through Hope For Tomorrow, a Liberian NGO.  DM me if interested in knowing more.
 
 ## Skills
 
