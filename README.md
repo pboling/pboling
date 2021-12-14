@@ -47,7 +47,6 @@
 
 - Executive Director | [National Progressive Party](https://nationalprogressiveparty.org)
 - Outreach, Tech, Comms | [#UnitedLeft (on Discord)](https://discord.gg/3yhwAr7)
-- Director of Software Engineering | [Riviera Partners](https://rivierapartners.com)
 - Advisor | [Hope For Tomorrow (Liberian NGO)](https://www.facebook.com/hope.for.tomorrow.liberia)
 - FOSS Blogger | [RailsBling](https://railsbling.com)
 - FOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
