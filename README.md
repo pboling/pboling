@@ -34,7 +34,7 @@
 - 🦷 I'm putting more of my focus on FLOSS efforts! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
 - 🔭 I’m working on switching my gem libraries to use Github Actions for CI
-- 🌱 I’m learning Node and Rust
+- 🌱 I’m learning Svelte, and I want to learn Rust next
 - 👯 I’m looking to collaborate on getting [v2 of the oauth2 gem out the door](https://github.com/oauth-xx/oauth2/milestone/1)
   - We are 96% done... Come help with the final push!
 - 🤔 I’m looking for help with maintaining my suite of Resque plugins, as I don't have a current use case for Resque.
