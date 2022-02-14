@@ -1,5 +1,20 @@
 ### Hi there 👋
 
+<div id="badges">
+  <a target="_blank" href="https://www.openhub.net/accounts/peterboling?ref=sample">
+    <img alt='Open Hub profile for Peter Boling' border='0' height='28' src='https://www.openhub.net/accounts/peterboling/widgets/account_detailed?format=gif&amp;ref=sample' width='210'>
+  </a>
+  <a href="http://www.linkedin.com/in/peterboling">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge for Peter Boling"/>
+  </a>
+
+  [![Follow Me](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/intent/user?screen_name=galtzo)
+  [![Published Rubygems](https://img.shields.io/gem/u/pboling.svg)](https://rubygems.org/profiles/pboling)
+  [![Github Profile Views](https://komarev.com/ghpvc/?username=pboling)](https://komarev.com/ghpvc/?username=pboling)
+
+</div>
+
+
 <a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=pboling&count_private=true&show_icons=true&theme=tokyonight" />
 </a>
@@ -29,15 +44,74 @@
 - 🗨️ I speak 3 languages fluently, and for a 4th I'm learning to eat sambal and speak Bahasa Indonesia!
 - 👷‍♂️ I help refugees and ex-refugees in Ghana🇬🇭 and Liberia🇱🇷, respectively, through Hope For Tomorrow, a Liberian NGO.  DM me if interested in knowing more.
 
-## Skills
+### :hammer_and_wrench: Languages and Tools :
 
-- Web application architecture
-- Team management
-- Ruby, JavaScript, Bash
-- PostgreSQL, MySQL
-- K8s, Docker
-- CircleCI, GitHub Actions
-- API design
+<div id="tools">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg"
+     alt="AWS" title="AWS" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-plain.svg"
+     alt="bash" title="bash" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/circleci/circleci-plain.svg"
+     alt="circleci" title="circleci" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/codecov/codecov-plain.svg"
+     alt="codecov" title="codecov" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
+     alt="css3" title="css3" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/debian/debian-plain.svg"
+     alt="debian" title="debian" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/digitalocean/digitalocean-original.svg"
+     alt="digitalocean" title="digitalocean" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg"
+     alt="docker" title="docker" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg"
+     alt="git" title="git" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+     alt="github" title="github" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-plain.svg"
+     alt="gitlab" title="gitlab" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitter/gitter-plain.svg"
+     alt="gitter" title="gitter" width="28" height="28" />
+  <img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain.svg"
+     alt="graphql" title="graphql" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/handlebars/handlebars-original.svg"
+     alt="handlebars" title="handlebars" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg"
+     alt="heroku" title="heroku" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jamstack/jamstack-original.svg"
+     alt="jamstack" title="jamstack" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+     alt="javascript" title="javascript" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg"
+     alt="jetbrains" title="jetbrains" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-plain.svg"
+     alt="jira" title="jira" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg"
+     alt="kubernetes" title="kubernetes" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-plain.svg"
+     alt="linux" title="linux" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg"
+     alt="markdown" title="markdown" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg"
+     alt="mysql" title="mysql" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-plain.svg"
+     alt="neo4j" title="neo4j" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg"
+     alt="nodejs" title="nodejs" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg"
+     alt="postgresql" title="postgresql" width="28" height="28" />
+  <img src="https://github.com/devicons/devicon/blob/master/icons/rails/rails-plain.svg"
+     alt="rails" title="rails" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-plain.svg"
+     alt="ruby" title="ruby" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rubymine/rubymine-plain.svg"
+     alt="rubymine" title="rubymine" width="28" height="28" />
+  <img src="https://github.com/devicons/devicon/blob/master/icons/salesforce/salesforce-plain.svg"
+     alt="salesforce" title="salesforce" width="28" height="28" />
+  <img src="https://github.com/devicons/devicon/blob/master/icons/svelte/svelte-plain.svg"
+     alt="svelte" title="svelte" width="28" height="28" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg"
+     alt="wordpress" title="wordpress" width="28" height="28" />
+</div>
 
 ## Career
 
