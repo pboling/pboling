@@ -1,4 +1,4 @@
-### Hi there 👋
+### :wave: Hi there
 
 <div id="badges">
   <a target="_blank" href="https://www.openhub.net/accounts/peterboling?ref=sample">
@@ -10,7 +10,7 @@
 
   [![Follow Me](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/intent/user?screen_name=galtzo)
   [![Published Rubygems](https://img.shields.io/gem/u/pboling.svg)](https://rubygems.org/profiles/pboling)
-  [![Github Profile Views](https://komarev.com/ghpvc/?username=pboling)](https://komarev.com/ghpvc/?username=pboling)
+  [![Github Profile Views Since 2022.02.13](https://komarev.com/ghpvc/?username=pboling)](https://komarev.com/ghpvc/?username=pboling)
 
 </div>
 
@@ -22,16 +22,16 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
 </a>
 
-## How it started...
+## :child: How it started...
 
 <figure>
   <img align="left" width="33%" src="https://railsbling.com/peter-amazon-black-caiman.jpg" alt="Holding a black caiman, Amazon River, Brazil. 1997">
   <figcaption>A cheeky me holding a baby black caiman, Amazon River, Brazil, June 24, 1997, shortly after completing my first programming course - Pascal. The <a href="https://en.wikipedia.org/wiki/Black_caiman">black caiman</a>, a baby specimen of the family Alligatoridae and order Crocodilia, was unharmed, and released back to the water, where it promptly continued following its mother. Full grown they are among the largest alligators and crocodiles in the world<a src="https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/markdown/github_readme_center_and_align_images.md">.</a></figcaption>
 </figure>
 
-## How it's going...
+## :godmode: How it's going...
 
-- 🦷 I'm putting more of my focus on FLOSS efforts! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
+- 🦷 I'm putting more of my focus on FLOSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
 - 🔭 I’m working on switching my gem libraries to use Github Actions for CI
 - 🌱 I’m learning Svelte, and I want to learn Rust next
@@ -113,11 +113,11 @@
      alt="wordpress" title="wordpress" width="28" height="28" />
 </div>
 
-## Career
+## :briefcase: Career
 
 - The list is long, even in summary, see [my LinkedIn](https://www.linkedin.com/in/peterboling/).
 
-### Current Roles
+### :roll_of_paper: Current Roles
 
 - Executive Director | [National Progressive Party](https://nationalprogressiveparty.org)
 - Outreach, Tech, Comms | [#UnitedLeft (on Discord)](https://discord.gg/3yhwAr7)
