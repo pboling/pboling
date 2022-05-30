@@ -1,26 +1,18 @@
 ### :wave: Hi there
 
 <div id="badges">
-  <a target="_blank" href="https://www.openhub.net/accounts/peterboling?ref=sample">
-    <img alt='Open Hub profile for Peter Boling' border='0' height='28' src='https://www.openhub.net/accounts/peterboling/widgets/account_detailed?format=gif&amp;ref=sample' width='210'>
-  </a>
-  <a href="http://www.linkedin.com/in/peterboling">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge for Peter Boling"/>
-  </a>
 
+  [![Follow Me](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/peterboling)
+  ![Discord Status](https://dcbadge.vercel.app/api/shield/662462120889417731)
   [![Follow Me](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/intent/user?screen_name=galtzo)
   [![Published Rubygems](https://img.shields.io/gem/u/pboling.svg)](https://rubygems.org/profiles/pboling)
   [![Github Profile Views Since 2022.02.13](https://komarev.com/ghpvc/?username=pboling)](https://komarev.com/ghpvc/?username=pboling)
 
 </div>
 
-
-<a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=pboling&count_private=true&show_icons=true&theme=tokyonight" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
-</a>
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ## :child: How it started...
 
@@ -33,6 +25,7 @@
 
 - 🦷 I'm putting more of my focus on FLOSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
+- ✨ Recently created [`rubocop-lts`](https://github.com/rubocop-lts) to wrangle the churn from RuboCop.
 - 🔭 I’m working on switching my gem libraries to use Github Actions for CI
 - 🌱 I’m learning Svelte, and I want to learn Rust next
 - 👯 I’m looking to collaborate on getting version 2 of `ouaht2` gem released! [![2.0.0 release milestone][next-milestone-pct-img]][next-milestone-pct]
@@ -41,7 +34,7 @@
 - 💬 Ask me about Bernie Sanders and the National Progressive Party
 - 📫 How to [reach me](https://about.me/peter.boling)
 - 😄 Pronouns: He/Him
-- 🗨️ I speak 3 languages fluently, and for a 4th I'm learning to eat sambal and speak Bahasa Indonesia!
+- 🗨️ I speak 3 languages fluently, and for a 4th I'm learning Bahasa Indonesia!
 - 👷‍♂️ I help refugees and ex-refugees in Ghana🇬🇭 and Liberia🇱🇷, respectively, through Hope For Tomorrow, a Liberian NGO.  DM me if interested in knowing more.
 
 [next-milestone-pct]: https://github.com/oauth-xx/oauth2/milestone/1
@@ -129,3 +122,12 @@
 - FOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
 - Member-worker | [Bed of Roses Club](http://bed-of-roses.club/)
+
+[![Open Hub profile](https://www.openhub.net/accounts/peterboling/widgets/account_detailed?format=gif&amp;ref=sample)](https://www.openhub.net/accounts/peterboling?ref=sample)
+
+<a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=pboling&count_private=true&show_icons=true&theme=tokyonight" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
+</a>
