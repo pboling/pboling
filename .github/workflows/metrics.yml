@@ -44,7 +44,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: dist/metrics.plugin.notable.indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_notable: yes
           plugin_notable_indepth: yes
