@@ -40,12 +40,12 @@ jobs:
           base: repositories
           plugin_traffic: yes
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push metrics SVGs to the metrics branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
+      - name: Notable Contributions In-depth analysis
+        uses: lowlighter/metrics@latest
         with:
-          target_branch: metrics
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          filename: dist/metrics.plugin.notable.indepth.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes

@@ -23,8 +23,9 @@
 
 ![GitHub Snake Light](https://github.com/pboling/pboling/raw/output/github-snake.svg?raw=true#gh-light-mode-only)
 ![GitHub Snake dark](https://github.com/pboling/pboling/raw/output/github-snake-dark.svg?raw=true#gh-dark-mode-only)
-![GitHub Snake Light](https://github.com/pboling/pboling/raw/output/github-snake.svg?raw=true#gh-light-mode-only)
-![GitHub Snake dark](https://github.com/pboling/pboling/raw/output/github-snake-dark.svg?raw=true#gh-dark-mode-only)
+![Comment Reactions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.reactions.svg?raw=true)
+![Repository Traffic](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.traffic.svg?raw=true)
+![Notable Contributions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.notable.indepth.svg?raw=true)
 
 ## :child: How it started...
 
