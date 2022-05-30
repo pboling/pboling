@@ -40,12 +40,12 @@ jobs:
           base: repositories
           plugin_traffic: yes
 
-      - name: Notable Contributions In-depth analysis
+      - name: Notable Contributions
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.plugin.notable.indepth.svg
+          filename: dist/metrics.plugin.notable.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_notable: yes
           plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
+          plugin_notable_repositories: no
