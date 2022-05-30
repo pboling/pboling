@@ -26,7 +26,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: dist/metrics.plugin.reactions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_reactions: yes
           plugin_reactions_limit: 100
@@ -36,7 +36,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: dist/metrics.plugin.traffic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: repositories
           plugin_traffic: yes
 

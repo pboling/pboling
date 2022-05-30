@@ -23,6 +23,8 @@
 
 ![GitHub Snake Light](https://github.com/pboling/pboling/raw/output/github-snake.svg?raw=true#gh-light-mode-only)
 ![GitHub Snake dark](https://github.com/pboling/pboling/raw/output/github-snake-dark.svg?raw=true#gh-dark-mode-only)
+![GitHub Snake Light](https://github.com/pboling/pboling/raw/output/github-snake.svg?raw=true#gh-light-mode-only)
+![GitHub Snake dark](https://github.com/pboling/pboling/raw/output/github-snake-dark.svg?raw=true#gh-dark-mode-only)
 
 ## :child: How it started...
 
