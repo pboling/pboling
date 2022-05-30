@@ -32,14 +32,6 @@ jobs:
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
 
-      - name: Repositories traffic
-        uses: lowlighter/metrics@latest
-        with:
-          filename: dist/metrics.plugin.traffic.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: repositories
-          plugin_traffic: yes
-
       - name: Notable Contributions
         uses: lowlighter/metrics@latest
         with:
