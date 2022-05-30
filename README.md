@@ -19,6 +19,11 @@
 - [New Release of oauth: Version 0.5.8](https://railsbling.com/oauth/releases/oauth-0.5.8/)
 <!-- BLOG-POST-LIST:END -->
 
+# Contributions
+
+![GitHub Snake Light](github-snake.svg#gh-light-mode-only)
+![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
+
 ## :child: How it started...
 
 <figure>
