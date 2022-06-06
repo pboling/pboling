@@ -16,6 +16,7 @@
 - [Rubocop LTS](https://dev.to/pboling/rubocop-lts-1e31)
 - [Rubocop... but SemVer](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)
 - [PCCR - Perfect Code Coverage Reporting](https://dev.to/pboling/ippccr-in-pursuit-of-perfect-code-coverage-reporting-3a2i)
+- [New Release of oauth: Version 0.5.8](https://railsbling.com/oauth/releases/oauth-0.5.8/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
