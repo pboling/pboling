@@ -37,11 +37,10 @@
 
 - 🦷 I'm putting more of my focus on FLOSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
-- ✨ Recently created [`rubocop-lts`](https://github.com/rubocop-lts) to wrangle the churn from RuboCop.
+- ✨ Recently created [`rubocop-lts`](https://github.com/rubocop-lts) for library maintainer happiness 👩‍❤️‍👩.
 - 🔭 I’m working on switching my gem libraries to use Github Actions for CI
 - 🌱 I’m learning Svelte, and I want to learn Rust next
-- 👯 I’m looking to collaborate on getting version 2 of `ouaht2` gem released! [![2.0.0 release milestone][next-milestone-pct-img]][next-milestone-pct]
-  - We are nealrly done... Come help with the final push!
+- 👯 Preparing transition to v2 of the `oauth2` gem!
 - 🤔 I’m looking for help with maintaining my suite of Resque plugins, as I don't have a current use case for Resque.
 - 💬 Ask me about Bernie Sanders and the National Progressive Party
 - 📫 How to [reach me](https://about.me/peter.boling)
