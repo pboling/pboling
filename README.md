@@ -42,7 +42,6 @@
 - 🌱 I’m learning Svelte, and I want to learn Rust next
 - 👯 Preparing transition to v2 of the `oauth2` gem!
 - 🤔 I’m looking for help with maintaining my suite of Resque plugins, as I don't have a current use case for Resque.
-- 💬 Ask me about Bernie Sanders and the National Progressive Party
 - 📫 How to [reach me](https://about.me/peter.boling)
 - 😄 Pronouns: He/Him
 - 🗨️ I speak 3 languages fluently, and for a 4th I'm learning Bahasa Indonesia!
@@ -126,7 +125,7 @@
 
 ### :roll_of_paper: Current Roles
 
-- Executive Director | [National Progressive Party](https://nationalprogressiveparty.org)
+- Staff Software Engineer | [Underdog Sports](https://underdogfantasy.com)
 - Outreach, Tech, Comms | [#UnitedLeft (on Discord)](https://discord.gg/3yhwAr7)
 - Advisor | [Hope For Tomorrow (Liberian NGO)](https://www.facebook.com/hope.for.tomorrow.liberia)
 - FOSS Blogger | [RailsBling](https://railsbling.com)
