@@ -12,11 +12,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [I use shared hosting as my build server. Here&#39;s how.](https://dev.to/pboling/i-use-shared-hosting-as-my-build-server-heres-how-2e6k)
 - [Matrix: Ruby, Gem, Bundler, etc](https://dev.to/pboling/matrix-ruby-gem-bundler-etc-4kk7)
 - [Rubocop LTS](https://dev.to/pboling/rubocop-lts-1e31)
 - [Rubocop... but SemVer](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)
 - [PCCR - Perfect Code Coverage Reporting](https://dev.to/pboling/ippccr-in-pursuit-of-perfect-code-coverage-reporting-3a2i)
-- [New Release of oauth: Version 0.5.8](https://railsbling.com/oauth/releases/oauth-0.5.8/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
