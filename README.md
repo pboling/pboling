@@ -20,8 +20,8 @@ Specifically, I take issue with
 3. Latest iteration of [Achievements](https://github.com/github-community/community/discussions/18153#discussioncomment-2935669) was bad.
 
 <figure>
-  <a href="https://sfconservancy.org/GiveUpGitHub/"><img align="left" width="25%" src="https://sfconservancy.org/img/GiveUpGitHub.png" alt="Logo of the GiveUpGitHub campaign"></a>
-  <figcaption>... in addition to all the issues raised by [Software Freedom Conservancy](https://sfconservancy.org/GiveUpGitHub/).  If you've never heard of them, [member projects](https://sfconservancy.org/projects/current/) include: `Backdrop CMS`, `Coreboot`,  `git`, `Inkscape`, `OpenWRT`, `phpMyAdmin`, `QEMU`, `Samba`, `Selenium`, and `Wine`, among others.
+  <a href="https://sfconservancy.org/GiveUpGitHub/"><img align="left" width="50%" src="https://sfconservancy.org/img/GiveUpGitHub.png" alt="Logo of the GiveUpGitHub campaign"></a>
+  <figcaption>The issues I list above are <strong>in addition</strong> to all the issues raised by <a href="https://sfconservancy.org/GiveUpGitHub/">Software Freedom Conservancy</a>.  If you've never heard of them, <a href="https://sfconservancy.org/projects/current/">member projects</a> include: `Backdrop CMS`, `Coreboot`,  `git`, `Inkscape`, `OpenWRT`, `phpMyAdmin`, `QEMU`, `Samba`, `Selenium`, and `Wine`, among others.
   </figcaption>
 </figure>
 
