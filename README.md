@@ -1,4 +1,4 @@
-== I Am Using GitHub Under Protest ==
+## I Am Using GitHub Under Protest
 
 GitHub is a proprietary, trade-secret system that is not Free and Open Souce Software
 (FOSS).  I am [deeply concerned](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) about using a proprietary system like GitHub
@@ -19,7 +19,11 @@ Specifically, I take issue with
 2. More than 2 years of ignoring requests to add an important feature (`allow-failure`) to Github Actions ([ref](https://github.com/actions/toolkit/issues/399), [ref](https://github.com/github-community/community/discussions/15452).  When not ignoring, [completely misunderstanding](https://github.com/actions/toolkit/issues/399#issuecomment-607450398) the feature as if those building Github Actions are unfamiliar with core features of competing platforms.
 3. Latest iteration of [Achievements](https://github.com/github-community/community/discussions/18153#discussioncomment-2935669) was bad.
 
-... in addition to all the issues raised by [![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)](https://sfconservancy.org/GiveUpGitHub/).
+<figure>
+  <a href="https://sfconservancy.org/GiveUpGitHub/"><img align="left" width="25%" src="https://sfconservancy.org/img/GiveUpGitHub.png" alt="Logo of the GiveUpGitHub campaign"></a>
+  <figcaption>... in addition to all the issues raised by [Software Freedom Conservancy](https://sfconservancy.org/GiveUpGitHub/).  If you've never heard of them, [member projects](https://sfconservancy.org/projects/current/) include: `Backdrop CMS`, `Coreboot`,  `git`, `Inkscape`, `OpenWRT`, `phpMyAdmin`, `QEMU`, `Samba`, `Selenium`, and `Wine`, among others.
+  </figcaption>
+</figure>
 
 ### :wave: Hi there
 
