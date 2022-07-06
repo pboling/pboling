@@ -5,10 +5,10 @@ GitHub is a proprietary, trade-secret system that is not Free and Open Souce Sof
 to develop FOSS projects.
 
 Any use of this code by GitHub Copilot, past or present, is done
-without our permission.  We do not consent to GitHub's use of this project's
+without my permission.  I do not consent to GitHub's use of this project's
 code in Copilot.
 
-Specifically, I take issue with the following:
+Separately, I take issue with the following:
 
 1. A recent proposal to make Github-flavored Markdown ([ref](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850))
     - Literally [breaks](https://github.com/github-community/community/discussions/16925#discussioncomment-3014438) regular markdown syntax of links in headings.
