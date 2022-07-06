@@ -1,3 +1,26 @@
+== I Am Using GitHub Under Protest ==
+
+GitHub is a proprietary, trade-secret system that is not Free and Open Souce Software
+(FOSS).  I am [deeply concerned](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) about using a proprietary system like GitHub
+to develop FOSS projects.
+
+Any use of this code by GitHub Copilot, past or present, is done
+without our permission.  We do not consent to GitHub's use of this project's
+code in Copilot.
+
+Specifically, I take issue with 
+1. A recent proposal to make Github-flavored Markdown ([ref](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850))
+  - Literally [breaks](https://github.com/github-community/community/discussions/16925#discussioncomment-3014438) regular markdown syntax of links in headings.
+  - [English-only](https://github.com/github-community/community/discussions/16925#discussioncomment-3086634)
+  - Incompatible with Semantic Web (by [abusing](https://github.com/github-community/community/discussions/16925#discussioncomment-2830438) the `blockquote` tag; this also raises issues of accessibility)
+  - Incompatible with existing [Markdown standards proposals](https://github.com/github-community/community/discussions/16925#discussioncomment-2791869)
+  - [Contributes](https://github.com/github-community/community/discussions/16925#discussioncomment-2975948) to vendor [lock-in](https://github.com/github-community/community/discussions/16925#discussioncomment-2806570).
+  - Will force countless volunteer FOSS developers to waste time [adding compatibility](https://github.com/github-community/community/discussions/16925#discussioncomment-3086904) to their projects that use Markdown and attempt to support GFM.
+2. More than 2 years of ignoring requests to add an important feature (`allow-failure`) to Github Actions ([ref](https://github.com/actions/toolkit/issues/399), [ref](https://github.com/github-community/community/discussions/15452).  When not ignoring, [completely misunderstanding](https://github.com/actions/toolkit/issues/399#issuecomment-607450398) the feature as if those building Github Actions are unfamiliar with core features of competing platforms.
+3. Latest iteration of [Achievements](https://github.com/github-community/community/discussions/18153#discussioncomment-2935669) was bad.
+
+... in addition to all the issues raised by [![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)](https://sfconservancy.org/GiveUpGitHub/).
+
 ### :wave: Hi there
 
 <div id="badges">
