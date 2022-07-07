@@ -38,11 +38,11 @@ Separately, I take issue with the following:
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [I&#39;m leaving Github](https://dev.to/pboling/im-leaving-github-50ba)
 - [I use shared hosting as my build server. Here&#39;s how.](https://dev.to/pboling/i-use-shared-hosting-as-my-build-server-heres-how-2e6k)
 - [Matrix: Ruby, Gem, Bundler, etc](https://dev.to/pboling/matrix-ruby-gem-bundler-etc-4kk7)
 - [Rubocop LTS](https://dev.to/pboling/rubocop-lts-1e31)
 - [Rubocop... but SemVer](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)
-- [PCCR - Perfect Code Coverage Reporting](https://dev.to/pboling/ippccr-in-pursuit-of-perfect-code-coverage-reporting-3a2i)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
