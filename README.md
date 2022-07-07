@@ -26,6 +26,12 @@ Separately, I take issue with the following:
   </figcaption>
 </figure>
 
+## Poll
+
+*Where to take projects (e.g `oauth2`)?*
+
+- https://github.com/oauth-xx/oauth2/discussions/622
+
 ### :wave: Hi there
 
 <div id="badges">
