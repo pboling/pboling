@@ -29,9 +29,8 @@ Separately, I take issue with the following:
 
 <div id="badges">
 
-  [![Follow Me](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/peterboling)
-  ![Discord Status](https://dcbadge.vercel.app/api/shield/662462120889417731)
-  [![Follow Me](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/intent/user?screen_name=galtzo)
+  [![Follow Me on Twitter](https://img.shields.io/badge/PeterBoling-blue?style=plastic&logo=linkedin)](http://www.linkedin.com/in/peterboling)
+  [![Follow Me on LinkedIn](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/intent/user?screen_name=galtzo)
   [![Published Rubygems](https://img.shields.io/gem/u/pboling.svg)](https://rubygems.org/profiles/pboling)
   [![Github Profile Views Since 2022.02.13](https://komarev.com/ghpvc/?username=pboling)](https://komarev.com/ghpvc/?username=pboling)
 
