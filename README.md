@@ -1,7 +1,6 @@
 ## I Am Using GitHub Under Protest
 
-GitHub is a proprietary, trade-secret system that is not Free and Open Souce Software
-(FOSS).  I am [deeply concerned](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) about using a proprietary system like GitHub
+GitHub is a proprietary, trade-secret system that is not Free and Open Souce Software (FOSS).  I am [deeply concerned](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) about using a proprietary system like GitHub
 to develop FOSS projects.
 
 Any use of this code by GitHub Copilot, past or present, is done
