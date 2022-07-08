@@ -1,5 +1,7 @@
 ## I Am Using GitHub Under Protest
 
+Please [join the conversation here[(https://dev.to/pboling/im-leaving-github-50ba).
+
 Github's decision to sponsor me is so recent that I haven't been able to cash out the $550 payment yet.
 
 In spite of that, I can't leave the platform fast enough.  I certainly do not have the spare-time to move **hundreds** of projects to a new home... but I'm getting started.
