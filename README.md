@@ -1,6 +1,6 @@
 ## I Am Using GitHub Under Protest
 
-Please [join the conversation here](https://dev.to/pboling/im-leaving-github-50ba).
+Please join the [conversation on dev.to](https://dev.to/pboling/im-leaving-github-50ba).
 
 Github's decision to sponsor me is so recent that I haven't been able to cash out the $550 payment yet.
 
