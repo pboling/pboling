@@ -26,7 +26,7 @@ GitHub is a proprietary, trade-secret system that is not Free and Open Souce Sof
 
 # Macro Issues
 
-For a broad perspective on the practical issues, I can't make the argument any better than it [was in 2010](https://forgefriends.org/blog/2022/06/30/2022-06-state-forge-federation/), and for me this issue has crossed the Rubicon, and recently by [Software Freedom Conservancy](https://sfconservancy.org/), [here](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) and [here](https://sfconservancy.org/GiveUpGitHub/).
+For a broad perspective on the practical issues, I can't make the argument any better than it [was in 2010](https://mako.cc/writing/hill-free_tools.html), and for me this issue has crossed the Rubicon, and recently by [Software Freedom Conservancy](https://sfconservancy.org/), [here](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) and [here](https://sfconservancy.org/GiveUpGitHub/).
 
 <figure>
   <a href="https://sfconservancy.org/GiveUpGitHub/"><img align="left" width="50%" src="https://sfconservancy.org/img/GiveUpGitHub.png" alt="Logo of the GiveUpGitHub campaign"></a>
