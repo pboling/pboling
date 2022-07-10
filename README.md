@@ -68,11 +68,11 @@ It looks like Gitea, Codeberg and Hostea will [join the fediverse](https://forge
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [I&#39;m Leaving Github](http://www.railsbling.com/posts/give_up_github/)
 - [New Release of oauth: Version 0.5.8](http://www.railsbling.com/oauth/releases/oauth-0.5.8/)
 - [New Release of oauth: Version 0.5.7](http://www.railsbling.com/oauth/releases/oauth-0.5.7/)
 - [Maintaining oauth](http://www.railsbling.com/oauth/intro/)
 - [New Release of oauth2: Version 1.4.5](http://www.railsbling.com/oauth2/releases/oauth2-1.4.5/)
-- [New Release of oauth2: Version 1.4.6](http://www.railsbling.com/oauth2/releases/oauth2-1.4.6/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
