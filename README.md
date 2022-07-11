@@ -69,10 +69,10 @@ It looks like Gitea, Codeberg and Hostea will [join the fediverse](https://forge
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [I&#39;m Leaving Github](http://www.railsbling.com/posts/give_up_github/)
-- [New Release of oauth: Version 0.5.8](http://www.railsbling.com/oauth/releases/oauth-0.5.8/)
-- [New Release of oauth: Version 0.5.7](http://www.railsbling.com/oauth/releases/oauth-0.5.7/)
-- [Maintaining oauth](http://www.railsbling.com/oauth/intro/)
-- [New Release of oauth2: Version 1.4.5](http://www.railsbling.com/oauth2/releases/oauth2-1.4.5/)
+- [I&#39;m leaving Github](https://dev.to/pboling/im-leaving-github-50ba)
+- [I use shared hosting as my build server. Here&#39;s how.](https://dev.to/pboling/i-use-shared-hosting-as-my-build-server-heres-how-2e6k)
+- [Rubocop... but SemVer](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)
+- [PCCR - Perfect Code Coverage Reporting](https://dev.to/pboling/ippccr-in-pursuit-of-perfect-code-coverage-reporting-3a2i)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
