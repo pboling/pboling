@@ -185,13 +185,14 @@ It looks like Gitea, Codeberg and Hostea will [join the fediverse](https://forge
 
 ### :roll_of_paper: Current Roles
 
-- Staff Software Engineer | [Underdog Sports](https://underdogfantasy.com)
+- Director of Software Engineering | [Riviera Partners](https://rivierapartners.com)
 - Outreach, Tech, Comms | [#UnitedLeft (on Discord)](https://discord.gg/3yhwAr7)
-- Advisor | [Hope For Tomorrow (Liberian NGO)](https://www.facebook.com/hope.for.tomorrow.liberia)
 - FOSS Blogger | [RailsBling](https://railsbling.com)
 - FOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
+- FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
 - Member-worker | [Bed of Roses Club](http://bed-of-roses.club/)
+- Advisor | [Hope For Tomorrow (Liberian NGO)](https://www.facebook.com/hope.for.tomorrow.liberia)
 
 [![Open Hub profile](https://www.openhub.net/accounts/peterboling/widgets/account_detailed?format=gif&amp;ref=sample)](https://www.openhub.net/accounts/peterboling?ref=sample)
 
