@@ -53,6 +53,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [List of &lpar;Currently&rpar; Maintained RubyGems](http://www.railsbling.com/posts/rubygems/current_list/)
 - [Life After Github?](https://dev.to/galtzo/life-after-github-4e2d)
 - [I&#39;m Leaving Github](http://www.railsbling.com/posts/dvcs/give_up_github/)
 - [I&#39;m leaving Github](https://dev.to/galtzo/im-leaving-github-50ba)
@@ -62,7 +63,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [Rubocop... but SemVer](https://dev.to/galtzo/rubocop-ruby-matrix-gems-nj)
 - [PCCR - Perfect Code Coverage Reporting](https://dev.to/galtzo/ippccr-in-pursuit-of-perfect-code-coverage-reporting-3a2i)
 - [New Release of oauth: Version 0.5.8](http://www.railsbling.com/oauth/releases/oauth-0.5.8/)
-- [New Release of oauth: Version 0.5.7](http://www.railsbling.com/oauth/releases/oauth-0.5.7/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
