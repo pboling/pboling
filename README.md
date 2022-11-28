@@ -54,7 +54,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Life After Github?](https://dev.to/galtzo/life-after-github-4e2d)
-- [I&#39;m Leaving Github](http://www.railsbling.com/posts/give_up_github/)
+- [I&#39;m Leaving Github](http://www.railsbling.com/posts/dvcs/give_up_github/)
 - [I&#39;m leaving Github](https://dev.to/galtzo/im-leaving-github-50ba)
 - [I use shared hosting as my build server. Here&#39;s how.](https://dev.to/galtzo/i-use-shared-hosting-as-my-build-server-heres-how-2e6k)
 - [Matrix: Ruby, Gem, Bundler, etc](https://dev.to/galtzo/matrix-ruby-gem-bundler-etc-4kk7)
