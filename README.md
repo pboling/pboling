@@ -53,7 +53,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [How to Repair an Old Gem &lpar;Part 2&rpar; - Bundler](http://www.railsbling.com/posts/rubygems/repair_old_gem_2/)
+- [How to Repair an Old Gem &lpar;Part 3&rpar; - Upgrade Autotest](http://www.railsbling.com/posts/rubygems/repair_old_gem_4/)
 - [How to Repair an Old Gem &lpar;Part 3&rpar; - Upgrade RSpec](http://www.railsbling.com/posts/rubygems/repair_old_gem_3/)
 - [I&#39;d like to post here again](https://dev.to/galtzo/id-like-to-post-here-again-12hd)
 - [List of &lpar;Currently&rpar; Maintained RubyGems](http://www.railsbling.com/posts/rubygems/current_list/)
