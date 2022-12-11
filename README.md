@@ -53,6 +53,8 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [How to Repair an Old Gem &lpar;Part 2&rpar; - Bundler](http://www.railsbling.com/posts/rubygems/repair_old_gem_2/)
+- [How to Repair an Old Gem &lpar;Part 3&rpar; - Upgrade RSpec](http://www.railsbling.com/posts/rubygems/repair_old_gem_3/)
 - [I&#39;d like to post here again](https://dev.to/galtzo/id-like-to-post-here-again-12hd)
 - [List of &lpar;Currently&rpar; Maintained RubyGems](http://www.railsbling.com/posts/rubygems/current_list/)
 - [Life After Github?](https://dev.to/galtzo/life-after-github-4e2d)
@@ -61,8 +63,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [I use shared hosting as my build server. Here&#39;s how.](https://dev.to/galtzo/i-use-shared-hosting-as-my-build-server-heres-how-2e6k)
 - [Matrix: Ruby, Gem, Bundler, etc](https://dev.to/galtzo/matrix-ruby-gem-bundler-etc-4kk7)
 - [Rubocop LTS](https://dev.to/galtzo/rubocop-lts-1e31)
-- [Rubocop... but SemVer](https://dev.to/galtzo/rubocop-ruby-matrix-gems-nj)
-- [PCCR - Perfect Code Coverage Reporting](https://dev.to/galtzo/ippccr-in-pursuit-of-perfect-code-coverage-reporting-3a2i)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
