@@ -37,7 +37,6 @@ In spite of that, I'm leaving.  Why?  I certainly do not have the spare-time to 
    - Will force countless volunteer FOSS developers to waste time [adding compatibility](https://github.com/github-community/community/discussions/16925#discussioncomment-3086904) to their projects that use Markdown and attempt to support GFM.
 2. More than 2 years of ignoring requests to add an important feature (`allow-failure`) to Github Actions ([ref](https://github.com/actions/toolkit/issues/399), [ref](https://github.com/github-community/community/discussions/15452)).  When not ignoring, Github is [completely misunderstanding](https://github.com/actions/toolkit/issues/399#issuecomment-607450398) the feature.  How are those building Github Actions so deeply **unfamiliar** with core features of competing CI platforms.
 3. Latest iteration of [Achievements](https://github.com/github-community/community/discussions/18153#discussioncomment-2935669) was bad.
-4. Microsoft (parent of Github) has decided to [ban commercial open source](https://sfconservancy.org/blog/2022/jul/07/microsoft-bans-commerical-open-source-in-app-store/) apps from their app store.
 
 ---
 
