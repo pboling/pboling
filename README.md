@@ -2,9 +2,11 @@
 
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
 [![Follow Me on LinkedIn][🖇linkedin-img]][🖇linkedin]
-[![Follow Me on Twitter][🐦twitter-img]][🐦twitter]
+[![Find Me on CrunchBase][💲crunchbase-img]][💲crunchbase]
+[![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound]
 [![Published Rubygems][💎rubygems-img]][💎rubygems]
 [![My Blog][🚎blog-img]][🚎blog]
+[![Follow Me on Twitter][🐦twitter-img]][🐦twitter]
 
 </div>
 
@@ -12,20 +14,35 @@
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇linkedin]: http://www.linkedin.com/in/peterboling
 [🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-blue?style=plastic&logo=linkedin
+[💲crunchbase]: https://www.crunchbase.com/person/peter-boling
+[💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=plastic&logo=crunchbase
+[✌️wellfound]: https://angel.co/u/peter-boling
+[✌️wellfound-img]: https://img.shields.io/badge/peter--boling-orange?style=plastic&logo=angellist
 [🐦twitter]: http://twitter.com/intent/user?screen_name=galtzo
-[🐦twitter-img]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow
+[🐦twitter-img]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow%20@galtzo
 [💎rubygems]: https://rubygems.org/profiles/pboling
 [💎rubygems-img]: https://img.shields.io/gem/u/pboling.svg
 [🚎blog]: http://www.railsbling.com/tags/oauth2/
 [🚎blog-img]: https://img.shields.io/badge/blog-railsbling-brightgreen.svg?style=flat
+[my🧪lab]: https://gitlab.com/pboling
+[my🧊berg]: https://codeberg.org/pboling
+[my🛖hut]: https://sr.ht/~galtzo/
+[rubocop-lts🧪lab]: http://rubocop-lts.gitlab.io/
+[oauth-xx🧪lab]: https://gitlab.com/oauth-xx
 
 ## I Am Using GitHub Under Protest
 
 Github decided to sponsor me, because they rely on my tools.
 
-In spite of that, I'm leaving.  Why?  I certainly do not have the spare-time to move **hundreds** of projects to a new home... but I'm getting started.
+In spite of that, I'm leaving.  Why?  I certainly do not have the spare-time to move **hundreds** of projects to a new home... but I'm getting started.  I'll enumerate some of the reasons below, but first, where am I, and some of the organizations I control, going?
 
-# Some Issues
+- [pboling @ 🧪 GitLab][my🧪lab]
+- [rubocop-lts @ 🧪 GitLab][rubocop-lts🧪lab]
+- [oauth-xx @ 🧪 GitLab][oauth-xx🧪lab]
+- [pboling @ 🧊 CodeBerg][my🧊berg]
+- [galtzo @ 🛖 SourceHut][my🛖hut]
+
+# Reasons to Leave GitHub
 
 1. A recent proposal to extend Github-flavored Markdown ([ref](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850))
    - Literally [breaks](https://github.com/github-community/community/discussions/16925#discussioncomment-3014438) regular markdown syntax of links in headings.
