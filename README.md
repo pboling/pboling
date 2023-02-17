@@ -169,8 +169,8 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 ### :roll_of_paper: Current Roles
 
-- Director of Software Engineering | [Riviera Partners](https://rivierapartners.com)
-- Outreach, Tech, Comms | [#UnitedLeft (on Discord)](https://discord.gg/3yhwAr7)
+- Principal Cloud Engineer | [Vital Connect](https://vitalconnect.com)
+- Full Stack Instructor | [Michigan State University Bootcamp](https://bootcamp.msu.edu/coding/)
 - FOSS Blogger | [RailsBling](https://railsbling.com)
 - FOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
