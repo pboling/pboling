@@ -38,7 +38,7 @@ In spite of that, I'm leaving.  Why?  I certainly do not have the spare-time to 
 
 - [pboling @ 🧪 GitLab][my🧪lab]
 - [rubocop-lts @ 🧪 GitLab][rubocop-lts🧪lab]
-- [oauth-xx @ 🧪 GitLab][oauth-xx🧪lab]
+- [oauth-xx @ 🧪 GitLab][oauth-xx🧪lab] (chosen amongst all options, including _staying_ at GitHub, by a _majority_ of the dozens of respondents)
 - [pboling @ 🧊 CodeBerg][my🧊berg]
 - [galtzo @ 🛖 SourceHut][my🛖hut]
 
