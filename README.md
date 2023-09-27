@@ -1,6 +1,7 @@
 <div id="badges">
 
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
+[![Support my refugee and open source work @ ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O86SNP4)
 [![Follow Me on LinkedIn][🖇linkedin-img]][🖇linkedin]
 [![Find Me on CrunchBase][💲crunchbase-img]][💲crunchbase]
 [![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound]
