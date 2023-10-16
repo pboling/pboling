@@ -90,14 +90,14 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 ![Comment Reactions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.reactions.svg?raw=true)
 ![Notable Contributions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.notable.svg?raw=true)
 
-## :child: How it started...
+## :child: How it started
 
 <figure>
   <img align="left" width="25%" src="https://railsbling.com/peter-amazon-black-caiman.jpg" alt="Holding a black caiman, Amazon River, Brazil. 1997">
   <figcaption>A cheeky me holding a baby black caiman, Amazon River, Brazil, June 24, 1997, shortly after completing my first programming course - Pascal. The <a href="https://en.wikipedia.org/wiki/Black_caiman">black caiman</a>, a baby specimen of the family Alligatoridae and order Crocodilia, was unharmed, and released back to the water, where it promptly continued following its mother. Full grown they are among the largest alligators and crocodiles in the world<a src="https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/markdown/github_readme_center_and_align_images.md">.</a></figcaption>
 </figure>
 
-## :godmode: How it's going...
+## :godmode: How it's going
 
 - 🦷 I'm putting more of my focus on FLOSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
@@ -110,9 +110,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - 😄 Pronouns: He/Him
 - 🗨️ I speak 3 languages fluently, and for a 4th I'm learning Bahasa Indonesia!
 - 👷‍♂️ I help refugees and ex-refugees in Ghana🇬🇭 and Liberia🇱🇷, respectively, through Hope For Tomorrow, a Liberian NGO.  DM me if interested in knowing more.
-
-[next-milestone-pct]: https://github.com/oauth-xx/oauth2/milestone/1
-[next-milestone-pct-img]: https://img.shields.io/github/milestones/progress-percent/oauth-xx/oauth2/1
 
 <details>
   <summary>:hammer_and_wrench: My Dev Tools:</summary>
