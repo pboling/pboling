@@ -1,25 +1,38 @@
 <div id="badges">
 
+
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
-[![Support my refugee and open source work @ ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O86SNP4)
+<a href='https://ko-fi.com/O5O86SNP4' target='_blank'><img height='20' style='border:0px;height:20px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' alt='Support my refugee and open source work @ ko-fi.com' />
+[![Sponsor Me][🖇sponsor-img]][🖇sponsor]
+
+---
+
+<a rel="me" alt="Follow me on Ruby.social" href="https://ruby.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=social&label=Follow%20%40galtzo%20on%20Ruby.social"></a>
+<a rel="me" alt="Follow me on Ruby.social" href="https://floss.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social"></a>
+<a rel="me" alt="Follow me on Ruby.social" href="https://mastodon.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social"></a>
+
+---
+
 [![Follow Me on LinkedIn][🖇linkedin-img]][🖇linkedin]
 [![Find Me on CrunchBase][💲crunchbase-img]][💲crunchbase]
 [![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound]
-[![Published Rubygems][💎rubygems-img]][💎rubygems]
+[![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
 [![My Blog][🚎blog-img]][🚎blog]
-[![Follow Me on Twitter][🐦twitter-img]][🐦twitter]
+[![Follow Me on X][🐦twitter-img]][🐦twitter]
 
 </div>
 
 [⛳liberapay-img]: https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
+[🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
+[🖇sponsor]: https://github.com/sponsors/pboling
 [🖇linkedin]: http://www.linkedin.com/in/peterboling
 [🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-blue?style=plastic&logo=linkedin
 [💲crunchbase]: https://www.crunchbase.com/person/peter-boling
 [💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=plastic&logo=crunchbase
 [✌️wellfound]: https://angel.co/u/peter-boling
 [✌️wellfound-img]: https://img.shields.io/badge/peter--boling-orange?style=plastic&logo=angellist
-[🐦twitter]: http://twitter.com/intent/user?screen_name=galtzo
+[🐦twitter]: http://x.com/intent/user?screen_name=galtzo
 [🐦twitter-img]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow%20@galtzo
 [💎rubygems]: https://rubygems.org/profiles/pboling
 [💎rubygems-img]: https://img.shields.io/gem/u/pboling.svg
@@ -31,11 +44,20 @@
 [rubocop-lts🧪lab]: http://rubocop-lts.gitlab.io/
 [oauth-xx🧪lab]: https://gitlab.com/oauth-xx
 
+## Sponsors
+
+Thanks to all my sponsors across any of the donation platforms!  Special thanks to my biggest sponsor [HealthSherpa][health-sherpa]!
+
+[![health-sherpa-logo][health-sherpa-logo]][health-sherpa]
+
+[health-sherpa]: https://healthsherpa.com
+[health-sherpa-logo]: /assets/img/logos/health-sherpa.png
+
 ## I Am Using GitHub Under Protest
 
 Github decided to sponsor me, because they rely on my tools.
 
-In spite of that, I'm leaving.  Why?  I certainly do not have the spare-time to move **hundreds** of projects to a new home... but I'm getting started.  I'll enumerate some of the reasons below, but first, where am I, and some of the organizations I control, going?
+In spite of that, I'm (partially) leaving.  Why?  I certainly do not have the spare-time to move **hundreds** of projects to a new home... but I'm getting started.  I'll enumerate some of the reasons below, but first, where am I, and some of the organizations I control, going?
 
 - [pboling @ 🧪 GitLab][my🧪lab]
 - [rubocop-lts @ 🧪 GitLab][rubocop-lts🧪lab]
@@ -49,6 +71,7 @@ In spite of that, I'm leaving.  Why?  I certainly do not have the spare-time to 
    - Literally [breaks](https://github.com/github-community/community/discussions/16925#discussioncomment-3014438) regular markdown syntax of links in headings.
    - [English-only](https://github.com/github-community/community/discussions/16925#discussioncomment-3086634)
    - Incompatible with Semantic HTML (POSH) (by [abusing](https://github.com/github-community/community/discussions/16925#discussioncomment-2830438) the `blockquote` tag; this also raises issues of [accessibility](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850))
+      - Note: Latest version has switched to a `<div>` treamtment, which is just as bad because now Markdown's `">"` with admonitions is no longer a blockquote, thus breaking Markdown. The number of bugs caused by this uncountable. A new bug is reported nearly daily on the thread.
    - Incompatible with existing [Markdown standards proposals](https://github.com/github-community/community/discussions/16925#discussioncomment-2791869)
    - Ignores the community-centered approach to [extending Markdown](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850), which, ironically, [Github started](https://github.com/github-community/community/discussions/16925#discussioncomment-3101018)
    - [Contributes](https://github.com/github-community/community/discussions/16925#discussioncomment-2975948) to vendor [lock-in](https://github.com/github-community/community/discussions/16925#discussioncomment-2806570).
