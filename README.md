@@ -9,7 +9,9 @@
 
 <a rel="me" alt="Follow me on Ruby.social" href="https://ruby.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=social&label=Follow%20%40galtzo%20on%20Ruby.social"></a>
 <a rel="me" alt="Follow me on Ruby.social" href="https://floss.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social"></a>
+<br>
 <a rel="me" alt="Follow me on Ruby.social" href="https://mastodon.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social"></a>
+[![Follow Me on X][🐦twitter-img]][🐦twitter]
 
 ---
 
@@ -18,7 +20,6 @@
 [![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound]
 [![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
 [![My Blog][🚎blog-img]][🚎blog]
-[![Follow Me on X][🐦twitter-img]][🐦twitter]
 
 </div>
 
@@ -92,7 +93,12 @@ It looks like Gitea, Codeberg and Hostea will [join the fediverse](https://forge
 
 I'm interested in your thoughts, leave a [comment on the blog post](https://railsbling.com/posts/give_up_github/)!
 
-# Blog posts
+# Recent Releases
+
+<!-- PBOLINGS-RUBYGEMS:START -->
+<!-- BLOG-POST-LIST:END -->
+
+# Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Generate Gem Checksums](http://www.railsbling.com/ruby/rubygems_checksums/)
 - [Put the D in DVCS](http://www.railsbling.com/posts/dvcs/put_the_d_in_dvcs/)
@@ -108,8 +114,12 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Contributions
 
-![GitHub Snake Light](https://github.com/pboling/pboling/raw/output/github-snake.svg?raw=true#gh-light-mode-only)
-![GitHub Snake dark](https://github.com/pboling/pboling/raw/output/github-snake-dark.svg?raw=true#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pboling/pboling/raw/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/pboling/pboling/raw/output/github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
 ![Comment Reactions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.reactions.svg?raw=true)
 ![Notable Contributions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.notable.svg?raw=true)
 

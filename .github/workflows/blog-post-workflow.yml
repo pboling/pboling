@@ -1,6 +1,6 @@
 
 
-name: Latest blog post workflow
+name: Blog Post Workflow
 on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour, on the hour
@@ -20,3 +20,20 @@ jobs:
           max_post_count: 10
           committer_username: autobolt
           committer_email: autobots@9thbit.net
+          commit_message: "🍻 Latest Blog Posts"
+
+  update-readme-with-gem-releases:
+    name: Update this repo's README with latest gem releases
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in gem releases
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://rubygems.org/dashboard.atom?api_key=98d7f33c23db16292a52ac1b382ec65f"
+          max_post_count: 10
+          committer_username: autobolt
+          committer_email: autobots@9thbit.net
+          comment_tag_name: "PBOLINGS-RUBYGEMS"
+          commit_message: "⬆️ Latest RubyGem Releases"
