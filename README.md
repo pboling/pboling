@@ -1,16 +1,20 @@
 <div id="badges">
 
-
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
-<a href='https://ko-fi.com/O5O86SNP4' target='_blank'><img height='20' style='border:0px;height:20px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' alt='Support my refugee and open source work @ ko-fi.com' />
+<span class="badge-buymeacoffee">
 [![Sponsor Me][🖇sponsor-img]][🖇sponsor]
+   <a href="https://ko-fi.com/O5O86SNP4" target='_blank' title="Donate to my FLOSS or refugee efforts at ko-fi.com"><img src="https://img.shields.io/badge/buy%20me%20coffee-donate-yellow.svg" alt="Buy Me Coffee donation button" /></a>
+</span>
+<span class="badge-patreon">
+   <a href="https://patreon.com/galtzo" title="Donate to my FLOSS or refugee efforts using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a>
+</span>
 
 ---
 
 <a rel="me" alt="Follow me on Ruby.social" href="https://ruby.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=social&label=Follow%20%40galtzo%20on%20Ruby.social"></a>
-<a rel="me" alt="Follow me on Ruby.social" href="https://floss.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social"></a>
+<a rel="me" alt="Follow me on FLOSS.social" href="https://floss.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social"></a>
 <br>
-<a rel="me" alt="Follow me on Ruby.social" href="https://mastodon.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social"></a>
+<a rel="me" alt="Follow me on Mastodon.social" href="https://mastodon.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social"></a>
 [![Follow Me on X][🐦twitter-img]][🐦twitter]
 
 ---
