@@ -100,6 +100,16 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [require_bench &lpar;1.0.4&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4)
+- [require_bench &lpar;1.0.4.pre.alpha.7&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.7)
+- [require_bench &lpar;1.0.4.pre.alpha.6&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.6)
+- [require_bench &lpar;1.0.4.pre.alpha.5&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.5)
+- [require_bench &lpar;1.0.4.pre.alpha.4&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.4)
+- [require_bench &lpar;1.0.4.pre.alpha.2&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.2)
+- [gem_bench &lpar;2.0.0&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.0)
+- [standard-rubocop-lts &lpar;1.0.9&rpar;](https://rubygems.org/gems/standard-rubocop-lts/versions/1.0.9)
+- [standard-rubocop-lts &lpar;1.0.8&rpar;](https://rubygems.org/gems/standard-rubocop-lts/versions/1.0.8)
+- [rubocop-ruby1_8 &lpar;1.0.7&rpar;](https://rubygems.org/gems/rubocop-ruby1_8/versions/1.0.7)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
