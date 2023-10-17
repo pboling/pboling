@@ -100,7 +100,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
