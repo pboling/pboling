@@ -58,6 +58,19 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 [health-sherpa]: https://healthsherpa.com
 [health-sherpa-logo]: /assets/img/logos/health-sherpa.png
 
+## Looking for a Rails Developer?
+
+The Rails Foudnation has just launched the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
+
+Here are the latest jobs posted there:
+<!-- OFFICIAL-RAILS-JOBS:START -->
+
+<!-- OFFICIAL-RAILS-JOBS:END -->
+
+[Signup](https://jobs.rubyonrails.org/) now!
+
+---
+
 ## I Am Using GitHub Under Protest
 
 Github decided to sponsor me, because they rely on my tools.
