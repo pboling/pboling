@@ -64,7 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there:
 <!-- OFFICIAL-RAILS-JOBS:START -->
-
+- [Ruby on Rails Developer at 360insights](https://jobs.rubyonrails.org/jobs/399)
+- [Senior Software Developer at Clio](https://jobs.rubyonrails.org/jobs/396)
+- [Software Development Manager - Client Portal Team  at Clio](https://jobs.rubyonrails.org/jobs/395)
+- [Senior Full Stack Engineer at TravelJoy](https://jobs.rubyonrails.org/jobs/393)
+- [Senior Ruby on Rails developer at PeopleForce](https://jobs.rubyonrails.org/jobs/392)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
