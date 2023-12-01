@@ -8,7 +8,7 @@ on:
 
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: "Update README w/ my latest blog posts"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,8 +22,24 @@ jobs:
           committer_email: autobots@9thbit.net
           commit_message: "🍻 Latest Blog Posts"
 
+  update-readme-with-latest-rails-jobs:
+    name: "Update README w/ latest Official Ruby On Rails Jobs"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in latest Official RuboOnRails Jobs
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://jobs.rubyonrails.org/jobs.rss"
+          max_post_count: 5
+          committer_username: autobolt
+          committer_email: autobots@9thbit.net
+          comment_tag_name: "OFFICIAL-RAILS-JOBS"
+          commit_message: "🚂 Latest Official Ruby On Rails Jobs"
+
   update-readme-with-gem-releases:
-    name: Update this repo's README with latest gem releases
+    name: "Update README w/ my latest gem releases"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
