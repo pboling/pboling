@@ -62,7 +62,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 The Rails Foudnation has just launched the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
 
-Here are the latest jobs posted there:
+Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
 - [Ruby on Rails Developer at 360insights](https://jobs.rubyonrails.org/jobs/399)
 - [Senior Software Developer at Clio](https://jobs.rubyonrails.org/jobs/396)
