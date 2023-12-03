@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Sr. Rails Engineer at HopSkipDrive](https://jobs.rubyonrails.org/jobs/408)
+- [Rails Engineer III at HopSkipDrive](https://jobs.rubyonrails.org/jobs/407)
 - [Ruby on Rails Developer at 360insights](https://jobs.rubyonrails.org/jobs/399)
 - [Senior Software Developer at Clio](https://jobs.rubyonrails.org/jobs/396)
 - [Software Development Manager - Client Portal Team  at Clio](https://jobs.rubyonrails.org/jobs/395)
-- [Senior Full Stack Engineer at TravelJoy](https://jobs.rubyonrails.org/jobs/393)
-- [Senior Ruby on Rails developer at PeopleForce](https://jobs.rubyonrails.org/jobs/392)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
