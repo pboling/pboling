@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer &lpar;Ruby on Rails&rpar; at Humi](https://jobs.rubyonrails.org/jobs/426)
 - [Full Stack Product Engineer at Ziggu](https://jobs.rubyonrails.org/jobs/424)
 - [Senior Software Engineer &lpar;Integrations&rpar; at Florence](https://jobs.rubyonrails.org/jobs/414)
 - [Obsessive Frontend Perfectionist with Backend Experience at VIVA](https://jobs.rubyonrails.org/jobs/413)
 - [Sr. Rails Engineer at HopSkipDrive](https://jobs.rubyonrails.org/jobs/408)
-- [Rails Engineer III at HopSkipDrive](https://jobs.rubyonrails.org/jobs/407)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
