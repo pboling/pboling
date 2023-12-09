@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Backend Engineer, Ruby on Rails at Whop](https://jobs.rubyonrails.org/jobs/444)
 - [Product Engineering at AngelList](https://jobs.rubyonrails.org/jobs/443)
 - [Seasoned Rails Software Writer at Inktrail](https://jobs.rubyonrails.org/jobs/435)
 - [Full Stack Engineer at Railsware](https://jobs.rubyonrails.org/jobs/428)
 - [Senior Software Engineer &lpar;Ruby on Rails&rpar; at Humi](https://jobs.rubyonrails.org/jobs/426)
-- [Full Stack Product Engineer at Ziggu](https://jobs.rubyonrails.org/jobs/424)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
