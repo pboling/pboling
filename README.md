@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Ruby on Rails Engineer at Nedap Healthcare](https://jobs.rubyonrails.org/jobs/423)
 - [Lead Engineer for Spree Commerce at Upside](https://jobs.rubyonrails.org/jobs/451)
 - [Senior Backend Engineer, Ruby on Rails at Whop](https://jobs.rubyonrails.org/jobs/444)
 - [Product Engineering at AngelList](https://jobs.rubyonrails.org/jobs/443)
 - [Seasoned Rails Software Writer at Inktrail](https://jobs.rubyonrails.org/jobs/435)
-- [Full Stack Engineer at Railsware](https://jobs.rubyonrails.org/jobs/428)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
