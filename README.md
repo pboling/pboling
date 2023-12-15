@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer - Ruby on Rails &lpar;hybrid, Miami, FL&rpar; at haku app corp.](https://jobs.rubyonrails.org/jobs/473)
 - [Ruby BackEnd Developer at Scoop Robotix Inc.](https://jobs.rubyonrails.org/jobs/470)
 - [Senior Software Engineer at Stora Ltd](https://jobs.rubyonrails.org/jobs/469)
 - [Senior Backend Engineer  at Playboy](https://jobs.rubyonrails.org/jobs/468)
 - [Senior Software Engineer at Sessions, Inc.](https://jobs.rubyonrails.org/jobs/466)
-- [Staff Engineer at Doctolib](https://jobs.rubyonrails.org/jobs/464)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
