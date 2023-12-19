@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer at Braven](https://jobs.rubyonrails.org/jobs/496)
 - [Backend Rails Developer at QContact](https://jobs.rubyonrails.org/jobs/495)
 - [Lead Backend Engineer &lpar;Ruby on Rails&rpar; at VirtualShield](https://jobs.rubyonrails.org/jobs/489)
 - [Senior Developer/DevOps at THIRDHOME](https://jobs.rubyonrails.org/jobs/475)
 - [Senior Frontend Engineer at HouseAccount](https://jobs.rubyonrails.org/jobs/474)
-- [Senior Software Engineer - Ruby on Rails &lpar;hybrid, Miami, FL&rpar; at haku app corp.](https://jobs.rubyonrails.org/jobs/473)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
