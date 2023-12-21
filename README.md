@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Full Stack Product Engineer &lpar;LATAM&rpar; at Donorbox](https://jobs.rubyonrails.org/jobs/505)
 - [Product engineer at Lichtvis](https://jobs.rubyonrails.org/jobs/501)
 - [Senior Software Engineer at Henry Schein One](https://jobs.rubyonrails.org/jobs/500)
 - [Software Engineering Manager at Henry Schein One](https://jobs.rubyonrails.org/jobs/499)
 - [/^&lpar;Full-?stack|Frontend&rpar; Engineer$/i at Better Stack](https://jobs.rubyonrails.org/jobs/498)
-- [Senior Software Engineer at Braven](https://jobs.rubyonrails.org/jobs/496)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
