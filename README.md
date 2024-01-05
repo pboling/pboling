@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Engineering Manager at ConvertKit](https://jobs.rubyonrails.org/jobs/525)
 - [Senior Software Engineer, Full Stack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/519)
 - [Full Stack Software Developer at Rewind Software](https://jobs.rubyonrails.org/jobs/514)
 - [Engineering Manager - Ruby on Rails at One Step Software](https://jobs.rubyonrails.org/jobs/513)
 - [Junior Engineer - Ruby on Rails at One Step Software](https://jobs.rubyonrails.org/jobs/512)
-- [Senior Software Engineer at Sixfold](https://jobs.rubyonrails.org/jobs/511)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
