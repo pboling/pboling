@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Back End Engineer at Laetro](https://jobs.rubyonrails.org/jobs/534)
 - [Senior Full Stack Rails Engineer at Image Relay](https://jobs.rubyonrails.org/jobs/533)
 - [Senior Rails Developer at Firstline](https://jobs.rubyonrails.org/jobs/530)
 - [Founding Engineer at OpTonal](https://jobs.rubyonrails.org/jobs/529)
 - [Technical Lead, Engineering &lpar;Canada Remote&rpar; at Fullscript](https://jobs.rubyonrails.org/jobs/528)
-- [Engineering Manager, Sitter Engagement at Sittercity](https://jobs.rubyonrails.org/jobs/527)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
