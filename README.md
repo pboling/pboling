@@ -132,6 +132,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Generate Gem Checksums](http://www.railsbling.com/ruby/rubygems_checksums/)
+- [RequireBench: When do you use it?](http://www.railsbling.com/require_bench/require_bench_when_to_use/)
 - [Put the D in DVCS](http://www.railsbling.com/posts/dvcs/put_the_d_in_dvcs/)
 - [How to Repair an Old Gem &lpar;Part 5&rpar; - Rakefile &amp; RuboCop LTS](http://www.railsbling.com/posts/rubygems/repair_old_gem_5/)
 - [How to Repair an Old Gem &lpar;Part 4&rpar; - Upgrade Autotest](http://www.railsbling.com/posts/rubygems/repair_old_gem_4/)
@@ -140,7 +141,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [List of &lpar;Currently&rpar; Maintained RubyGems](http://www.railsbling.com/posts/rubygems/current_list/)
 - [Life After Github?](https://dev.to/galtzo/life-after-github-4e2d)
 - [I&#39;m Leaving Github](http://www.railsbling.com/posts/dvcs/give_up_github/)
-- [I&#39;m leaving Github](https://dev.to/galtzo/im-leaving-github-50ba)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
