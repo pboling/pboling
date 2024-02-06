@@ -64,7 +64,7 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
-- [Senior Full Stack Product Developer, Fundraising Team &lpar;LATAM&rpar; at Donorbox](https://jobs.rubyonrails.org/jobs/592)
+- [Full Stack Product Developer, Fundraising Team &lpar;LATAM&rpar; at Donorbox](https://jobs.rubyonrails.org/jobs/592)
 - [Senior Software Engineer at Maindeck](https://jobs.rubyonrails.org/jobs/591)
 - [Senior Software Engineer at Streem](https://jobs.rubyonrails.org/jobs/590)
 - [Full Stack Engineer at Laetro](https://jobs.rubyonrails.org/jobs/589)
