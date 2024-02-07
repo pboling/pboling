@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [&lpar;Senior&rpar; Backend Game Developer &lpar;f/m/x&rpar; at Neopoly Development GmbH](https://jobs.rubyonrails.org/jobs/593)
 - [Full Stack Product Developer, Fundraising Team &lpar;LATAM&rpar; at Donorbox](https://jobs.rubyonrails.org/jobs/592)
 - [Senior Software Engineer at Maindeck](https://jobs.rubyonrails.org/jobs/591)
 - [Senior Software Engineer at Streem](https://jobs.rubyonrails.org/jobs/590)
 - [Full Stack Engineer at Laetro](https://jobs.rubyonrails.org/jobs/589)
-- [Computer Programmer at Shopify](https://jobs.rubyonrails.org/jobs/588)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
