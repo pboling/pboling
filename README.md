@@ -117,6 +117,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [dynamoid &lpar;3.10.0&rpar;](https://rubygems.org/gems/dynamoid/versions/3.10.0)
 - [debug_logging &lpar;3.1.9&rpar;](https://rubygems.org/gems/debug_logging/versions/3.1.9)
 - [pretty_feed &lpar;1.0.1&rpar;](https://rubygems.org/gems/pretty_feed/versions/1.0.1)
 - [pretty_feed &lpar;1.0.0&rpar;](https://rubygems.org/gems/pretty_feed/versions/1.0.0)
@@ -126,7 +127,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [require_bench &lpar;1.0.4.pre.alpha.5&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.5)
 - [require_bench &lpar;1.0.4.pre.alpha.4&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.4)
 - [require_bench &lpar;1.0.4.pre.alpha.2&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.2)
-- [gem_bench &lpar;2.0.0&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.0)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
