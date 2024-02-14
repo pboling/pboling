@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Principal Software Engineer at Code for America](https://jobs.rubyonrails.org/jobs/601)
 - [Senior Software Engineer - Ruby on Rails &lpar;hybrid, Miami, FL&rpar; at haku app corp.](https://jobs.rubyonrails.org/jobs/597)
 - [Mid to Senior Ruby on Rails developer at Macuject](https://jobs.rubyonrails.org/jobs/595)
 - [Creative Technologist/Creative Full-Stack Developer at Nesta](https://jobs.rubyonrails.org/jobs/594)
 - [&lpar;Senior&rpar; Backend Game Developer &lpar;f/m/x&rpar; at Neopoly Development GmbH](https://jobs.rubyonrails.org/jobs/593)
-- [Full Stack Product Developer, Fundraising Team &lpar;LATAM&rpar; at Donorbox](https://jobs.rubyonrails.org/jobs/592)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
