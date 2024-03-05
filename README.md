@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Product Engineer at Doconomy](https://jobs.rubyonrails.org/jobs/614)
 - [Engineering Manager, Mobile at Fleetio](https://jobs.rubyonrails.org/jobs/613)
 - [Senior Front End Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/612)
 - [Senior Rails Developer at GitButler](https://jobs.rubyonrails.org/jobs/604)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack](https://jobs.rubyonrails.org/jobs/603)
-- [Senior Ruby Engineer at Culture Amp](https://jobs.rubyonrails.org/jobs/598)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
