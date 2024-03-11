@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Rails Fullstack Developer &lpar;f/m/d&rpar; wanted. at bcause](https://jobs.rubyonrails.org/jobs/622)
 - [Sr Back-End Ruby Engineer - Open-Source Stripe Billing at Lago](https://jobs.rubyonrails.org/jobs/621)
 - [Mid/Senior Level Full-Stack Rails Engineer at SparkLoop](https://jobs.rubyonrails.org/jobs/620)
 - [Senior Full Stack Engineer at Froonze](https://jobs.rubyonrails.org/jobs/619)
 - [Engineering Manager, Web at Fleetio](https://jobs.rubyonrails.org/jobs/618)
-- [Rails Programmer at 37signals](https://jobs.rubyonrails.org/jobs/617)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
