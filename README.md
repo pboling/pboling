@@ -117,6 +117,8 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [silent_stream &lpar;1.0.8&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.8)
+- [silent_stream &lpar;1.0.7&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.7)
 - [activerecord-transactionable &lpar;3.0.3&rpar;](https://rubygems.org/gems/activerecord-transactionable/versions/3.0.3)
 - [debug_logging &lpar;4.0.1&rpar;](https://rubygems.org/gems/debug_logging/versions/4.0.1)
 - [debug_logging &lpar;4.0.0&rpar;](https://rubygems.org/gems/debug_logging/versions/4.0.0)
@@ -125,8 +127,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [pretty_feed &lpar;1.0.1&rpar;](https://rubygems.org/gems/pretty_feed/versions/1.0.1)
 - [pretty_feed &lpar;1.0.0&rpar;](https://rubygems.org/gems/pretty_feed/versions/1.0.0)
 - [require_bench &lpar;1.0.4&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4)
-- [require_bench &lpar;1.0.4.pre.alpha.7&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.7)
-- [require_bench &lpar;1.0.4.pre.alpha.6&rpar;](https://rubygems.org/gems/require_bench/versions/1.0.4.pre.alpha.6)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
