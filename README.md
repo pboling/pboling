@@ -117,6 +117,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [standard-rubocop-lts &lpar;1.0.10&rpar;](https://rubygems.org/gems/standard-rubocop-lts/versions/1.0.10)
 - [sanitize_email &lpar;2.0.4&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.4)
 - [version_gem &lpar;1.1.4&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.4)
 - [silent_stream &lpar;1.0.8&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.8)
@@ -126,7 +127,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [debug_logging &lpar;4.0.0&rpar;](https://rubygems.org/gems/debug_logging/versions/4.0.0)
 - [dynamoid &lpar;3.10.0&rpar;](https://rubygems.org/gems/dynamoid/versions/3.10.0)
 - [debug_logging &lpar;3.1.9&rpar;](https://rubygems.org/gems/debug_logging/versions/3.1.9)
-- [pretty_feed &lpar;1.0.1&rpar;](https://rubygems.org/gems/pretty_feed/versions/1.0.1)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
