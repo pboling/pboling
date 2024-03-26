@@ -64,7 +64,7 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
-- [📈 Principal Ruby Engineer at fin-tech Mitre Media &lpar;+10yrs in business!&rpar;](https://jobs.rubyonrails.org/jobs/629)
+- [📈 Principal Full-Stack Rails Engineer at fin-tech Mitre Media &lpar;+10yrs in business!&rpar;](https://jobs.rubyonrails.org/jobs/629)
 - [Senior Software Engineer at Ridepanda](https://jobs.rubyonrails.org/jobs/628)
 - [Ruby on Rails Frontend &amp; Backend Wizard at VIVA](https://jobs.rubyonrails.org/jobs/627)
 - [Senior Software Developer Ruby on Rails at Tractive GmbH](https://jobs.rubyonrails.org/jobs/626)
