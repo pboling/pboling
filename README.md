@@ -68,7 +68,7 @@ Here are the latest jobs posted there as of < 60 minutes ago:
 - [Senior Software Engineer at Ridepanda](https://jobs.rubyonrails.org/jobs/628)
 - [Ruby on Rails Frontend &amp; Backend Wizard at VIVA](https://jobs.rubyonrails.org/jobs/627)
 - [Senior Software Developer Ruby on Rails at Tractive GmbH](https://jobs.rubyonrails.org/jobs/626)
-- [🎉 Unique Software Developer 🎉 at Cliniko](https://jobs.rubyonrails.org/jobs/625)
+- [Senior Backend Engineer at Teal](https://jobs.rubyonrails.org/jobs/623)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
