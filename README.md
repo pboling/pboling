@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Engineer at One Body](https://jobs.rubyonrails.org/jobs/643)
 - [Desenvolvedor Ruby on Rails Junior at Vetor Editora](https://jobs.rubyonrails.org/jobs/638)
 - [Senior Software Engineer, Full Stack at Doximity](https://jobs.rubyonrails.org/jobs/636)
 - [Lead Ruby on Rails Engineer at Aha!](https://jobs.rubyonrails.org/jobs/632)
 - [Sr. Security Engineer at Aha!](https://jobs.rubyonrails.org/jobs/631)
-- [📈 Principal Full-Stack Rails Engineer at fin-tech Mitre Media &lpar;+10yrs in business!&rpar;](https://jobs.rubyonrails.org/jobs/629)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
