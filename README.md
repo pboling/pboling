@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Backend Developer at SeQura](https://jobs.rubyonrails.org/jobs/679)
 - [Senior Software Developer at LogiFlow](https://jobs.rubyonrails.org/jobs/667)
 - [Senior Software Engineer, Ruby on Rails at Huntress](https://jobs.rubyonrails.org/jobs/664)
 - [Staff Software Engineer - SIEM &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/663)
 - [Principal Software Engineer - SIEM &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/662)
-- [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack](https://jobs.rubyonrails.org/jobs/644)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
