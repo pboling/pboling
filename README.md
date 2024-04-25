@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Sr Fullstack Software Engineer at ActiveProspect](https://jobs.rubyonrails.org/jobs/725)
 - [Senior Software Engineer, Channel Partnerships at Fleetio](https://jobs.rubyonrails.org/jobs/718)
 - [Senior Full Stack Ruby &amp; JS Developer / Fully Remote, Full Time at Harley Therapy Lt](https://jobs.rubyonrails.org/jobs/717)
 - [Senior Backend Developer at SeQura](https://jobs.rubyonrails.org/jobs/679)
 - [Senior Software Developer at LogiFlow](https://jobs.rubyonrails.org/jobs/667)
-- [Senior Software Engineer, Ruby on Rails at Huntress](https://jobs.rubyonrails.org/jobs/664)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
