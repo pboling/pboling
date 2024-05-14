@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Product Engineer &lpar;Rails/React&rpar; @ Great Question  at Great Question](https://jobs.rubyonrails.org/jobs/752)
 - [Senior Software Engineer at Sessions, Inc.](https://jobs.rubyonrails.org/jobs/751)
 - [Junior Engineer/Tech Support at One Step Software](https://jobs.rubyonrails.org/jobs/749)
 - [Senior Rails Backend Engineer at Wherefour](https://jobs.rubyonrails.org/jobs/748)
 - [Senior Software Engineer, Fleet Ops at Fleetio](https://jobs.rubyonrails.org/jobs/742)
-- [Senior Software Engineer, Full Stack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/740)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
