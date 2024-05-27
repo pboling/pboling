@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Principal Full-Stack Rails Engineer &lpar;Remote&rpar; at Mitre Media](https://jobs.rubyonrails.org/jobs/763)
 - [Senior Software Engineer at Stora](https://jobs.rubyonrails.org/jobs/760)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/759)
 - [Senior Software Engineer, &lpar;Rails/React&rpar; at AirOps](https://jobs.rubyonrails.org/jobs/757)
 - [Senior Software Developer at LogiFlow](https://jobs.rubyonrails.org/jobs/754)
-- [Product Engineer &lpar;Rails/React&rpar; @ Great Question  at Great Question](https://jobs.rubyonrails.org/jobs/752)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
