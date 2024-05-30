@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Full Stack Software Engineer at Litmus](https://jobs.rubyonrails.org/jobs/770)
 - [Senior Software Developer at CLICS](https://jobs.rubyonrails.org/jobs/769)
 - [Rails Backend Engineer &lpar;FinTech&rpar; at Smartleaf](https://jobs.rubyonrails.org/jobs/768)
 - [Software Engineer at Altrio](https://jobs.rubyonrails.org/jobs/767)
 - [Remote Senior Full‑Stack Dev at DatoCMS](https://jobs.rubyonrails.org/jobs/765)
-- [Staff Software Engineer - Ruby on Rails at Huntress](https://jobs.rubyonrails.org/jobs/764)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
