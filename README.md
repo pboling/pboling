@@ -166,10 +166,10 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - 🦷 I'm putting more of my focus on FLOSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
 - ✨ Recently created [`rubocop-lts`](https://github.com/rubocop-lts) for library maintainer happiness 👩‍❤️‍👩.
-- 🔭 I’m working on switching my gem libraries to use Github Actions for CI
-- 🌱 I’m learning Svelte, and I want to learn Rust next
-- 👯 Preparing transition to v2 of the `oauth2` gem!
-- 🤔 I’m looking for help with maintaining my suite of Resque plugins, as I don't have a current use case for Resque.
+- 🔭 I’m working on finishing the migration away from TravisCI to modern CI tools.
+- 🌱 I’m learning Svelte & SvelteKit, with Lucia, Drizzle, Zod, Inlang Paraglide, Skeleton, Tailwind, Typescript, and so many more cool tools.
+- 👯 Preparing next release of `seed_migrations` and `oauth` gems!
+- 🤔 I’ve moved my suite of Resque plugins to the Resque org!
 - 📫 How to [reach me](https://about.me/peter.boling)
 - 😄 Pronouns: He/Him
 - 🗨️ I speak 3 languages fluently, and for a 4th I'm learning Bahasa Indonesia!
@@ -249,6 +249,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 ### :roll_of_paper: Current Roles
 
+- CTO | [Fisecal](https://fisecal.com)
 - Principal Cloud Engineer | [Vital Connect](https://vitalconnect.com)
 - Full Stack Instructor | [Michigan State University Bootcamp](https://bootcamp.msu.edu/coding/)
 - FOSS Blogger | [RailsBling](https://railsbling.com)
