@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Founding Engineer at SoloSuit](https://jobs.rubyonrails.org/jobs/787)
 - [Senior Software Engineer, Full Stack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/785)
 - [Sr. Full Stack Engineer &lpar;Accounts Team&rpar; at ActiveProspect](https://jobs.rubyonrails.org/jobs/784)
 - [Software Engineer at Mast](https://jobs.rubyonrails.org/jobs/783)
 - [Engineering Manager, Platform at Fleetio](https://jobs.rubyonrails.org/jobs/782)
-- [Software Engineer II at Instacart](https://jobs.rubyonrails.org/jobs/781)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
