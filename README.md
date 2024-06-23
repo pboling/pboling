@@ -117,6 +117,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [rspec-block_is_expected &lpar;1.0.6&rpar;](https://rubygems.org/gems/rspec-block_is_expected/versions/1.0.6)
 - [sanitize_email &lpar;2.0.7&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.7)
 - [debug_logging &lpar;4.0.2&rpar;](https://rubygems.org/gems/debug_logging/versions/4.0.2)
 - [sanitize_email &lpar;2.0.6&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.6)
@@ -126,7 +127,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [version_gem &lpar;1.1.4&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.4)
 - [silent_stream &lpar;1.0.8&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.8)
 - [silent_stream &lpar;1.0.7&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.7)
-- [activerecord-transactionable &lpar;3.0.3&rpar;](https://rubygems.org/gems/activerecord-transactionable/versions/3.0.3)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
