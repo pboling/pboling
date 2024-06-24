@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Full Stack Senior Software Engineer at The Wanderlust Group](https://jobs.rubyonrails.org/jobs/803)
 - [Full-Stack Web Developer &lpar;Ruby on Rails&rpar; at Web Ascender](https://jobs.rubyonrails.org/jobs/797)
 - [Tech Lead - Software Engineer at Finario](https://jobs.rubyonrails.org/jobs/794)
 - [Founding Engineer at SoloSuit](https://jobs.rubyonrails.org/jobs/787)
 - [Senior Software Engineer, Full Stack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/785)
-- [Sr. Full Stack Engineer &lpar;Accounts Team&rpar; at ActiveProspect](https://jobs.rubyonrails.org/jobs/784)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
