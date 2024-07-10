@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Development Engineer in Test, Mobile at Fleetio](https://jobs.rubyonrails.org/jobs/857)
+- [Quality Engineering Manager at Fleetio](https://jobs.rubyonrails.org/jobs/856)
 - [Senior Ruby on Rails Developer at Ambiki](https://jobs.rubyonrails.org/jobs/855)
 - [Senior Software Developer at Pinpoint](https://jobs.rubyonrails.org/jobs/853)
 - [Head of Engineering &lpar;m/w/d&rpar; at straiv GmbH](https://jobs.rubyonrails.org/jobs/852)
-- [Senior Ruby on Rails Developer at Foresight Sports](https://jobs.rubyonrails.org/jobs/814)
-- [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/813)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
