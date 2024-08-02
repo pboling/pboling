@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Rails + Stimulus Dev - The Rails Way! 🛤️ at Nearcut](https://jobs.rubyonrails.org/jobs/887)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/886)
 - [Principal Engineer at KODE Health](https://jobs.rubyonrails.org/jobs/882)
 - [Engineering Manager, Platform at Fleetio](https://jobs.rubyonrails.org/jobs/881)
 - [Senior Software Engineer at Altrio](https://jobs.rubyonrails.org/jobs/880)
-- [Senior Software Engineer, Full Stack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/863)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
