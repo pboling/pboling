@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Principal Full-Stack Rails Engineer at Mitre Media &lpar;+10yr fintech&rpar;](https://jobs.rubyonrails.org/jobs/895)
 - [Software developer at Maindeck](https://jobs.rubyonrails.org/jobs/894)
 - [Sr. Developer/Lead Software Engineer at Slope.io, Inc.](https://jobs.rubyonrails.org/jobs/893)
 - [Sr. Developer/Staff Software Engineer at Slope.io, Inc.](https://jobs.rubyonrails.org/jobs/892)
 - [Software Application Architect at Slope.io, Inc.](https://jobs.rubyonrails.org/jobs/891)
-- [Software Engineer at Scholarly](https://jobs.rubyonrails.org/jobs/890)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
