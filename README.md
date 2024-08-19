@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer, Back End &lpar;Ruby/Rails&rpar; at Circle Medical](https://jobs.rubyonrails.org/jobs/908)
+- [Software Engineer, Back End &lpar;Ruby/Rails&rpar; at Circle Medical](https://jobs.rubyonrails.org/jobs/907)
 - [Senior Software Engineer, Full Stack - Remote at Soundstripe Inc.](https://jobs.rubyonrails.org/jobs/903)
 - [Senior Software Engineer, Backend &lpar;Web No-Code&rpar; at Autify, Inc.](https://jobs.rubyonrails.org/jobs/901)
 - [Senior Webentwickler Backend &lpar;m/w/d&rpar; at straiv GmbH](https://jobs.rubyonrails.org/jobs/900)
-- [Principal Full-Stack Rails Engineer at Mitre Media &lpar;+10yr fintech&rpar;](https://jobs.rubyonrails.org/jobs/895)
-- [Software developer at Maindeck](https://jobs.rubyonrails.org/jobs/894)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
