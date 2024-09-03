@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/922)
 - [Senior Application Security Engineer at Huntress](https://jobs.rubyonrails.org/jobs/913)
 - [Senior Software Engineer, Full Stack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/911)
 - [Senior Software Engineer, Back End &lpar;Ruby/Rails&rpar; at Circle Medical](https://jobs.rubyonrails.org/jobs/908)
 - [Software Engineer, Back End &lpar;Ruby/Rails&rpar; at Circle Medical](https://jobs.rubyonrails.org/jobs/907)
-- [Senior Software Engineer, Full Stack - Remote at Soundstripe Inc.](https://jobs.rubyonrails.org/jobs/903)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
