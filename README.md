@@ -249,7 +249,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 ### :roll_of_paper: Current Roles
 
-- CTO | [Fisecal](https://fisecal.com)
 - Principal Cloud Engineer | [Vital Connect](https://vitalconnect.com)
 - Full Stack Instructor | [Michigan State University Bootcamp](https://bootcamp.msu.edu/coding/)
 - FOSS Blogger | [RailsBling](https://railsbling.com)
