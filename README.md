@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Principal Engineer &lpar;Rails / React&rpar; at Mindful Chef Ltd](https://jobs.rubyonrails.org/jobs/1029)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/1026)
 - [Medior full-stack developer at Smarttrackers](https://jobs.rubyonrails.org/jobs/1024)
 - [Principal Full-Stack Rails Engineer at Mitre Media](https://jobs.rubyonrails.org/jobs/1023)
 - [Senior Software Engineer, Backend &lpar;Web No-Code&rpar; at Autify, Inc.](https://jobs.rubyonrails.org/jobs/1019)
-- [Senior Software Engineer &lpar;ruby on rails&rpar; at Full Umbrella Talent &lpar;B2B SaaS Client&rpar;](https://jobs.rubyonrails.org/jobs/998)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
