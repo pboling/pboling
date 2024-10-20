@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
-- [Senior Software Engineer at Levelpath](https://jobs.rubyonrails.org/jobs/1043)
-- [Senior Software Engineer at Altrio](https://jobs.rubyonrails.org/jobs/1042)
-- [Senior Fullstack Software Engineer  at Maximus](https://jobs.rubyonrails.org/jobs/1041)
-- [Fullstack Developer Ruby on Rails at Heise Knowledge GmbH](https://jobs.rubyonrails.org/jobs/1034)
-- [Principal Engineer &lpar;Rails / React&rpar; at Mindful Chef Ltd](https://jobs.rubyonrails.org/jobs/1029)
+- [Senior Software Engineer at Levelpath](https://jobs.rubyonrails.org/jobs/1043-senior-software-engineer-levelpath)
+- [Senior Software Engineer at Altrio](https://jobs.rubyonrails.org/jobs/1042-senior-software-engineer-altrio)
+- [Senior Fullstack Software Engineer  at Maximus](https://jobs.rubyonrails.org/jobs/1041-senior-fullstack-software-engineer-maximus)
+- [Fullstack Developer Ruby on Rails at Heise Knowledge GmbH](https://jobs.rubyonrails.org/jobs/1034-fullstack-developer-ruby-on-rails-heise-knowledge-gmbh)
+- [Principal Engineer &lpar;Rails / React&rpar; at Mindful Chef Ltd](https://jobs.rubyonrails.org/jobs/1029-principal-engineer-rails-react-mindful-chef-ltd)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
