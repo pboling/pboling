@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Engineer at KODE Health](https://jobs.rubyonrails.org/jobs/1055-senior-engineer-kode-health)
 - [Fullstack Engineer &lpar;flexible-level&rpar; - Hotwire/Stimulus/UX at Scotch &lpar;stealth&rpar;](https://jobs.rubyonrails.org/jobs/1054-fullstack-engineer-flexible-level-hotwire-stimulus-ux-scotch-stealth)
 - [Tech Lead &lpar;RoR / React / Crypto&rpar; at Koinly](https://jobs.rubyonrails.org/jobs/1048-tech-lead-ror-react-crypto-koinly)
 - [Senior Software Engineer at Levelpath](https://jobs.rubyonrails.org/jobs/1043-senior-software-engineer-levelpath)
 - [Senior Software Engineer at Altrio](https://jobs.rubyonrails.org/jobs/1042-senior-software-engineer-altrio)
-- [Senior Fullstack Software Engineer  at Maximus](https://jobs.rubyonrails.org/jobs/1041-senior-fullstack-software-engineer-maximus)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
