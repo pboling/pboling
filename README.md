@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/1060-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Backend Developer*in &lpar;Schwerpunkt DevOps&rpar; at Mein Grundeinkommen e.V.](https://jobs.rubyonrails.org/jobs/1059-backend-developer-in-schwerpunkt-devops-mein-grundeinkommen-e-v)
 - [Staff Software Engineer - Backend  at Perry Street Software](https://jobs.rubyonrails.org/jobs/1056-staff-software-engineer-backend-perry-street-software)
 - [Senior Engineer at KODE Health](https://jobs.rubyonrails.org/jobs/1055-senior-engineer-kode-health)
 - [Fullstack Engineer &lpar;flexible-level&rpar; - Hotwire/Stimulus/UX at Scotch &lpar;stealth&rpar;](https://jobs.rubyonrails.org/jobs/1054-fullstack-engineer-flexible-level-hotwire-stimulus-ux-scotch-stealth)
-- [Tech Lead &lpar;RoR / React / Crypto&rpar; at Koinly](https://jobs.rubyonrails.org/jobs/1048-tech-lead-ror-react-crypto-koinly)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
