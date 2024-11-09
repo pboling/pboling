@@ -117,6 +117,8 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [sanitize_email &lpar;2.0.10&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.10)
+- [sanitize_email &lpar;2.0.9&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.9)
 - [gem_bench &lpar;2.0.5&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.5)
 - [gem_bench &lpar;2.0.4&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.4)
 - [anonymous_active_record &lpar;1.0.9&rpar;](https://rubygems.org/gems/anonymous_active_record/versions/1.0.9)
@@ -125,8 +127,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [gem_bench &lpar;2.0.1&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.1)
 - [sanitize_email &lpar;2.0.8&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.8)
 - [rspec-block_is_expected &lpar;1.0.6&rpar;](https://rubygems.org/gems/rspec-block_is_expected/versions/1.0.6)
-- [sanitize_email &lpar;2.0.7&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.7)
-- [debug_logging &lpar;4.0.2&rpar;](https://rubygems.org/gems/debug_logging/versions/4.0.2)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
