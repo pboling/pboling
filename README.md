@@ -117,6 +117,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [omniauth-identity &lpar;3.1.1&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.1)
 - [omniauth-identity &lpar;3.1.0&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.0)
 - [sanitize_email &lpar;2.0.10&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.10)
 - [sanitize_email &lpar;2.0.9&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.9)
@@ -126,7 +127,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [gem_bench &lpar;2.0.3&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.3)
 - [gem_bench &lpar;2.0.2&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.2)
 - [gem_bench &lpar;2.0.1&rpar;](https://rubygems.org/gems/gem_bench/versions/2.0.1)
-- [sanitize_email &lpar;2.0.8&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.8)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
