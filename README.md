@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer &lpar;Rails&rpar; - Remote at PayNearMe](https://jobs.rubyonrails.org/jobs/1064-senior-software-engineer-rails-remote-paynearme)
 - [Principal Software Engineer - Core Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/1062-principal-software-engineer-core-platform-ruby-rails-huntress)
 - [Software Engineer &lpar;Ruby/Rails&rpar;, Advertising Platform at Doximity](https://jobs.rubyonrails.org/jobs/1061-software-engineer-ruby-rails-advertising-platform-doximity)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/1060-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Backend Developer*in &lpar;Schwerpunkt DevOps&rpar; at Mein Grundeinkommen e.V.](https://jobs.rubyonrails.org/jobs/1059-backend-developer-in-schwerpunkt-devops-mein-grundeinkommen-e-v)
-- [Staff Software Engineer - Backend  at Perry Street Software](https://jobs.rubyonrails.org/jobs/1056-staff-software-engineer-backend-perry-street-software)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
