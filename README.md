@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Software Engineer - Ruby on Rails at Underdog Fantasy](https://jobs.rubyonrails.org/jobs/1227-software-engineer-ruby-on-rails-underdog-fantasy)
 - [Engineering Manager / Crypto at Koinly](https://jobs.rubyonrails.org/jobs/1216-engineering-manager-crypto-koinly)
 - [Staff Rails Developer at 1Password](https://jobs.rubyonrails.org/jobs/1187-staff-rails-developer-1password)
 - [Senior Software Engineer at Altrio](https://jobs.rubyonrails.org/jobs/1068-senior-software-engineer-altrio)
 - [Senior Software Engineer &lpar;Rails&rpar; - Remote at PayNearMe](https://jobs.rubyonrails.org/jobs/1064-senior-software-engineer-rails-remote-paynearme)
-- [Principal Software Engineer - Core Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/1062-principal-software-engineer-core-platform-ruby-rails-huntress)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
