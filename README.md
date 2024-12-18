@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Staff Software Engineer, Ruby Infrastructure at Gusto](https://jobs.rubyonrails.org/jobs/1322-staff-software-engineer-ruby-infrastructure-gusto)
 - [Senior Software Engineer, Fleet Ops at Fleetio](https://jobs.rubyonrails.org/jobs/1261-senior-software-engineer-fleet-ops-fleetio)
 - [Engineering Manager, Fleet Ops at Fleetio](https://jobs.rubyonrails.org/jobs/1260-engineering-manager-fleet-ops-fleetio)
 - [Engineering Manager, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/1259-engineering-manager-marketplace-fleetio)
 - [Senior Software Engineer, Channel Partnerships at Fleetio](https://jobs.rubyonrails.org/jobs/1258-senior-software-engineer-channel-partnerships-fleetio)
-- [Senior Full Stack Software Developer at Performance Health Partners](https://jobs.rubyonrails.org/jobs/1240-senior-full-stack-software-developer-performance-health-partners)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
