@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Staff Software Engineer, WebApp Architecture at Gusto](https://jobs.rubyonrails.org/jobs/1377-staff-software-engineer-webapp-architecture-gusto)
 - [Remote Senior Rails + Stimulus Dev - The Rails Way! 🛤️ at Nearcut](https://jobs.rubyonrails.org/jobs/1344-remote-senior-rails-stimulus-dev-the-rails-way-nearcut)
 - [Full-stack Software Engineer at Tuple](https://jobs.rubyonrails.org/jobs/1335-full-stack-software-engineer-tuple)
 - [Staff Software Engineer, Ruby Infrastructure at Gusto](https://jobs.rubyonrails.org/jobs/1322-staff-software-engineer-ruby-infrastructure-gusto)
 - [Senior Software Engineer, Fleet Ops at Fleetio](https://jobs.rubyonrails.org/jobs/1261-senior-software-engineer-fleet-ops-fleetio)
-- [Engineering Manager, Fleet Ops at Fleetio](https://jobs.rubyonrails.org/jobs/1260-engineering-manager-fleet-ops-fleetio)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
