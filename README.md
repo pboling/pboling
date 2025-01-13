@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/1580-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Staff Software Engineer - Backend  at Perry Street Software](https://jobs.rubyonrails.org/jobs/1521-staff-software-engineer-backend-perry-street-software)
 - [Staff Software Engineer, Product  at Gusto](https://jobs.rubyonrails.org/jobs/1378-staff-software-engineer-product-gusto)
 - [Staff Software Engineer, WebApp Architecture at Gusto](https://jobs.rubyonrails.org/jobs/1377-staff-software-engineer-webapp-architecture-gusto)
 - [Staff Software Engineer, Ruby Infrastructure at Gusto](https://jobs.rubyonrails.org/jobs/1322-staff-software-engineer-ruby-infrastructure-gusto)
-- [Senior Software Engineer, Fleet Ops at Fleetio](https://jobs.rubyonrails.org/jobs/1261-senior-software-engineer-fleet-ops-fleetio)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
