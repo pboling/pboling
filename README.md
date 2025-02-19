@@ -64,11 +64,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Fullstack Ruby on Rails Engineer at Maximus Health](https://jobs.rubyonrails.org/jobs/2001-senior-fullstack-ruby-on-rails-engineer-maximus-health)
 - [Senior Software Engineer, Product Platform at Doximity](https://jobs.rubyonrails.org/jobs/1817-senior-software-engineer-product-platform-doximity)
 - [Senior Rails Engineer at Levelpath](https://jobs.rubyonrails.org/jobs/1669-senior-rails-engineer-levelpath)
 - [Senior Rails Engineer at Wherefour](https://jobs.rubyonrails.org/jobs/1604-senior-rails-engineer-wherefour)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/1580-full-stack-backend-engineer-i-at-better-stack-better-stack)
-- [Staff Software Engineer - Backend  at Perry Street Software](https://jobs.rubyonrails.org/jobs/1521-staff-software-engineer-backend-perry-street-software)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
