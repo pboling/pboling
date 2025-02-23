@@ -19,7 +19,7 @@
 
 ---
 
-[![Follow Me on LinkedIn][🖇linkedin-img]][🖇linkedin]
+[![Follow Me on LinkedIn][💖🖇linkedin-img]][💖🖇linkedin]
 [![Find Me on CrunchBase][💲crunchbase-img]][💲crunchbase]
 [![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound]
 [![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
@@ -31,8 +31,8 @@
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
 [🖇sponsor]: https://github.com/sponsors/pboling
-[🖇linkedin]: http://www.linkedin.com/in/peterboling
-[🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-blue?style=plastic&logo=linkedin
+[💖🖇linkedin]: http://www.linkedin.com/in/peterboling
+[💖🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-LinkedIn-0B66C2?style=flat&logo=newjapanprowrestling
 [💲crunchbase]: https://www.crunchbase.com/person/peter-boling
 [💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=plastic&logo=crunchbase
 [✌️wellfound]: https://angel.co/u/peter-boling
