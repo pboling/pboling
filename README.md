@@ -7,6 +7,10 @@
 
 ---
 
+`I can work part-time on your project via` [![Get help from me on Upwork][👨🏼‍🏫expsup-upwork-img]][👨🏼‍🏫expsup-upwork] `or` [![Get help from me on Codementor][👨🏼‍🏫expsup-codementor-img]][👨🏼‍🏫expsup-codementor]
+
+---
+
 [![Follow Me on Bluesky][💖🦋bluesky-img]][💖🦋bluesky]
 [![Contact Me][🚂my-contact-img]][🚂my-contact]
 [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
@@ -36,6 +40,11 @@
 [🖇patreon]: https://patreon.com/galtzo
 [🖇buyme]: https://www.buymeacoffee.com/pboling
 [🖇buyme-small-img]: https://img.shields.io/badge/Buy--Me--A--Coffee-✓-brightgreen.svg?style=flat
+
+[👨🏼‍🏫expsup-upwork]: https://www.upwork.com/freelancers/~014942e9b056abdf86?mp_source=share
+[👨🏼‍🏫expsup-upwork-img]: https://img.shields.io/badge/UpWork-13544E?style=for-the-badge&logo=Upwork&logoColor=white
+[👨🏼‍🏫expsup-codementor]: https://www.codementor.io/peterboling?utm_source=github&utm_medium=button&utm_term=peterboling&utm_campaign=github
+[👨🏼‍🏫expsup-codementor-img]: https://img.shields.io/badge/CodeMentor-Get_Help-1abc9c?style=for-the-badge&logo=CodeMentor&logoColor=white
 
 [🚂my-blog]: http://www.railsbling.com
 [🚂my-blog-img]: https://img.shields.io/badge/blog-railsbling-0093D0.svg?style=flat&logo=rubyonrails&logoColor=orange
