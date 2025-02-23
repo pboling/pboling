@@ -22,7 +22,7 @@
 [![My LinkTree][💖🌳linktree-img]][💖🌳linktree]
 [![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
 [![My Blog][🚂my-blog-img]][🚂my-blog]
-[🌏][💖💁🏼‍♂️aboutme]
+[![More About Me][💖💁🏼‍♂️aboutme-img]][💖💁🏼‍♂️aboutme]
 
 [⛳liberapay-img]: https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
@@ -49,11 +49,11 @@
 [💖💲crunchbase]: https://www.crunchbase.com/person/peter-boling
 [💖💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=flat&logo=crunchbase
 [💖🐘ruby-mast]: https://ruby.social/@galtzo
-[💖🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=flat&logo=mastodon&label=Ruby%20%40galtzo
+[💖🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=flat&logo=mastodon&label=Ruby.social%20%40galtzo
 [💖🐘floss-mast]: https://floss.social/@galtzo
-[💖🐘floss-mast-img]: https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social
+[💖🐘floss-mast-img]: https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=flat&logo=mastodon&label=Floss.social%20%40galtzo
 [💖🐘social-mast]: https://mastodon.social/@galtzo
-[💖🐘social-mast-img]: https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social
+[💖🐘social-mast-img]: https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=flat&logo=mastodon&label=Mastodon.social%20%40galtzo
 [💖🦋bluesky]: https://galtzo.bsky.social
 [💖🦋bluesky-img]: https://img.shields.io/badge/@galtzo.bsky.social-0285FF?style=flat&logo=bluesky&logoColor=white
 [💖🌳linktree]: https://linktr.ee/galtzo
@@ -61,6 +61,7 @@
 [💖💁🏼‍♂️devto]: https://dev.to/galtzo
 [💖💁🏼‍♂️devto-img]: https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white
 [💖💁🏼‍♂️aboutme]: https://about.me/peter.boling
+[💖💁🏼‍♂️aboutme-img]: https://img.shields.io/badge/about.me-0A0A0A?style=flat&logo=aboutme&logoColor=white
 [💎rubygems]: https://rubygems.org/profiles/pboling
 [💎rubygems-img]: https://img.shields.io/gem/u/pboling.svg
 [my🧪lab]: https://gitlab.com/pboling
