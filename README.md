@@ -1,48 +1,68 @@
-<div id="badges">
-
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
-<span class="badge-buymeacoffee">
-[![Sponsor Me][🖇sponsor-img]][🖇sponsor]
-   <a href="https://ko-fi.com/O5O86SNP4" target='_blank' title="Donate to my FLOSS or refugee efforts at ko-fi.com"><img src="https://img.shields.io/badge/buy%20me%20coffee-donate-yellow.svg" alt="Buy Me Coffee donation button" /></a>
-</span>
-<span class="badge-patreon">
-   <a href="https://patreon.com/galtzo" title="Donate to my FLOSS or refugee efforts using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a>
-</span>
+[![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
+[![Buy me a coffee][🖇buyme-small-img]][🖇buyme]
+[![Polar Shield][🖇polar-img]][🖇polar]
+[![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
+[![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
 ---
 
-<a rel="me" alt="Follow me on Ruby.social" href="https://ruby.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=social&label=Follow%20%40galtzo%20on%20Ruby.social"></a>
-<a rel="me" alt="Follow me on FLOSS.social" href="https://floss.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social"></a>
-<br>
-<a rel="me" alt="Follow me on Mastodon.social" href="https://mastodon.social/@galtzo"><img src="https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social"></a>
-[![Follow Me on X][🐦twitter-img]][🐦twitter]
+[![Follow Me on Bluesky][💖🦋bluesky-img]][💖🦋bluesky]
+[![Contact Me][🚂my-contact-img]][🚂my-contact]
+[![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
+[![Follow Me on Ruby.Social][💖🐘ruby-mast-img]][💖🐘ruby-mast]
+[![Follow Me on FLOSS.Social][💖🐘floss-mast-img]][💖🐘floss-mast]
+[![Follow Me on Mastodon.Social][💖🐘social-mast-img]][💖🐘social-mast]
 
 ---
 
 [![Follow Me on LinkedIn][💖🖇linkedin-img]][💖🖇linkedin]
-[![Find Me on CrunchBase][💲crunchbase-img]][💲crunchbase]
-[![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound]
+[![Find Me on WellFound:][💖✌️wellfound-img]][💖✌️wellfound]
+[![Find Me on CrunchBase][💖💲crunchbase-img]][💖💲crunchbase]
+[![My LinkTree][💖🌳linktree-img]][💖🌳linktree]
 [![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
-[![My Blog][🚎blog-img]][🚎blog]
-
-</div>
+[![My Blog][🚂my-blog-img]][🚂my-blog]
+[🌏][💖💁🏼‍♂️aboutme]
 
 [⛳liberapay-img]: https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
 [🖇sponsor]: https://github.com/sponsors/pboling
+[🖇polar-img]: https://polar.sh/embed/seeks-funding-shield.svg?org=pboling
+[🖇polar]: https://polar.sh/pboling
+[🖇kofi-img]: https://img.shields.io/badge/buy_me_coffee-donate-yellow.svg
+[🖇kofi]: https://ko-fi.com/O5O86SNP4
+[🖇patreon-img]: https://img.shields.io/badge/patreon-donate-yellow.svg
+[🖇patreon]: https://patreon.com/galtzo
+[🖇buyme]: https://www.buymeacoffee.com/pboling
+[🖇buyme-small-img]: https://img.shields.io/badge/Buy--Me--A--Coffee-✓-brightgreen.svg?style=flat
+
+[🚂my-blog]: http://www.railsbling.com
+[🚂my-blog-img]: https://img.shields.io/badge/blog-railsbling-0093D0.svg?style=flat&logo=rubyonrails&logoColor=orange
+[🚂my-contact]: http://www.railsbling.com/contact
+[🚂my-contact-img]: https://img.shields.io/badge/Contact-Peter_Boling-0093D0.svg?style=flat&logo=rubyonrails&logoColor=red
+
 [💖🖇linkedin]: http://www.linkedin.com/in/peterboling
 [💖🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-LinkedIn-0B66C2?style=flat&logo=newjapanprowrestling
-[💲crunchbase]: https://www.crunchbase.com/person/peter-boling
-[💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=plastic&logo=crunchbase
-[✌️wellfound]: https://angel.co/u/peter-boling
-[✌️wellfound-img]: https://img.shields.io/badge/peter--boling-orange?style=plastic&logo=angellist
-[🐦twitter]: http://x.com/intent/user?screen_name=galtzo
-[🐦twitter-img]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow%20@galtzo
+[💖✌️wellfound]: https://angel.co/u/peter-boling
+[💖✌️wellfound-img]: https://img.shields.io/badge/peter--boling-orange?style=flat&logo=wellfound
+[💖💲crunchbase]: https://www.crunchbase.com/person/peter-boling
+[💖💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=flat&logo=crunchbase
+[💖🐘ruby-mast]: https://ruby.social/@galtzo
+[💖🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=flat&logo=mastodon&label=Ruby%20%40galtzo
+[💖🐘floss-mast]: https://floss.social/@galtzo
+[💖🐘floss-mast-img]: https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=social&label=Follow%20%40galtzo%20on%20Floss.social
+[💖🐘social-mast]: https://mastodon.social/@galtzo
+[💖🐘social-mast-img]: https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=social&label=Follow%20%40galtzo%20on%20Mastodon.social
+[💖🦋bluesky]: https://galtzo.bsky.social
+[💖🦋bluesky-img]: https://img.shields.io/badge/@galtzo.bsky.social-0285FF?style=flat&logo=bluesky&logoColor=white
+[💖🌳linktree]: https://linktr.ee/galtzo
+[💖🌳linktree-img]: https://img.shields.io/badge/galtzo-purple?style=flat&logo=linktree
+[💖💁🏼‍♂️devto]: https://dev.to/galtzo
+[💖💁🏼‍♂️devto-img]: https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white
+[💖💁🏼‍♂️aboutme]: https://about.me/peter.boling
 [💎rubygems]: https://rubygems.org/profiles/pboling
 [💎rubygems-img]: https://img.shields.io/gem/u/pboling.svg
-[🚎blog]: http://www.railsbling.com/tags/oauth2/
-[🚎blog-img]: https://img.shields.io/badge/blog-railsbling-brightgreen.svg?style=flat
 [my🧪lab]: https://gitlab.com/pboling
 [my🧊berg]: https://codeberg.org/pboling
 [my🛖hut]: https://sr.ht/~galtzo/
