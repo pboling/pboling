@@ -94,11 +94,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Staff Software Engineer &lpar;Business Systems&rpar; Ruby/Rails at Huntress](https://jobs.rubyonrails.org/jobs/2039-staff-software-engineer-business-systems-ruby-rails-huntress)
 - [Senior Ruby on Rails Full-Stack Engineer – Syntropic Health at Syntropic Health](https://jobs.rubyonrails.org/jobs/2014-senior-ruby-on-rails-full-stack-engineer-syntropic-health-syntropic-health)
 - [Senior Fullstack Ruby on Rails Engineer at Maximus Health](https://jobs.rubyonrails.org/jobs/2001-senior-fullstack-ruby-on-rails-engineer-maximus-health)
 - [Senior Software Engineer, Product Platform at Doximity](https://jobs.rubyonrails.org/jobs/1817-senior-software-engineer-product-platform-doximity)
 - [Senior Rails Engineer at Levelpath](https://jobs.rubyonrails.org/jobs/1669-senior-rails-engineer-levelpath)
-- [Senior Rails Engineer at Wherefour](https://jobs.rubyonrails.org/jobs/1604-senior-rails-engineer-wherefour)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
