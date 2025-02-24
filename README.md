@@ -94,11 +94,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Engineer Manager, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2044-engineer-manager-marketplace-fleetio)
+- [Senior Software Engineer, Channel Partnerships at Fleetio](https://jobs.rubyonrails.org/jobs/2043-senior-software-engineer-channel-partnerships-fleetio)
+- [Senior Software Engineer, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2042-senior-software-engineer-marketplace-fleetio)
 - [Senior Site Reliability Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/2041-senior-site-reliability-engineer-fleetio)
 - [AI Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/2040-ai-engineer-fleetio)
-- [Staff Software Engineer &lpar;Business Systems&rpar; Ruby/Rails at Huntress](https://jobs.rubyonrails.org/jobs/2039-staff-software-engineer-business-systems-ruby-rails-huntress)
-- [Senior Ruby on Rails Full-Stack Engineer – Syntropic Health at Syntropic Health](https://jobs.rubyonrails.org/jobs/2014-senior-ruby-on-rails-full-stack-engineer-syntropic-health-syntropic-health)
-- [Senior Fullstack Ruby on Rails Engineer at Maximus Health](https://jobs.rubyonrails.org/jobs/2001-senior-fullstack-ruby-on-rails-engineer-maximus-health)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
