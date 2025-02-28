@@ -94,11 +94,11 @@ The Rails Foudnation has just launched the [Official Job Board](https://jobs.rub
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Engineering Manager: Software Development Tools at Gusto](https://jobs.rubyonrails.org/jobs/2073-senior-engineering-manager-software-development-tools-gusto)
 - [Engineer Manager, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2044-engineer-manager-marketplace-fleetio)
 - [Senior Software Engineer, Channel Partnerships at Fleetio](https://jobs.rubyonrails.org/jobs/2043-senior-software-engineer-channel-partnerships-fleetio)
 - [Senior Software Engineer, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2042-senior-software-engineer-marketplace-fleetio)
 - [Senior Site Reliability Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/2041-senior-site-reliability-engineer-fleetio)
-- [AI Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/2040-ai-engineer-fleetio)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
