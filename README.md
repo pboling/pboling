@@ -92,7 +92,9 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
 
-Here are the latest jobs posted there as of < 60 minutes ago:
+
+My pet robot, @autobolt, updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
+
 <!-- OFFICIAL-RAILS-JOBS:START -->
 - [Medior or Senior Software Engineer at Beequip](https://jobs.rubyonrails.org/jobs/2095-medior-or-senior-software-engineer-beequip)
 - [Senior Engineering Manager: Software Development Tools at Gusto](https://jobs.rubyonrails.org/jobs/2073-senior-engineering-manager-software-development-tools-gusto)
