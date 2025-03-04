@@ -93,7 +93,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
 
 
-My pet robot, @autobolt, updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
+My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
 - [Medior or Senior Software Engineer at Beequip](https://jobs.rubyonrails.org/jobs/2095-medior-or-senior-software-engineer-beequip)
