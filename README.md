@@ -90,7 +90,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 ## Looking for a Rails Developer?
 
-The Rails Foudnation has just launched the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
+The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
 
 Here are the latest jobs posted there as of < 60 minutes ago:
 <!-- OFFICIAL-RAILS-JOBS:START -->
