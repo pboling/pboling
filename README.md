@@ -96,11 +96,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer, Ruby Modularity at Gusto](https://jobs.rubyonrails.org/jobs/2098-senior-software-engineer-ruby-modularity-gusto)
 - [Senior Software Engineer at Smile.io](https://jobs.rubyonrails.org/jobs/2096-senior-software-engineer-smile-io)
 - [Medior or Senior Software Engineer at Beequip](https://jobs.rubyonrails.org/jobs/2095-medior-or-senior-software-engineer-beequip)
 - [Senior Engineering Manager: Software Development Tools at Gusto](https://jobs.rubyonrails.org/jobs/2073-senior-engineering-manager-software-development-tools-gusto)
 - [Engineer Manager, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2044-engineer-manager-marketplace-fleetio)
-- [Senior Software Engineer, Channel Partnerships at Fleetio](https://jobs.rubyonrails.org/jobs/2043-senior-software-engineer-channel-partnerships-fleetio)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
