@@ -96,11 +96,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Product Developer at Homeflow](https://jobs.rubyonrails.org/jobs/2102-senior-product-developer-homeflow)
+- [Product Developer at Homeflow](https://jobs.rubyonrails.org/jobs/2101-product-developer-homeflow)
 - [Tech Lead &lpar;Ruby / Crypto&rpar; at Koinly](https://jobs.rubyonrails.org/jobs/2100-tech-lead-ruby-crypto-koinly)
 - [Senior Backend Ruby on Rails Developer at Ticketsolve](https://jobs.rubyonrails.org/jobs/2099-senior-backend-ruby-on-rails-developer-ticketsolve)
 - [Senior Software Engineer, Ruby Modularity at Gusto](https://jobs.rubyonrails.org/jobs/2098-senior-software-engineer-ruby-modularity-gusto)
-- [Senior Software Engineer at Smile.io](https://jobs.rubyonrails.org/jobs/2096-senior-software-engineer-smile-io)
-- [Medior or Senior Software Engineer at Beequip](https://jobs.rubyonrails.org/jobs/2095-medior-or-senior-software-engineer-beequip)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
