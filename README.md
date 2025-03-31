@@ -96,11 +96,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
-- [Software Engineer at Renuo AG](https://jobs.rubyonrails.org/jobs/2111-software-engineer-renuo-ag)
 - [Sr. Software Architect at CLICS](https://jobs.rubyonrails.org/jobs/2108-sr-software-architect-clics)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/2105-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Senior Product Developer at Homeflow](https://jobs.rubyonrails.org/jobs/2102-senior-product-developer-homeflow)
 - [Product Developer at Homeflow](https://jobs.rubyonrails.org/jobs/2101-product-developer-homeflow)
+- [Tech Lead &lpar;Ruby / Crypto&rpar; at Koinly](https://jobs.rubyonrails.org/jobs/2100-tech-lead-ruby-crypto-koinly)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
