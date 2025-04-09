@@ -100,7 +100,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [Senior Software Engineer at Gifthealth](https://jobs.rubyonrails.org/jobs/2121-senior-software-engineer-gifthealth)
 - [Junior Rails Programmer at 37signals](https://jobs.rubyonrails.org/jobs/2120-junior-rails-programmer-37signals)
 - [Senior Rails Programmer at 37signals](https://jobs.rubyonrails.org/jobs/2119-senior-rails-programmer-37signals)
-- [Sr. Software Architect at CLICS](https://jobs.rubyonrails.org/jobs/2108-sr-software-architect-clics)
+- [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/2105-full-stack-backend-engineer-i-at-better-stack-better-stack)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
