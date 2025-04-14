@@ -1,7 +1,9 @@
+🏯 I am currently attending RubyKaigi 2025! 🗾
+
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
 [![Buy me a coffee][🖇buyme-small-img]][🖇buyme]
-[![Polar Shield][🖇polar-img]][🖇polar]
+[![Donate on Polar][🖇polar-img]][🖇polar]
 [![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
 [![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
@@ -32,14 +34,15 @@
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
 [🖇sponsor]: https://github.com/sponsors/pboling
-[🖇polar-img]: https://polar.sh/embed/seeks-funding-shield.svg?org=pboling
+[🖇polar-img]: https://img.shields.io/badge/polar-donate-yellow.svg
 [🖇polar]: https://polar.sh/pboling
-[🖇kofi-img]: https://img.shields.io/badge/buy_me_coffee-donate-yellow.svg
+[🖇kofi-img]: https://img.shields.io/badge/a_more_different_coffee-✓-yellow.svg
 [🖇kofi]: https://ko-fi.com/O5O86SNP4
 [🖇patreon-img]: https://img.shields.io/badge/patreon-donate-yellow.svg
 [🖇patreon]: https://patreon.com/galtzo
+[🖇buyme-img]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20latte&emoji=&slug=pboling&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
 [🖇buyme]: https://www.buymeacoffee.com/pboling
-[🖇buyme-small-img]: https://img.shields.io/badge/Buy--Me--A--Coffee-✓-brightgreen.svg?style=flat
+[🖇buyme-small-img]: https://img.shields.io/badge/buy_me_a_coffee-✓-yellow.svg?style=flat
 
 [👨🏼‍🏫expsup-upwork]: https://www.upwork.com/freelancers/~014942e9b056abdf86?mp_source=share
 [👨🏼‍🏫expsup-upwork-img]: https://img.shields.io/badge/UpWork-13544E?style=for-the-badge&logo=Upwork&logoColor=white
@@ -281,10 +284,9 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 ### :roll_of_paper: Current Roles
 
-- Principal Cloud Engineer | [Vital Connect](https://vitalconnect.com)
-- Full Stack Instructor | [Michigan State University Bootcamp](https://bootcamp.msu.edu/coding/)
-- FOSS Blogger | [RailsBling](https://railsbling.com)
-- FOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
+- Open Source Contributor | [MyBudgetCoach](https://www.mybudgetcoach.com/) 
+- FLOSS Blogger | [RailsBling](https://railsbling.com)
+- FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
 - Member-worker | [Bed of Roses Club](http://bed-of-roses.club/)
