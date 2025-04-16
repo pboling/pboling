@@ -17,7 +17,6 @@
 [![Contact Me][🚂my-contact-img]][🚂my-contact]
 [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 [![Follow Me on Ruby.Social][💖🐘ruby-mast-img]][💖🐘ruby-mast]
-[![Follow Me on FLOSS.Social][💖🐘floss-mast-img]][💖🐘floss-mast]
 [![Follow Me on Mastodon.Social][💖🐘social-mast-img]][💖🐘social-mast]
 
 ---
