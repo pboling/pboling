@@ -13,11 +13,12 @@
 
 ---
 
+[![Follow Me on Ruby.Social][💖🐘ruby-mast-img]][💖🐘ruby-mast]
 [![Follow Me on Bluesky][💖🦋bluesky-img]][💖🦋bluesky]
 [![Contact Me][🚂my-contact-img]][🚂my-contact]
 [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
-[![Follow Me on Ruby.Social][💖🐘ruby-mast-img]][💖🐘ruby-mast]
 [![Follow Me on Mastodon.Social][💖🐘social-mast-img]][💖🐘social-mast]
+[![X (formerly Twitter) Follow][💖❌-img]][💖❌]
 
 ---
 
@@ -61,12 +62,12 @@
 [💖💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=flat&logo=crunchbase
 [💖🐘ruby-mast]: https://ruby.social/@galtzo
 [💖🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=flat&logo=mastodon&label=Ruby.social%20%40galtzo
-[💖🐘floss-mast]: https://floss.social/@galtzo
-[💖🐘floss-mast-img]: https://img.shields.io/mastodon/follow/110304921404405715?domain=https%3A%2F%2Ffloss.social&style=flat&logo=mastodon&label=Floss.social%20%40galtzo
 [💖🐘social-mast]: https://mastodon.social/@galtzo
 [💖🐘social-mast-img]: https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=flat&logo=mastodon&label=Mastodon.social%20%40galtzo
 [💖🦋bluesky]: https://galtzo.bsky.social
 [💖🦋bluesky-img]: https://img.shields.io/badge/@galtzo.bsky.social-0285FF?style=flat&logo=bluesky&logoColor=white
+[💖❌]: https://x.com/@galtzo
+[💖❌-img]: https://img.shields.io/twitter/follow/galtzo
 [💖🌳linktree]: https://linktr.ee/galtzo
 [💖🌳linktree-img]: https://img.shields.io/badge/galtzo-purple?style=flat&logo=linktree
 [💖💁🏼‍♂️devto]: https://dev.to/galtzo
