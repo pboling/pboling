@@ -99,11 +99,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer, Integrations at Fleetio](https://jobs.rubyonrails.org/jobs/2153-senior-software-engineer-integrations-fleetio)
 - [Senior Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2147-senior-software-engineer-fullstack-ruby-rails-doximity)
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2146-software-engineer-fullstack-ruby-rails-doximity)
 - [Senior Full Stack Rails Engineer at KODE Health](https://jobs.rubyonrails.org/jobs/2141-senior-full-stack-rails-engineer-kode-health)
 - [Product Engineer at Doconomy](https://jobs.rubyonrails.org/jobs/2126-product-engineer-doconomy)
-- [Principal Software Engineer - EDR &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/2123-principal-software-engineer-edr-ruby-rails-huntress)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
