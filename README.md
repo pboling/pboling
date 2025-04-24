@@ -1,5 +1,3 @@
-🏯 I am currently attending RubyKaigi 2025! 🗾
-
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
 [![Buy me a coffee][🖇buyme-small-img]][🖇buyme]
