@@ -1,4 +1,4 @@
-[![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
+[![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
 [![Buy me a coffee][🖇buyme-small-img]][🖇buyme]
 [![Donate on Polar][🖇polar-img]][🖇polar]
@@ -28,7 +28,7 @@
 [![My Blog][🚂my-blog-img]][🚂my-blog]
 [![More About Me][💖💁🏼‍♂️aboutme-img]][💖💁🏼‍♂️aboutme]
 
-[⛳liberapay-img]: https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay
+[⛳liberapay-img]: https://img.shields.io/liberapay/goal/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
 [🖇sponsor]: https://github.com/sponsors/pboling
@@ -62,8 +62,8 @@
 [💖🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=flat&logo=mastodon&label=Ruby.social%20%40galtzo
 [💖🐘social-mast]: https://mastodon.social/@galtzo
 [💖🐘social-mast-img]: https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=flat&logo=mastodon&label=Mastodon.social%20%40galtzo
-[💖🦋bluesky]: https://galtzo.bsky.social
-[💖🦋bluesky-img]: https://img.shields.io/badge/@galtzo.bsky.social-0285FF?style=flat&logo=bluesky&logoColor=white
+[💖🦋bluesky]: https://bsky.app/profile/galtzo.com
+[💖🦋bluesky-img]: https://img.shields.io/badge/@galtzo.com-0285FF?style=flat&logo=bluesky&logoColor=white
 [💖❌]: https://x.com/@galtzo
 [💖❌-img]: https://img.shields.io/twitter/follow/galtzo
 [💖🌳linktree]: https://linktr.ee/galtzo
