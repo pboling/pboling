@@ -150,6 +150,8 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [silent_stream &lpar;1.0.10&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.10)
+- [silent_stream &lpar;1.0.9&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.9)
 - [standard-rubocop-lts &lpar;2.0.0&rpar;](https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.0)
 - [version_gem &lpar;1.1.7&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.7)
 - [rspec-pending_for &lpar;0.1.17&rpar;](https://rubygems.org/gems/rspec-pending_for/versions/0.1.17)
@@ -158,8 +160,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [dynamoid &lpar;3.11.0&rpar;](https://rubygems.org/gems/dynamoid/versions/3.11.0)
 - [omniauth-identity &lpar;3.1.1&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.1)
 - [omniauth-identity &lpar;3.1.0&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.0)
-- [sanitize_email &lpar;2.0.10&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.10)
-- [sanitize_email &lpar;2.0.9&rpar;](https://rubygems.org/gems/sanitize_email/versions/2.0.9)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
