@@ -97,11 +97,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Project Manager - Rails Foundation at Rails Foundation](https://jobs.rubyonrails.org/jobs/2341-project-manager-rails-foundation-rails-foundation)
 - [Shopify / Ruby on Rails Full-stack dev at Zipchat](https://jobs.rubyonrails.org/jobs/2323-shopify-ruby-on-rails-full-stack-dev-zipchat)
 - [Senior Software Engineer &lpar;San Francisco Bay Area&rpar; at Monograph](https://jobs.rubyonrails.org/jobs/2189-senior-software-engineer-san-francisco-bay-area-monograph)
 - [Senior Full Stack Product Engineer at Donorbox](https://jobs.rubyonrails.org/jobs/2171-senior-full-stack-product-engineer-donorbox)
 - [Senior Software Engineer, Integrations at Fleetio](https://jobs.rubyonrails.org/jobs/2153-senior-software-engineer-integrations-fleetio)
-- [Senior Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2147-senior-software-engineer-fullstack-ruby-rails-doximity)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
