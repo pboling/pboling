@@ -150,6 +150,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [oauth2 &lpar;2.0.10&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.10)
 - [silent_stream &lpar;1.0.11&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.11)
 - [omniauth-identity &lpar;3.1.2&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.2)
 - [rspec-stubbed_env &lpar;1.0.2&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.2)
@@ -159,7 +160,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [standard-rubocop-lts &lpar;2.0.0&rpar;](https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.0)
 - [version_gem &lpar;1.1.7&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.7)
 - [rspec-pending_for &lpar;0.1.17&rpar;](https://rubygems.org/gems/rspec-pending_for/versions/0.1.17)
-- [version_gem &lpar;1.1.6&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.6)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
