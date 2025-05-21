@@ -97,11 +97,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Next Glass, Inc. | Senior Software Engineer, Brewery Solutions at Next Glass, Inc.](https://jobs.rubyonrails.org/jobs/2498-next-glass-inc-senior-software-engineer-brewery-solutions-next-glass-inc)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/2426-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Full-Stack Developer at mmtm](https://jobs.rubyonrails.org/jobs/2351-full-stack-developer-mmtm)
 - [Project Manager  at Rails Foundation](https://jobs.rubyonrails.org/jobs/2341-project-manager-rails-foundation)
 - [Shopify / Ruby on Rails Full-stack dev at Zipchat](https://jobs.rubyonrails.org/jobs/2323-shopify-ruby-on-rails-full-stack-dev-zipchat)
-- [Senior Software Engineer &lpar;San Francisco Bay Area&rpar; at Monograph](https://jobs.rubyonrails.org/jobs/2189-senior-software-engineer-san-francisco-bay-area-monograph)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
