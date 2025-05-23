@@ -7,7 +7,12 @@
 
 ---
 
-`I can work part-time on your project via` [![Get help from me on Upwork][👨🏼‍🏫expsup-upwork-img]][👨🏼‍🏫expsup-upwork] `or` [![Get help from me on Codementor][👨🏼‍🏫expsup-codementor-img]][👨🏼‍🏫expsup-codementor]
+Want to chat about open source, or any of my projects?  Join my FLOSS discord.
+[![Live Chat on Discord][✉️discord-invite-img]][✉️discord-invite]
+
+Want to pay me for work? I'm available!
+[![Get help from me on Upwork][👨🏼‍🏫expsup-upwork-img]][👨🏼‍🏫expsup-upwork]
+[![Get help from me on Codementor][👨🏼‍🏫expsup-codementor-img]][👨🏼‍🏫expsup-codementor]
 
 ---
 
@@ -27,6 +32,9 @@
 [![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
 [![My Blog][🚂my-blog-img]][🚂my-blog]
 [![More About Me][💖💁🏼‍♂️aboutme-img]][💖💁🏼‍♂️aboutme]
+
+[✉️discord-invite]: https://discord.gg/3qme4XHNKN
+[✉️discord-invite-img]: https://img.shields.io/discord/1373797679469170758?style=for-the-badge
 
 [⛳liberapay-img]: https://img.shields.io/liberapay/goal/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
