@@ -101,7 +101,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/2426-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Full-Stack Developer at mmtm](https://jobs.rubyonrails.org/jobs/2351-full-stack-developer-mmtm)
 - [Project Manager  at Rails Foundation](https://jobs.rubyonrails.org/jobs/2341-project-manager-rails-foundation)
-- [Shopify / Ruby on Rails Full-stack dev at Zipchat](https://jobs.rubyonrails.org/jobs/2323-shopify-ruby-on-rails-full-stack-dev-zipchat)
+- [Senior Software Engineer &lpar;San Francisco Bay Area&rpar; at Monograph](https://jobs.rubyonrails.org/jobs/2189-senior-software-engineer-san-francisco-bay-area-monograph)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
