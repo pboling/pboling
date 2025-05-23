@@ -150,6 +150,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [oauth2 &lpar;2.0.11&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.11)
 - [snaky_hash &lpar;2.0.3&rpar;](https://rubygems.org/gems/snaky_hash/versions/2.0.3)
 - [snaky_hash &lpar;2.0.2&rpar;](https://rubygems.org/gems/snaky_hash/versions/2.0.2)
 - [oauth2 &lpar;2.0.10&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.10)
@@ -159,7 +160,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [version_gem &lpar;1.1.8&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.8)
 - [silent_stream &lpar;1.0.10&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.10)
 - [silent_stream &lpar;1.0.9&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.9)
-- [standard-rubocop-lts &lpar;2.0.0&rpar;](https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.0)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
