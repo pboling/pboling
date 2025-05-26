@@ -105,11 +105,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Ruby-on-Rails Engineer &lpar;Turbo/Stimulus/Hotwire&rpar; &lpar;Remote&rpar; at EverAI](https://jobs.rubyonrails.org/jobs/2551-ruby-on-rails-engineer-turbo-stimulus-hotwire-remote-everai)
+- [Senior Ruby-on-Rails Engineer &lpar;Europe - Remote&rpar; at EverAI](https://jobs.rubyonrails.org/jobs/2550-senior-ruby-on-rails-engineer-europe-remote-everai)
 - [Senior Ruby on Rails Full-Stack Engineer at Syntropic Health](https://jobs.rubyonrails.org/jobs/2519-senior-ruby-on-rails-full-stack-engineer-syntropic-health)
 - [Next Glass, Inc. | Senior Software Engineer, Brewery Solutions at Next Glass, Inc.](https://jobs.rubyonrails.org/jobs/2498-next-glass-inc-senior-software-engineer-brewery-solutions-next-glass-inc)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/2426-full-stack-backend-engineer-i-at-better-stack-better-stack)
-- [Full-Stack Developer at mmtm](https://jobs.rubyonrails.org/jobs/2351-full-stack-developer-mmtm)
-- [Project Manager  at Rails Foundation](https://jobs.rubyonrails.org/jobs/2341-project-manager-rails-foundation)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
