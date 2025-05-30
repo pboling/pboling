@@ -172,6 +172,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Announce: shields-badge v1.0.0](https://dev.to/galtzo/announce-shields-badge-v100-4a9m)
 - [gem oauth2 v2.0.10 released](https://dev.to/galtzo/gem-oauth2-v2010-released-10bj)
 - [Generate Gem Checksums](http://www.railsbling.com/ruby/rubygems_checksums/)
 - [RequireBench: When do you use it?](http://www.railsbling.com/require_bench/require_bench_when_to_use/)
@@ -181,7 +182,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [How to Repair an Old Gem &lpar;Part 3&rpar; - Upgrade RSpec](http://www.railsbling.com/posts/rubygems/repair_old_gem_3/)
 - [List of &lpar;Currently&rpar; Maintained RubyGems](http://www.railsbling.com/posts/rubygems/current_list/)
 - [Life After Github?](https://dev.to/galtzo/life-after-github-4e2d)
-- [I&#39;m Leaving Github](http://www.railsbling.com/posts/dvcs/give_up_github/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
