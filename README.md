@@ -172,6 +172,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [ActiveRecord / SQlite3 Compatibility Matrix](https://dev.to/galtzo/activerecord-sqlite3-compatibility-matrix-58id)
 - [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
 - [Ann: shields-badge v1.0.0](https://dev.to/galtzo/announce-shields-badge-v100-4a9m)
 - [gem oauth2 v2.0.10 released](https://dev.to/galtzo/gem-oauth2-v2010-released-10bj)
@@ -181,7 +182,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [How to Repair an Old Gem &lpar;Part 5&rpar; - Rakefile &amp; RuboCop LTS](http://www.railsbling.com/posts/rubygems/repair_old_gem_5/)
 - [How to Repair an Old Gem &lpar;Part 4&rpar; - Upgrade Autotest](http://www.railsbling.com/posts/rubygems/repair_old_gem_4/)
 - [How to Repair an Old Gem &lpar;Part 3&rpar; - Upgrade RSpec](http://www.railsbling.com/posts/rubygems/repair_old_gem_3/)
-- [List of &lpar;Currently&rpar; Maintained RubyGems](http://www.railsbling.com/posts/rubygems/current_list/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
