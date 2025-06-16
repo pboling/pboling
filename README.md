@@ -105,11 +105,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer at Patch](https://jobs.rubyonrails.org/jobs/2726-senior-software-engineer-patch)
 - [Senior Rails Performance Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/2644-senior-rails-performance-engineer-fleetio)
 - [Senior Software Engineer, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2643-senior-software-engineer-marketplace-fleetio)
 - [Senior Full Stack Ruby Engineer  at Boddle Learning Inc](https://jobs.rubyonrails.org/jobs/2629-senior-full-stack-ruby-engineer-boddle-learning-inc)
 - [Senior Software Engineer, AI &amp; Data at Fleetio](https://jobs.rubyonrails.org/jobs/2628-senior-software-engineer-ai-data-fleetio)
-- [Software Engineer at Halo](https://jobs.rubyonrails.org/jobs/2595-software-engineer-halo)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
