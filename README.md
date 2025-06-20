@@ -109,7 +109,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2759-software-engineer-fullstack-ruby-rails-doximity)
 - [Product Engineer at Uscreen](https://jobs.rubyonrails.org/jobs/2752-product-engineer-uscreen)
 - [Senior Software Engineer at Patch](https://jobs.rubyonrails.org/jobs/2726-senior-software-engineer-patch)
-- [Senior Rails Performance Engineer at Fleetio](https://jobs.rubyonrails.org/jobs/2644-senior-rails-performance-engineer-fleetio)
+- [Senior Software Engineer, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/2643-senior-software-engineer-marketplace-fleetio)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
