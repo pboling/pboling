@@ -172,6 +172,7 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Rename `oauth-xx` org to `ruby-oauth`?](https://dev.to/galtzo/rename-oauth-xx-org-to-ruby-oauth-g44)
 - [Ann: OmniAuth::OpenID v2.0.2](https://dev.to/galtzo/ann-omniauthopenid-v202-3eln)
 - [ActiveRecord / SQlite3 Compatibility Matrix](https://dev.to/galtzo/activerecord-sqlite3-compatibility-matrix-58id)
 - [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
@@ -181,7 +182,6 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [RequireBench: When do you use it?](http://www.railsbling.com/require_bench/require_bench_when_to_use/)
 - [Put the D in DVCS](http://www.railsbling.com/posts/dvcs/put_the_d_in_dvcs/)
 - [How to Repair an Old Gem &lpar;Part 5&rpar; - Rakefile &amp; RuboCop LTS](http://www.railsbling.com/posts/rubygems/repair_old_gem_5/)
-- [How to Repair an Old Gem &lpar;Part 4&rpar; - Upgrade Autotest](http://www.railsbling.com/posts/rubygems/repair_old_gem_4/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
