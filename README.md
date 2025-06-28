@@ -178,10 +178,10 @@ I'm interested in your thoughts, leave a [comment on the blog post](https://rail
 - [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
 - [Ann: shields-badge v1.0.0](https://dev.to/galtzo/announce-shields-badge-v100-4a9m)
 - [gem oauth2 v2.0.10 released](https://dev.to/galtzo/gem-oauth2-v2010-released-10bj)
-- [Life After Github?](https://dev.to/galtzo/life-after-github-4e2d)
-- [I&#39;m leaving Github](https://dev.to/galtzo/im-leaving-github-50ba)
-- [I use shared hosting as my build server. Here&#39;s how.](https://dev.to/galtzo/i-use-shared-hosting-as-my-build-server-heres-how-2e6k)
-- [RRRRb Matrix &lpar;Ruby, RubyGems, RuboCop, Rails, Bundler&rpar;](https://dev.to/galtzo/matrix-ruby-gem-bundler-etc-4kk7)
+- [Generate Gem Checksums](http://www.railsbling.com/ruby/rubygems_checksums/)
+- [RequireBench: When do you use it?](http://www.railsbling.com/require_bench/require_bench_when_to_use/)
+- [Put the D in DVCS](http://www.railsbling.com/posts/dvcs/put_the_d_in_dvcs/)
+- [How to Repair an Old Gem &lpar;Part 5&rpar; - Rakefile &amp; RuboCop LTS](http://www.railsbling.com/posts/rubygems/repair_old_gem_5/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
