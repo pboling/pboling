@@ -109,7 +109,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [Creative Technologist / Creative Full-Stack Developer at Nesta](https://jobs.rubyonrails.org/jobs/2791-creative-technologist-creative-full-stack-developer-nesta)
 - [Senior Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2760-senior-software-engineer-fullstack-ruby-rails-doximity)
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2759-software-engineer-fullstack-ruby-rails-doximity)
-- [Product Engineer at Uscreen](https://jobs.rubyonrails.org/jobs/2752-product-engineer-uscreen)
+- [Senior Software Engineer at Patch](https://jobs.rubyonrails.org/jobs/2726-senior-software-engineer-patch)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
