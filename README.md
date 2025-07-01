@@ -105,11 +105,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Ruby on Rails Developer at Simply Made Apps](https://jobs.rubyonrails.org/jobs/2865-ruby-on-rails-developer-simply-made-apps)
 - [Senior Ruby on Rails Developer – Freelance at Goldavenue](https://jobs.rubyonrails.org/jobs/2853-senior-ruby-on-rails-developer-freelance-goldavenue)
 - [Creative Technologist / Creative Full-Stack Developer at Nesta](https://jobs.rubyonrails.org/jobs/2791-creative-technologist-creative-full-stack-developer-nesta)
 - [Senior Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2760-senior-software-engineer-fullstack-ruby-rails-doximity)
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/2759-software-engineer-fullstack-ruby-rails-doximity)
-- [Senior Software Engineer at Patch](https://jobs.rubyonrails.org/jobs/2726-senior-software-engineer-patch)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
