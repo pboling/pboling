@@ -105,11 +105,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Product Engineer at Code &amp; Co.](https://jobs.rubyonrails.org/jobs/2986-senior-product-engineer-code-co)
 - [/^&lpar;Full-?stack|Backend&rpar; Engineer$/i at Better Stack at Better Stack](https://jobs.rubyonrails.org/jobs/2981-full-stack-backend-engineer-i-at-better-stack-better-stack)
 - [Application Engineer - FinTech at Smartleaf](https://jobs.rubyonrails.org/jobs/2959-application-engineer-fintech-smartleaf)
 - [Ruby on Rails Dev - AI Agent | Earn equity at Zipchat AI](https://jobs.rubyonrails.org/jobs/2955-ruby-on-rails-dev-ai-agent-earn-equity-zipchat-ai)
 - [Senior Software Engineer, Brewery Solutions at Next Glass, Inc.](https://jobs.rubyonrails.org/jobs/2934-senior-software-engineer-brewery-solutions-next-glass-inc)
-- [Ruby on Rails Developer at Simply Made Apps](https://jobs.rubyonrails.org/jobs/2865-ruby-on-rails-developer-simply-made-apps)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
