@@ -11,7 +11,7 @@ I have authored and/or currently maintain hundreds of open source libraries, inc
 - omniauth-openid
 - sanitize_email
 - flag_shih_tzu
-- many resuque, rspec, and rubocop plugins & more...
+- many resque, rspec, and rubocop plugins & more...
 
 I was laid off in a March 2025 RIF, and am looking for my next role.
 
