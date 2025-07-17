@@ -13,7 +13,7 @@ I have authored and/or currently maintain hundreds of open source libraries, inc
 - flag_shih_tzu
 - many resque, rspec, and rubocop plugins & more...
 
-I was laid off in a March 2025 RIF, and am looking for my next role.
+I was laid off in a March 2025 RIF, and am looking for my next sponsor and my next role.
 
 [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
