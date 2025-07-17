@@ -1,3 +1,20 @@
+Hi, I'm Peter 👋
+
+I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet), including the RubyGems:
+- oauth2
+- oauth
+- os
+- ruby-openid
+- rack-openid
+- omniauth-identity
+- omniauth-jwt2
+- omniauth-openid
+- sanitize_email
+- flag_shih_tzu
+- many resuque, rspec, and rubocop plugins & more...
+
+I was laid off in a March 2025 RIF, and am looking for my next role.
+
 [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
 [![Buy me a coffee][🖇buyme-small-img]][🖇buyme]
@@ -86,7 +103,7 @@ Want to pay me for work? I'm available!
 [my🧊berg]: https://codeberg.org/pboling
 [my🛖hut]: https://sr.ht/~galtzo/
 [rubocop-lts🧪lab]: http://rubocop-lts.gitlab.io/
-[oauth-xx🧪lab]: https://gitlab.com/oauth-xx
+[ruby-oauth🧪lab]: https://gitlab.com/ruby-oauth
 
 ## Sponsors
 
@@ -120,7 +137,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 
 - [pboling @ 🧪 GitLab][my🧪lab]
 - [rubocop-lts @ 🧪 GitLab][rubocop-lts🧪lab]
-- [oauth-xx @ 🧪 GitLab][oauth-xx🧪lab] (chosen amongst all options, including _staying_ at GitHub, by a _majority_ of the dozens of respondents)
+- [ruby-oauth @ 🧪 GitLab][ruby-oauth🧪lab]
 - [pboling @ 🧊 CodeBerg][my🧊berg]
 - [galtzo @ 🛖 SourceHut][my🛖hut]
 
@@ -260,11 +277,10 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 ### :roll_of_paper: Current Roles
 
 - Open Source Contributor | [MyBudgetCoach](https://www.mybudgetcoach.com/) 
-- FLOSS Blogger | [RailsBling](https://railsbling.com)
+- FLOSS Blogger | [RailsBling](https://dev.to/galtzo)
 - FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
-- Member-worker | [Bed of Roses Club](http://bed-of-roses.club/)
 - Advisor | [Hope For Tomorrow (Liberian NGO)](https://www.facebook.com/hope.for.tomorrow.liberia)
 
 [![Open Hub profile](https://www.openhub.net/accounts/peterboling/widgets/account_detailed?format=gif&amp;ref=sample)](https://www.openhub.net/accounts/peterboling?ref=sample)
