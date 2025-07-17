@@ -116,44 +116,13 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 
 ---
 
-## I Am Using GitHub Under Protest
-
-Github decided to sponsor me, because they rely on my tools.
-
-In spite of that, I'm (partially) leaving.  Why?  I certainly do not have the spare-time to move **hundreds** of projects to a new home... but I'm getting started.  I'll enumerate some of the reasons below, but first, where am I, and some of the organizations I control, going?
+# On Other Forges
 
 - [pboling @ 🧪 GitLab][my🧪lab]
 - [rubocop-lts @ 🧪 GitLab][rubocop-lts🧪lab]
 - [oauth-xx @ 🧪 GitLab][oauth-xx🧪lab] (chosen amongst all options, including _staying_ at GitHub, by a _majority_ of the dozens of respondents)
 - [pboling @ 🧊 CodeBerg][my🧊berg]
 - [galtzo @ 🛖 SourceHut][my🛖hut]
-
-# Reasons to Leave GitHub
-
-1. A recent proposal to extend Github-flavored Markdown ([ref](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850))
-   - Literally [breaks](https://github.com/github-community/community/discussions/16925#discussioncomment-3014438) regular markdown syntax of links in headings.
-   - [English-only](https://github.com/github-community/community/discussions/16925#discussioncomment-3086634)
-   - Incompatible with Semantic HTML (POSH) (by [abusing](https://github.com/github-community/community/discussions/16925#discussioncomment-2830438) the `blockquote` tag; this also raises issues of [accessibility](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850))
-      - Note: Latest version has switched to a `<div>` treamtment, which is just as bad because now Markdown's `">"` with admonitions is no longer a blockquote, thus breaking Markdown. The number of bugs caused by this uncountable. A new bug is reported nearly daily on the thread.
-   - Incompatible with existing [Markdown standards proposals](https://github.com/github-community/community/discussions/16925#discussioncomment-2791869)
-   - Ignores the community-centered approach to [extending Markdown](https://github.com/github-community/community/discussions/16925#discussioncomment-3095850), which, ironically, [Github started](https://github.com/github-community/community/discussions/16925#discussioncomment-3101018)
-   - [Contributes](https://github.com/github-community/community/discussions/16925#discussioncomment-2975948) to vendor [lock-in](https://github.com/github-community/community/discussions/16925#discussioncomment-2806570).
-   - Will force countless volunteer FOSS developers to waste time [adding compatibility](https://github.com/github-community/community/discussions/16925#discussioncomment-3086904) to their projects that use Markdown and attempt to support GFM.
-2. More than 2 years of ignoring requests to add an important feature (`allow-failure`) to Github Actions ([ref](https://github.com/actions/toolkit/issues/399), [ref](https://github.com/github-community/community/discussions/15452)).  When not ignoring, Github is [completely misunderstanding](https://github.com/actions/toolkit/issues/399#issuecomment-607450398) the feature.  How are those building Github Actions so deeply **unfamiliar** with core features of competing CI platforms?
-3. Latest iteration of [Achievements](https://github.com/github-community/community/discussions/18153#discussioncomment-2935669) was bad.
-4. Github Copilot. Much has been written about this, and I won't repeat it all here.  Making money by abusing the licenses of open source code, without recognition, compensation, or respect to the developers, the craft, or the ideals of open source is nauseating.
-
----
-
-## What about community?
-
-I am interested in people's thoughts on where to go next.  Community involvement matters for open source projects, and I have dozens of them that could be affected, the biggest being [`oauth`](https://rubygems.org/gems/oauth) and [`oauth2`](https://rubygems.org/gems/oauth2) Ruby gems.
-
-Regarding fragmentation, hopefully it will be resolved by federation, which is to source forges (like Github) what git was to version control (i.e. makes it distributed, at least in theory).
-
-It looks like Gitea, Codeberg and Hostea will [join the fediverse](https://forgefriends.org/blog/2022/06/30/2022-06-state-forge-federation/) soon, within a year, and there are projects that will integrate Github with the fediverse as well (i.e. federate Github commits, PRs, issues, etc).
-
-I'm interested in your thoughts, leave a [comment on the blog post](https://railsbling.com/posts/give_up_github/)!
 
 # Recent Releases
 
