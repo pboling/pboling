@@ -122,11 +122,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Product Developer 💎 ⚛️ &lpar;Ruby on Rails + React&rpar; at Freshly Commerce](https://jobs.rubyonrails.org/jobs/3113-senior-product-developer-ruby-on-rails-react-freshly-commerce)
 - [Full Stack Engineer at Planning Center](https://jobs.rubyonrails.org/jobs/3095-full-stack-engineer-planning-center)
 - [Senior Software Engineer at Prax Health](https://jobs.rubyonrails.org/jobs/3086-senior-software-engineer-prax-health)
 - [Senior Product Engineer at Retirable](https://jobs.rubyonrails.org/jobs/3085-senior-product-engineer-retirable)
 - [Staff Software Engineer - SOC &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/3006-staff-software-engineer-soc-ruby-rails-huntress)
-- [Staff Software Engineer - Core Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/3005-staff-software-engineer-core-platform-ruby-rails-huntress)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
