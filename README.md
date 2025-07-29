@@ -144,6 +144,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [rspec-stubbed_env &lpar;1.0.3&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.3)
 - [omniauth-identity &lpar;3.1.3&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.3)
 - [oauth2 &lpar;2.0.12&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.12)
 - [oauth2 &lpar;2.0.11&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.11)
@@ -153,7 +154,6 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [silent_stream &lpar;1.0.11&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.11)
 - [omniauth-identity &lpar;3.1.2&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.2)
 - [rspec-stubbed_env &lpar;1.0.2&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.2)
-- [version_gem &lpar;1.1.8&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.8)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
