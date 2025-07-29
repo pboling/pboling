@@ -158,6 +158,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [ANN: omniauth-identity v3.1.4](https://dev.to/galtzo/ann-omniauth-identity-v314-2371)
 - [ANN: rspec-stubbed_env v1.0.3](https://dev.to/galtzo/ann-rspec-stubbedenv-v103-7df)
 - [ANN: appraisal2, a hard fork](https://dev.to/galtzo/ann-appraisal2-a-hard-fork-44dh)
 - [The Ruby OAuth Collective](https://dev.to/galtzo/the-ruby-oauth-collective-5f90)
@@ -167,7 +168,6 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
 - [Ann: shields-badge v1.0.0](https://dev.to/galtzo/announce-shields-badge-v100-4a9m)
 - [gem oauth2 v2.0.10 released](https://dev.to/galtzo/gem-oauth2-v2010-released-10bj)
-- [Generate Gem Checksums](http://www.railsbling.com/ruby/rubygems_checksums/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
