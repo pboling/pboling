@@ -158,6 +158,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [ANN: rspec-stubbed_env v1.0.3](https://dev.to/galtzo/ann-rspec-stubbedenv-v103-7df)
 - [ANN: appraisal2, a hard fork](https://dev.to/galtzo/ann-appraisal2-a-hard-fork-44dh)
 - [The Ruby OAuth Collective](https://dev.to/galtzo/the-ruby-oauth-collective-5f90)
 - [Rename `oauth-xx` org to `ruby-oauth`?](https://dev.to/galtzo/rename-oauth-xx-org-to-ruby-oauth-g44)
@@ -167,7 +168,6 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [Ann: shields-badge v1.0.0](https://dev.to/galtzo/announce-shields-badge-v100-4a9m)
 - [gem oauth2 v2.0.10 released](https://dev.to/galtzo/gem-oauth2-v2010-released-10bj)
 - [Generate Gem Checksums](http://www.railsbling.com/ruby/rubygems_checksums/)
-- [RequireBench: When do you use it?](http://www.railsbling.com/require_bench/require_bench_when_to_use/)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
