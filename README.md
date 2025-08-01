@@ -122,11 +122,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Director of Engineering at Donorbox](https://jobs.rubyonrails.org/jobs/3177-director-of-engineering-donorbox)
 - [Ruby-on-Rails Engineer &lpar;Remote - Europe&rpar; at EverAI](https://jobs.rubyonrails.org/jobs/3176-ruby-on-rails-engineer-remote-europe-everai)
 - [Senior Ruby on Rails Developer at Saeloun](https://jobs.rubyonrails.org/jobs/3169-senior-ruby-on-rails-developer-saeloun)
 - [Senior Rails Engineer – Build Climate‑Positive Fintech at Doconomy](https://jobs.rubyonrails.org/jobs/3160-senior-rails-engineer-build-climate-positive-fintech-doconomy)
 - [Full-Stack Software Engineer at Scholarly](https://jobs.rubyonrails.org/jobs/3147-full-stack-software-engineer-scholarly)
-- [Engineer Manager, Marketplace at Fleetio](https://jobs.rubyonrails.org/jobs/3141-engineer-manager-marketplace-fleetio)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
