@@ -1,6 +1,7 @@
 Hi, I'm Peter 👋
 
 I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet), including the RubyGems:
+- appraisal2
 - oauth2
 - oauth
 - os
@@ -11,7 +12,13 @@ I have authored and/or currently maintain hundreds of open source libraries, inc
 - omniauth-openid
 - sanitize_email
 - flag_shih_tzu
+- require_bench
+- gem_bench
+- version_gem
 - many resque, rspec, and rubocop plugins & more...
+
+I'm attempting to document all of the logos for the FLOSS projects I'm involved in, with their attendant licesnses and copyrights, here:
+[logos.galtzo.com](https://logos.galtzo.com).  It has been a multi-year effort hunting down the original creators for some of these logos, and documenting the conditions under which they can be used. I'd love to hear if this is useful in your projects!
 
 I was laid off in a March 2025 RIF, and am looking for my next sponsor and my next role.
 
