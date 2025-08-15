@@ -215,11 +215,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Staff Ruby on Rails Engineer  at Housecall Pro](https://jobs.rubyonrails.org/jobs/3313-senior-staff-ruby-on-rails-engineer-housecall-pro)
 - [Senior Application Security Engineer at Huntress](https://jobs.rubyonrails.org/jobs/3311-senior-application-security-engineer-huntress)
 - [Senior Software Engineer - SOC Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/3279-senior-software-engineer-soc-platform-ruby-rails-huntress)
 - [Senior Rails Engineer at Profile.com](https://jobs.rubyonrails.org/jobs/3261-senior-rails-engineer-profile-com)
 - [Director of Engineering at Donorbox](https://jobs.rubyonrails.org/jobs/3177-director-of-engineering-donorbox)
-- [Ruby-on-Rails Engineer &lpar;Remote - Europe&rpar; at EverAI](https://jobs.rubyonrails.org/jobs/3176-ruby-on-rails-engineer-remote-europe-everai)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
