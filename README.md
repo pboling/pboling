@@ -65,6 +65,7 @@ I have authored and/or currently maintain hundreds of open source libraries, inc
 - galtzo-floss / rspec-pending_for - [![Downloads Rank 🐙:galtzo-floss/rspec-pending_for](https://img.shields.io/gem/rd/rspec-pending_for.svg)](https://rubygems.org/gems/rspec-pending_for)
 - galtzo-floss / rspec-stubbed_env - [![Downloads Rank 🐙:galtzo-floss/rspec-stubbed_env](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)
 - galtzo-floss / silent_stream - [![Downloads Rank 🐙:galtzo-floss/silent_stream](https://img.shields.io/gem/rd/silent_stream.svg)](https://rubygems.org/gems/silent_stream)
+- galtzo-floss / timecop-rspec - [![Downloads Rank 🐙:galtzo-floss/timecop-rspec](https://img.shields.io/gem/rd/timecop-rspec.svg)](https://rubygems.org/gems/timecop-rspec)
 - kettle-rb / kettle-soup-cover - [![Downloads Rank 🐙:kettle-rb/kettle-soup-cover](https://img.shields.io/gem/rd/kettle-soup-cover.svg)](https://rubygems.org/gems/kettle-soup-cover)
 
 </details>
