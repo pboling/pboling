@@ -252,6 +252,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 
 # Recent Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [ANN: kettle-test v1.0.0](https://dev.to/galtzo/ann-kettle-test-v100-4f0m)
 - [Continuity: Moving RubyGems to Org](https://dev.to/galtzo/continuity-moving-rubygems-to-org-390g)
 - [ANN: omniauth-identity v3.1.4](https://dev.to/galtzo/ann-omniauth-identity-v314-2371)
 - [ANN: rspec-stubbed_env v1.0.3](https://dev.to/galtzo/ann-rspec-stubbedenv-v103-7df)
@@ -261,7 +262,6 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [Ann: OmniAuth::OpenID v2.0.2](https://dev.to/galtzo/ann-omniauthopenid-v202-3eln)
 - [ActiveRecord / SQlite3 Compatibility Matrix](https://dev.to/galtzo/activerecord-sqlite3-compatibility-matrix-58id)
 - [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
-- [Ann: shields-badge v1.0.0](https://dev.to/galtzo/announce-shields-badge-v100-4a9m)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
