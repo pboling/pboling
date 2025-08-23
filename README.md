@@ -238,6 +238,7 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 # Recent Releases
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [dynamoid &lpar;3.12.1&rpar;](https://rubygems.org/gems/dynamoid/versions/3.12.1)
 - [silent_stream &lpar;1.0.12&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.12)
 - [gitmoji-regex &lpar;1.0.3&rpar;](https://rubygems.org/gems/gitmoji-regex/versions/1.0.3)
 - [rspec-stubbed_env &lpar;1.0.4&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.4)
@@ -247,7 +248,6 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [oauth2 &lpar;2.0.12&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.12)
 - [oauth2 &lpar;2.0.11&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.11)
 - [snaky_hash &lpar;2.0.3&rpar;](https://rubygems.org/gems/snaky_hash/versions/2.0.3)
-- [snaky_hash &lpar;2.0.2&rpar;](https://rubygems.org/gems/snaky_hash/versions/2.0.2)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 # Recent Blog posts
