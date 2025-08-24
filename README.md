@@ -208,24 +208,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 [health-sherpa]: https://healthsherpa.com
 [health-sherpa-logo]: /assets/img/logos/health-sherpa.png
 
-## Looking for a Rails Developer?
-
-The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
-
-
-My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
-
-<!-- OFFICIAL-RAILS-JOBS:START -->
-- [Ruby on Rails + Hotwire Frontend Pixel Perfectionist at Hellotext](https://jobs.rubyonrails.org/jobs/3374-ruby-on-rails-hotwire-frontend-pixel-perfectionist-hellotext)
-- [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3346-software-engineer-fullstack-ruby-rails-doximity)
-- [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3345-software-engineer-fullstack-ruby-rails-doximity)
-- [Full Stack Engineer at Algrano at Algrano AG](https://jobs.rubyonrails.org/jobs/3336-full-stack-engineer-at-algrano-algrano-ag)
-- [Senior Staff Ruby on Rails Engineer  at Housecall Pro](https://jobs.rubyonrails.org/jobs/3313-senior-staff-ruby-on-rails-engineer-housecall-pro)
-<!-- OFFICIAL-RAILS-JOBS:END -->
-
-[Signup](https://jobs.rubyonrails.org/) now!
-
----
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 # On Other Forges
 
@@ -263,6 +247,9 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
 - [ActiveRecord / SQlite3 Compatibility Matrix](https://dev.to/galtzo/activerecord-sqlite3-compatibility-matrix-58id)
 - [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
 <!-- BLOG-POST-LIST:END -->
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 # Contributions
 
@@ -363,6 +350,25 @@ My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me
        alt="wordpress" title="wordpress" width="28" height="28" />
   </div>
 </details>
+
+## Looking for a Rails Developer?
+
+The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
+
+
+My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
+
+<!-- OFFICIAL-RAILS-JOBS:START -->
+- [Ruby on Rails + Hotwire Frontend Pixel Perfectionist at Hellotext](https://jobs.rubyonrails.org/jobs/3374-ruby-on-rails-hotwire-frontend-pixel-perfectionist-hellotext)
+- [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3346-software-engineer-fullstack-ruby-rails-doximity)
+- [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3345-software-engineer-fullstack-ruby-rails-doximity)
+- [Full Stack Engineer at Algrano at Algrano AG](https://jobs.rubyonrails.org/jobs/3336-full-stack-engineer-at-algrano-algrano-ag)
+- [Senior Staff Ruby on Rails Engineer  at Housecall Pro](https://jobs.rubyonrails.org/jobs/3313-senior-staff-ruby-on-rails-engineer-housecall-pro)
+<!-- OFFICIAL-RAILS-JOBS:END -->
+
+[Signup](https://jobs.rubyonrails.org/) now!
+
+---
 
 ## :briefcase: Career
 
