@@ -209,46 +209,58 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 [health-sherpa-logo]: /assets/img/logos/health-sherpa.png
 
 <!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-648%20hrs%2032%20mins-blue)
 
-# On Other Forges
+![Profile Views](http://img.shields.io/badge/Profile%20Views-41-blue)
 
-- [pboling @ 🧪 GitLab][my🧪lab]
-- [rubocop-lts @ 🧪 GitLab][rubocop-lts🧪lab]
-- [ruby-oauth @ 🧪 GitLab][ruby-oauth🧪lab]
-- [pboling @ 🧊 CodeBerg][my🧊berg]
-- [galtzo @ 🛖 SourceHut][my🛖hut]
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-18.2%20million%20lines%20of%20code-blue)
 
-# Recent Releases
+**🐱 My GitHub Data** 
 
-<!-- PBOLINGS-RUBYGEMS:START -->
-- [dynamoid &lpar;3.12.1&rpar;](https://rubygems.org/gems/dynamoid/versions/3.12.1)
-- [silent_stream &lpar;1.0.12&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.12)
-- [gitmoji-regex &lpar;1.0.3&rpar;](https://rubygems.org/gems/gitmoji-regex/versions/1.0.3)
-- [rspec-stubbed_env &lpar;1.0.4&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.4)
-- [omniauth-identity &lpar;3.1.4&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.4)
-- [rspec-stubbed_env &lpar;1.0.3&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.3)
-- [omniauth-identity &lpar;3.1.3&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.3)
-- [oauth2 &lpar;2.0.12&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.12)
-- [oauth2 &lpar;2.0.11&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.11)
-- [snaky_hash &lpar;2.0.3&rpar;](https://rubygems.org/gems/snaky_hash/versions/2.0.3)
-<!-- PBOLINGS-RUBYGEMS:END -->
+> 📦 140.8 kB Used in GitHub's Storage 
+ > 
+> 🏆 3,116 Contributions in the Year 2025
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 238 Public Repositories 
+ > 
+> 🔑 3 Private Repositories 
+ > 
+📊 **This Week I Spent My Time On** 
 
-# Recent Blog posts
-<!-- BLOG-POST-LIST:START -->
-- [ANN: kettle-test v1.0.0](https://dev.to/galtzo/ann-kettle-test-v100-4f0m)
-- [Continuity: Moving RubyGems to Org](https://dev.to/galtzo/continuity-moving-rubygems-to-org-390g)
-- [ANN: omniauth-identity v3.1.4](https://dev.to/galtzo/ann-omniauth-identity-v314-2371)
-- [ANN: rspec-stubbed_env v1.0.3](https://dev.to/galtzo/ann-rspec-stubbedenv-v103-7df)
-- [ANN: appraisal2, a hard fork](https://dev.to/galtzo/ann-appraisal2-a-hard-fork-44dh)
-- [The Ruby OAuth Collective](https://dev.to/galtzo/the-ruby-oauth-collective-5f90)
-- [Rename `oauth-xx` org to `ruby-oauth`?](https://dev.to/galtzo/rename-oauth-xx-org-to-ruby-oauth-g44)
-- [Ann: OmniAuth::OpenID v2.0.2](https://dev.to/galtzo/ann-omniauthopenid-v202-3eln)
-- [ActiveRecord / SQlite3 Compatibility Matrix](https://dev.to/galtzo/activerecord-sqlite3-compatibility-matrix-58id)
-- [Ann: oauth2 v2.0.12 &lpar;w/ support for kids&rpar;](https://dev.to/galtzo/ann-oauth2-v2012-w-support-for-kids-57be)
-<!-- BLOG-POST-LIST:END -->
+```text
+🕑︎ Time Zone: America/Denver
 
-<!--START_SECTION:waka-->
+💬 Programming Languages: 
+Ruby                     41 hrs 31 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   56.66 % 
+Markdown                 19 hrs 39 mins      ⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   26.83 % 
+YAML                     3 hrs 28 mins       ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.74 % 
+Text                     2 hrs 6 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.89 % 
+Shell Script             1 hr 51 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.54 % 
+
+🐱‍💻 Projects: 
+kettle-dev               19 hrs 9 mins       ⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   26.13 % 
+timecop-rspec            13 hrs 52 mins      ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   18.94 % 
+floss_funding            12 hrs 22 mins      ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.89 % 
+kettle-test              8 hrs 17 mins       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.30 % 
+gitmoji-regex            6 hrs 55 mins       ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   09.46 % 
+```
+
+**I Mostly Code in Ruby** 
+
+```text
+Ruby                     147 repos           ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜   76.56 % 
+JavaScript               13 repos            ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.77 % 
+Shell                    6 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.12 % 
+HTML                     6 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.12 % 
+TypeScript               4 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.08 % 
+```
+
+
+
+
+ Last Updated on 24/08/2025 11:31:47 UTC
 <!--END_SECTION:waka-->
 
 # Contributions
