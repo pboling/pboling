@@ -371,11 +371,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Founding Engineer at LEA](https://jobs.rubyonrails.org/jobs/3394-founding-engineer-lea)
 - [Ruby on Rails + Hotwire Frontend Pixel Perfectionist at Hellotext](https://jobs.rubyonrails.org/jobs/3374-ruby-on-rails-hotwire-frontend-pixel-perfectionist-hellotext)
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3346-software-engineer-fullstack-ruby-rails-doximity)
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3345-software-engineer-fullstack-ruby-rails-doximity)
 - [Full Stack Engineer at Algrano at Algrano AG](https://jobs.rubyonrails.org/jobs/3336-full-stack-engineer-at-algrano-algrano-ag)
-- [Senior Staff Ruby on Rails Engineer  at Housecall Pro](https://jobs.rubyonrails.org/jobs/3313-senior-staff-ruby-on-rails-engineer-housecall-pro)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
