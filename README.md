@@ -208,6 +208,15 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 [health-sherpa]: https://healthsherpa.com
 [health-sherpa-logo]: /assets/img/logos/health-sherpa.png
 
+
+<!-- PBOLINGS-RUBYGEMS:START -->
+<!-- PBOLINGS-RUBYGEMS:END -->
+
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+
 # Wakatime
 
 NOTE: It seems that [wakatime has broken](https://github.com/wakatime/jetbrains-wakatime/issues/306#issuecomment-3232112214),
