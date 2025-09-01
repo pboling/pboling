@@ -224,6 +224,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 
 <!-- BLOG-POST-LIST:START -->
+- [💎 ANN: oauth2 v2.0.14](https://dev.to/galtzo/ann-oauth2-v2014-2g52)
 - [💎 ANN: oauth2 v2.0.13](https://dev.to/galtzo/ann-oauth2-v2013-271k)
 - [💎 ANN: stone_checksums v1.0.2](https://dev.to/galtzo/ann-stonechecksums-v102-1cl7)
 - [💎 ANN: kettle-dev v1.0, part 1](https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6)
@@ -233,7 +234,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [💎 ANN: rspec-stubbed_env v1.0.3](https://dev.to/galtzo/ann-rspec-stubbedenv-v103-7df)
 - [💎 ANN: appraisal2, a hard fork](https://dev.to/galtzo/ann-appraisal2-a-hard-fork-44dh)
 - [The Ruby OAuth Collective](https://dev.to/galtzo/the-ruby-oauth-collective-5f90)
-- [Rename `oauth-xx` org to `ruby-oauth`?](https://dev.to/galtzo/rename-oauth-xx-org-to-ruby-oauth-g44)
 <!-- BLOG-POST-LIST:END -->
 
 
