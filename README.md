@@ -405,11 +405,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Developer at CLICS](https://jobs.rubyonrails.org/jobs/3431-senior-software-developer-clics)
 - [Ruby on Rails Backend Reliability &amp; Scale Obsessive at Hellotext](https://jobs.rubyonrails.org/jobs/3412-ruby-on-rails-backend-reliability-scale-obsessive-hellotext)
 - [Founding Engineer at LEA](https://jobs.rubyonrails.org/jobs/3394-founding-engineer-lea)
 - [Ruby on Rails + Hotwire Frontend Pixel Perfectionist at Hellotext](https://jobs.rubyonrails.org/jobs/3374-ruby-on-rails-hotwire-frontend-pixel-perfectionist-hellotext)
 - [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3346-software-engineer-fullstack-ruby-rails-doximity)
-- [Software Engineer, Fullstack &lpar;Ruby/Rails&rpar; at Doximity](https://jobs.rubyonrails.org/jobs/3345-software-engineer-fullstack-ruby-rails-doximity)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
