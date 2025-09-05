@@ -210,6 +210,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [rspec-pending_for &lpar;0.1.19&rpar;](https://rubygems.org/gems/rspec-pending_for/versions/0.1.19)
 - [version_gem &lpar;1.1.9&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.9)
 - [oauth2 &lpar;2.0.14&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.14)
 - [oauth2 &lpar;2.0.13&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.13)
@@ -219,7 +220,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [gitmoji-regex &lpar;1.0.3&rpar;](https://rubygems.org/gems/gitmoji-regex/versions/1.0.3)
 - [rspec-stubbed_env &lpar;1.0.4&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.4)
 - [omniauth-identity &lpar;3.1.4&rpar;](https://rubygems.org/gems/omniauth-identity/versions/3.1.4)
-- [rspec-stubbed_env &lpar;1.0.3&rpar;](https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.3)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 
