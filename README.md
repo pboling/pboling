@@ -405,11 +405,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Senior Software Engineer - ITDR Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/4580-senior-software-engineer-itdr-platform-ruby-rails-huntress)
 - [Senior Software Engineer, Full Stack at Ichi Plan](https://jobs.rubyonrails.org/jobs/4571-senior-software-engineer-full-stack-ichi-plan)
 - [Senior Fullstack Ruby on Rails Engineer at Maximus](https://jobs.rubyonrails.org/jobs/3465-senior-fullstack-ruby-on-rails-engineer-maximus)
 - [Engineering Manager, Ecosystem at Fleetio](https://jobs.rubyonrails.org/jobs/3464-engineering-manager-ecosystem-fleetio)
 - [Senior Software Engineer, Fleet Maintenance at Fleetio](https://jobs.rubyonrails.org/jobs/3463-senior-software-engineer-fleet-maintenance-fleetio)
-- [Senior Software Engineer - Business Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/3439-senior-software-engineer-business-platform-ruby-rails-huntress)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
