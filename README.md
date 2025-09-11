@@ -208,7 +208,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 [health-sherpa]: https://healthsherpa.com
 [health-sherpa-logo]: /assets/img/logos/health-sherpa.png
 
-
 <!-- PBOLINGS-RUBYGEMS:START -->
 - [oauth2 &lpar;2.0.15&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.15)
 - [rspec-pending_for &lpar;0.1.19&rpar;](https://rubygems.org/gems/rspec-pending_for/versions/0.1.19)
