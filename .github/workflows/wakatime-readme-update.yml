@@ -12,7 +12,6 @@ jobs:
   update-readme:
     # wakatime is broken :(
     # https://github.com/wakatime/jetbrains-wakatime/issues/306#issuecomment-3232112214
-    if: true
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
