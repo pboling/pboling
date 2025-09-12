@@ -119,9 +119,15 @@ I was laid off in a March 2025 RIF, and am looking for my next sponsor and my ne
 ---
 
 Want to chat about open source, or any of my projects?  Join my FLOSS discord.
-[![Live Chat on Discord][✉️discord-invite-img]][✉️discord-invite]
+
+[![Live Chat on Discord][✉️discord-invite-img-ftb]][✉️discord-invite]
+
+Or join the Ruby Friends Squad on Daily.dev
+
+[![Join Me on Daily.dev's RubyFriends][✉️ruby-friends-img]][✉️ruby-friends]
 
 Want to pay me for work? I'm available!
+
 [![Get help from me on Upwork][👨🏼‍🏫expsup-upwork-img]][👨🏼‍🏫expsup-upwork]
 [![Get help from me on Codementor][👨🏼‍🏫expsup-codementor-img]][👨🏼‍🏫expsup-codementor]
 
@@ -131,7 +137,6 @@ Want to pay me for work? I'm available!
 [![Follow Me on Bluesky][💖🦋bluesky-img]][💖🦋bluesky]
 [![Contact Me][🚂my-contact-img]][🚂my-contact]
 [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
-[![Follow Me on Mastodon.Social][💖🐘social-mast-img]][💖🐘social-mast]
 [![X (formerly Twitter) Follow][💖❌-img]][💖❌]
 
 ---
@@ -145,7 +150,9 @@ Want to pay me for work? I'm available!
 [![More About Me][💖💁🏼‍♂️aboutme-img]][💖💁🏼‍♂️aboutme]
 
 [✉️discord-invite]: https://discord.gg/3qme4XHNKN
-[✉️discord-invite-img]: https://img.shields.io/discord/1373797679469170758?style=for-the-badge
+[✉️discord-invite-img-ftb]: https://img.shields.io/discord/1373797679469170758?style=for-the-badge&logo=discord
+[✉️ruby-friends-img]: https://img.shields.io/badge/daily.dev-💎_Ruby_Friends-0A0A0A?style=for-the-badge&logo=dailydotdev&logoColor=white
+[✉️ruby-friends]: https://app.daily.dev/squads/rubyfriends
 
 [⛳liberapay-img]: https://img.shields.io/liberapay/goal/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
