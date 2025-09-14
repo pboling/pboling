@@ -230,7 +230,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 
 <!-- BLOG-POST-LIST:START -->
-- [👩‍🔧 How to Check License Compatibility](https://dev.to/galtzo/how-to-check-license-compatibility-41h0)
+- [👩‍🔧 How to Check License Compatibility in GHA](https://dev.to/galtzo/how-to-check-license-compatibility-41h0)
 - [💲ANN: awesome-sponsorships](https://dev.to/galtzo/ann-awesome-sponsorships-535m)
 - [💎 ANN: oauth2 v2.0.14](https://dev.to/galtzo/ann-oauth2-v2014-2g52)
 - [💎 ANN: oauth2 v2.0.13](https://dev.to/galtzo/ann-oauth2-v2013-271k)
