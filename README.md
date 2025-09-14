@@ -235,7 +235,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [💎 ANN: oauth2 v2.0.14](https://dev.to/galtzo/ann-oauth2-v2014-2g52)
 - [💎 ANN: oauth2 v2.0.13](https://dev.to/galtzo/ann-oauth2-v2013-271k)
 - [💎 ANN: stone_checksums v1.0.2](https://dev.to/galtzo/ann-stonechecksums-v102-1cl7)
-- [💎 ANN: kettle-dev v1.0, part 1](https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6)
+- [💎 ANN: kettle-dev v1, part 1](https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6)
 - [💎 ANN: kettle-test v1.0.0](https://dev.to/galtzo/ann-kettle-test-v100-4f0m)
 - [Continuity: Moving RubyGems to Org](https://dev.to/galtzo/continuity-moving-rubygems-to-org-390g)
 - [💎 ANN: omniauth-identity v3.1.4](https://dev.to/galtzo/ann-omniauth-identity-v314-2371)
