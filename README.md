@@ -230,6 +230,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 
 <!-- BLOG-POST-LIST:START -->
+- [💎 ANN: oauth2 v2.0.15 &amp; v2.0.16 w/ full E2E example](https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74)
 - [👩‍🔧 How to Check License Compatibility in GHA](https://dev.to/galtzo/how-to-check-license-compatibility-41h0)
 - [💲ANN: awesome-sponsorships](https://dev.to/galtzo/ann-awesome-sponsorships-535m)
 - [💎 ANN: oauth2 v2.0.14](https://dev.to/galtzo/ann-oauth2-v2014-2g52)
@@ -239,7 +240,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [💎 ANN: kettle-test v1.0.0](https://dev.to/galtzo/ann-kettle-test-v100-4f0m)
 - [Continuity: Moving RubyGems to Org](https://dev.to/galtzo/continuity-moving-rubygems-to-org-390g)
 - [💎 ANN: omniauth-identity v3.1.4](https://dev.to/galtzo/ann-omniauth-identity-v314-2371)
-- [💎 ANN: rspec-stubbed_env v1.0.3](https://dev.to/galtzo/ann-rspec-stubbedenv-v103-7df)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
