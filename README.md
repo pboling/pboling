@@ -231,7 +231,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 <!-- BLOG-POST-LIST:START -->
 - [💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling](https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl)
-- [💎 ANN: v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;](https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74)
+- [💎 ANN: oauth2 v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;](https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74)
 - [👩‍🔧 How to Check License Compatibility in GHA](https://dev.to/galtzo/how-to-check-license-compatibility-41h0)
 - [💲ANN: awesome-sponsorships](https://dev.to/galtzo/ann-awesome-sponsorships-535m)
 - [💎 ANN: oauth2 v2.0.14](https://dev.to/galtzo/ann-oauth2-v2014-2g52)
