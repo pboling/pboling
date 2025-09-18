@@ -5,7 +5,7 @@ I have authored and/or currently maintain hundreds of open source libraries, inc
 - Dynamoid / dynamoid - [![Downloads Rank 🐙:Dynamoid/dynamoid](https://img.shields.io/gem/rd/dynamoid.svg)](https://rubygems.org/gems/dynamoid)
 - galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://rubygems.org/gems/flag_shih_tzu)
 - galtzo-floss / sanitize_email - [![Downloads Rank 🐙:galtzo-floss/sanitize_email](https://img.shields.io/gem/rd/sanitize_email.svg)](https://rubygems.org/gems/sanitize_email)
-- omniauth / omniauth-jwt2 - [![Downloads Rank 🐙:omniauth/omniauth-jwt2](https://img.shields.io/gem/rd/omniauth-jwt2.svg)](https://rubygems.org/gems/omniauth-jwt2)
+- omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://rubygems.org/gems/omniauth-jwt)
 - omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://rubygems.org/gems/omniauth-identity)
 - rdp / os - [![Downloads Rank 🐙:rdp/os](https://img.shields.io/gem/rd/os.svg)](https://rubygems.org/gems/os)
 - ruby-oauth / oauth - [![Downloads Rank 🐙:ruby-oauth/oauth](https://img.shields.io/gem/rd/oauth.svg)](https://rubygems.org/gems/oauth)
