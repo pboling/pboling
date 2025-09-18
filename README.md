@@ -145,7 +145,6 @@ Want to pay me for work? I'm available!
 [![Find Me on WellFound:][💖✌️wellfound-img]][💖✌️wellfound]
 [![Find Me on CrunchBase][💖💲crunchbase-img]][💖💲crunchbase]
 [![My LinkTree][💖🌳linktree-img]][💖🌳linktree]
-[![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
 [![My Blog][🚂my-blog-img]][🚂my-blog]
 [![More About Me][💖💁🏼‍♂️aboutme-img]][💖💁🏼‍♂️aboutme]
 
@@ -215,6 +214,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 [health-sherpa]: https://healthsherpa.com
 [health-sherpa-logo]: /assets/img/logos/health-sherpa.png
 
+## Latest FLOSS Releases [![Subscribe to my Rubygems updates][💎rubygems-img]][💎rubygems]
+
+- List is updated frequently by my pet robot: @autobolt
+
 <!-- PBOLINGS-RUBYGEMS:START -->
 - [oauth2 &lpar;2.0.17&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.17)
 - [oauth2 &lpar;2.0.16&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.16)
@@ -228,6 +231,9 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [silent_stream &lpar;1.0.12&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.12)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
+## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
+
+- List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
 - [💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling](https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl)
