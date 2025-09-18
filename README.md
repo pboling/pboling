@@ -236,6 +236,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
+- [💎 ANN: oauth2 v2.0.17](https://dev.to/galtzo/ann-oauth2-v2017-h1a)
 - [💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling](https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl)
 - [💎 ANN: oauth2 v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;](https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74)
 - [👩‍🔧 How to Check License Compatibility in GHA](https://dev.to/galtzo/how-to-check-license-compatibility-41h0)
@@ -245,7 +246,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [💎 ANN: stone_checksums v1.0.2](https://dev.to/galtzo/ann-stonechecksums-v102-1cl7)
 - [💎 ANN: kettle-dev v1, part 1](https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6)
 - [💎 ANN: kettle-test v1.0.0](https://dev.to/galtzo/ann-kettle-test-v100-4f0m)
-- [Continuity: Moving RubyGems to Org](https://dev.to/galtzo/continuity-moving-rubygems-to-org-390g)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
