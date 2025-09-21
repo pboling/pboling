@@ -219,6 +219,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+- [oauth-tty &lpar;1.0.6&rpar;](https://rubygems.org/gems/oauth-tty/versions/1.0.6)
 - [oauth2 &lpar;2.0.17&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.17)
 - [oauth2 &lpar;2.0.16&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.16)
 - [oauth2 &lpar;2.0.15&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.15)
@@ -228,7 +229,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - [oauth2 &lpar;2.0.13&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.13)
 - [rspec-pending_for &lpar;0.1.18&rpar;](https://rubygems.org/gems/rspec-pending_for/versions/0.1.18)
 - [dynamoid &lpar;3.12.1&rpar;](https://rubygems.org/gems/dynamoid/versions/3.12.1)
-- [silent_stream &lpar;1.0.12&rpar;](https://rubygems.org/gems/silent_stream/versions/1.0.12)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
