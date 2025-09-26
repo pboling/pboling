@@ -356,11 +356,11 @@ The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/)
 My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
 
 <!-- OFFICIAL-RAILS-JOBS:START -->
+- [Staff Software Engineer at CodePath](https://jobs.rubyonrails.org/jobs/4821-staff-software-engineer-codepath)
 - [Senior Software Engineer  at Imedview,inc](https://jobs.rubyonrails.org/jobs/4706-senior-software-engineer-imedview-inc)
 - [Full Stack Engineer  at Planning Center](https://jobs.rubyonrails.org/jobs/4702-full-stack-engineer-planning-center)
 - [/^&lpar;Full-?stack|Frontend&rpar; Engineer$/i at Better Stack](https://jobs.rubyonrails.org/jobs/4646-full-stack-frontend-engineer-i-better-stack)
 - [Senior Software Engineer - ITDR Platform &lpar;Ruby/Rails&rpar; at Huntress](https://jobs.rubyonrails.org/jobs/4580-senior-software-engineer-itdr-platform-ruby-rails-huntress)
-- [Senior Software Engineer, Full Stack at Ichi Plan](https://jobs.rubyonrails.org/jobs/4571-senior-software-engineer-full-stack-ichi-plan)
 <!-- OFFICIAL-RAILS-JOBS:END -->
 
 [Signup](https://jobs.rubyonrails.org/) now!
