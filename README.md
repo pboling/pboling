@@ -11,7 +11,7 @@ I recently built a crypto scanner named YACS to test my skills with React: [![Li
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RubyGems.org was [recently compromised](https://joel.drapper.me/p/ruby-central-security-measures/) in a [hostile takeover](https://joel.drapper.me/p/rubygems-takeover/). |
 | I will soon stop publishing to RubyGems.org soon, after adding warnings to some important gems.                                                                           |
-| Please see [here](https://gem.coop) and [here](https://martinemde.com/2025/10/05/announcing-gem-coop.html) for more info on what comes next (hint: gems.coop).            |
+| Please see [here](https://gem.coop) and [here](https://martinemde.com/2025/10/05/announcing-gem-coop.html) for more info on what comes next (hint: https://gem.coop).            |
 
 
 I maintain the following RubyGems:
