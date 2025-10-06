@@ -1,6 +1,21 @@
 Hi, I'm Peter 👋
 
-I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet), including the RubyGems:
+I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet).
+
+I recently built a crypto scanner named YACS to test my skills with React: [![Live Demo][demo-img]][demo]
+
+[demo]: https://pboling.github.io/yacs/
+[demo-img]: https://img.shields.io/badge/Live-Demo-blue
+
+| 📍 NOTE                                                                                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RubyGems.org was [recently compromised](https://joel.drapper.me/p/ruby-central-security-measures/) in a [hostile takeover](https://joel.drapper.me/p/rubygems-takeover/). |
+| I will soon stop publishing to RubyGems.org soon, after adding warnings to some important gems.                                                                           |
+| Please see [here](https://gem.coop) and [here](https://martinemde.com/2025/10/05/announcing-gem-coop.html) for more info on what comes next (hint: gems.coop).            |
+
+
+I maintain the following RubyGems:
+
 - appraisal-rb / appraisal2 - [![Downloads Rank 🐙:appraisal-rb/appraisal2](https://img.shields.io/gem/rd/appraisal2.svg)](https://rubygems.org/gems/appraisal2)
 - Dynamoid / dynamoid - [![Downloads Rank 🐙:Dynamoid/dynamoid](https://img.shields.io/gem/rd/dynamoid.svg)](https://rubygems.org/gems/dynamoid)
 - galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://rubygems.org/gems/flag_shih_tzu)
