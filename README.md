@@ -233,27 +233,40 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 - List is updated frequently by my pet robot: @autobolt
 
-<!-- PBOLINGS-RUBYGEMS:START -->* 🗓️ Mon Sep 22 2025 3:02 AM | <a href="https://rubygems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 🤸️ 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.     
-* 🗓️ Mon Sep 22 2025 2:52 AM | <a href="https://rubygems.org/gems/oauth/versions/1.1.1" rel="noopener" target="_blank">oauth &lpar;1.1.1&rpar;</a> | 🤸️ 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.     
-* 🗓️ Sun Sep 21 2025 11:21 AM | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.6" rel="noopener" target="_blank">oauth-tty &lpar;1.0.6&rpar;</a> | 🤸️ 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface     
-* 🗓️ Tue Sep 16 2025 3:42 AM | <a href="https://rubygems.org/gems/oauth2/versions/2.0.17" rel="noopener" target="_blank">oauth2 &lpar;2.0.17&rpar;</a> | 🤸️ 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;     
-* 🗓️ Sun Sep 14 2025 9:14 PM | <a href="https://rubygems.org/gems/oauth2/versions/2.0.16" rel="noopener" target="_blank">oauth2 &lpar;2.0.16&rpar;</a> | 🤸️ 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;     
-* 🗓️ Mon Sep 08 2025 8:37 AM | <a href="https://rubygems.org/gems/oauth2/versions/2.0.15" rel="noopener" target="_blank">oauth2 &lpar;2.0.15&rpar;</a> | 🤸️ 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;     
-* 🗓️ Fri Sep 05 2025 7:59 AM | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.19" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.19&rpar;</a> | 🤸️ 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev     
-* 🗓️ Tue Sep 02 2025 1:04 PM | <a href="https://rubygems.org/gems/version_gem/versions/1.1.9" rel="noopener" target="_blank">version_gem &lpar;1.1.9&rpar;</a> | 🤸️ 
-🔖 Versions are good. Versions are cool. Versions will win.     
-* 🗓️ Sun Aug 31 2025 11:39 AM | <a href="https://rubygems.org/gems/oauth2/versions/2.0.14" rel="noopener" target="_blank">oauth2 &lpar;2.0.14&rpar;</a> | 🤸️ 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;     
-* 🗓️ Sat Aug 30 2025 10:39 PM | <a href="https://rubygems.org/gems/oauth2/versions/2.0.13" rel="noopener" target="_blank">oauth2 &lpar;2.0.13&rpar;</a> | 🤸️ 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;     
-<!-- PBOLINGS-RUBYGEMS:END -->
+<!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2025-09-22T03:02:52Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 
+🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
+* 🗓️ 2025-09-22T02:52:36Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.1" rel="noopener" target="_blank">oauth &lpar;1.1.1&rpar;</a> | 
+🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
+* 🗓️ 2025-09-21T11:21:48Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.6" rel="noopener" target="_blank">oauth-tty &lpar;1.0.6&rpar;</a> | 
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
+* 🗓️ 2025-09-16T03:42:22Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.17" rel="noopener" target="_blank">oauth2 &lpar;2.0.17&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2025-09-14T21:14:19Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.16" rel="noopener" target="_blank">oauth2 &lpar;2.0.16&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2025-09-08T08:37:57Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.15" rel="noopener" target="_blank">oauth2 &lpar;2.0.15&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2025-09-05T07:59:12Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.19" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.19&rpar;</a> | 
+⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
+* 🗓️ 2025-09-02T13:04:33Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.9" rel="noopener" target="_blank">version_gem &lpar;1.1.9&rpar;</a> | 
+🔖 Versions are good. Versions are cool. Versions will win.    
+* 🗓️ 2025-08-31T11:39:52Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.14" rel="noopener" target="_blank">oauth2 &lpar;2.0.14&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2025-08-30T22:39:45Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.13" rel="noopener" target="_blank">oauth2 &lpar;2.0.13&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2025-08-24T21:11:05Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.18" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.18&rpar;</a> | 
+⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
+* 🗓️ 2025-08-23T18:50:13Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.12.1" rel="noopener" target="_blank">dynamoid &lpar;3.12.1&rpar;</a> | 
+Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
+* 🗓️ 2025-08-21T08:11:23Z | <a href="https://rubygems.org/gems/silent_stream/versions/1.0.12" rel="noopener" target="_blank">silent_stream &lpar;1.0.12&rpar;</a> | 
+🔕 &lpar;formerly&rpar; ActiveSupport Kernel Reporting Detritus with a few enhancementsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
+* 🗓️ 2025-08-20T12:08:03Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/1.0.3" rel="noopener" target="_blank">gitmoji-regex &lpar;1.0.3&rpar;</a> | 
+😜 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
+* 🗓️ 2025-08-05T05:01:28Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.4" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.4&rpar;</a> | 
+Stub or hide environment variables in a scoped context for testing
+stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
+hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
