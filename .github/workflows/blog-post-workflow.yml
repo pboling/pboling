@@ -19,22 +19,7 @@ jobs:
           committer_username: autobolt
           committer_email: autobots@9thbit.net
           commit_message: "🍻 Latest Blog Posts"
-
-  update-readme-with-latest-rails-jobs:
-    name: "Update README w/ latest Official Ruby On Rails Jobs"
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Pull in latest Official RuboOnRails Jobs
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://jobs.rubyonrails.org/jobs.rss"
-          max_post_count: 5
-          committer_username: autobolt
-          committer_email: autobots@9thbit.net
-          comment_tag_name: "OFFICIAL-RAILS-JOBS"
-          commit_message: "🚂 Latest Official Ruby On Rails Jobs"
+          template: '* 🗓️ $date | <a href="$url" rel="noopener" target="_blank">$title</a> | 🏷️ $categories $newline'
 
   update-readme-with-gem-releases:
     name: "Update README w/ my latest gem releases"
@@ -51,3 +36,4 @@ jobs:
           committer_email: autobots@9thbit.net
           comment_tag_name: "PBOLINGS-RUBYGEMS"
           commit_message: "⬆️ Latest RubyGem Releases"
+          template: '* 🗓️ $date | <a href="$url" rel="noopener" target="_blank">$title</a> | 🤸️ $description $newline'

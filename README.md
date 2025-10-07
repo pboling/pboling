@@ -234,16 +234,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
-- [oauth &lpar;1.1.2&rpar;](https://rubygems.org/gems/oauth/versions/1.1.2)
-- [oauth &lpar;1.1.1&rpar;](https://rubygems.org/gems/oauth/versions/1.1.1)
-- [oauth-tty &lpar;1.0.6&rpar;](https://rubygems.org/gems/oauth-tty/versions/1.0.6)
-- [oauth2 &lpar;2.0.17&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.17)
-- [oauth2 &lpar;2.0.16&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.16)
-- [oauth2 &lpar;2.0.15&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.15)
-- [rspec-pending_for &lpar;0.1.19&rpar;](https://rubygems.org/gems/rspec-pending_for/versions/0.1.19)
-- [version_gem &lpar;1.1.9&rpar;](https://rubygems.org/gems/version_gem/versions/1.1.9)
-- [oauth2 &lpar;2.0.14&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.14)
-- [oauth2 &lpar;2.0.13&rpar;](https://rubygems.org/gems/oauth2/versions/2.0.13)
 <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
@@ -251,16 +241,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
-- [💎 ANN: oauth2 v2.0.17](https://dev.to/galtzo/ann-oauth2-v2017-h1a)
-- [💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling](https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl)
-- [💎 ANN: oauth2 v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;](https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74)
-- [👩‍🔧 How to Check License Compatibility in GHA](https://dev.to/galtzo/how-to-check-license-compatibility-41h0)
-- [💲ANN: awesome-sponsorships](https://dev.to/galtzo/ann-awesome-sponsorships-535m)
-- [💎 ANN: oauth2 v2.0.14](https://dev.to/galtzo/ann-oauth2-v2014-2g52)
-- [💎 ANN: oauth2 v2.0.13](https://dev.to/galtzo/ann-oauth2-v2013-271k)
-- [💎 ANN: stone_checksums v1.0.2](https://dev.to/galtzo/ann-stonechecksums-v102-1cl7)
-- [💎 ANN: kettle-dev v1, part 1](https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6)
-- [💎 ANN: kettle-test v1.0.0](https://dev.to/galtzo/ann-kettle-test-v100-4f0m)
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
@@ -362,23 +342,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
        alt="wordpress" title="wordpress" width="28" height="28" />
   </div>
 </details>
-
-## Looking for a Rails Developer?
-
-The Rails Foudnation has the [Official Job Board](https://jobs.rubyonrails.org/) for Ruby On Rails!
-
-
-My pet robot, [@autobolt](https://github.com/autobolt), updates this list for me every hour, so here are the latest jobs as of < 60 minutes ago:
-
-<!-- OFFICIAL-RAILS-JOBS:START -->
-- [Senior Software Engineer, Application and Language Frameworks at Chime Financial](https://jobs.rubyonrails.org/jobs/4843-senior-software-engineer-application-and-language-frameworks-chime-financial)
-- [Staff Software Engineer at CodePath](https://jobs.rubyonrails.org/jobs/4821-staff-software-engineer-codepath)
-- [Senior Software Engineer  at Imedview,inc](https://jobs.rubyonrails.org/jobs/4706-senior-software-engineer-imedview-inc)
-- [Full Stack Engineer  at Planning Center](https://jobs.rubyonrails.org/jobs/4702-full-stack-engineer-planning-center)
-- [/^&lpar;Full-?stack|Frontend&rpar; Engineer$/i at Better Stack](https://jobs.rubyonrails.org/jobs/4646-full-stack-frontend-engineer-i-better-stack)
-<!-- OFFICIAL-RAILS-JOBS:END -->
-
-[Signup](https://jobs.rubyonrails.org/) now!
 
 ---
 
