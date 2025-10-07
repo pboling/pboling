@@ -7,12 +7,19 @@ I recently built a crypto scanner named YACS to test my skills with React: [![Li
 [demo]: https://pboling.github.io/yacs/
 [demo-img]: https://img.shields.io/badge/Live-Demo-blue
 
-| 📍 NOTE                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RubyGems.org was [recently compromised](https://joel.drapper.me/p/ruby-central-security-measures/) in a [hostile takeover](https://joel.drapper.me/p/rubygems-takeover/). |
-| I will soon stop publishing to RubyGems.org soon, after adding warnings to some important gems.                                                                           |
-| Please see [here](https://gem.coop) and [here](https://martinemde.com/2025/10/05/announcing-gem-coop.html) for more info on what comes next (hint: https://gem.coop).     |
+| 📍 NOTE                                                                                                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RubyGems.org was [recently compromised][draper-security] in a [hostile takeover][draper-takeover] about which [many lies][draper-lies] have been told.      |
+| I'm in the process of adding warnings to some important gems because I [don't condone the theft][draper-theft] of the bundler and rubygems-update projects. |
+| Once publishing to [gem.coop][gem-coop] is available I will stop publishing to RubyGems.org.                                                                |
+| Please see [here][gem-coop] and [here][martin-ann] for more info on what comes next.                                                                        |
 
+[draper-security]: https://joel.drapper.me/p/ruby-central-security-measures/
+[draper-takeover]: https://joel.drapper.me/p/ruby-central-takeover/
+[draper-lies]: https://joel.drapper.me/p/ruby-central-fact-check/
+[draper-theft]: https://joel.drapper.me/p/ruby-central/
+[gem-coop]: https://gem.coop
+[martin-ann]: https://martinemde.com/2025/10/05/announcing-gem-coop.html
 
 I maintain the following RubyGems:
 
