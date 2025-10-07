@@ -2,7 +2,7 @@ Hi, I'm Peter 👋
 
 I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet).
 
-I recently built a crypto scanner named YACS to test my skills with React: [![Live Demo][demo-img]][demo]
+Despite not being "into crypto", I was recently challenged to build a crypto scanner using React. Didn't get the job, but I am proud of the result, and you can check out the demo! [![Live Demo][demo-img]][demo]
 
 [demo]: https://pboling.github.io/yacs/
 [demo-img]: https://img.shields.io/badge/Live-Demo-blue
