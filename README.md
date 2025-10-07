@@ -259,7 +259,16 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 - List is updated frequently by my pet robot: @autobolt
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START -->* 🗓️ Thu Sep 18 2025 6:30 AM | <a href="https://dev.to/galtzo/ann-oauth2-v2017-h1a" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.17</a> | 🏷️ ruby, oauth, webdev, instagram 
+* 🗓️ Mon Sep 15 2025 11:53 AM | <a href="https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl" rel="noopener" target="_blank">💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling</a> | 🏷️ devtools, ruby, packaging, automation 
+* 🗓️ Sun Sep 14 2025 11:07 PM | <a href="https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;</a> | 🏷️ docker, security, ruby, instagram 
+* 🗓️ Sat Sep 13 2025 10:27 PM | <a href="https://dev.to/galtzo/how-to-check-license-compatibility-41h0" rel="noopener" target="_blank">👩‍🔧 How to Check License Compatibility in GHA</a> | 🏷️ programming, opensource, githubactions, howto 
+* 🗓️ Fri Sep 12 2025 8:18 AM | <a href="https://dev.to/galtzo/ann-awesome-sponsorships-535m" rel="noopener" target="_blank">💲ANN: awesome-sponsorships</a> | 🏷️ opensource, webmonetization, sponsorships, programming 
+* 🗓️ Mon Sep 01 2025 3:24 AM | <a href="https://dev.to/galtzo/ann-oauth2-v2014-2g52" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.14</a> | 🏷️  
+* 🗓️ Sat Aug 30 2025 11:13 PM | <a href="https://dev.to/galtzo/ann-oauth2-v2013-271k" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.13</a> | 🏷️ webdev, ruby, oauth, opensource 
+* 🗓️ Wed Aug 27 2025 3:39 AM | <a href="https://dev.to/galtzo/ann-stonechecksums-v102-1cl7" rel="noopener" target="_blank">💎 ANN: stone_checksums v1.0.2</a> | 🏷️ programming, ruby, rubygems, security 
+* 🗓️ Mon Aug 25 2025 12:18 AM | <a href="https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6" rel="noopener" target="_blank">💎 ANN: kettle-dev v1, part 1</a> | 🏷️ opensource, ruby, tooling, webdev 
+* 🗓️ Fri Aug 22 2025 7:55 AM | <a href="https://dev.to/galtzo/ann-kettle-test-v100-4f0m" rel="noopener" target="_blank">💎 ANN: kettle-test v1.0.0</a> | 🏷️ testing, ruby, rails, devtools 
 <!-- BLOG-POST-LIST:END -->
 
 # Contributions
