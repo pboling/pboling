@@ -15,7 +15,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://dev.to/feed/galtzo,https://railsbling.com/tags/ruby/index.xml"
-          max_post_count: 10
+          max_post_count: 15
           committer_username: autobolt
           committer_email: autobots@9thbit.net
           commit_message: "🍻 Latest Blog Posts"
@@ -32,7 +32,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://rubygems.org/dashboard.atom?api_key=98d7f33c23db16292a52ac1b382ec65f"
-          max_post_count: 10
+          max_post_count: 15
           committer_username: autobolt
           committer_email: autobots@9thbit.net
           comment_tag_name: "PBOLINGS-RUBYGEMS"
