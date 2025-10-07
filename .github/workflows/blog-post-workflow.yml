@@ -19,7 +19,8 @@ jobs:
           committer_username: autobolt
           committer_email: autobots@9thbit.net
           commit_message: "🍻 Latest Blog Posts"
-          template: '* 🗓️ $date | <a href="$url" rel="noopener" target="_blank">$title</a> | 🏷️ $categories $newline'
+          date_format: "UTC:yyyy-mm-dd'T'HH:MM:ss'Z'"
+          template: '$newline* 🗓️ $date | <a href="$url" rel="noopener" target="_blank">$title</a> | 🏷️ $categories'
 
   update-readme-with-gem-releases:
     name: "Update README w/ my latest gem releases"
@@ -36,4 +37,5 @@ jobs:
           committer_email: autobots@9thbit.net
           comment_tag_name: "PBOLINGS-RUBYGEMS"
           commit_message: "⬆️ Latest RubyGem Releases"
-          template: '* 🗓️ $date | <a href="$url" rel="noopener" target="_blank">$title</a> | 🤸️ $description $newline'
+          date_format: "UTC:yyyy-mm-dd'T'HH:MM:ss'Z'"
+          template: '$newline* 🗓️ $date | <a href="$url" rel="noopener" target="_blank">$title</a> | $description'
