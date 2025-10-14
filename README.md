@@ -241,6 +241,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2025-10-14T00:33:04Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
+🫵 Traditional username/password based authentication system for OmniAuth    
 * 🗓️ 2025-09-22T03:02:52Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
 * 🗓️ 2025-09-22T02:52:36Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.1" rel="noopener" target="_blank">oauth &lpar;1.1.1&rpar;</a> | 
@@ -268,12 +270,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-08-21T08:11:23Z | <a href="https://rubygems.org/gems/silent_stream/versions/1.0.12" rel="noopener" target="_blank">silent_stream &lpar;1.0.12&rpar;</a> | 
 🔕 &lpar;formerly&rpar; ActiveSupport Kernel Reporting Detritus with a few enhancementsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2025-08-20T12:08:03Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/1.0.3" rel="noopener" target="_blank">gitmoji-regex &lpar;1.0.3&rpar;</a> | 
-😜 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2025-08-05T05:01:28Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.4" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.4&rpar;</a> | 
-Stub or hide environment variables in a scoped context for testing
-stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
-hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    <!-- PBOLINGS-RUBYGEMS:END -->
+😜 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
