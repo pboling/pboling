@@ -2,6 +2,8 @@ Hi, I'm Peter 👋
 
 I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet).
 
+I recently worked on the Go project for dependency license scanning [Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes), where I integrated bundler and gemspec (Ruby) compatibility,  added ASF Category A and B license checks, FSF Free/Libre checks, and OSI Approved checks (all configurable). Learn how to use it in as a [GitHub Action](https://dev.to/galtzo/how-to-check-license-compatibility-41h0) in your project.
+
 Despite not being "into crypto", I was recently challenged to build a crypto scanner using React. Didn't get the job, but I am proud of the result, and you can check out the demo! [![Live Demo][demo-img]][demo]
 
 [demo]: https://pboling.github.io/yacs/
