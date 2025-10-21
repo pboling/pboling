@@ -243,6 +243,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2025-10-21T07:54:03Z | <a href="https://rubygems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
+🏴‍☠️ Liberate files from your Google Drive with transformations    
 * 🗓️ 2025-10-14T00:33:04Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
 🫵 Traditional username/password based authentication system for OmniAuth    
 * 🗓️ 2025-09-22T03:02:52Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 
@@ -270,9 +272,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-08-23T18:50:13Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.12.1" rel="noopener" target="_blank">dynamoid &lpar;3.12.1&rpar;</a> | 
 Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
 * 🗓️ 2025-08-21T08:11:23Z | <a href="https://rubygems.org/gems/silent_stream/versions/1.0.12" rel="noopener" target="_blank">silent_stream &lpar;1.0.12&rpar;</a> | 
-🔕 &lpar;formerly&rpar; ActiveSupport Kernel Reporting Detritus with a few enhancementsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2025-08-20T12:08:03Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/1.0.3" rel="noopener" target="_blank">gitmoji-regex &lpar;1.0.3&rpar;</a> | 
-😜 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
+🔕 &lpar;formerly&rpar; ActiveSupport Kernel Reporting Detritus with a few enhancementsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
