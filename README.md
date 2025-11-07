@@ -243,6 +243,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2025-11-07T02:41:43Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
+🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
 * 🗓️ 2025-10-21T07:54:03Z | <a href="https://rubygems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
 🏴‍☠️ Liberate files from your Google Drive with transformations    
 * 🗓️ 2025-10-14T00:33:04Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
@@ -270,9 +272,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-08-24T21:11:05Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.18" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.18&rpar;</a> | 
 ⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2025-08-23T18:50:13Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.12.1" rel="noopener" target="_blank">dynamoid &lpar;3.12.1&rpar;</a> | 
-Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
-* 🗓️ 2025-08-21T08:11:23Z | <a href="https://rubygems.org/gems/silent_stream/versions/1.0.12" rel="noopener" target="_blank">silent_stream &lpar;1.0.12&rpar;</a> | 
-🔕 &lpar;formerly&rpar; ActiveSupport Kernel Reporting Detritus with a few enhancementsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
+Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
