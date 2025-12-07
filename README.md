@@ -290,10 +290,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-08-30T23:13:42Z | <a href="https://dev.to/galtzo/ann-oauth2-v2013-271k" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.13</a> | 🏷️ webdev, ruby, oauth, opensource
 * 🗓️ 2025-08-27T03:39:03Z | <a href="https://dev.to/galtzo/ann-stonechecksums-v102-1cl7" rel="noopener" target="_blank">💎 ANN: stone_checksums v1.0.2</a> | 🏷️ programming, ruby, rubygems, security
 * 🗓️ 2025-08-25T00:18:20Z | <a href="https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6" rel="noopener" target="_blank">💎 ANN: kettle-dev v1, part 1</a> | 🏷️ opensource, ruby, tooling, webdev
-* 🗓️ 2025-08-22T07:55:13Z | <a href="https://dev.to/galtzo/ann-kettle-test-v100-4f0m" rel="noopener" target="_blank">💎 ANN: kettle-test v1.0.0</a> | 🏷️ testing, ruby, rails, devtools
-* 🗓️ 2023-10-11T17:45:00Z | <a href="http://www.railsbling.com/ruby/rubygems_checksums/" rel="noopener" target="_blank">Generate Gem Checksums</a> | 🏷️ 
-* 🗓️ 2023-04-15T06:39:00Z | <a href="http://www.railsbling.com/require_bench/require_bench_when_to_use/" rel="noopener" target="_blank">RequireBench: When do you use it?</a> | 🏷️ 
-* 🗓️ 2022-12-17T15:13:30Z | <a href="http://www.railsbling.com/posts/dvcs/put_the_d_in_dvcs/" rel="noopener" target="_blank">Put the D in DVCS</a> | 🏷️ <!-- BLOG-POST-LIST:END -->
+* 🗓️ 2025-08-22T07:55:13Z | <a href="https://dev.to/galtzo/ann-kettle-test-v100-4f0m" rel="noopener" target="_blank">💎 ANN: kettle-test v1.0.0</a> | 🏷️ testing, ruby, rails, devtools<!-- BLOG-POST-LIST:END -->
 
 # Contributions
 
