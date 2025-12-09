@@ -14,7 +14,8 @@ jobs:
       - name: Pull in blog posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://dev.to/feed/galtzo,https://railsbling.com/tags/ruby/index.xml"
+          # feed_list: "https://dev.to/feed/galtzo,https://railsbling.com/tags/ruby/index.xml"
+          feed_list: "https://dev.to/feed/galtzo"
           max_post_count: 15
           committer_username: autobolt
           committer_email: autobots@9thbit.net
