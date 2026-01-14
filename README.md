@@ -558,13 +558,13 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
-- Advisor | [Hope For Tomorrow (Liberian NGO)](https://www.facebook.com/hope.for.tomorrow.liberia)
 
 [![Open Hub profile](https://www.openhub.net/accounts/peterboling/widgets/account_detailed?format=gif&amp;ref=sample)](https://www.openhub.net/accounts/peterboling?ref=sample)
 
 <a href="https://github.com/anuraghazra/github-readme-stats#github-stats-card">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=pboling&count_private=true&show_icons=true&theme=tokyonight" />
 </a>
+
 <a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pboling&theme=tokyonight&layout=compact&hide=rich%20text%20format" />
 </a>
