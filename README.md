@@ -4,8 +4,6 @@ I have authored and/or currently maintain hundreds of open source libraries, inc
 
 I recently worked on the Go project for dependency license scanning [Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes), where I integrated bundler and gemspec (Ruby) compatibility,  added ASF Category A and B license checks, FSF Free/Libre checks, and OSI Approved checks (all configurable). Learn how to use it in as a [GitHub Action](https://dev.to/galtzo/how-to-check-license-compatibility-41h0) in your project.
 
-Despite not being "into crypto", I was recently challenged to build a crypto scanner using React. Didn't get the job, but I am proud of the result, and you can check out the demo! [![Live Demo][demo-img]][demo]
-
 [demo]: https://pboling.github.io/yacs/
 [demo-img]: https://img.shields.io/badge/Live-Demo-blue
 
@@ -400,7 +398,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 ### :roll_of_paper: Current Roles
 
-- Open Source Contributor | [MyBudgetCoach](https://www.mybudgetcoach.com/) 
+- Open Source Contributor, OWASP | [🌪️ OWASP CycloneDX]([https://www.mybudgetcoach.com/](https://github.com/CycloneDX/cyclonedx-ruby-gem/pulls?q=is%3Apr+author%3Apboling+))
+- Open Source Contributor, ASF | [👀 Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes/pulls?q=is%3Amerged+is%3Apr+author%3Apboling+)
 - FLOSS Blogger | [RailsBling](https://dev.to/galtzo)
 - FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
