@@ -398,7 +398,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 
 ### :roll_of_paper: Current Roles
 
-- Open Source Contributor, OWASP | [🌪️ OWASP CycloneDX]([https://www.mybudgetcoach.com/](https://github.com/CycloneDX/cyclonedx-ruby-gem/pulls?q=is%3Apr+author%3Apboling+))
+- Open Source Contributor, OWASP | [🌪️ OWASP CycloneDX](https://github.com/CycloneDX/cyclonedx-ruby-gem/pulls?q=is%3Apr+author%3Apboling+)
 - Open Source Contributor, ASF | [👀 Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes/pulls?q=is%3Amerged+is%3Apr+author%3Apboling+)
 - FLOSS Blogger | [RailsBling](https://dev.to/galtzo)
 - FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
