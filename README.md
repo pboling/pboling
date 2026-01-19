@@ -431,6 +431,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
+* 🗓️ 2026-01-19T03:03:27Z | <a href="https://dev.to/galtzo/setup-ruby-flash-25lb" rel="noopener" target="_blank">⚡️ setup-ruby-flash</a> | 🏷️ ruby, gha, ore, rv
 * 🗓️ 2025-11-06T23:39:10Z | <a href="https://dev.to/galtzo/floss-funding-2cfn" rel="noopener" target="_blank">💲FLOSS Funding</a> | 🏷️ career, discuss, opensource
 * 🗓️ 2025-10-14T00:49:55Z | <a href="https://dev.to/galtzo/ann-omniauth-identity-v315-hanamirom-support-4ha3" rel="noopener" target="_blank">💎 ANN: omniauth-identity v3.1.5 &lpar;Hanami/ROM Support&rpar;</a> | 🏷️ webdev, ruby, rom, authentication
 * 🗓️ 2025-09-18T06:30:38Z | <a href="https://dev.to/galtzo/ann-oauth2-v2017-h1a" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.17</a> | 🏷️ ruby, oauth, webdev, instagram
@@ -441,8 +442,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-09-01T03:24:45Z | <a href="https://dev.to/galtzo/ann-oauth2-v2014-2g52" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.14</a> | 🏷️ 
 * 🗓️ 2025-08-30T23:13:42Z | <a href="https://dev.to/galtzo/ann-oauth2-v2013-271k" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.13</a> | 🏷️ webdev, ruby, oauth, opensource
 * 🗓️ 2025-08-27T03:39:03Z | <a href="https://dev.to/galtzo/ann-stonechecksums-v102-1cl7" rel="noopener" target="_blank">💎 ANN: stone_checksums v1.0.2</a> | 🏷️ programming, ruby, rubygems, security
-* 🗓️ 2025-08-25T00:18:20Z | <a href="https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6" rel="noopener" target="_blank">💎 ANN: kettle-dev v1, part 1</a> | 🏷️ opensource, ruby, tooling, webdev
-* 🗓️ 2025-08-22T07:55:13Z | <a href="https://dev.to/galtzo/ann-kettle-test-v100-4f0m" rel="noopener" target="_blank">💎 ANN: kettle-test v1.0.0</a> | 🏷️ testing, ruby, rails, devtools<!-- BLOG-POST-LIST:END -->
+* 🗓️ 2025-08-25T00:18:20Z | <a href="https://dev.to/galtzo/ann-kettle-dev-v10-part-1-4kf6" rel="noopener" target="_blank">💎 ANN: kettle-dev v1, part 1</a> | 🏷️ opensource, ruby, tooling, webdev<!-- BLOG-POST-LIST:END -->
 
 # Contributions
 
