@@ -395,6 +395,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-02-04T08:54:07Z | <a href="https://rubygems.org/gems/simple_column-scopes/versions/0.1.1" rel="noopener" target="_blank">simple_column-scopes &lpar;0.1.1&rpar;</a> | 
+🏛️ Dynamic modules which define dynamic methods for scopes based on a dynamic array of column names    
 * 🗓️ 2025-11-08T11:51:49Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.18" rel="noopener" target="_blank">oauth2 &lpar;2.0.18&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2025-11-07T02:41:43Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
@@ -422,9 +424,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-08-31T11:39:52Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.14" rel="noopener" target="_blank">oauth2 &lpar;2.0.14&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2025-08-30T22:39:45Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.13" rel="noopener" target="_blank">oauth2 &lpar;2.0.13&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2025-08-24T21:11:05Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.18" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.18&rpar;</a> | 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
