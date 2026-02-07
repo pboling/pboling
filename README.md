@@ -395,6 +395,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-02-07T11:53:41Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.20" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.20&rpar;</a> | 
+⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-02-04T08:54:07Z | <a href="https://rubygems.org/gems/simple_column-scopes/versions/0.1.1" rel="noopener" target="_blank">simple_column-scopes &lpar;0.1.1&rpar;</a> | 
 🏛️ Dynamic modules which define dynamic methods for scopes based on a dynamic array of column names    
 * 🗓️ 2025-11-08T11:51:49Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.18" rel="noopener" target="_blank">oauth2 &lpar;2.0.18&rpar;</a> | 
@@ -422,8 +424,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-09-02T13:04:33Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.9" rel="noopener" target="_blank">version_gem &lpar;1.1.9&rpar;</a> | 
 🔖 Versions are good. Versions are cool. Versions will win.    
 * 🗓️ 2025-08-31T11:39:52Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.14" rel="noopener" target="_blank">oauth2 &lpar;2.0.14&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2025-08-30T22:39:45Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.13" rel="noopener" target="_blank">oauth2 &lpar;2.0.13&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
