@@ -7,12 +7,12 @@ I recently worked on the Go project for dependency license scanning [Apache SkyW
 [demo]: https://pboling.github.io/yacs/
 [demo-img]: https://img.shields.io/badge/Live-Demo-blue
 
-| 📍 NOTE                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RubyGems.org was [recently compromised][draper-security] in a [hostile takeover][draper-takeover] about which [many lies][draper-lies] have been told.      |
-| I'm in the process of adding warnings to some important gems because I [don't condone the theft][draper-theft] of the bundler and rubygems-update projects. |
-| Once publishing to [gem.coop][gem-coop] is available I will stop publishing to RubyGems.org.                                                                |
-| Please see [here][gem-coop] and [here][martin-ann] for more info on what comes next.                                                                        |
+<details>
+    <summary>👣 How will my projects approach the September 2025 hostile takeover of RubyGems? 🚑️</summary>
+
+I've summarized my thoughts in [this blog post](https://dev.to/galtzo/hostile-takeover-of-rubygems-my-thoughts-5hlo).
+
+</details>
 
 [draper-security]: https://joel.drapper.me/p/ruby-central-security-measures/
 [draper-takeover]: https://joel.drapper.me/p/ruby-central-takeover/
