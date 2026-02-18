@@ -431,6 +431,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
+* 🗓️ 2026-02-18T06:20:33Z | <a href="https://dev.to/galtzo/ann-appraisal2-v306-support-frozen-appraisal-lockfiles-20ml" rel="noopener" target="_blank">🐠 ANN: appraisal2 v3.0.6 - support frozen appraisal lockfiles</a> | 🏷️ news, ruby, testing, tooling
 * 🗓️ 2026-02-06T01:00:32Z | <a href="https://dev.to/galtzo/hostile-takeover-of-rubygems-my-thoughts-5hlo" rel="noopener" target="_blank">Hostile Takeover of RubyGems: My Thoughts</a> | 🏷️ opensource, ruby, rails, governance
 * 🗓️ 2026-01-19T03:03:27Z | <a href="https://dev.to/galtzo/setup-ruby-flash-25lb" rel="noopener" target="_blank">⚡️ setup-ruby-flash</a> | 🏷️ ruby, gha, ore, rv
 * 🗓️ 2025-11-06T23:39:10Z | <a href="https://dev.to/galtzo/floss-funding-2cfn" rel="noopener" target="_blank">💲FLOSS Funding</a> | 🏷️ career, discuss, opensource
@@ -441,8 +442,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2025-09-13T22:27:37Z | <a href="https://dev.to/galtzo/how-to-check-license-compatibility-41h0" rel="noopener" target="_blank">👩‍🔧 How to Check License Compatibility in GHA</a> | 🏷️ programming, opensource, githubactions, howto
 * 🗓️ 2025-09-12T08:18:46Z | <a href="https://dev.to/galtzo/ann-awesome-sponsorships-535m" rel="noopener" target="_blank">💲ANN: awesome-sponsorships</a> | 🏷️ opensource, webmonetization, sponsorships, programming
 * 🗓️ 2025-09-01T03:24:45Z | <a href="https://dev.to/galtzo/ann-oauth2-v2014-2g52" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.14</a> | 🏷️ 
-* 🗓️ 2025-08-30T23:13:42Z | <a href="https://dev.to/galtzo/ann-oauth2-v2013-271k" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.13</a> | 🏷️ webdev, ruby, oauth, opensource
-* 🗓️ 2025-08-27T03:39:03Z | <a href="https://dev.to/galtzo/ann-stonechecksums-v102-1cl7" rel="noopener" target="_blank">💎 ANN: stone_checksums v1.0.2</a> | 🏷️ programming, ruby, rubygems, security<!-- BLOG-POST-LIST:END -->
+* 🗓️ 2025-08-30T23:13:42Z | <a href="https://dev.to/galtzo/ann-oauth2-v2013-271k" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.13</a> | 🏷️ webdev, ruby, oauth, opensource<!-- BLOG-POST-LIST:END -->
 
 # Contributions
 
