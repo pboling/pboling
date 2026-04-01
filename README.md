@@ -431,6 +431,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
+* 🗓️ 2026-04-01T05:59:42Z | <a href="https://dev.to/galtzo/rel-oauth2-v2018-43pf" rel="noopener" target="_blank">💎REL: oauth2 v2.0.18</a> | 🏷️ ruby, oauth, security, github
 * 🗓️ 2026-02-18T06:20:33Z | <a href="https://dev.to/galtzo/ann-appraisal2-v306-support-frozen-appraisal-lockfiles-20ml" rel="noopener" target="_blank">🐠 ANN: appraisal2 v3.0.6 - support frozen appraisal lockfiles</a> | 🏷️ news, ruby, testing, tooling
 * 🗓️ 2026-02-06T01:00:32Z | <a href="https://dev.to/galtzo/hostile-takeover-of-rubygems-my-thoughts-5hlo" rel="noopener" target="_blank">Hostile Takeover of RubyGems: My Thoughts</a> | 🏷️ opensource, ruby, rails, governance
 * 🗓️ 2026-01-19T03:03:27Z | <a href="https://dev.to/galtzo/setup-ruby-flash-25lb" rel="noopener" target="_blank">⚡️ setup-ruby-flash</a> | 🏷️ ruby, gha, ore, rv
@@ -441,8 +442,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-09-14T23:07:29Z | <a href="https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;</a> | 🏷️ docker, security, ruby, instagram
 * 🗓️ 2025-09-13T22:27:37Z | <a href="https://dev.to/galtzo/how-to-check-license-compatibility-41h0" rel="noopener" target="_blank">👩‍🔧 How to Check License Compatibility in GHA</a> | 🏷️ programming, opensource, githubactions, howto
 * 🗓️ 2025-09-12T08:18:46Z | <a href="https://dev.to/galtzo/ann-awesome-sponsorships-535m" rel="noopener" target="_blank">💲ANN: awesome-sponsorships</a> | 🏷️ opensource, webmonetization, sponsorships, programming
-* 🗓️ 2025-09-01T03:24:45Z | <a href="https://dev.to/galtzo/ann-oauth2-v2014-2g52" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.14</a> | 🏷️ 
-* 🗓️ 2025-08-30T23:13:42Z | <a href="https://dev.to/galtzo/ann-oauth2-v2013-271k" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.13</a> | 🏷️ webdev, ruby, oauth, opensource<!-- BLOG-POST-LIST:END -->
+* 🗓️ 2025-09-01T03:24:45Z | <a href="https://dev.to/galtzo/ann-oauth2-v2014-2g52" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.14</a> | 🏷️ <!-- BLOG-POST-LIST:END -->
 
 # Contributions
 
