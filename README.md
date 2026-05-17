@@ -395,6 +395,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-17T00:13:15Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.7" rel="noopener" target="_blank">oauth-tty &lpar;1.0.7&rpar;</a> | 
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
 * 🗓️ 2026-05-16T07:15:38Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.19" rel="noopener" target="_blank">oauth2 &lpar;2.0.19&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2026-05-05T20:52:09Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.13.1" rel="noopener" target="_blank">dynamoid &lpar;3.13.1&rpar;</a> | 
@@ -422,8 +424,6 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-09-16T03:42:22Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.17" rel="noopener" target="_blank">oauth2 &lpar;2.0.17&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2025-09-14T21:14:19Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.16" rel="noopener" target="_blank">oauth2 &lpar;2.0.16&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2025-09-08T08:37:57Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.15" rel="noopener" target="_blank">oauth2 &lpar;2.0.15&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
