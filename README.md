@@ -31,6 +31,7 @@ I maintain the following RubyGems:
 - kettle-rb / ast-merge - [![Downloads Rank 🐙:kettle-rb/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://bestgems.org/gems/ast-merge)
 - omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://bestgems.org/gems/omniauth-jwt)
 - omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://bestgems.org/gems/omniauth-identity)
+- omniauth / omniauth-ldap - [![Downloads Rank 🐙:omniauth/omniauth-ldap](https://img.shields.io/gem/rd/omniauth-ldap.svg)](https://bestgems.org/gems/omniauth-ldap)
 - rdp / os - [![Downloads Rank 🐙:rdp/os](https://img.shields.io/gem/rd/os.svg)](https://bestgems.org/gems/os)
 - ruby-oauth / auth-sanitizer - [![Downloads Rank 🐙:ruby-oauth/auth-sanitizer](https://img.shields.io/gem/rd/auth-sanitizer.svg)](https://bestgems.org/gems/auth-sanitizer)
 - ruby-oauth / oauth - [![Downloads Rank 🐙:ruby-oauth/oauth](https://img.shields.io/gem/rd/oauth.svg)](https://bestgems.org/gems/oauth)
@@ -281,7 +282,7 @@ More examples for rails-specific, or non-rspec projects are at [rubocop-lts.gitl
 
 </details>
 
-I'm attempting to document all of the logos for the FLOSS projects I'm involved in, with their attendant licesnses and copyrights, here:
+I'm attempting to document all of the logos for the FLOSS/FOSS/OSS projects I'm involved in, with their attendant licesnses and copyrights, here:
 [logos.galtzo.com](https://logos.galtzo.com).  It has been a multi-year effort hunting down the original creators for some of these logos, and documenting the conditions under which they can be used. I'd love to hear if this is useful in your projects!
 
 I was laid off in a March 2025 RIF, and am looking for my next sponsor and my next role.
@@ -465,7 +466,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 
 ## :godmode: How it's going
 
-- 🦷 I'm putting more of my focus on FLOSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
+- 🦷 I'm putting more of my focus on FLOSS/FOSS/OSS efforts (of myself and others)! <img src="https://img.shields.io/liberapay/gives/pboling.svg?logo=liberapay"> and <img src="https://img.shields.io/liberapay/receives/pboling.svg?logo=liberapay"> from <img src="https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay">
 - 👷 I build big things and small things out of tiny bits.
 - ✨ Recently created [`rubocop-lts`](https://github.com/rubocop-lts) for library maintainer happiness 👩‍❤️‍👩.
 - 🔭 I’m working on finishing the migration away from TravisCI to modern CI tools.
