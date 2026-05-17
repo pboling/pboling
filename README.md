@@ -23,21 +23,22 @@ I've summarized my thoughts in [this blog post](https://dev.to/galtzo/hostile-ta
 
 I maintain the following RubyGems:
 
-- appraisal-rb / appraisal2 - [![Downloads Rank 🐙:appraisal-rb/appraisal2](https://img.shields.io/gem/rd/appraisal2.svg)](https://rubygems.org/gems/appraisal2)
-- Dynamoid / dynamoid - [![Downloads Rank 🐙:Dynamoid/dynamoid](https://img.shields.io/gem/rd/dynamoid.svg)](https://rubygems.org/gems/dynamoid)
-- galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://rubygems.org/gems/flag_shih_tzu)
-- galtzo-floss / sanitize_email - [![Downloads Rank 🐙:galtzo-floss/sanitize_email](https://img.shields.io/gem/rd/sanitize_email.svg)](https://rubygems.org/gems/sanitize_email)
-- kettle-rb / tree_haver - [![Downloads Rank 🐙:kettle-rb/tree_haver](https://img.shields.io/gem/rd/tree_haver.svg)](https://rubygems.org/gems/tree_haver)
-- kettle-rb / ast-merge - [![Downloads Rank 🐙:kettle-rb/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://rubygems.org/gems/ast-merge)
-- omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://rubygems.org/gems/omniauth-jwt)
-- omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://rubygems.org/gems/omniauth-identity)
-- rdp / os - [![Downloads Rank 🐙:rdp/os](https://img.shields.io/gem/rd/os.svg)](https://rubygems.org/gems/os)
-- ruby-oauth / oauth - [![Downloads Rank 🐙:ruby-oauth/oauth](https://img.shields.io/gem/rd/oauth.svg)](https://rubygems.org/gems/oauth)
-- ruby-oauth / oauth2 - [![Downloads Rank 🐙:ruby-oauth/oauth2](https://img.shields.io/gem/rd/oauth2.svg)](https://rubygems.org/gems/oauth2)
-- ruby-oauth / version_gem - [![Downloads Rank 🐙:ruby-oauth/version_gem](https://img.shields.io/gem/rd/version_gem.svg)](https://rubygems.org/gems/version_gem)
-- ruby-openid / omniauth-openid - [![Downloads Rank 🐙:ruby-openid/omniauth-openid](https://img.shields.io/gem/rd/omniauth-openid.svg)](https://rubygems.org/gems/omniauth-openid)
-- ruby-openid / rack-openid - [![Downloads Rank 🐙:ruby-openid/rack-openid](https://img.shields.io/gem/rd/rack-openid.svg)](https://rubygems.org/gems/rack-openid)
-- ruby-openid / ruby-openid - [![Downloads Rank 🐙:ruby-openid/ruby-openid](https://img.shields.io/gem/rd/ruby-openid.svg)](https://rubygems.org/gems/ruby-openid)
+- appraisal-rb / appraisal2 - [![Downloads Rank 🐙:appraisal-rb/appraisal2](https://img.shields.io/gem/rd/appraisal2.svg)](https://bestgems.org/gems/appraisal2)
+- Dynamoid / dynamoid - [![Downloads Rank 🐙:Dynamoid/dynamoid](https://img.shields.io/gem/rd/dynamoid.svg)](https://bestgems.org/gems/dynamoid)
+- galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://bestgems.org/gems/flag_shih_tzu)
+- galtzo-floss / sanitize_email - [![Downloads Rank 🐙:galtzo-floss/sanitize_email](https://img.shields.io/gem/rd/sanitize_email.svg)](https://bestgems.org/gems/sanitize_email)
+- kettle-rb / tree_haver - [![Downloads Rank 🐙:kettle-rb/tree_haver](https://img.shields.io/gem/rd/tree_haver.svg)](https://bestgems.org/gems/tree_haver)
+- kettle-rb / ast-merge - [![Downloads Rank 🐙:kettle-rb/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://bestgems.org/gems/ast-merge)
+- omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://bestgems.org/gems/omniauth-jwt)
+- omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://bestgems.org/gems/omniauth-identity)
+- rdp / os - [![Downloads Rank 🐙:rdp/os](https://img.shields.io/gem/rd/os.svg)](https://bestgems.org/gems/os)
+- ruby-oauth / auth-sanitizer - [![Downloads Rank 🐙:ruby-oauth/auth-sanitizer](https://img.shields.io/gem/rd/auth-sanitizer.svg)](https://bestgems.org/gems/auth-sanitizer)
+- ruby-oauth / oauth - [![Downloads Rank 🐙:ruby-oauth/oauth](https://img.shields.io/gem/rd/oauth.svg)](https://bestgems.org/gems/oauth)
+- ruby-oauth / oauth2 - [![Downloads Rank 🐙:ruby-oauth/oauth2](https://img.shields.io/gem/rd/oauth2.svg)](https://bestgems.org/gems/oauth2)
+- ruby-oauth / version_gem - [![Downloads Rank 🐙:ruby-oauth/version_gem](https://img.shields.io/gem/rd/version_gem.svg)](https://bestgems.org/gems/version_gem)
+- ruby-openid / omniauth-openid - [![Downloads Rank 🐙:ruby-openid/omniauth-openid](https://img.shields.io/gem/rd/omniauth-openid.svg)](https://bestgems.org/gems/omniauth-openid)
+- ruby-openid / rack-openid - [![Downloads Rank 🐙:ruby-openid/rack-openid](https://img.shields.io/gem/rd/rack-openid.svg)](https://bestgems.org/gems/rack-openid)
+- ruby-openid / ruby-openid - [![Downloads Rank 🐙:ruby-openid/ruby-openid](https://img.shields.io/gem/rd/ruby-openid.svg)](https://bestgems.org/gems/ruby-openid)
 - many ast-parsing, benchmarking, rails, resque, rspec, rubocop plugins & more... (in details below)
 
 <details>
@@ -195,54 +196,54 @@ tree_haver supports multiple parsing backends, but not all backends work on all 
 <details>
   <summary>benchmarking libraries</summary>
 
-- galtzo-floss / debug_logging - [![Downloads Rank 🐙:galtzo-floss/debug_logging](https://img.shields.io/gem/rd/debug_logging.svg)](https://rubygems.org/gems/debug_logging)
-- galtzo-floss / gem_bench - [![Downloads Rank 🐙:galtzo-floss/gem_bench](https://img.shields.io/gem/rd/gem_bench.svg)](https://rubygems.org/gems/gem_bench)
-- galtzo-floss / react-rails-benchmark_renderer - [![Downloads Rank 🐙:galtzo-floss/react-rails-benchmark_renderer](https://img.shields.io/gem/rd/react-rails-benchmark_renderer.svg)](https://rubygems.org/gems/react-rails-benchmark_renderer)
-- galtzo-floss / require_bench - [![Downloads Rank 🐙:galtzo-floss/require_bench](https://img.shields.io/gem/rd/require_bench.svg)](https://rubygems.org/gems/require_bench)
+- galtzo-floss / debug_logging - [![Downloads Rank 🐙:galtzo-floss/debug_logging](https://img.shields.io/gem/rd/debug_logging.svg)](https://bestgems.org/gems/debug_logging)
+- galtzo-floss / gem_bench - [![Downloads Rank 🐙:galtzo-floss/gem_bench](https://img.shields.io/gem/rd/gem_bench.svg)](https://bestgems.org/gems/gem_bench)
+- galtzo-floss / react-rails-benchmark_renderer - [![Downloads Rank 🐙:galtzo-floss/react-rails-benchmark_renderer](https://img.shields.io/gem/rd/react-rails-benchmark_renderer.svg)](https://bestgems.org/gems/react-rails-benchmark_renderer)
+- galtzo-floss / require_bench - [![Downloads Rank 🐙:galtzo-floss/require_bench](https://img.shields.io/gem/rd/require_bench.svg)](https://bestgems.org/gems/require_bench)
 
 </details>
 
 <details>
   <summary>rails plugins</summary>
 
-- galtzo-floss / active_security - [![Downloads Rank 🐙:galtzo-floss/active_security](https://img.shields.io/gem/rd/active_security.svg)](https://rubygems.org/gems/active_security)
-- galtzo-floss / activerecord-transactionable - [![Downloads Rank 🐙:galtzo-floss/activerecord-transactionable](https://img.shields.io/gem/rd/activerecord-transactionable.svg)](https://rubygems.org/gems/activerecord-transactionable)
-- galtzo-floss / activesupport-broadcast_logger - [![Downloads Rank 🐙:galtzo-floss/activesupport-broadcast_logger](https://img.shields.io/gem/rd/activesupport-broadcast_logger.svg)](https://rubygems.org/gems/activesupport-broadcast_logger)
-- galtzo-floss / activesupport-logger - [![Downloads Rank 🐙:galtzo-floss/activesupport-logger](https://img.shields.io/gem/rd/activesupport-logger.svg)](https://rubygems.org/gems/activesupport-logger)
-- galtzo-floss / activesupport-tagged_logging - [![Downloads Rank 🐙:galtzo-floss/activesupport-tagged_logging](https://img.shields.io/gem/rd/activesupport-tagged_logging.svg)](https://rubygems.org/gems/activesupport-tagged_logging)
-- galtzo-floss / debug_logging - [![Downloads Rank 🐙:galtzo-floss/debug_logging](https://img.shields.io/gem/rd/debug_logging.svg)](https://rubygems.org/gems/debug_logging)
-- galtzo-floss / destination_errors - [![Downloads Rank 🐙:galtzo-floss/destination_errors](https://img.shields.io/gem/rd/destination_errors.svg)](https://rubygems.org/gems/destination_errors)
-- galtzo-floss / include_with_respect - [![Downloads Rank 🐙:galtzo-floss/include_with_respect](https://img.shields.io/gem/rd/include_with_respect.svg)](https://rubygems.org/gems/include_with_respect)
-- galtzo-floss / seed_migration - [![Downloads Rank 🐙:galtzo-floss/seed_migration](https://img.shields.io/gem/rd/seed_migration.svg)](https://rubygems.org/gems/seed_migration)
-- galtzo-floss / shiftable - [![Downloads Rank 🐙:galtzo-floss/shiftable](https://img.shields.io/gem/rd/shiftable.svg)](https://rubygems.org/gems/shiftable)
-- galtzo-floss / simple_column-scopes - [![Downloads Rank 🐙:galtzo-floss/simple_column-scopes](https://img.shields.io/gem/rd/simple_column-scopes.svg)](https://rubygems.org/gems/simple_column-scopes)
-- galtzo-floss / spyke-connection_lambda - [![Downloads Rank 🐙:galtzo-floss/spyke-connection_lambda](https://img.shields.io/gem/rd/spyke-connection_lambda.svg)](https://rubygems.org/gems/spyke-connection_lambda)
-- galtzo-floss / status_tag - [![Downloads Rank 🐙:galtzo-floss/status_tag](https://img.shields.io/gem/rd/status_tag.svg)](https://rubygems.org/gems/status_tag)
+- galtzo-floss / active_security - [![Downloads Rank 🐙:galtzo-floss/active_security](https://img.shields.io/gem/rd/active_security.svg)](https://bestgems.org/gems/active_security)
+- galtzo-floss / activerecord-transactionable - [![Downloads Rank 🐙:galtzo-floss/activerecord-transactionable](https://img.shields.io/gem/rd/activerecord-transactionable.svg)](https://bestgems.org/gems/activerecord-transactionable)
+- galtzo-floss / activesupport-broadcast_logger - [![Downloads Rank 🐙:galtzo-floss/activesupport-broadcast_logger](https://img.shields.io/gem/rd/activesupport-broadcast_logger.svg)](https://bestgems.org/gems/activesupport-broadcast_logger)
+- galtzo-floss / activesupport-logger - [![Downloads Rank 🐙:galtzo-floss/activesupport-logger](https://img.shields.io/gem/rd/activesupport-logger.svg)](https://bestgems.org/gems/activesupport-logger)
+- galtzo-floss / activesupport-tagged_logging - [![Downloads Rank 🐙:galtzo-floss/activesupport-tagged_logging](https://img.shields.io/gem/rd/activesupport-tagged_logging.svg)](https://bestgems.org/gems/activesupport-tagged_logging)
+- galtzo-floss / debug_logging - [![Downloads Rank 🐙:galtzo-floss/debug_logging](https://img.shields.io/gem/rd/debug_logging.svg)](https://bestgems.org/gems/debug_logging)
+- galtzo-floss / destination_errors - [![Downloads Rank 🐙:galtzo-floss/destination_errors](https://img.shields.io/gem/rd/destination_errors.svg)](https://bestgems.org/gems/destination_errors)
+- galtzo-floss / include_with_respect - [![Downloads Rank 🐙:galtzo-floss/include_with_respect](https://img.shields.io/gem/rd/include_with_respect.svg)](https://bestgems.org/gems/include_with_respect)
+- galtzo-floss / seed_migration - [![Downloads Rank 🐙:galtzo-floss/seed_migration](https://img.shields.io/gem/rd/seed_migration.svg)](https://bestgems.org/gems/seed_migration)
+- galtzo-floss / shiftable - [![Downloads Rank 🐙:galtzo-floss/shiftable](https://img.shields.io/gem/rd/shiftable.svg)](https://bestgems.org/gems/shiftable)
+- galtzo-floss / simple_column-scopes - [![Downloads Rank 🐙:galtzo-floss/simple_column-scopes](https://img.shields.io/gem/rd/simple_column-scopes.svg)](https://bestgems.org/gems/simple_column-scopes)
+- galtzo-floss / spyke-connection_lambda - [![Downloads Rank 🐙:galtzo-floss/spyke-connection_lambda](https://img.shields.io/gem/rd/spyke-connection_lambda.svg)](https://bestgems.org/gems/spyke-connection_lambda)
+- galtzo-floss / status_tag - [![Downloads Rank 🐙:galtzo-floss/status_tag](https://img.shields.io/gem/rd/status_tag.svg)](https://bestgems.org/gems/status_tag)
 
 </details>
 
 <details>
   <summary>resque & queue plugins</summary>
 
-- galtzo-floss / qfill - [![Downloads Rank 🐙:galtzo-floss/qfill](https://img.shields.io/gem/rd/qfill.svg)](https://rubygems.org/gems/qfill)
-- resque / resque-unique_at_runtime - [![Downloads Rank 🐙:resque/resque-unique_at_runtime](https://img.shields.io/gem/rd/resque-unique_at_runtime.svg)](https://rubygems.org/gems/resque-unique_at_runtime)
-- resque / resque-unique_by_arity - [![Downloads Rank 🐙:resque/resque-unique_by_arity](https://img.shields.io/gem/rd/resque-unique_by_arity.svg)](https://rubygems.org/gems/resque-unique_by_arity)
-- resque / resque-unique_in_queue - [![Downloads Rank 🐙:resque/resque-unique_in_queue](https://img.shields.io/gem/rd/resque-unique_in_queue.svg)](https://rubygems.org/gems/resque-unique_in_queue)
+- galtzo-floss / qfill - [![Downloads Rank 🐙:galtzo-floss/qfill](https://img.shields.io/gem/rd/qfill.svg)](https://bestgems.org/gems/qfill)
+- resque / resque-unique_at_runtime - [![Downloads Rank 🐙:resque/resque-unique_at_runtime](https://img.shields.io/gem/rd/resque-unique_at_runtime.svg)](https://bestgems.org/gems/resque-unique_at_runtime)
+- resque / resque-unique_by_arity - [![Downloads Rank 🐙:resque/resque-unique_by_arity](https://img.shields.io/gem/rd/resque-unique_by_arity.svg)](https://bestgems.org/gems/resque-unique_by_arity)
+- resque / resque-unique_in_queue - [![Downloads Rank 🐙:resque/resque-unique_in_queue](https://img.shields.io/gem/rd/resque-unique_in_queue.svg)](https://bestgems.org/gems/resque-unique_in_queue)
 
 </details>
 
 <details>
   <summary>rspec plugins & testing tools</summary>
 
-- galtzo-floss / activerecord-tablefree - [![Downloads Rank 🐙:galtzo-floss/activerecord-tablefree](https://img.shields.io/gem/rd/activerecord-tablefree.svg)](https://rubygems.org/gems/activerecord-tablefree)
-- galtzo-floss / anonymous_active_record - [![Downloads Rank 🐙:galtzo-floss/anonymous_active_record](https://img.shields.io/gem/rd/anonymous_active_record.svg)](https://rubygems.org/gems/anonymous_active_record)
-- galtzo-floss / json_schemer-fuzz - [![Downloads Rank 🐙:galtzo-floss/json_schemer-fuzz](https://img.shields.io/gem/rd/json_schemer-fuzz.svg)](https://rubygems.org/gems/json_schemer-fuzz)
-- galtzo-floss / rspec-block_is_expected - [![Downloads Rank 🐙:galtzo-floss/rspec-block_is_expected](https://img.shields.io/gem/rd/rspec-block_is_expected.svg)](https://rubygems.org/gems/rspec-block_is_expected)
-- galtzo-floss / rspec-pending_for - [![Downloads Rank 🐙:galtzo-floss/rspec-pending_for](https://img.shields.io/gem/rd/rspec-pending_for.svg)](https://rubygems.org/gems/rspec-pending_for)
-- galtzo-floss / rspec-stubbed_env - [![Downloads Rank 🐙:galtzo-floss/rspec-stubbed_env](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)
-- galtzo-floss / silent_stream - [![Downloads Rank 🐙:galtzo-floss/silent_stream](https://img.shields.io/gem/rd/silent_stream.svg)](https://rubygems.org/gems/silent_stream)
-- galtzo-floss / timecop-rspec - [![Downloads Rank 🐙:galtzo-floss/timecop-rspec](https://img.shields.io/gem/rd/timecop-rspec.svg)](https://rubygems.org/gems/timecop-rspec)
-- kettle-rb / kettle-soup-cover - [![Downloads Rank 🐙:kettle-rb/kettle-soup-cover](https://img.shields.io/gem/rd/kettle-soup-cover.svg)](https://rubygems.org/gems/kettle-soup-cover)
+- galtzo-floss / activerecord-tablefree - [![Downloads Rank 🐙:galtzo-floss/activerecord-tablefree](https://img.shields.io/gem/rd/activerecord-tablefree.svg)](https://bestgems.org/gems/activerecord-tablefree)
+- galtzo-floss / anonymous_active_record - [![Downloads Rank 🐙:galtzo-floss/anonymous_active_record](https://img.shields.io/gem/rd/anonymous_active_record.svg)](https://bestgems.org/gems/anonymous_active_record)
+- galtzo-floss / json_schemer-fuzz - [![Downloads Rank 🐙:galtzo-floss/json_schemer-fuzz](https://img.shields.io/gem/rd/json_schemer-fuzz.svg)](https://bestgems.org/gems/json_schemer-fuzz)
+- galtzo-floss / rspec-block_is_expected - [![Downloads Rank 🐙:galtzo-floss/rspec-block_is_expected](https://img.shields.io/gem/rd/rspec-block_is_expected.svg)](https://bestgems.org/gems/rspec-block_is_expected)
+- galtzo-floss / rspec-pending_for - [![Downloads Rank 🐙:galtzo-floss/rspec-pending_for](https://img.shields.io/gem/rd/rspec-pending_for.svg)](https://bestgems.org/gems/rspec-pending_for)
+- galtzo-floss / rspec-stubbed_env - [![Downloads Rank 🐙:galtzo-floss/rspec-stubbed_env](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://bestgems.org/gems/rspec-stubbed_env)
+- galtzo-floss / silent_stream - [![Downloads Rank 🐙:galtzo-floss/silent_stream](https://img.shields.io/gem/rd/silent_stream.svg)](https://bestgems.org/gems/silent_stream)
+- galtzo-floss / timecop-rspec - [![Downloads Rank 🐙:galtzo-floss/timecop-rspec](https://img.shields.io/gem/rd/timecop-rspec.svg)](https://bestgems.org/gems/timecop-rspec)
+- kettle-rb / kettle-soup-cover - [![Downloads Rank 🐙:kettle-rb/kettle-soup-cover](https://img.shields.io/gem/rd/kettle-soup-cover.svg)](https://bestgems.org/gems/kettle-soup-cover)
 
 </details>
 
@@ -262,21 +263,21 @@ More examples for rails-specific, or non-rspec projects are at [rubocop-lts.gitl
   If you think this is what <pre>TargetRubyVersion</pre> does, you've misundertood its purpose, which is to turn off rules that are incompatible with older versions of Ruby, not to make your rules configuration compatible with a specific version of Ruby, nor to turn on Rules that would help with compatibility.
 </aside>
 
-- rubocop-lts / rubocop-lts - [![Downloads Rank 🐙:rubocop-lts/rubocop-lts](https://img.shields.io/gem/rd/rubocop-lts.svg)](https://rubygems.org/gems/rubocop-lts)
-- rubocop-lts / rubocop-ruby1_8 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby1_8](https://img.shields.io/gem/rd/rubocop-ruby1_8.svg)](https://rubygems.org/gems/rubocop-ruby1_8)
-- rubocop-lts / rubocop-ruby1_9 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby1_9](https://img.shields.io/gem/rd/rubocop-ruby1_9.svg)](https://rubygems.org/gems/rubocop-ruby1_9)
-- rubocop-lts / rubocop-ruby2_0 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_0](https://img.shields.io/gem/rd/rubocop-ruby2_0.svg)](https://rubygems.org/gems/rubocop-ruby2_0)
-- rubocop-lts / rubocop-ruby2_1 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_1](https://img.shields.io/gem/rd/rubocop-ruby2_1.svg)](https://rubygems.org/gems/rubocop-ruby2_1)
-- rubocop-lts / rubocop-ruby2_2 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_2](https://img.shields.io/gem/rd/rubocop-ruby2_2.svg)](https://rubygems.org/gems/rubocop-ruby2_2)
-- rubocop-lts / rubocop-ruby2_3 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_3](https://img.shields.io/gem/rd/rubocop-ruby2_3.svg)](https://rubygems.org/gems/rubocop-ruby2_3)
-- rubocop-lts / rubocop-ruby2_4 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_4](https://img.shields.io/gem/rd/rubocop-ruby2_4.svg)](https://rubygems.org/gems/rubocop-ruby2_4)
-- rubocop-lts / rubocop-ruby2_5 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_5](https://img.shields.io/gem/rd/rubocop-ruby2_5.svg)](https://rubygems.org/gems/rubocop-ruby2_5)
-- rubocop-lts / rubocop-ruby2_6 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_6](https://img.shields.io/gem/rd/rubocop-ruby2_6.svg)](https://rubygems.org/gems/rubocop-ruby2_6)
-- rubocop-lts / rubocop-ruby2_7 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_7](https://img.shields.io/gem/rd/rubocop-ruby2_7.svg)](https://rubygems.org/gems/rubocop-ruby2_7)
-- rubocop-lts / rubocop-ruby3_0 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby3_0](https://img.shields.io/gem/rd/rubocop-ruby3_0.svg)](https://rubygems.org/gems/rubocop-ruby3_0)
-- rubocop-lts / rubocop-ruby3_1 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby3_1](https://img.shields.io/gem/rd/rubocop-ruby3_1.svg)](https://rubygems.org/gems/rubocop-ruby3_1)
-- rubocop-lts / rubocop-ruby3_2 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby3_2](https://img.shields.io/gem/rd/rubocop-ruby3_2.svg)](https://rubygems.org/gems/rubocop-ruby3_2)
-- rubocop-lts / standard-rubocop-lts - [![Downloads Rank 🐙:rubocop-lts/standard-rubocop-lts](https://img.shields.io/gem/rd/standard-rubocop-lts.svg)](https://rubygems.org/gems/standard-rubocop-lts)
+- rubocop-lts / rubocop-lts - [![Downloads Rank 🐙:rubocop-lts/rubocop-lts](https://img.shields.io/gem/rd/rubocop-lts.svg)](https://bestgems.org/gems/rubocop-lts)
+- rubocop-lts / rubocop-ruby1_8 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby1_8](https://img.shields.io/gem/rd/rubocop-ruby1_8.svg)](https://bestgems.org/gems/rubocop-ruby1_8)
+- rubocop-lts / rubocop-ruby1_9 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby1_9](https://img.shields.io/gem/rd/rubocop-ruby1_9.svg)](https://bestgems.org/gems/rubocop-ruby1_9)
+- rubocop-lts / rubocop-ruby2_0 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_0](https://img.shields.io/gem/rd/rubocop-ruby2_0.svg)](https://bestgems.org/gems/rubocop-ruby2_0)
+- rubocop-lts / rubocop-ruby2_1 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_1](https://img.shields.io/gem/rd/rubocop-ruby2_1.svg)](https://bestgems.org/gems/rubocop-ruby2_1)
+- rubocop-lts / rubocop-ruby2_2 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_2](https://img.shields.io/gem/rd/rubocop-ruby2_2.svg)](https://bestgems.org/gems/rubocop-ruby2_2)
+- rubocop-lts / rubocop-ruby2_3 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_3](https://img.shields.io/gem/rd/rubocop-ruby2_3.svg)](https://bestgems.org/gems/rubocop-ruby2_3)
+- rubocop-lts / rubocop-ruby2_4 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_4](https://img.shields.io/gem/rd/rubocop-ruby2_4.svg)](https://bestgems.org/gems/rubocop-ruby2_4)
+- rubocop-lts / rubocop-ruby2_5 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_5](https://img.shields.io/gem/rd/rubocop-ruby2_5.svg)](https://bestgems.org/gems/rubocop-ruby2_5)
+- rubocop-lts / rubocop-ruby2_6 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_6](https://img.shields.io/gem/rd/rubocop-ruby2_6.svg)](https://bestgems.org/gems/rubocop-ruby2_6)
+- rubocop-lts / rubocop-ruby2_7 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_7](https://img.shields.io/gem/rd/rubocop-ruby2_7.svg)](https://bestgems.org/gems/rubocop-ruby2_7)
+- rubocop-lts / rubocop-ruby3_0 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby3_0](https://img.shields.io/gem/rd/rubocop-ruby3_0.svg)](https://bestgems.org/gems/rubocop-ruby3_0)
+- rubocop-lts / rubocop-ruby3_1 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby3_1](https://img.shields.io/gem/rd/rubocop-ruby3_1.svg)](https://bestgems.org/gems/rubocop-ruby3_1)
+- rubocop-lts / rubocop-ruby3_2 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby3_2](https://img.shields.io/gem/rd/rubocop-ruby3_2.svg)](https://bestgems.org/gems/rubocop-ruby3_2)
+- rubocop-lts / standard-rubocop-lts - [![Downloads Rank 🐙:rubocop-lts/standard-rubocop-lts](https://img.shields.io/gem/rd/standard-rubocop-lts.svg)](https://bestgems.org/gems/standard-rubocop-lts)
 
 </details>
 
@@ -373,7 +374,7 @@ Want to pay me for work? I'm available!
 [💖💁🏼‍♂️devto-img]: https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white
 [💖💁🏼‍♂️aboutme]: https://about.me/peter.boling
 [💖💁🏼‍♂️aboutme-img]: https://img.shields.io/badge/about.me-0A0A0A?style=flat&logo=aboutme&logoColor=white
-[💎rubygems]: https://rubygems.org/profiles/pboling
+[💎rubygems]: https://bestgems.org/profiles/pboling
 [💎rubygems-img]: https://img.shields.io/gem/u/pboling.svg
 [my🧪lab]: https://gitlab.com/pboling
 [my🧊berg]: https://codeberg.org/pboling
@@ -395,35 +396,35 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
-* 🗓️ 2026-05-17T02:32:08Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.4" rel="noopener" target="_blank">oauth &lpar;1.1.4&rpar;</a> | 
+* 🗓️ 2026-05-17T02:32:08Z | <a href="https://bestgems.org/gems/oauth/versions/1.1.4" rel="noopener" target="_blank">oauth &lpar;1.1.4&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2026-05-17T01:54:16Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.4" rel="noopener" target="_blank">snaky_hash &lpar;2.0.4&rpar;</a> | 
+* 🗓️ 2026-05-17T01:54:16Z | <a href="https://bestgems.org/gems/snaky_hash/versions/2.0.4" rel="noopener" target="_blank">snaky_hash &lpar;2.0.4&rpar;</a> | 
 🐍 A Hashie::Mash joint to make #snakelife better    
-* 🗓️ 2026-05-17T00:13:15Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.7" rel="noopener" target="_blank">oauth-tty &lpar;1.0.7&rpar;</a> | 
+* 🗓️ 2026-05-17T00:13:15Z | <a href="https://bestgems.org/gems/oauth-tty/versions/1.0.7" rel="noopener" target="_blank">oauth-tty &lpar;1.0.7&rpar;</a> | 
 🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
-* 🗓️ 2026-05-16T07:15:38Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.19" rel="noopener" target="_blank">oauth2 &lpar;2.0.19&rpar;</a> | 
+* 🗓️ 2026-05-16T07:15:38Z | <a href="https://bestgems.org/gems/oauth2/versions/2.0.19" rel="noopener" target="_blank">oauth2 &lpar;2.0.19&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2026-05-05T20:52:09Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.13.1" rel="noopener" target="_blank">dynamoid &lpar;3.13.1&rpar;</a> | 
+* 🗓️ 2026-05-05T20:52:09Z | <a href="https://bestgems.org/gems/dynamoid/versions/3.13.1" rel="noopener" target="_blank">dynamoid &lpar;3.13.1&rpar;</a> | 
 Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
-* 🗓️ 2026-03-28T15:07:21Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.13.0" rel="noopener" target="_blank">dynamoid &lpar;3.13.0&rpar;</a> | 
+* 🗓️ 2026-03-28T15:07:21Z | <a href="https://bestgems.org/gems/dynamoid/versions/3.13.0" rel="noopener" target="_blank">dynamoid &lpar;3.13.0&rpar;</a> | 
 Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
-* 🗓️ 2026-02-07T11:53:41Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.20" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.20&rpar;</a> | 
+* 🗓️ 2026-02-07T11:53:41Z | <a href="https://bestgems.org/gems/rspec-pending_for/versions/0.1.20" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.20&rpar;</a> | 
 ⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-02-04T08:54:07Z | <a href="https://rubygems.org/gems/simple_column-scopes/versions/0.1.1" rel="noopener" target="_blank">simple_column-scopes &lpar;0.1.1&rpar;</a> | 
+* 🗓️ 2026-02-04T08:54:07Z | <a href="https://bestgems.org/gems/simple_column-scopes/versions/0.1.1" rel="noopener" target="_blank">simple_column-scopes &lpar;0.1.1&rpar;</a> | 
 🏛️ Dynamic modules which define dynamic methods for scopes based on a dynamic array of column names    
-* 🗓️ 2025-11-08T11:51:49Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.18" rel="noopener" target="_blank">oauth2 &lpar;2.0.18&rpar;</a> | 
+* 🗓️ 2025-11-08T11:51:49Z | <a href="https://bestgems.org/gems/oauth2/versions/2.0.18" rel="noopener" target="_blank">oauth2 &lpar;2.0.18&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2025-11-07T02:41:43Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
+* 🗓️ 2025-11-07T02:41:43Z | <a href="https://bestgems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2025-10-21T07:54:03Z | <a href="https://rubygems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
+* 🗓️ 2025-10-21T07:54:03Z | <a href="https://bestgems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
 🏴‍☠️ Liberate files from your Google Drive with transformations    
-* 🗓️ 2025-10-14T00:33:04Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
+* 🗓️ 2025-10-14T00:33:04Z | <a href="https://bestgems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
 🫵 Traditional username/password based authentication system for OmniAuth    
-* 🗓️ 2025-09-22T03:02:52Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 
+* 🗓️ 2025-09-22T03:02:52Z | <a href="https://bestgems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2025-09-22T02:52:36Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.1" rel="noopener" target="_blank">oauth &lpar;1.1.1&rpar;</a> | 
+* 🗓️ 2025-09-22T02:52:36Z | <a href="https://bestgems.org/gems/oauth/versions/1.1.1" rel="noopener" target="_blank">oauth &lpar;1.1.1&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2025-09-21T11:21:48Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.6" rel="noopener" target="_blank">oauth-tty &lpar;1.0.6&rpar;</a> | 
+* 🗓️ 2025-09-21T11:21:48Z | <a href="https://bestgems.org/gems/oauth-tty/versions/1.0.6" rel="noopener" target="_blank">oauth-tty &lpar;1.0.6&rpar;</a> | 
 🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
@@ -555,7 +556,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 - Open Source Contributor, OWASP | [🌪️ OWASP CycloneDX](https://github.com/CycloneDX/cyclonedx-ruby-gem/pulls?q=is%3Apr+author%3Apboling+)
 - Open Source Contributor, ASF | [👀 Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes/pulls?q=is%3Amerged+is%3Apr+author%3Apboling+)
 - FLOSS Blogger | [RailsBling](https://dev.to/galtzo)
-- FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
+- FLOSS Author | [RubyGems](https://bestgems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
 
