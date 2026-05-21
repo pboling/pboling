@@ -397,6 +397,12 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-21T00:52:34Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.5" rel="noopener" target="_blank">oauth &lpar;1.1.5&rpar;</a> | 
+🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
+* 🗓️ 2026-05-21T00:36:43Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.8" rel="noopener" target="_blank">oauth-tty &lpar;1.0.8&rpar;</a> | 
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
+* 🗓️ 2026-05-21T00:34:04Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.20" rel="noopener" target="_blank">oauth2 &lpar;2.0.20&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2026-05-17T02:32:08Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.4" rel="noopener" target="_blank">oauth &lpar;1.1.4&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
 * 🗓️ 2026-05-17T01:54:16Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.4" rel="noopener" target="_blank">snaky_hash &lpar;2.0.4&rpar;</a> | 
@@ -420,13 +426,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-10-21T07:54:03Z | <a href="https://rubygems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
 🏴‍☠️ Liberate files from your Google Drive with transformations    
 * 🗓️ 2025-10-14T00:33:04Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
-🫵 Traditional username/password based authentication system for OmniAuth    
-* 🗓️ 2025-09-22T03:02:52Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.2" rel="noopener" target="_blank">oauth &lpar;1.1.2&rpar;</a> | 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2025-09-22T02:52:36Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.1" rel="noopener" target="_blank">oauth &lpar;1.1.1&rpar;</a> | 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2025-09-21T11:21:48Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.6" rel="noopener" target="_blank">oauth-tty &lpar;1.0.6&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    <!-- PBOLINGS-RUBYGEMS:END -->
+🫵 Traditional username/password based authentication system for OmniAuth    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
