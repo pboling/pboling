@@ -438,6 +438,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- BLOG-POST-LIST:START -->
+* 🗓️ 2026-05-26T22:22:00Z | <a href="https://dev.to/galtzo/why-flagshihtzu-is-changing-its-default-sql-for-bit-flags-41l9" rel="noopener" target="_blank">Why flag_shih_tzu is changing its default SQL for bit flags</a> | 🏷️ ruby, rails, activerecord, bitfield
 * 🗓️ 2026-05-25T04:24:26Z | <a href="https://dev.to/galtzo/yard-yaml-011-safer-utf-8-handling-for-yaml-documentation-43jh" rel="noopener" target="_blank">yard-yaml 0.1.1: safer UTF-8 handling for YAML documentation</a> | 🏷️ ruby, rubygems, yard, yaml
 * 🗓️ 2026-05-24T06:29:36Z | <a href="https://dev.to/galtzo/yard-fence-090-cleaner-yard-docs-when-markdown-braces-get-in-the-way-2683" rel="noopener" target="_blank">yard-fence 0.9.0: cleaner YARD docs when Markdown braces get in the way</a> | 🏷️ ruby, rubygems, yard, opensource
 * 🗓️ 2026-05-24T00:35:28Z | <a href="https://dev.to/galtzo/yard-timekeeper-stop-yard-timestamp-churn-in-checked-in-docs-369o" rel="noopener" target="_blank">yard-timekeeper: Stop YARD Timestamp Churn in Checked-In Docs</a> | 🏷️ ruby, rubygem, yard, opensource
@@ -448,8 +449,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-11-06T23:39:10Z | <a href="https://dev.to/galtzo/floss-funding-2cfn" rel="noopener" target="_blank">💲FLOSS Funding</a> | 🏷️ career, discuss, opensource
 * 🗓️ 2025-10-14T00:49:55Z | <a href="https://dev.to/galtzo/ann-omniauth-identity-v315-hanamirom-support-4ha3" rel="noopener" target="_blank">💎 ANN: omniauth-identity v3.1.5 &lpar;Hanami/ROM Support&rpar;</a> | 🏷️ webdev, ruby, rom, authentication
 * 🗓️ 2025-09-18T06:30:38Z | <a href="https://dev.to/galtzo/ann-oauth2-v2017-h1a" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.17</a> | 🏷️ ruby, oauth, webdev, instagram
-* 🗓️ 2025-09-15T11:53:14Z | <a href="https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl" rel="noopener" target="_blank">💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling</a> | 🏷️ devtools, ruby, packaging, automation
-* 🗓️ 2025-09-14T23:07:29Z | <a href="https://dev.to/galtzo/ann-oauth2-v2015-v2016-w-full-e2e-example-4f74" rel="noopener" target="_blank">💎 ANN: oauth2 v2.0.16 w/ full E2E example &lpar;&amp; Instagram Compat&rpar;</a> | 🏷️ docker, security, ruby, instagram<!-- BLOG-POST-LIST:END -->
+* 🗓️ 2025-09-15T11:53:14Z | <a href="https://dev.to/galtzo/ann-kettle-dev-v1020-w-improved-changelog-handling-20hl" rel="noopener" target="_blank">💎 ANN: kettle-dev v1.1.20 w/ improved CHANGELOG handling</a> | 🏷️ devtools, ruby, packaging, automation<!-- BLOG-POST-LIST:END -->
 
 # Contributions
 
