@@ -397,6 +397,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-26T21:43:50Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.0" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.0&rpar;</a> | 
+🍲 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-05-26T09:47:11Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.0" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.0&rpar;</a> | 
 🏁 Bit fields for ActiveRecord:
 This gem lets you use a single integer column in an ActiveRecord model
@@ -429,9 +431,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-11-08T11:51:49Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.18" rel="noopener" target="_blank">oauth2 &lpar;2.0.18&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2025-11-07T02:41:43Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2025-10-21T07:54:03Z | <a href="https://rubygems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
-🏴‍☠️ Liberate files from your Google Drive with transformations    <!-- PBOLINGS-RUBYGEMS:END -->
+🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
