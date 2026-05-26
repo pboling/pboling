@@ -397,6 +397,13 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-26T09:47:11Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.0" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.0&rpar;</a> | 
+🏁 Bit fields for ActiveRecord:
+This gem lets you use a single integer column in an ActiveRecord model
+to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
+almost in the same way you would use any boolean attribute on an
+ActiveRecord object.
+    
 * 🗓️ 2026-05-21T00:52:34Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.5" rel="noopener" target="_blank">oauth &lpar;1.1.5&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
 * 🗓️ 2026-05-21T00:36:43Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.8" rel="noopener" target="_blank">oauth-tty &lpar;1.0.8&rpar;</a> | 
@@ -424,9 +431,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2025-11-07T02:41:43Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
 * 🗓️ 2025-10-21T07:54:03Z | <a href="https://rubygems.org/gems/undrive_google/versions/1.1.2" rel="noopener" target="_blank">undrive_google &lpar;1.1.2&rpar;</a> | 
-🏴‍☠️ Liberate files from your Google Drive with transformations    
-* 🗓️ 2025-10-14T00:33:04Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.1.5" rel="noopener" target="_blank">omniauth-identity &lpar;3.1.5&rpar;</a> | 
-🫵 Traditional username/password based authentication system for OmniAuth    <!-- PBOLINGS-RUBYGEMS:END -->
+🏴‍☠️ Liberate files from your Google Drive with transformations    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
