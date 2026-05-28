@@ -397,6 +397,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-28T08:25:34Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.0.3" rel="noopener" target="_blank">debug_logging &lpar;4.0.3&rpar;</a> | 
+🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
+Automatically log selected methods and their arguments as they are called at runtime!
+    
 * 🗓️ 2026-05-26T21:43:50Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.0" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.0&rpar;</a> | 
 🍲 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-05-26T09:47:11Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.0" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.0&rpar;</a> | 
@@ -429,9 +433,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2026-02-04T08:54:07Z | <a href="https://rubygems.org/gems/simple_column-scopes/versions/0.1.1" rel="noopener" target="_blank">simple_column-scopes &lpar;0.1.1&rpar;</a> | 
 🏛️ Dynamic modules which define dynamic methods for scopes based on a dynamic array of column names    
 * 🗓️ 2025-11-08T11:51:49Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.18" rel="noopener" target="_blank">oauth2 &lpar;2.0.18&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2025-11-07T02:41:43Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.3" rel="noopener" target="_blank">oauth &lpar;1.1.3&rpar;</a> | 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    <!-- PBOLINGS-RUBYGEMS:END -->
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
