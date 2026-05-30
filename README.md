@@ -397,6 +397,16 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-30T21:23:03Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.0" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.0&rpar;</a> | 
+Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
+* 🗓️ 2026-05-30T21:18:33Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.0" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.0&rpar;</a> | 
+Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    
+* 🗓️ 2026-05-30T21:17:20Z | <a href="https://rubygems.org/gems/rubocop-ruby2_0/versions/3.0.0" rel="noopener" target="_blank">rubocop-ruby2_0 &lpar;3.0.0&rpar;</a> | 
+Configure RuboCop + a bevy of friends to gradually lint Ruby 2.0 code    
+* 🗓️ 2026-05-30T21:16:19Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.0" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.0&rpar;</a> | 
+Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
+* 🗓️ 2026-05-30T21:15:07Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.0" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.0&rpar;</a> | 
+Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
 * 🗓️ 2026-05-30T09:51:05Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.2" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.2&rpar;</a> | 
 Enables Ruby projects to more confidently support even the most finely-aged Rubies.
 Part of the rubocop-lts family.
@@ -427,17 +437,7 @@ ActiveRecord object.
 * 🗓️ 2026-05-17T02:32:08Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.4" rel="noopener" target="_blank">oauth &lpar;1.1.4&rpar;</a> | 
 🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
 * 🗓️ 2026-05-17T01:54:16Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.4" rel="noopener" target="_blank">snaky_hash &lpar;2.0.4&rpar;</a> | 
-🐍 A Hashie::Mash joint to make #snakelife better    
-* 🗓️ 2026-05-17T00:13:15Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.7" rel="noopener" target="_blank">oauth-tty &lpar;1.0.7&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
-* 🗓️ 2026-05-16T07:15:38Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.19" rel="noopener" target="_blank">oauth2 &lpar;2.0.19&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2026-05-05T20:52:09Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.13.1" rel="noopener" target="_blank">dynamoid &lpar;3.13.1&rpar;</a> | 
-Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
-* 🗓️ 2026-03-28T15:07:21Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.13.0" rel="noopener" target="_blank">dynamoid &lpar;3.13.0&rpar;</a> | 
-Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
-* 🗓️ 2026-02-07T11:53:41Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.20" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.20&rpar;</a> | 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
+🐍 A Hashie::Mash joint to make #snakelife better    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
