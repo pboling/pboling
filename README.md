@@ -397,6 +397,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-05-30T09:51:05Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.2" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.2&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
 * 🗓️ 2026-05-29T06:35:43Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.11" rel="noopener" target="_blank">sanitize_email &lpar;2.0.11&rpar;</a> | 
   Email Condom for your Ruby Server.
 In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
@@ -433,9 +437,7 @@ Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline developme
 * 🗓️ 2026-03-28T15:07:21Z | <a href="https://rubygems.org/gems/dynamoid/versions/3.13.0" rel="noopener" target="_blank">dynamoid &lpar;3.13.0&rpar;</a> | 
 Dynamoid is an ORM for Amazon&amp;#39;s DynamoDB that supports offline development, associations, querying, and everything else you&amp;#39;d expect from an ActiveRecord-style replacement.    
 * 🗓️ 2026-02-07T11:53:41Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.20" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.20&rpar;</a> | 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-02-04T08:54:07Z | <a href="https://rubygems.org/gems/simple_column-scopes/versions/0.1.1" rel="noopener" target="_blank">simple_column-scopes &lpar;0.1.1&rpar;</a> | 
-🏛️ Dynamic modules which define dynamic methods for scopes based on a dynamic array of column names    <!-- PBOLINGS-RUBYGEMS:END -->
+⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
