@@ -397,6 +397,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-07T07:13:36Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.22" rel="noopener" target="_blank">oauth2 &lpar;2.0.22&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2026-06-07T06:28:19Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.5" rel="noopener" target="_blank">snaky_hash &lpar;2.0.5&rpar;</a> | 
+🐍 A Hashie::Mash joint to make #snakelife better    
 * 🗓️ 2026-06-07T04:09:07Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.11" rel="noopener" target="_blank">version_gem &lpar;1.1.11&rpar;</a> | 
 🍲 Versions are good. Versions are cool. Versions will win.    
 * 🗓️ 2026-06-07T03:51:51Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.21" rel="noopener" target="_blank">oauth2 &lpar;2.0.21&rpar;</a> | 
@@ -427,10 +431,6 @@ Configure RuboCop + a bevy of friends to gradually lint Ruby code
 * 🗓️ 2026-06-02T05:13:14Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/12.3.0" rel="noopener" target="_blank">rubocop-lts &lpar;12.3.0&rpar;</a> | 
 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-02T05:12:04Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/10.3.0" rel="noopener" target="_blank">rubocop-lts &lpar;10.3.0&rpar;</a> | 
-Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-02T05:10:51Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/8.3.0" rel="noopener" target="_blank">rubocop-lts &lpar;8.3.0&rpar;</a> | 
-Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-02T05:09:20Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/6.3.0" rel="noopener" target="_blank">rubocop-lts &lpar;6.3.0&rpar;</a> | 
 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
