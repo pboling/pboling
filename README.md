@@ -397,6 +397,21 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-15T03:11:17Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.2" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.2&rpar;</a> | 
+🏁 Single and Multi-Bit Fields for ActiveRecord:
+This gem lets you use a single integer column in an ActiveRecord model
+to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
+almost in the same way you would use any boolean attribute on an
+ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
+    
+* 🗓️ 2026-06-15T01:57:04Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.12" rel="noopener" target="_blank">sanitize_email &lpar;2.0.12&rpar;</a> | 
+  Email Condom for your Ruby Server.
+In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
+    
+* 🗓️ 2026-06-15T01:26:10Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.0.4" rel="noopener" target="_blank">debug_logging &lpar;4.0.4&rpar;</a> | 
+🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
+Automatically log selected methods and their arguments as they are called at runtime!
+    
 * 🗓️ 2026-06-14T23:31:13Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.2" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.2&rpar;</a> | 
 🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-06-13T11:29:10Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.23" rel="noopener" target="_blank">oauth2 &lpar;2.0.23&rpar;</a> | 
@@ -427,13 +442,7 @@ ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
 * 🗓️ 2026-06-05T10:42:38Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.2.0" rel="noopener" target="_blank">omniauth-identity &lpar;3.2.0&rpar;</a> | 
 🫵 Traditional username/password based authentication system for OmniAuth    
 * 🗓️ 2026-06-02T23:08:05Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.10" rel="noopener" target="_blank">version_gem &lpar;1.1.10&rpar;</a> | 
-🍲 Versions are good. Versions are cool. Versions will win.    
-* 🗓️ 2026-06-02T05:21:39Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/24.2.0" rel="noopener" target="_blank">rubocop-lts &lpar;24.2.0&rpar;</a> | 
-Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-02T05:20:13Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/22.3.0" rel="noopener" target="_blank">rubocop-lts &lpar;22.3.0&rpar;</a> | 
-Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-02T05:18:07Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/20.4.0" rel="noopener" target="_blank">rubocop-lts &lpar;20.4.0&rpar;</a> | 
-Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
+🍲 Versions are good. Versions are cool. Versions will win.    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
