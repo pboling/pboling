@@ -397,6 +397,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-14T23:31:13Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.2" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.2&rpar;</a> | 
+🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-06-13T11:29:10Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.23" rel="noopener" target="_blank">oauth2 &lpar;2.0.23&rpar;</a> | 
 🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
 * 🗓️ 2026-06-11T09:41:05Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.6" rel="noopener" target="_blank">snaky_hash &lpar;2.0.6&rpar;</a> | 
@@ -431,8 +433,6 @@ Configure RuboCop + a bevy of friends to gradually lint Ruby code
 * 🗓️ 2026-06-02T05:20:13Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/22.3.0" rel="noopener" target="_blank">rubocop-lts &lpar;22.3.0&rpar;</a> | 
 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-02T05:18:07Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/20.4.0" rel="noopener" target="_blank">rubocop-lts &lpar;20.4.0&rpar;</a> | 
-Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-02T05:16:49Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/18.4.0" rel="noopener" target="_blank">rubocop-lts &lpar;18.4.0&rpar;</a> | 
 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
