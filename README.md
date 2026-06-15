@@ -397,6 +397,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-15T11:08:13Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.10" rel="noopener" target="_blank">oauth-tty &lpar;1.0.10&rpar;</a> | 
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
+* 🗓️ 2026-06-15T10:01:19Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.9" rel="noopener" target="_blank">oauth-tty &lpar;1.0.9&rpar;</a> | 
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
 * 🗓️ 2026-06-15T05:34:21Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.12" rel="noopener" target="_blank">version_gem &lpar;1.1.12&rpar;</a> | 
 🍲 Versions are good. Versions are cool. Versions will win.    
 * 🗓️ 2026-06-15T03:11:17Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.2" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.2&rpar;</a> | 
@@ -433,16 +437,7 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-06-07T04:09:07Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.11" rel="noopener" target="_blank">version_gem &lpar;1.1.11&rpar;</a> | 
 🍲 Versions are good. Versions are cool. Versions will win.    
 * 🗓️ 2026-06-07T03:51:51Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.21" rel="noopener" target="_blank">oauth2 &lpar;2.0.21&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2026-06-06T05:35:09Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.1" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.1&rpar;</a> | 
-🏁 Single and Multi-Bit Fields for ActiveRecord:
-This gem lets you use a single integer column in an ActiveRecord model
-to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
-almost in the same way you would use any boolean attribute on an
-ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
-    
-* 🗓️ 2026-06-05T10:42:38Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.2.0" rel="noopener" target="_blank">omniauth-identity &lpar;3.2.0&rpar;</a> | 
-🫵 Traditional username/password based authentication system for OmniAuth    <!-- PBOLINGS-RUBYGEMS:END -->
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
