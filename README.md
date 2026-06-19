@@ -397,6 +397,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-19T03:04:20Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.12" rel="noopener" target="_blank">oauth-tty &lpar;1.0.12&rpar;</a> | 
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
 * 🗓️ 2026-06-18T19:13:34Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.11" rel="noopener" target="_blank">oauth-tty &lpar;1.0.11&rpar;</a> | 
 🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
 * 🗓️ 2026-06-18T19:03:39Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.24" rel="noopener" target="_blank">oauth2 &lpar;2.0.24&rpar;</a> | 
@@ -435,9 +437,7 @@ Enables Ruby projects to more confidently support even the most finely-aged Rubi
 Part of the rubocop-lts family.
     
 * 🗓️ 2026-06-07T08:25:34Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.6" rel="noopener" target="_blank">oauth &lpar;1.1.6&rpar;</a> | 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2026-06-07T07:13:36Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.22" rel="noopener" target="_blank">oauth2 &lpar;2.0.22&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
+🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
