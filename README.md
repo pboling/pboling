@@ -33,6 +33,7 @@ I maintain the following RubyGems:
 - omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://bestgems.org/gems/omniauth-identity)
 - omniauth / omniauth-ldap - [![Downloads Rank 🐙:omniauth/omniauth-ldap](https://img.shields.io/gem/rd/omniauth-ldap.svg)](https://bestgems.org/gems/omniauth-ldap)
 - rdp / os - [![Downloads Rank 🐙:rdp/os](https://img.shields.io/gem/rd/os.svg)](https://bestgems.org/gems/os)
+- ruby-oauth / anonymous_loader - [![Downloads Rank 🐙:ruby-oauth/anonymous_loader](https://img.shields.io/gem/rd/anonymous_loader.svg)](https://bestgems.org/gems/anonymous_loader)
 - ruby-oauth / auth-sanitizer - [![Downloads Rank 🐙:ruby-oauth/auth-sanitizer](https://img.shields.io/gem/rd/auth-sanitizer.svg)](https://bestgems.org/gems/auth-sanitizer)
 - ruby-oauth / oauth - [![Downloads Rank 🐙:ruby-oauth/oauth](https://img.shields.io/gem/rd/oauth.svg)](https://bestgems.org/gems/oauth)
 - ruby-oauth / oauth2 - [![Downloads Rank 🐙:ruby-oauth/oauth2](https://img.shields.io/gem/rd/oauth2.svg)](https://bestgems.org/gems/oauth2)
