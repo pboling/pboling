@@ -7,6 +7,44 @@ I recently worked on the Go project for dependency license scanning [Apache SkyW
 [demo]: https://pboling.github.io/yacs/
 [demo-img]: https://img.shields.io/badge/Live-Demo-blue
 
+Most of my open source work happens in these organizations:
+
+<div class="logos">
+    <a href="https://github.com/appraisal-rb" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/appraisal-rb/avatar-128px.svg" alt="appraisal-rb Logo by Aboling0, CC BY-SA 4.0" title="appraisal-rb Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/kettle-dev" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/kettle-dev/avatar-128px.svg" alt="kettle-rb Logo by Aboling0, CC BY-SA 4.0" title="kettle-dev Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/floss-funding" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/floss-funding/avatar-128px.svg" alt="floss-funding Logo by Aboling0, CC BY-SA 4.0" title="floss-funding Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/galtzo-floss" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/galtzo-floss/avatar-128px.svg" alt="galtzo-floss Logo by Aboling0, CC BY-SA 4.0" title="galtzo-floss Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/omniauth" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/omniauth/avatar-128px.png" alt="omniauth Logo by (presumed) tomeara, (presumed) MIT" title="omniauth Logo by (presumed) tomeara, (presumed) MIT">
+    </a>
+    <a href="https://github.com/resque" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/resque/avatar-128px.png" alt="resque Logo by Resque development team, MIT" title="resque Logo by Resque development team, MIT">
+    </a>
+    <a href="https://github.com/rubocop-lts" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/rubocop-lts/avatar-128px.svg" alt="rubocop-lts Logo by Aboling0, CC BY-SA 4.0" title="rubocop-lts Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/ruby-oauth" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/oauth/avatar-128px.svg" alt="oauth Logo by Chris Messina, CC BY-SA 3.0" title="oauth Logo by Chris Messina, CC BY-SA 3.0">
+    </a>
+    <a href="https://github.com/ruby-openid" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/ruby-openid/avatar-128px.svg" alt="ruby-openid Logo by Aboling0, CC BY-SA 4.0" title="ruby-openid Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/rubythems" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/rubythems/avatar-128px.png" alt="rubythems Logo by Aboling0, CC BY-SA 4.0" title="rubythems Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+    <a href="https://github.com/structuredmerge" target="_blank" rel="noopener" width="9%">
+      <img src="https://logos.galtzo.com/assets/images/structuredmerge/avatar-128px.png" alt="structuredmerge Logo by Aboling0, CC BY-SA 4.0" title="structuredmerge Logo by Aboling0, CC BY-SA 4.0">
+    </a>
+</div>
+
 <details>
     <summary>👣 How will my projects approach the September 2025 hostile takeover of RubyGems? 🚑️</summary>
 
