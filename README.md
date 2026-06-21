@@ -23,7 +23,7 @@ Most of my open source work happens in these organizations:
       <img src="https://logos.galtzo.com/assets/images/galtzo-floss/avatar-128px.svg" alt="galtzo-floss Logo by Aboling0, CC BY-SA 4.0" title="galtzo-floss Logo by Aboling0, CC BY-SA 4.0">
     </a>
     <a href="https://github.com/omniauth" target="_blank" rel="noopener" width="9%">
-      <img src="https://logos.galtzo.com/assets/images/omniauth/avatar-128px.png" alt="omniauth Logo by (presumed) tomeara, (presumed) MIT" title="omniauth Logo by (presumed) tomeara, (presumed) MIT">
+      <img src="https://logos.galtzo.com/assets/images/omniauth/avatar-128px.png" alt="(alternate) omniauth Logo Logo by Aboling0, CC BY-SA 4.0" title="(alternate) omniauth Logo Logo by Aboling0, CC BY-SA 4.0">
     </a>
     <a href="https://github.com/resque" target="_blank" rel="noopener" width="9%">
       <img src="https://logos.galtzo.com/assets/images/resque/avatar-128px.png" alt="resque Logo by Resque development team, MIT" title="resque Logo by Resque development team, MIT">
