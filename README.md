@@ -436,6 +436,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-22T15:21:09Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.13" rel="noopener" target="_blank">version_gem &lpar;1.1.13&rpar;</a> | 
+🍲 Versions are good. Versions are cool. Versions will win.    
 * 🗓️ 2026-06-19T03:04:20Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.12" rel="noopener" target="_blank">oauth-tty &lpar;1.0.12&rpar;</a> | 
 🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
 * 🗓️ 2026-06-18T19:13:34Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.11" rel="noopener" target="_blank">oauth-tty &lpar;1.0.11&rpar;</a> | 
@@ -474,9 +476,7 @@ Automatically log selected methods and their arguments as they are called at run
 * 🗓️ 2026-06-07T11:34:51Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.5" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.5&rpar;</a> | 
 Enables Ruby projects to more confidently support even the most finely-aged Rubies.
 Part of the rubocop-lts family.
-    
-* 🗓️ 2026-06-07T08:25:34Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.6" rel="noopener" target="_blank">oauth &lpar;1.1.6&rpar;</a> | 
-🔑 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
