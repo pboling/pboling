@@ -436,6 +436,12 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-25T15:32:20Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
+* 🗓️ 2026-06-25T15:16:05Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
+* 🗓️ 2026-06-25T15:03:39Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
 * 🗓️ 2026-06-25T14:58:07Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.4&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.7 code    
 * 🗓️ 2026-06-25T14:50:18Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.4&rpar;</a> | 
@@ -461,13 +467,7 @@ Enables Ruby projects to more confidently support even the most finely-aged Rubi
 Part of the rubocop-lts family.
     
 * 🗓️ 2026-06-22T17:22:17Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.3" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.3&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-06-22T15:21:09Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.13" rel="noopener" target="_blank">version_gem &lpar;1.1.13&rpar;</a> | 
-🍲 Versions are good. Versions are cool. Versions will win.    
-* 🗓️ 2026-06-19T03:04:20Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.12" rel="noopener" target="_blank">oauth-tty &lpar;1.0.12&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
-* 🗓️ 2026-06-18T19:13:34Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.11" rel="noopener" target="_blank">oauth-tty &lpar;1.0.11&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    <!-- PBOLINGS-RUBYGEMS:END -->
+🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
