@@ -436,6 +436,22 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-25T14:58:07Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.7 code    
+* 🗓️ 2026-06-25T14:50:18Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
+* 🗓️ 2026-06-25T14:37:24Z | <a href="https://rubygems.org/gems/rubocop-ruby2_5/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_5 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.5 code    
+* 🗓️ 2026-06-25T14:27:53Z | <a href="https://rubygems.org/gems/rubocop-ruby2_4/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_4 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.4 code    
+* 🗓️ 2026-06-25T14:22:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_3/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_3 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.3 code    
+* 🗓️ 2026-06-25T14:17:51Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
+* 🗓️ 2026-06-25T14:09:16Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    
+* 🗓️ 2026-06-25T13:45:26Z | <a href="https://rubygems.org/gems/rubocop-ruby2_0/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby2_0 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.0 code    
 * 🗓️ 2026-06-25T13:35:08Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.4&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
 * 🗓️ 2026-06-25T13:19:45Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.4" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.4&rpar;</a> | 
@@ -451,32 +467,7 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-06-19T03:04:20Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.12" rel="noopener" target="_blank">oauth-tty &lpar;1.0.12&rpar;</a> | 
 🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
 * 🗓️ 2026-06-18T19:13:34Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.11" rel="noopener" target="_blank">oauth-tty &lpar;1.0.11&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
-* 🗓️ 2026-06-18T19:03:39Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.24" rel="noopener" target="_blank">oauth2 &lpar;2.0.24&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2026-06-15T11:28:42Z | <a href="https://rubygems.org/gems/oauth/versions/1.1.7" rel="noopener" target="_blank">oauth &lpar;1.1.7&rpar;</a> | 
-🔮 A Ruby wrapper for the original OAuth 1.0 / 1.0a spec.    
-* 🗓️ 2026-06-15T11:08:13Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.10" rel="noopener" target="_blank">oauth-tty &lpar;1.0.10&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
-* 🗓️ 2026-06-15T10:01:19Z | <a href="https://rubygems.org/gems/oauth-tty/versions/1.0.9" rel="noopener" target="_blank">oauth-tty &lpar;1.0.9&rpar;</a> | 
-🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    
-* 🗓️ 2026-06-15T05:34:21Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.12" rel="noopener" target="_blank">version_gem &lpar;1.1.12&rpar;</a> | 
-🍲 Versions are good. Versions are cool. Versions will win.    
-* 🗓️ 2026-06-15T03:11:17Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.2" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.2&rpar;</a> | 
-🏁 Single and Multi-Bit Fields for ActiveRecord:
-This gem lets you use a single integer column in an ActiveRecord model
-to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
-almost in the same way you would use any boolean attribute on an
-ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
-    
-* 🗓️ 2026-06-15T01:57:04Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.12" rel="noopener" target="_blank">sanitize_email &lpar;2.0.12&rpar;</a> | 
-  Email Condom for your Ruby Server.
-In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
-    
-* 🗓️ 2026-06-15T01:26:10Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.0.4" rel="noopener" target="_blank">debug_logging &lpar;4.0.4&rpar;</a> | 
-🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
-Automatically log selected methods and their arguments as they are called at runtime!
-    <!-- PBOLINGS-RUBYGEMS:END -->
+🖥️ OAuth 1.0 / 1.0a TTY Command Line Interface    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
