@@ -436,6 +436,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-25T12:12:12Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.7" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.7&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
 * 🗓️ 2026-06-22T17:22:17Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.3" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.3&rpar;</a> | 
 🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-06-22T15:21:09Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.13" rel="noopener" target="_blank">version_gem &lpar;1.1.13&rpar;</a> | 
@@ -472,9 +476,7 @@ Automatically log selected methods and their arguments as they are called at run
 * 🗓️ 2026-06-14T23:31:13Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.2" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.2&rpar;</a> | 
 🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
 * 🗓️ 2026-06-13T11:29:10Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.23" rel="noopener" target="_blank">oauth2 &lpar;2.0.23&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
-* 🗓️ 2026-06-11T09:41:05Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.6" rel="noopener" target="_blank">snaky_hash &lpar;2.0.6&rpar;</a> | 
-🔮 A Hashie::Mash joint to make #snakelife better    <!-- PBOLINGS-RUBYGEMS:END -->
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
