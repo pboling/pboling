@@ -436,6 +436,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-25T13:35:08Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
+* 🗓️ 2026-06-25T13:19:45Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.4" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.4&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
 * 🗓️ 2026-06-25T12:12:12Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.7" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.7&rpar;</a> | 
 Enables Ruby projects to more confidently support even the most finely-aged Rubies.
 Part of the rubocop-lts family.
@@ -472,11 +476,7 @@ In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, 
 * 🗓️ 2026-06-15T01:26:10Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.0.4" rel="noopener" target="_blank">debug_logging &lpar;4.0.4&rpar;</a> | 
 🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
 Automatically log selected methods and their arguments as they are called at runtime!
-    
-* 🗓️ 2026-06-14T23:31:13Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.2" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.2&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-06-13T11:29:10Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.23" rel="noopener" target="_blank">oauth2 &lpar;2.0.23&rpar;</a> | 
-🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
