@@ -65,6 +65,7 @@ I maintain the following RubyGems:
 - Dynamoid / dynamoid - [![Downloads Rank 🐙:Dynamoid/dynamoid](https://img.shields.io/gem/rd/dynamoid.svg)](https://bestgems.org/gems/dynamoid)
 - galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://bestgems.org/gems/flag_shih_tzu)
 - galtzo-floss / sanitize_email - [![Downloads Rank 🐙:galtzo-floss/sanitize_email](https://img.shields.io/gem/rd/sanitize_email.svg)](https://bestgems.org/gems/sanitize_email)
+- galtzo-floss / turbo_tests2 - [![Downloads Rank 🐙:galtzo-floss/turbo_tests2](https://img.shields.io/gem/rd/turbo_tests2.svg)](https://bestgems.org/gems/turbo_tests2)
 - structuredmerge / ruby / tree_haver - [![Downloads Rank 🐙:structuredmerge/ruby/tree_haver](https://img.shields.io/gem/rd/tree_haver.svg)](https://bestgems.org/gems/tree_haver)
 - structuredmerge / ruby / ast-merge - [![Downloads Rank 🐙:structuredmerge/ruby/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://bestgems.org/gems/ast-merge)
 - omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://bestgems.org/gems/omniauth-jwt)
