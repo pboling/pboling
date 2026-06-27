@@ -437,6 +437,11 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-27T09:40:14Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.5" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.5&rpar;</a> | 
+🫥 Stub or hide environment variables in a scoped context for testing
+stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
+hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
+    
 * 🗓️ 2026-06-27T04:59:17Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.5&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
 * 🗓️ 2026-06-25T15:32:20Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.4&rpar;</a> | 
@@ -464,11 +469,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-06-25T13:35:08Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.4&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
 * 🗓️ 2026-06-25T13:19:45Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.4" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.4&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
-* 🗓️ 2026-06-25T12:12:12Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.7" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.7&rpar;</a> | 
-Enables Ruby projects to more confidently support even the most finely-aged Rubies.
-Part of the rubocop-lts family.
-    <!-- PBOLINGS-RUBYGEMS:END -->
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
