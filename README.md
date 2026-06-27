@@ -437,6 +437,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-27T04:59:17Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.5&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
 * 🗓️ 2026-06-25T15:32:20Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.4&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
 * 🗓️ 2026-06-25T15:16:05Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.4" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.4&rpar;</a> | 
@@ -466,9 +468,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-06-25T12:12:12Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.7" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.7&rpar;</a> | 
 Enables Ruby projects to more confidently support even the most finely-aged Rubies.
 Part of the rubocop-lts family.
-    
-* 🗓️ 2026-06-22T17:22:17Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.3" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.3&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
