@@ -437,6 +437,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-28T22:47:38Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
 * 🗓️ 2026-06-28T11:19:37Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.5&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
 * 🗓️ 2026-06-28T11:18:37Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.5&rpar;</a> | 
@@ -469,9 +471,7 @@ Part of the rubocop-lts family.
 🫥 Stub or hide environment variables in a scoped context for testing
 stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
 hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    
-* 🗓️ 2026-06-27T04:59:17Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.5&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
