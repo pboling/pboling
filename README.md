@@ -437,6 +437,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-06-29T00:13:21Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/0.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;0.3.1&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
+* 🗓️ 2026-06-29T00:00:05Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/4.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;4.3.1&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-28T22:47:38Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.6&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
 * 🗓️ 2026-06-28T11:19:37Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.5&rpar;</a> | 
@@ -462,16 +466,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-06-28T10:57:41Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.5" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.5&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
 * 🗓️ 2026-06-28T10:56:10Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.5" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.5&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
-* 🗓️ 2026-06-28T10:51:43Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.8" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.8&rpar;</a> | 
-Enables Ruby projects to more confidently support even the most finely-aged Rubies.
-Part of the rubocop-lts family.
-    
-* 🗓️ 2026-06-27T09:40:14Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.5" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.5&rpar;</a> | 
-🫥 Stub or hide environment variables in a scoped context for testing
-stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
-hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    <!-- PBOLINGS-RUBYGEMS:END -->
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
