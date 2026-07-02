@@ -437,6 +437,13 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-02T17:52:09Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.3" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.3&rpar;</a> | 
+🏁 Single and Multi-Bit Fields for ActiveRecord:
+This gem lets you use a single integer column in an ActiveRecord model
+to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
+almost in the same way you would use any boolean attribute on an
+ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
+    
 * 🗓️ 2026-07-02T17:22:14Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.1.0" rel="noopener" target="_blank">debug_logging &lpar;4.1.0&rpar;</a> | 
 🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
 Automatically log selected methods and their arguments as they are called at runtime!
@@ -470,8 +477,6 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-06-29T05:41:37Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/8.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;8.3.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-29T05:40:35Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/6.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;6.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:39:18Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/4.3.2" rel="noopener" target="_blank">rubocop-lts &lpar;4.3.2&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
