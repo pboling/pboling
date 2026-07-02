@@ -437,6 +437,11 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-02T18:49:47Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.6" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.6&rpar;</a> | 
+🫥 Stub or hide environment variables in a scoped context for testing
+stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
+hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
+    
 * 🗓️ 2026-07-02T17:52:09Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.3" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.3&rpar;</a> | 
 🏁 Single and Multi-Bit Fields for ActiveRecord:
 This gem lets you use a single integer column in an ActiveRecord model
@@ -475,8 +480,6 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-06-29T05:42:38Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/10.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;10.3.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-29T05:41:37Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/8.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;8.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:40:35Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/6.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;6.3.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
