@@ -437,6 +437,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-02T20:24:05Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.13" rel="noopener" target="_blank">sanitize_email &lpar;2.0.13&rpar;</a> | 
+  Email Condom for your Ruby Server.
+In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
+    
 * 🗓️ 2026-07-02T18:49:47Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.6" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.6&rpar;</a> | 
 🫥 Stub or hide environment variables in a scoped context for testing
 stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
@@ -478,8 +482,6 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-06-29T05:43:36Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/12.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;12.3.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-29T05:42:38Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/10.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;10.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:41:37Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/8.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;8.3.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
