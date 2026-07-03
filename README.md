@@ -437,6 +437,14 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-03T20:10:06Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
+* 🗓️ 2026-07-03T20:05:17Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.6" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
+* 🗓️ 2026-07-03T20:00:05Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.10" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.10&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
 * 🗓️ 2026-07-02T20:24:05Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.13" rel="noopener" target="_blank">sanitize_email &lpar;2.0.13&rpar;</a> | 
   Email Condom for your Ruby Server.
 In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
@@ -476,12 +484,6 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-06-29T05:47:20Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/18.4.1" rel="noopener" target="_blank">rubocop-lts &lpar;18.4.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-06-29T05:46:04Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/16.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;16.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:44:39Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/14.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;14.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:43:36Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/12.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;12.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:42:38Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/10.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;10.3.1&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
