@@ -437,6 +437,24 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-03T21:22:34Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
+* 🗓️ 2026-07-03T21:14:35Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.7 code    
+* 🗓️ 2026-07-03T21:06:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
+* 🗓️ 2026-07-03T20:59:15Z | <a href="https://rubygems.org/gems/rubocop-ruby2_5/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_5 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.5 code    
+* 🗓️ 2026-07-03T20:52:34Z | <a href="https://rubygems.org/gems/rubocop-ruby2_4/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_4 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.4 code    
+* 🗓️ 2026-07-03T20:44:48Z | <a href="https://rubygems.org/gems/rubocop-ruby2_3/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_3 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.3 code    
+* 🗓️ 2026-07-03T20:37:07Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
+* 🗓️ 2026-07-03T20:32:40Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    
+* 🗓️ 2026-07-03T20:28:04Z | <a href="https://rubygems.org/gems/rubocop-ruby2_0/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_0 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.0 code    
 * 🗓️ 2026-07-03T20:10:06Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.6&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
 * 🗓️ 2026-07-03T20:05:17Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.6" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.6&rpar;</a> | 
@@ -460,31 +478,7 @@ This gem lets you use a single integer column in an ActiveRecord model
 to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
 almost in the same way you would use any boolean attribute on an
 ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
-    
-* 🗓️ 2026-07-02T17:22:14Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.1.0" rel="noopener" target="_blank">debug_logging &lpar;4.1.0&rpar;</a> | 
-🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
-Automatically log selected methods and their arguments as they are called at runtime!
-    
-* 🗓️ 2026-07-02T17:01:37Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.0.5" rel="noopener" target="_blank">debug_logging &lpar;4.0.5&rpar;</a> | 
-🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
-Automatically log selected methods and their arguments as they are called at runtime!
-    
-* 🗓️ 2026-07-02T06:58:50Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.4" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.4&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-07-01T12:23:24Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.21" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.21&rpar;</a> | 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-06-29T08:17:24Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.9" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.9&rpar;</a> | 
-Enables Ruby projects to more confidently support even the most finely-aged Rubies.
-Part of the rubocop-lts family.
-    
-* 🗓️ 2026-06-29T05:57:45Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/22.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;22.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:48:36Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/20.4.1" rel="noopener" target="_blank">rubocop-lts &lpar;20.4.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:47:20Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/18.4.1" rel="noopener" target="_blank">rubocop-lts &lpar;18.4.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-06-29T05:46:04Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/16.3.1" rel="noopener" target="_blank">rubocop-lts &lpar;16.3.1&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
