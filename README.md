@@ -437,6 +437,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-03T21:33:05Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.7" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.7&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
+* 🗓️ 2026-07-03T21:27:34Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.6&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
 * 🗓️ 2026-07-03T21:22:34Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.6&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
 * 🗓️ 2026-07-03T21:14:35Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.6&rpar;</a> | 
@@ -466,18 +470,6 @@ Part of the rubocop-lts family.
 * 🗓️ 2026-07-02T20:24:05Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.13" rel="noopener" target="_blank">sanitize_email &lpar;2.0.13&rpar;</a> | 
   Email Condom for your Ruby Server.
 In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
-    
-* 🗓️ 2026-07-02T18:49:47Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.6" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.6&rpar;</a> | 
-🫥 Stub or hide environment variables in a scoped context for testing
-stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
-hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    
-* 🗓️ 2026-07-02T17:52:09Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.3" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.3&rpar;</a> | 
-🏁 Single and Multi-Bit Fields for ActiveRecord:
-This gem lets you use a single integer column in an ActiveRecord model
-to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
-almost in the same way you would use any boolean attribute on an
-ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
     <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
