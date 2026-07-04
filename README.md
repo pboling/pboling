@@ -437,6 +437,12 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-04T01:04:08Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/24.2.2" rel="noopener" target="_blank">rubocop-lts &lpar;24.2.2&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
+* 🗓️ 2026-07-04T00:53:48Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/22.3.2" rel="noopener" target="_blank">rubocop-lts &lpar;22.3.2&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
+* 🗓️ 2026-07-04T00:47:05Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/20.4.2" rel="noopener" target="_blank">rubocop-lts &lpar;20.4.2&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-07-04T00:42:21Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/18.4.2" rel="noopener" target="_blank">rubocop-lts &lpar;18.4.2&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-07-04T00:36:19Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/16.3.2" rel="noopener" target="_blank">rubocop-lts &lpar;16.3.2&rpar;</a> | 
@@ -460,13 +466,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-07-03T21:33:05Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.7" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.7&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
 * 🗓️ 2026-07-03T21:27:34Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.6&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
-* 🗓️ 2026-07-03T21:22:34Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.6&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
-* 🗓️ 2026-07-03T21:14:35Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.6&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.7 code    
-* 🗓️ 2026-07-03T21:06:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.6" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.6&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    <!-- PBOLINGS-RUBYGEMS:END -->
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
