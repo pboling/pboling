@@ -437,6 +437,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-07-15T00:58:16Z | <a href="https://rubygems.org/gems/oauth2/versions/2.0.25" rel="noopener" target="_blank">oauth2 &lpar;2.0.25&rpar;</a> | 
+🔐 A Ruby wrapper for the OAuth 2.0 Authorization Framework, including the OAuth 2.1 draft spec, and OpenID Connect &lpar;OIDC&rpar;    
+* 🗓️ 2026-07-15T00:57:16Z | <a href="https://rubygems.org/gems/omniauth-identity/versions/3.2.1" rel="noopener" target="_blank">omniauth-identity &lpar;3.2.1&rpar;</a> | 
+🫵 Traditional username/password based authentication system for OmniAuth    
 * 🗓️ 2026-07-14T07:31:05Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.7" rel="noopener" target="_blank">snaky_hash &lpar;2.0.7&rpar;</a> | 
 🔮 A Hashie::Mash joint to make #snakelife better    
 * 🗓️ 2026-07-14T04:08:18Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.14" rel="noopener" target="_blank">version_gem &lpar;1.1.14&rpar;</a> | 
@@ -462,10 +466,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-07-03T23:09:34Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/6.3.2" rel="noopener" target="_blank">rubocop-lts &lpar;6.3.2&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-07-03T23:00:43Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/4.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;4.3.3&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-07-03T22:55:08Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/2.3.2" rel="noopener" target="_blank">rubocop-lts &lpar;2.3.2&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-07-03T22:39:18Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/0.3.2" rel="noopener" target="_blank">rubocop-lts &lpar;0.3.2&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
