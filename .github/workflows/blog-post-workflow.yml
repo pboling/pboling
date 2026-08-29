@@ -32,7 +32,7 @@ jobs:
       - name: Pull in gem releases
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://rubygems.org/dashboard.atom?api_key=98d7f33c23db16292a52ac1b382ec65f"
+          feed_list: "https://rubygems.org/dashboard.atom?api_key=${{ secrets.RUBYGEMS_SHOW_DASHBOARD_KEY }}"
           max_post_count: 15
           committer_username: autobolt
           committer_email: autobots@9thbit.net
