@@ -176,7 +176,7 @@ More examples for rails-specific, or non-rspec projects are at [rubocop-lts.gitl
 
 </details>
 
-I'm attempting to document all of the logos for the FLOSS/FOSS/OSS projects I'm involved in, with their attendant licenses and copyrights, here:
+I'm attempting to document all of the logos for the FLOSS/FOSS/OSS projects I'm either involved in, or have need to render somewhere, with their attendant licenses and copyrights, here:
 [logos.galtzo.com](https://logos.galtzo.com).  It has been a multi-year effort hunting down the original creators for some of these logos, and documenting the conditions under which they can be used. I'd love to hear if this is useful in your projects!
 
 I was laid off in a March 2025 RIF, and am looking for my next sponsor and my next role.
