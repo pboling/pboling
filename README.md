@@ -56,9 +56,11 @@ I maintain the following RubyGems:
 - galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://bestgems.org/gems/flag_shih_tzu)
 - galtzo-floss / sanitize_email - [![Downloads Rank 🐙:galtzo-floss/sanitize_email](https://img.shields.io/gem/rd/sanitize_email.svg)](https://bestgems.org/gems/sanitize_email)
 - galtzo-floss / turbo_tests2 - [![Downloads Rank 🐙:galtzo-floss/turbo_tests2](https://img.shields.io/gem/rd/turbo_tests2.svg)](https://bestgems.org/gems/turbo_tests2)
+- kettle-dev / kettle-dev - [![Downloads Rank 🐙:kettle-dev/kettle-dev](https://img.shields.io/gem/rd/kettle-dev.svg)](https://bestgems.org/gems/kettle-dev)
 - [structuredmerge / ruby / tree_haver](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/tree_haver) - [![Downloads Rank 🐙:structuredmerge/ruby/tree_haver](https://img.shields.io/gem/rd/tree_haver.svg)](https://bestgems.org/gems/tree_haver)
 - [structuredmerge / ruby / ast-merge](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/ast-merge) - [![Downloads Rank 🐙:structuredmerge/ruby/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://bestgems.org/gems/ast-merge)
 - omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://bestgems.org/gems/omniauth-jwt)
+- omniauth / omniauth-jwt2 - [![Downloads Rank 🐙:omniauth/omniauth-jwt2](https://img.shields.io/gem/rd/omniauth-jwt2.svg)](https://bestgems.org/gems/omniauth-jwt2)
 - omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://bestgems.org/gems/omniauth-identity)
 - omniauth / omniauth-ldap - [![Downloads Rank 🐙:omniauth/omniauth-ldap](https://img.shields.io/gem/rd/omniauth-ldap.svg)](https://bestgems.org/gems/omniauth-ldap)
 - rdp / os - [![Downloads Rank 🐙:rdp/os](https://img.shields.io/gem/rd/os.svg)](https://bestgems.org/gems/os)
@@ -66,7 +68,11 @@ I maintain the following RubyGems:
 - ruby-oauth / auth-sanitizer - [![Downloads Rank 🐙:ruby-oauth/auth-sanitizer](https://img.shields.io/gem/rd/auth-sanitizer.svg)](https://bestgems.org/gems/auth-sanitizer)
 - ruby-oauth / oauth - [![Downloads Rank 🐙:ruby-oauth/oauth](https://img.shields.io/gem/rd/oauth.svg)](https://bestgems.org/gems/oauth)
 - ruby-oauth / oauth2 - [![Downloads Rank 🐙:ruby-oauth/oauth2](https://img.shields.io/gem/rd/oauth2.svg)](https://bestgems.org/gems/oauth2)
+- ruby-oauth / oauth2-mcp - [![Downloads Rank 🐙:ruby-oauth/oauth2-mcp](https://img.shields.io/gem/rd/oauth2-mcp.svg)](https://bestgems.org/gems/oauth2-mcp)
+- ruby-oauth / oauth-tty - [![Downloads Rank 🐙:ruby-oauth/oauth-tty](https://img.shields.io/gem/rd/oauth-tty.svg)](https://bestgems.org/gems/oauth-tty)
+- ruby-oauth / snaky_hash - [![Downloads Rank 🐙:ruby-oauth/snaky_hash](https://img.shields.io/gem/rd/snaky_hash.svg)](https://bestgems.org/gems/snaky_hash)
 - ruby-oauth / version_gem - [![Downloads Rank 🐙:ruby-oauth/version_gem](https://img.shields.io/gem/rd/version_gem.svg)](https://bestgems.org/gems/version_gem)
+- ruby-oauth / warden_oauth - [![Downloads Rank 🐙:ruby-oauth/warden_oauth](https://img.shields.io/gem/rd/warden_oauth.svg)](https://bestgems.org/gems/warden_oauth)
 - ruby-openid / omniauth-openid - [![Downloads Rank 🐙:ruby-openid/omniauth-openid](https://img.shields.io/gem/rd/omniauth-openid.svg)](https://bestgems.org/gems/omniauth-openid)
 - ruby-openid / rack-openid - [![Downloads Rank 🐙:ruby-openid/rack-openid](https://img.shields.io/gem/rd/rack-openid.svg)](https://bestgems.org/gems/rack-openid)
 - ruby-openid / ruby-openid - [![Downloads Rank 🐙:ruby-openid/ruby-openid](https://img.shields.io/gem/rd/ruby-openid.svg)](https://bestgems.org/gems/ruby-openid)
@@ -118,9 +124,41 @@ are the authoritative source for supported formats and runtimes.
 </details>
 
 <details>
+  <summary>gem-development tooling</summary>
+
+- appraisal-rb / appraisal2-rubocop - [![Downloads Rank 🐙:appraisal-rb/appraisal2-rubocop](https://img.shields.io/gem/rd/appraisal2-rubocop.svg)](https://bestgems.org/gems/appraisal2-rubocop)
+- appraisal-rb / kettle-jem-appraisals - [![Downloads Rank 🐙:appraisal-rb/kettle-jem-appraisals](https://img.shields.io/gem/rd/kettle-jem-appraisals.svg)](https://bestgems.org/gems/kettle-jem-appraisals)
+- galtzo-floss / gitmoji-regex - [![Downloads Rank 🐙:galtzo-floss/gitmoji-regex](https://img.shields.io/gem/rd/gitmoji-regex.svg)](https://bestgems.org/gems/gitmoji-regex)
+- galtzo-floss / stone_checksums - [![Downloads Rank 🐙:galtzo-floss/stone_checksums](https://img.shields.io/gem/rd/stone_checksums.svg)](https://bestgems.org/gems/stone_checksums)
+- kettle-dev / kettle-dev - [![Downloads Rank 🐙:kettle-dev/kettle-dev](https://img.shields.io/gem/rd/kettle-dev.svg)](https://bestgems.org/gems/kettle-dev)
+- kettle-dev / kettle-family - [![Downloads Rank 🐙:kettle-dev/kettle-family](https://img.shields.io/gem/rd/kettle-family.svg)](https://bestgems.org/gems/kettle-family)
+- kettle-dev / kettle-test - [![Downloads Rank 🐙:kettle-dev/kettle-test](https://img.shields.io/gem/rd/kettle-test.svg)](https://bestgems.org/gems/kettle-test)
+- kettle-dev / kettle-changelog - [![Downloads Rank 🐙:kettle-dev/kettle-changelog](https://img.shields.io/gem/rd/kettle-changelog.svg)](https://bestgems.org/gems/kettle-changelog)
+- kettle-dev / kettle-drift - [![Downloads Rank 🐙:kettle-dev/kettle-drift](https://img.shields.io/gem/rd/kettle-drift.svg)](https://bestgems.org/gems/kettle-drift)
+- kettle-dev / kettle-gha-pins - [![Downloads Rank 🐙:kettle-dev/kettle-gha-pins](https://img.shields.io/gem/rd/kettle-gha-pins.svg)](https://bestgems.org/gems/kettle-gha-pins)
+- kettle-dev / kettle-ndjson - [![Downloads Rank 🐙:kettle-dev/kettle-ndjson](https://img.shields.io/gem/rd/kettle-ndjson.svg)](https://bestgems.org/gems/kettle-ndjson)
+- kettle-dev / kettle-rb - [![Downloads Rank 🐙:kettle-dev/kettle-rb](https://img.shields.io/gem/rd/kettle-rb.svg)](https://bestgems.org/gems/kettle-rb)
+- kettle-dev / kettle-wash - [![Downloads Rank 🐙:kettle-dev/kettle-wash](https://img.shields.io/gem/rd/kettle-wash.svg)](https://bestgems.org/gems/kettle-wash)
+- kettle-dev / nomono - [![Downloads Rank 🐙:kettle-dev/nomono](https://img.shields.io/gem/rd/nomono.svg)](https://bestgems.org/gems/nomono)
+- kettle-dev / token-resolver - [![Downloads Rank 🐙:kettle-dev/token-resolver](https://img.shields.io/gem/rd/token-resolver.svg)](https://bestgems.org/gems/token-resolver)
+
+</details>
+
+<details>
+  <summary>documentation and YAML tools</summary>
+
+- galtzo-floss / yard-fence - [![Downloads Rank 🐙:galtzo-floss/yard-fence](https://img.shields.io/gem/rd/yard-fence.svg)](https://bestgems.org/gems/yard-fence)
+- galtzo-floss / yard-timekeeper - [![Downloads Rank 🐙:galtzo-floss/yard-timekeeper](https://img.shields.io/gem/rd/yard-timekeeper.svg)](https://bestgems.org/gems/yard-timekeeper)
+- galtzo-floss / yard-yaml - [![Downloads Rank 🐙:galtzo-floss/yard-yaml](https://img.shields.io/gem/rd/yard-yaml.svg)](https://bestgems.org/gems/yard-yaml)
+- galtzo-floss / yaml-converter - [![Downloads Rank 🐙:galtzo-floss/yaml-converter](https://img.shields.io/gem/rd/yaml-converter.svg)](https://bestgems.org/gems/yaml-converter)
+
+</details>
+
+<details>
   <summary>resque & queue plugins</summary>
 
 - galtzo-floss / qfill - [![Downloads Rank 🐙:galtzo-floss/qfill](https://img.shields.io/gem/rd/qfill.svg)](https://bestgems.org/gems/qfill)
+- resque / resque-lonely_job - [![Downloads Rank 🐙:resque/resque-lonely_job](https://img.shields.io/gem/rd/resque-lonely_job.svg)](https://bestgems.org/gems/resque-lonely_job)
 - resque / resque-unique_at_runtime - [![Downloads Rank 🐙:resque/resque-unique_at_runtime](https://img.shields.io/gem/rd/resque-unique_at_runtime.svg)](https://bestgems.org/gems/resque-unique_at_runtime)
 - resque / resque-unique_by_arity - [![Downloads Rank 🐙:resque/resque-unique_by_arity](https://img.shields.io/gem/rd/resque-unique_by_arity.svg)](https://bestgems.org/gems/resque-unique_by_arity)
 - resque / resque-unique_in_queue - [![Downloads Rank 🐙:resque/resque-unique_in_queue](https://img.shields.io/gem/rd/resque-unique_in_queue.svg)](https://bestgems.org/gems/resque-unique_in_queue)
@@ -159,6 +197,8 @@ More examples for rails-specific, or non-rspec projects are at [rubocop-lts.gitl
 </aside>
 
 - rubocop-lts / rubocop-lts - [![Downloads Rank 🐙:rubocop-lts/rubocop-lts](https://img.shields.io/gem/rd/rubocop-lts.svg)](https://bestgems.org/gems/rubocop-lts)
+- rubocop-lts / rubocop-lts-rspec - [![Downloads Rank 🐙:rubocop-lts/rubocop-lts-rspec](https://img.shields.io/gem/rd/rubocop-lts-rspec.svg)](https://bestgems.org/gems/rubocop-lts-rspec)
+- rubocop-lts / rubocop-lts-ruby - [![Downloads Rank 🐙:rubocop-lts/rubocop-lts-ruby](https://img.shields.io/gem/rd/rubocop-lts-ruby.svg)](https://bestgems.org/gems/rubocop-lts-ruby)
 - rubocop-lts / rubocop-ruby1_8 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby1_8](https://img.shields.io/gem/rd/rubocop-ruby1_8.svg)](https://bestgems.org/gems/rubocop-ruby1_8)
 - rubocop-lts / rubocop-ruby1_9 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby1_9](https://img.shields.io/gem/rd/rubocop-ruby1_9.svg)](https://bestgems.org/gems/rubocop-ruby1_9)
 - rubocop-lts / rubocop-ruby2_0 - [![Downloads Rank 🐙:rubocop-lts/rubocop-ruby2_0](https://img.shields.io/gem/rd/rubocop-ruby2_0.svg)](https://bestgems.org/gems/rubocop-ruby2_0)
