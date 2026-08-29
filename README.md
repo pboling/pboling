@@ -2,7 +2,9 @@ Hi, I'm Peter 👋
 
 I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet). Around half a percent of the RubyGems downloaded every day are ones I maintain.
 
-I recently worked on the Go project for dependency license scanning [Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes), where I integrated Bundler and gemspec (Ruby) compatibility, added ASF Category A and B license checks, FSF Free/Libre checks, and OSI Approved checks (all configurable). Learn how to use it as a [GitHub Action](https://dev.to/galtzo/how-to-check-license-compatibility-41h0) in your project.
+<a href="https://github.com/galtzo-floss/turbo_tests2"><img alt="turbo_tests2 Logo by Aboling0, CC BY-SA 4.0" src="https://logos.galtzo.com/assets/images/galtzo-floss/turbo_tests2/avatar-128px.svg" width="7%" align="left"/></a> :dependabot: GitHub's dependabot-core test runner is [being migrated](https://github.com/dependabot/dependabot-core/pull/15991) to use my re-architected [turbo_tests2](https://github.com/galtzo-floss/turbo_tests2). If you use `rspec` you owe it to yourself to try it out! Parallelized tests with buffered, clean, safe, configurable test output.
+
+🍁 I recently worked on the Go project for dependency license scanning [Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes), where I integrated Bundler and gemspec (Ruby) compatibility, added ASF Category A and B license checks, FSF Free/Libre checks, and OSI Approved checks (all configurable). Learn how to use it as a [GitHub Action](https://dev.to/galtzo/how-to-check-license-compatibility-41h0) in your project.
 
 Most of my open source work happens in these organizations:
 
