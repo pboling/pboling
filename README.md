@@ -2,10 +2,7 @@ Hi, I'm Peter 👋
 
 I have authored and/or currently maintain hundreds of open source libraries, including many you might use (as a developer or a consumer of the internet). Around half a percent of the RubyGems downloaded every day are ones I maintain.
 
-I recently worked on the Go project for dependency license scanning [Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes), where I integrated bundler and gemspec (Ruby) compatibility,  added ASF Category A and B license checks, FSF Free/Libre checks, and OSI Approved checks (all configurable). Learn how to use it in as a [GitHub Action](https://dev.to/galtzo/how-to-check-license-compatibility-41h0) in your project.
-
-[demo]: https://pboling.github.io/yacs/
-[demo-img]: https://img.shields.io/badge/Live-Demo-blue
+I recently worked on the Go project for dependency license scanning [Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes), where I integrated Bundler and gemspec (Ruby) compatibility, added ASF Category A and B license checks, FSF Free/Libre checks, and OSI Approved checks (all configurable). Learn how to use it as a [GitHub Action](https://dev.to/galtzo/how-to-check-license-compatibility-41h0) in your project.
 
 Most of my open source work happens in these organizations:
 
@@ -14,7 +11,7 @@ Most of my open source work happens in these organizations:
       <img src="https://logos.galtzo.com/assets/images/appraisal-rb/avatar-128px.svg" alt="appraisal-rb Logo by Aboling0, CC BY-SA 4.0" title="appraisal-rb Logo by Aboling0, CC BY-SA 4.0">
     </a>
     <a href="https://github.com/kettle-dev" target="_blank" rel="noopener" width="9%">
-      <img src="https://logos.galtzo.com/assets/images/kettle-dev/avatar-128px.svg" alt="kettle-rb Logo by Aboling0, CC BY-SA 4.0" title="kettle-dev Logo by Aboling0, CC BY-SA 4.0">
+      <img src="https://logos.galtzo.com/assets/images/kettle-dev/avatar-128px.svg" alt="kettle-dev Logo by Aboling0, CC BY-SA 4.0" title="kettle-dev Logo by Aboling0, CC BY-SA 4.0">
     </a>
     <a href="https://github.com/floss-funding" target="_blank" rel="noopener" width="9%">
       <img src="https://logos.galtzo.com/assets/images/floss-funding/avatar-128px.svg" alt="floss-funding Logo by Aboling0, CC BY-SA 4.0" title="floss-funding Logo by Aboling0, CC BY-SA 4.0">
@@ -52,13 +49,6 @@ I've summarized my thoughts in [this blog post](https://dev.to/galtzo/hostile-ta
 
 </details>
 
-[draper-security]: https://joel.drapper.me/p/ruby-central-security-measures/
-[draper-takeover]: https://joel.drapper.me/p/ruby-central-takeover/
-[draper-lies]: https://joel.drapper.me/p/ruby-central-fact-check/
-[draper-theft]: https://joel.drapper.me/p/ruby-central/
-[gem-coop]: https://gem.coop
-[martin-ann]: https://martinemde.com/2025/10/05/announcing-gem-coop.html
-
 I maintain the following RubyGems:
 
 - appraisal-rb / appraisal2 - [![Downloads Rank 🐙:appraisal-rb/appraisal2](https://img.shields.io/gem/rd/appraisal2.svg)](https://bestgems.org/gems/appraisal2)
@@ -66,8 +56,8 @@ I maintain the following RubyGems:
 - galtzo-floss / flag_shih_tzu - [![Downloads Rank 🐙:galtzo-floss/flag_shih_tzu](https://img.shields.io/gem/rd/flag_shih_tzu.svg)](https://bestgems.org/gems/flag_shih_tzu)
 - galtzo-floss / sanitize_email - [![Downloads Rank 🐙:galtzo-floss/sanitize_email](https://img.shields.io/gem/rd/sanitize_email.svg)](https://bestgems.org/gems/sanitize_email)
 - galtzo-floss / turbo_tests2 - [![Downloads Rank 🐙:galtzo-floss/turbo_tests2](https://img.shields.io/gem/rd/turbo_tests2.svg)](https://bestgems.org/gems/turbo_tests2)
-- structuredmerge / ruby / tree_haver - [![Downloads Rank 🐙:structuredmerge/ruby/tree_haver](https://img.shields.io/gem/rd/tree_haver.svg)](https://bestgems.org/gems/tree_haver)
-- structuredmerge / ruby / ast-merge - [![Downloads Rank 🐙:structuredmerge/ruby/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://bestgems.org/gems/ast-merge)
+- [structuredmerge / ruby / tree_haver](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/tree_haver) - [![Downloads Rank 🐙:structuredmerge/ruby/tree_haver](https://img.shields.io/gem/rd/tree_haver.svg)](https://bestgems.org/gems/tree_haver)
+- [structuredmerge / ruby / ast-merge](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/ast-merge) - [![Downloads Rank 🐙:structuredmerge/ruby/ast-merge](https://img.shields.io/gem/rd/ast-merge.svg)](https://bestgems.org/gems/ast-merge)
 - omniauth / omniauth-jwt - [![Downloads Rank 🐙:omniauth/omniauth-jwt](https://img.shields.io/gem/rd/omniauth-jwt.svg)](https://bestgems.org/gems/omniauth-jwt)
 - omniauth / omniauth-identity - [![Downloads Rank 🐙:omniauth/omniauth-identity](https://img.shields.io/gem/rd/omniauth-identity.svg)](https://bestgems.org/gems/omniauth-identity)
 - omniauth / omniauth-ldap - [![Downloads Rank 🐙:omniauth/omniauth-ldap](https://img.shields.io/gem/rd/omniauth-ldap.svg)](https://bestgems.org/gems/omniauth-ldap)
@@ -83,161 +73,25 @@ I maintain the following RubyGems:
 - many ast-parsing, benchmarking, rails, resque, rspec, rubocop plugins & more... (in details below)
 
 <details>
-  <summary>ast-parsing libraries</summary>
+  <summary>StructuredMerge Ruby</summary>
 
-### The `*-merge` Gem Family
+[StructuredMerge Ruby](https://github.com/structuredmerge/structuredmerge-ruby)
+is the Ruby implementation of the StructuredMerge contract. The actively
+maintained package family is developed and released from that monorepo; its
+[package inventory and backend notes](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems)
+are the authoritative source for supported formats and runtimes.
 
-The `*-merge` gem family provides intelligent, AST-based merging for various file formats. At the foundation is [tree_haver][tree_haver], which provides a unified cross-Ruby parsing API that works seamlessly across MRI, JRuby, and TruffleRuby.
-
-| Gem                                      |                                                         Version / CI                                                         | Language<br>/ Format | Parser Backend(s)                                                                                     | Description                                                                      |
-|------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------:|----------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| [tree_haver][tree_haver]                 |                 [![Version][tree_haver-gem-i]][tree_haver-gem] <br/> [![CI][tree_haver-ci-i]][tree_haver-ci]                 | Multi                | Supported Backends: MRI C, Rust, FFI, Java, Prism, Psych, Commonmarker, Markly, Citrus, Parslet       | **Foundation**: Cross-Ruby adapter for parsing libraries (like Faraday for HTTP) |
-| [ast-merge][ast-merge]                   |                   [![Version][ast-merge-gem-i]][ast-merge-gem] <br/> [![CI][ast-merge-ci-i]][ast-merge-ci]                   | Text                 | internal                                                                                              | **Infrastructure**: Shared base classes and merge logic for all `*-merge` gems   |
-| [bash-merge][bash-merge]                 |                 [![Version][bash-merge-gem-i]][bash-merge-gem] <br/> [![CI][bash-merge-ci-i]][bash-merge-ci]                 | Bash                 | [tree-sitter-bash][ts-bash] (via tree_haver)                                                          | Smart merge for Bash scripts                                                     |
-| [commonmarker-merge][commonmarker-merge] | [![Version][commonmarker-merge-gem-i]][commonmarker-merge-gem] <br/> [![CI][commonmarker-merge-ci-i]][commonmarker-merge-ci] | Markdown             | [Commonmarker][commonmarker] (via tree_haver)                                                         | Smart merge for Markdown (CommonMark via comrak Rust)                            |
-| [dotenv-merge][dotenv-merge]             |             [![Version][dotenv-merge-gem-i]][dotenv-merge-gem] <br/> [![CI][dotenv-merge-ci-i]][dotenv-merge-ci]             | Dotenv               | internal                                                                                              | Smart merge for `.env` files                                                     |
-| [json-merge][json-merge]                 |                 [![Version][json-merge-gem-i]][json-merge-gem] <br/> [![CI][json-merge-ci-i]][json-merge-ci]                 | JSON                 | [tree-sitter-json][ts-json] (via tree_haver)                                                          | Smart merge for JSON files                                                       |
-| [jsonc-merge][jsonc-merge]               |               [![Version][jsonc-merge-gem-i]][jsonc-merge-gem] <br/> [![CI][jsonc-merge-ci-i]][jsonc-merge-ci]               | JSONC                | [tree-sitter-jsonc][ts-jsonc] (via tree_haver)                                                        | ⚠️ Proof of concept; Smart merge for JSON with Comments                          |
-| [markdown-merge][markdown-merge]         |         [![Version][markdown-merge-gem-i]][markdown-merge-gem] <br/> [![CI][markdown-merge-ci-i]][markdown-merge-ci]         | Markdown             | [Commonmarker][commonmarker] / [Markly][markly] (via tree_haver), [Parslet][parslet]                  | **Foundation**: Shared base for Markdown mergers with inner code block merging   |
-| [markly-merge][markly-merge]             |             [![Version][markly-merge-gem-i]][markly-merge-gem] <br/> [![CI][markly-merge-ci-i]][markly-merge-ci]             | Markdown             | [Markly][markly] (via tree_haver)                                                                     | Smart merge for Markdown (CommonMark via cmark-gfm C)                            |
-| [prism-merge][prism-merge]               |               [![Version][prism-merge-gem-i]][prism-merge-gem] <br/> [![CI][prism-merge-ci-i]][prism-merge-ci]               | Ruby                 | [Prism][prism] (`prism` std lib gem)                                                                  | Smart merge for Ruby source files                                                |
-| [psych-merge][psych-merge]               |               [![Version][psych-merge-gem-i]][psych-merge-gem] <br/> [![CI][psych-merge-ci-i]][psych-merge-ci]               | YAML                 | [Psych][psych] (`psych` std lib gem)                                                                  | Smart merge for YAML files                                                       |
-| [rbs-merge][rbs-merge]                   |                   [![Version][rbs-merge-gem-i]][rbs-merge-gem] <br/> [![CI][rbs-merge-ci-i]][rbs-merge-ci]                   | RBS                  | [tree-sitter-bash][ts-rbs] (via tree_haver), [RBS][rbs] (`rbs` std lib gem)                           | Smart merge for Ruby type signatures                                             |
-| [toml-merge][toml-merge]                 |                 [![Version][toml-merge-gem-i]][toml-merge-gem] <br/> [![CI][toml-merge-ci-i]][toml-merge-ci]                 | TOML                 | [Parslet + toml][toml], [Citrus + toml-rb][toml-rb], [tree-sitter-toml][ts-toml] (all via tree_haver) | Smart merge for TOML files                                                       |
-
-#### Backend Platform Compatibility
-
-tree_haver supports multiple parsing backends, but not all backends work on all Ruby platforms:
-
-| Platform 👉️<br> TreeHaver Backend 👇️          | MRI | JRuby | TruffleRuby | Notes                                                                      |
-|-------------------------------------------------|:---:|:-----:|:-----------:|----------------------------------------------------------------------------|
-| **MRI** ([ruby_tree_sitter][ruby_tree_sitter])  |  ✅  |   ❌   |      ❌      | C extension, MRI only                                                      |
-| **Rust** ([tree_stump][tree_stump])             |  ✅  |   ❌   |      ❌      | Rust extension via magnus/rb-sys, MRI only                                 |
-| **FFI** ([ffi][ffi])                            |  ✅  |   ✅   |      ❌      | TruffleRuby's FFI doesn't support `STRUCT_BY_VALUE`                        |
-| **Java** ([jtreesitter][jtreesitter])           |  ❌  |   ✅   |      ❌      | JRuby only, requires grammar JARs                                          |
-| **Prism** ([prism][prism])                      |  ✅  |   ✅   |      ✅      | Ruby parsing, stdlib in Ruby 3.4+                                          |
-| **Psych** ([psych][psych])                      |  ✅  |   ✅   |      ✅      | YAML parsing, stdlib                                                       |
-| **Citrus** ([citrus][citrus])                   |  ✅  |   ✅   |      ✅      | Pure Ruby PEG parser, no native dependencies                               |
-| **Parslet** ([parslet][parslet])                |  ✅  |   ✅   |      ✅      | Pure Ruby PEG parser, no native dependencies                               |
-| **Commonmarker** ([commonmarker][commonmarker]) |  ✅  |   ❌   |      ❓      | Rust extension for Markdown (via [commonmarker-merge][commonmarker-merge]) |
-| **Markly** ([markly][markly])                   |  ✅  |   ❌   |      ❓      | C extension for Markdown  (via [markly-merge][markly-merge])               |
-
-**Legend**: ✅ = Works, ❌ = Does not work, ❓ = Untested
-
-**Why some backends don't work on certain platforms**:
-
-- **JRuby**: Runs on the JVM; cannot load native C/Rust extensions (`.so` files)
-- **TruffleRuby**: Has C API emulation via Sulong/LLVM, but it doesn't expose all MRI internals that native extensions require (e.g., `RBasic.flags`, `rb_gc_writebarrier`)
-- **FFI on TruffleRuby**: TruffleRuby's FFI implementation doesn't support returning structs by value, which tree-sitter's C API requires
-
-**Example implementations** for the gem templating use case:
-
-| Gem                      | Purpose         | Description                                   |
-|--------------------------|-----------------|-----------------------------------------------|
-| [kettle-dev][kettle-dev] | Gem Development | Gem templating tool using `*-merge` gems      |
-| [kettle-jem][kettle-jem] | Gem Templating  | Gem template library with smart merge support |
-
-[tree_haver]: https://github.com/kettle-rb/tree_haver
-[ast-merge]: https://github.com/kettle-rb/ast-merge
-[prism-merge]: https://github.com/kettle-rb/prism-merge
-[psych-merge]: https://github.com/kettle-rb/psych-merge
-[json-merge]: https://github.com/kettle-rb/json-merge
-[jsonc-merge]: https://github.com/kettle-rb/jsonc-merge
-[bash-merge]: https://github.com/kettle-rb/bash-merge
-[rbs-merge]: https://github.com/kettle-rb/rbs-merge
-[dotenv-merge]: https://github.com/kettle-rb/dotenv-merge
-[toml-merge]: https://github.com/kettle-rb/toml-merge
-[markdown-merge]: https://github.com/kettle-rb/markdown-merge
-[markly-merge]: https://github.com/kettle-rb/markly-merge
-[commonmarker-merge]: https://github.com/kettle-rb/commonmarker-merge
-[kettle-dev]: https://github.com/kettle-rb/kettle-dev
-[kettle-jem]: https://github.com/kettle-rb/kettle-jem
-[tree_haver-gem]: https://bestgems.org/gems/tree_haver
-[ast-merge-gem]: https://bestgems.org/gems/ast-merge
-[prism-merge-gem]: https://bestgems.org/gems/prism-merge
-[psych-merge-gem]: https://bestgems.org/gems/psych-merge
-[json-merge-gem]: https://bestgems.org/gems/json-merge
-[jsonc-merge-gem]: https://bestgems.org/gems/jsonc-merge
-[bash-merge-gem]: https://bestgems.org/gems/bash-merge
-[rbs-merge-gem]: https://bestgems.org/gems/rbs-merge
-[dotenv-merge-gem]: https://bestgems.org/gems/dotenv-merge
-[toml-merge-gem]: https://bestgems.org/gems/toml-merge
-[markdown-merge-gem]: https://bestgems.org/gems/markdown-merge
-[markly-merge-gem]: https://bestgems.org/gems/markly-merge
-[commonmarker-merge-gem]: https://bestgems.org/gems/commonmarker-merge
-[kettle-dev-gem]: https://bestgems.org/gems/kettle-dev
-[kettle-jem-gem]: https://bestgems.org/gems/kettle-jem
-[tree_haver-gem-i]: https://img.shields.io/gem/v/tree_haver.svg
-[ast-merge-gem-i]: https://img.shields.io/gem/v/ast-merge.svg
-[prism-merge-gem-i]: https://img.shields.io/gem/v/prism-merge.svg
-[psych-merge-gem-i]: https://img.shields.io/gem/v/psych-merge.svg
-[json-merge-gem-i]: https://img.shields.io/gem/v/json-merge.svg
-[jsonc-merge-gem-i]: https://img.shields.io/gem/v/jsonc-merge.svg
-[bash-merge-gem-i]: https://img.shields.io/gem/v/bash-merge.svg
-[rbs-merge-gem-i]: https://img.shields.io/gem/v/rbs-merge.svg
-[dotenv-merge-gem-i]: https://img.shields.io/gem/v/dotenv-merge.svg
-[toml-merge-gem-i]: https://img.shields.io/gem/v/toml-merge.svg
-[markdown-merge-gem-i]: https://img.shields.io/gem/v/markdown-merge.svg
-[markly-merge-gem-i]: https://img.shields.io/gem/v/markly-merge.svg
-[commonmarker-merge-gem-i]: https://img.shields.io/gem/v/commonmarker-merge.svg
-[kettle-dev-gem-i]: https://img.shields.io/gem/v/kettle-dev.svg
-[kettle-jem-gem-i]: https://img.shields.io/gem/v/kettle-jem.svg
-[tree_haver-ci-i]: https://github.com/kettle-rb/tree_haver/actions/workflows/current.yml/badge.svg
-[ast-merge-ci-i]: https://github.com/kettle-rb/ast-merge/actions/workflows/current.yml/badge.svg
-[prism-merge-ci-i]: https://github.com/kettle-rb/prism-merge/actions/workflows/current.yml/badge.svg
-[psych-merge-ci-i]: https://github.com/kettle-rb/psych-merge/actions/workflows/current.yml/badge.svg
-[json-merge-ci-i]: https://github.com/kettle-rb/json-merge/actions/workflows/current.yml/badge.svg
-[jsonc-merge-ci-i]: https://github.com/kettle-rb/jsonc-merge/actions/workflows/current.yml/badge.svg
-[bash-merge-ci-i]: https://github.com/kettle-rb/bash-merge/actions/workflows/current.yml/badge.svg
-[rbs-merge-ci-i]: https://github.com/kettle-rb/rbs-merge/actions/workflows/current.yml/badge.svg
-[dotenv-merge-ci-i]: https://github.com/kettle-rb/dotenv-merge/actions/workflows/current.yml/badge.svg
-[toml-merge-ci-i]: https://github.com/kettle-rb/toml-merge/actions/workflows/current.yml/badge.svg
-[markdown-merge-ci-i]: https://github.com/kettle-rb/markdown-merge/actions/workflows/current.yml/badge.svg
-[markly-merge-ci-i]: https://github.com/kettle-rb/markly-merge/actions/workflows/current.yml/badge.svg
-[commonmarker-merge-ci-i]: https://github.com/kettle-rb/commonmarker-merge/actions/workflows/current.yml/badge.svg
-[kettle-dev-ci-i]: https://github.com/kettle-rb/kettle-dev/actions/workflows/current.yml/badge.svg
-[kettle-jem-ci-i]: https://github.com/kettle-rb/kettle-jem/actions/workflows/current.yml/badge.svg
-[tree_haver-ci]: https://github.com/kettle-rb/tree_haver/actions/workflows/current.yml
-[ast-merge-ci]: https://github.com/kettle-rb/ast-merge/actions/workflows/current.yml
-[prism-merge-ci]: https://github.com/kettle-rb/prism-merge/actions/workflows/current.yml
-[psych-merge-ci]: https://github.com/kettle-rb/psych-merge/actions/workflows/current.yml
-[json-merge-ci]: https://github.com/kettle-rb/json-merge/actions/workflows/current.yml
-[jsonc-merge-ci]: https://github.com/kettle-rb/jsonc-merge/actions/workflows/current.yml
-[bash-merge-ci]: https://github.com/kettle-rb/bash-merge/actions/workflows/current.yml
-[rbs-merge-ci]: https://github.com/kettle-rb/rbs-merge/actions/workflows/current.yml
-[dotenv-merge-ci]: https://github.com/kettle-rb/dotenv-merge/actions/workflows/current.yml
-[toml-merge-ci]: https://github.com/kettle-rb/toml-merge/actions/workflows/current.yml
-[markdown-merge-ci]: https://github.com/kettle-rb/markdown-merge/actions/workflows/current.yml
-[markly-merge-ci]: https://github.com/kettle-rb/markly-merge/actions/workflows/current.yml
-[commonmarker-merge-ci]: https://github.com/kettle-rb/commonmarker-merge/actions/workflows/current.yml
-[kettle-dev-ci]: https://github.com/kettle-rb/kettle-dev/actions/workflows/current.yml
-[kettle-jem-ci]: https://github.com/kettle-rb/kettle-jem/actions/workflows/current.yml
-[prism]: https://github.com/ruby/prism
-[psych]: https://github.com/ruby/psych
-[ffi]: https://github.com/ffi/ffi
-[ts-json]: https://github.com/tree-sitter/tree-sitter-json
-[ts-jsonc]: https://gitlab.com/WhyNotHugo/tree-sitter-jsonc
-[ts-bash]: https://github.com/tree-sitter/tree-sitter-bash
-[ts-rbs]: https://github.com/joker1007/tree-sitter-rbs
-[ts-toml]: https://github.com/tree-sitter-grammars/tree-sitter-toml
-[dotenv]: https://github.com/bkeepers/dotenv
-[rbs]: https://github.com/ruby/rbs
-[toml-rb]: https://github.com/emancu/toml-rb
-[toml]: https://github.com/jm/toml
-[markly]: https://github.com/ioquatix/markly
-[commonmarker]: https://github.com/gjtorikian/commonmarker
-[ruby_tree_sitter]: https://github.com/Faveod/ruby-tree-sitter
-[tree_stump]: https://github.com/joker1007/tree_stump
-[jtreesitter]: https://central.sonatype.com/artifact/io.github.tree-sitter/jtreesitter
-[citrus]: https://github.com/mjackson/citrus
-[parslet]: https://github.com/kschiess/parslet
+- Foundation: [tree_haver](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/tree_haver), [ast-merge](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/ast-merge), and [ast-crispr](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/ast-crispr).
+- Format families: [Ruby](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/ruby-merge), [Markdown](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/markdown-merge), [YAML](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/yaml-merge), [TOML](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/toml-merge), [JSON](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/json-merge), and [RBS](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/rbs-merge).
+- Source-language formats: [Bash](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/bash-merge), [Go](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/go-merge), [Rust](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/rust-merge), and [TypeScript](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/typescript-merge).
+- Parser providers: [Prism](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/prism-merge), [Psych](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/psych-merge), and the Markdown/TOML provider gems.
+- Workflow tooling: [ast-merge-git](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/ast-merge-git), [smorg-rb](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/smorg-rb), and [kettle-jem](https://github.com/structuredmerge/structuredmerge-ruby/tree/main/gems/kettle-jem).
 
 </details>
 
 <details>
   <summary>benchmarking libraries</summary>
 
-- galtzo-floss / debug_logging - [![Downloads Rank 🐙:galtzo-floss/debug_logging](https://img.shields.io/gem/rd/debug_logging.svg)](https://bestgems.org/gems/debug_logging)
 - galtzo-floss / gem_bench - [![Downloads Rank 🐙:galtzo-floss/gem_bench](https://img.shields.io/gem/rd/gem_bench.svg)](https://bestgems.org/gems/gem_bench)
 - galtzo-floss / react-rails-benchmark_renderer - [![Downloads Rank 🐙:galtzo-floss/react-rails-benchmark_renderer](https://img.shields.io/gem/rd/react-rails-benchmark_renderer.svg)](https://bestgems.org/gems/react-rails-benchmark_renderer)
 - galtzo-floss / require_bench - [![Downloads Rank 🐙:galtzo-floss/require_bench](https://img.shields.io/gem/rd/require_bench.svg)](https://bestgems.org/gems/require_bench)
@@ -274,7 +128,7 @@ tree_haver supports multiple parsing backends, but not all backends work on all 
 </details>
 
 <details>
-  <summary>rspec plugins & testing tools</summary>
+  <summary>testing and development tools</summary>
 
 - galtzo-floss / activerecord-tablefree - [![Downloads Rank 🐙:galtzo-floss/activerecord-tablefree](https://img.shields.io/gem/rd/activerecord-tablefree.svg)](https://bestgems.org/gems/activerecord-tablefree)
 - galtzo-floss / anonymous_active_record - [![Downloads Rank 🐙:galtzo-floss/anonymous_active_record](https://img.shields.io/gem/rd/anonymous_active_record.svg)](https://bestgems.org/gems/anonymous_active_record)
@@ -284,7 +138,7 @@ tree_haver supports multiple parsing backends, but not all backends work on all 
 - galtzo-floss / rspec-stubbed_env - [![Downloads Rank 🐙:galtzo-floss/rspec-stubbed_env](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://bestgems.org/gems/rspec-stubbed_env)
 - galtzo-floss / silent_stream - [![Downloads Rank 🐙:galtzo-floss/silent_stream](https://img.shields.io/gem/rd/silent_stream.svg)](https://bestgems.org/gems/silent_stream)
 - galtzo-floss / timecop-rspec - [![Downloads Rank 🐙:galtzo-floss/timecop-rspec](https://img.shields.io/gem/rd/timecop-rspec.svg)](https://bestgems.org/gems/timecop-rspec)
-- kettle-rb / kettle-soup-cover - [![Downloads Rank 🐙:kettle-rb/kettle-soup-cover](https://img.shields.io/gem/rd/kettle-soup-cover.svg)](https://bestgems.org/gems/kettle-soup-cover)
+- kettle-dev / kettle-soup-cover - [![Downloads Rank 🐙:kettle-dev/kettle-soup-cover](https://img.shields.io/gem/rd/kettle-soup-cover.svg)](https://bestgems.org/gems/kettle-soup-cover)
 
 </details>
 
@@ -301,7 +155,7 @@ inherit_gem:
 More examples for rails-specific, or non-rspec projects are at [rubocop-lts.gitlab.io](https://rubocop-lts.gitlab.io/)
 
 <aside>
-  If you think this is what <pre>TargetRubyVersion</pre> does, you've misundertood its purpose, which is to turn off rules that are incompatible with older versions of Ruby, not to make your rules configuration compatible with a specific version of Ruby, nor to turn on Rules that would help with compatibility.
+  If you think this is what <pre>TargetRubyVersion</pre> does, you've misunderstood its purpose, which is to turn off rules that are incompatible with older versions of Ruby, not to make your rules configuration compatible with a specific version of Ruby, nor to turn on rules that would help with compatibility.
 </aside>
 
 - rubocop-lts / rubocop-lts - [![Downloads Rank 🐙:rubocop-lts/rubocop-lts](https://img.shields.io/gem/rd/rubocop-lts.svg)](https://bestgems.org/gems/rubocop-lts)
@@ -322,7 +176,7 @@ More examples for rails-specific, or non-rspec projects are at [rubocop-lts.gitl
 
 </details>
 
-I'm attempting to document all of the logos for the FLOSS/FOSS/OSS projects I'm involved in, with their attendant licesnses and copyrights, here:
+I'm attempting to document all of the logos for the FLOSS/FOSS/OSS projects I'm involved in, with their attendant licenses and copyrights, here:
 [logos.galtzo.com](https://logos.galtzo.com).  It has been a multi-year effort hunting down the original creators for some of these logos, and documenting the conditions under which they can be used. I'd love to hear if this is useful in your projects!
 
 I was laid off in a March 2025 RIF, and am looking for my next sponsor and my next role.
@@ -330,7 +184,6 @@ I was laid off in a March 2025 RIF, and am looking for my next sponsor and my ne
 [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
 [![Buy me a coffee][🖇buyme-small-img]][🖇buyme]
-[![Donate on Polar][🖇polar-img]][🖇polar]
 [![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
 [![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
@@ -347,7 +200,6 @@ Or join the Ruby Friends Squad on Daily.dev
 Want to pay me for work? I'm available!
 
 [![Get help from me on Upwork][👨🏼‍🏫expsup-upwork-img]][👨🏼‍🏫expsup-upwork]
-[![Get help from me on Codementor][👨🏼‍🏫expsup-codementor-img]][👨🏼‍🏫expsup-codementor]
 
 ---
 
@@ -375,27 +227,22 @@ Want to pay me for work? I'm available!
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
 [🖇sponsor]: https://github.com/sponsors/pboling
-[🖇polar-img]: https://img.shields.io/badge/polar-donate-yellow.svg
-[🖇polar]: https://polar.sh/pboling
 [🖇kofi-img]: https://img.shields.io/badge/a_more_different_coffee-✓-yellow.svg
 [🖇kofi]: https://ko-fi.com/O5O86SNP4
 [🖇patreon-img]: https://img.shields.io/badge/patreon-donate-yellow.svg
 [🖇patreon]: https://patreon.com/galtzo
-[🖇buyme-img]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20latte&emoji=&slug=pboling&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
 [🖇buyme]: https://www.buymeacoffee.com/pboling
 [🖇buyme-small-img]: https://img.shields.io/badge/buy_me_a_coffee-✓-yellow.svg?style=flat
 
 [👨🏼‍🏫expsup-upwork]: https://www.upwork.com/freelancers/~014942e9b056abdf86?mp_source=share
 [👨🏼‍🏫expsup-upwork-img]: https://img.shields.io/badge/UpWork-13544E?style=for-the-badge&logo=Upwork&logoColor=white
-[👨🏼‍🏫expsup-codementor]: https://www.codementor.io/peterboling?utm_source=github&utm_medium=button&utm_term=peterboling&utm_campaign=github
-[👨🏼‍🏫expsup-codementor-img]: https://img.shields.io/badge/CodeMentor-Get_Help-1abc9c?style=for-the-badge&logo=CodeMentor&logoColor=white
 
-[🚂my-blog]: http://www.railsbling.com
+[🚂my-blog]: https://www.railsbling.com
 [🚂my-blog-img]: https://img.shields.io/badge/blog-railsbling-0093D0.svg?style=flat&logo=rubyonrails&logoColor=orange
-[🚂my-contact]: http://www.railsbling.com/contact
+[🚂my-contact]: https://www.railsbling.com/contact
 [🚂my-contact-img]: https://img.shields.io/badge/Contact-Peter_Boling-0093D0.svg?style=flat&logo=rubyonrails&logoColor=red
 
-[💖🖇linkedin]: http://www.linkedin.com/in/peterboling
+[💖🖇linkedin]: https://www.linkedin.com/in/peterboling
 [💖🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-LinkedIn-0B66C2?style=flat&logo=newjapanprowrestling
 [💖✌️wellfound]: https://angel.co/u/peter-boling
 [💖✌️wellfound-img]: https://img.shields.io/badge/peter--boling-orange?style=flat&logo=wellfound
@@ -403,11 +250,9 @@ Want to pay me for work? I'm available!
 [💖💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=flat&logo=crunchbase
 [💖🐘ruby-mast]: https://ruby.social/@galtzo
 [💖🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=flat&logo=mastodon&label=Ruby.social%20%40galtzo
-[💖🐘social-mast]: https://mastodon.social/@galtzo
-[💖🐘social-mast-img]: https://img.shields.io/mastodon/follow/000924127?domain=https%3A%2F%2Fmastodon.social&style=flat&logo=mastodon&label=Mastodon.social%20%40galtzo
 [💖🦋bluesky]: https://bsky.app/profile/galtzo.com
 [💖🦋bluesky-img]: https://img.shields.io/badge/@galtzo.com-0285FF?style=flat&logo=bluesky&logoColor=white
-[💖❌]: https://x.com/@galtzo
+[💖❌]: https://x.com/galtzo
 [💖❌-img]: https://img.shields.io/twitter/follow/galtzo
 [💖🌳linktree]: https://linktr.ee/galtzo
 [💖🌳linktree-img]: https://img.shields.io/badge/galtzo-purple?style=flat&logo=linktree
@@ -415,14 +260,8 @@ Want to pay me for work? I'm available!
 [💖💁🏼‍♂️devto-img]: https://img.shields.io/badge/dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white
 [💖💁🏼‍♂️aboutme]: https://about.me/peter.boling
 [💖💁🏼‍♂️aboutme-img]: https://img.shields.io/badge/about.me-0A0A0A?style=flat&logo=aboutme&logoColor=white
-[💎rubygems]: https://bestgems.org/profiles/pboling
+[💎rubygems]: https://rubygems.org/profiles/pboling
 [💎rubygems-img]: https://img.shields.io/gem/u/pboling.svg
-[my🧪lab]: https://gitlab.com/pboling
-[my🧊berg]: https://codeberg.org/pboling
-[my🛖hut]: https://sr.ht/~galtzo/
-[rubocop-lts🧪lab]: http://rubocop-lts.gitlab.io/
-[ruby-oauth🧪lab]: https://gitlab.com/ruby-oauth
-
 ## Sponsors
 
 Thanks to all my sponsors across any of the donation platforms!  Special thanks to my biggest sponsor [HealthSherpa][health-sherpa]!
@@ -537,7 +376,7 @@ Automatically log selected methods and their arguments as they are called at run
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pboling/pboling/raw/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/pboling/pboling/raw/output/github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/pboling/pboling/raw/output/github-snake.svg" />
 </picture>
 
 ![Comment Reactions](https://github.com/pboling/pboling/raw/main/dist/metrics.plugin.reactions.svg?raw=true)
@@ -567,7 +406,7 @@ Automatically log selected methods and their arguments as they are called at run
 <details>
   <summary>:hammer_and_wrench: My Dev Tools:</summary>
   <div id="tools">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg"
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
        alt="AWS" title="AWS" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-plain.svg"
        alt="bash" title="bash" width="28" height="28" />
@@ -591,7 +430,7 @@ Automatically log selected methods and their arguments as they are called at run
        alt="gitlab" title="gitlab" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitter/gitter-plain.svg"
        alt="gitter" title="gitter" width="28" height="28" />
-    <img src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain.svg"
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg"
        alt="graphql" title="graphql" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/handlebars/handlebars-original.svg"
        alt="handlebars" title="handlebars" width="28" height="28" />
@@ -611,7 +450,7 @@ Automatically log selected methods and their arguments as they are called at run
        alt="linux" title="linux" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg"
        alt="markdown" title="markdown" width="28" height="28" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg"
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
        alt="mysql" title="mysql" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-plain.svg"
        alt="neo4j" title="neo4j" width="28" height="28" />
@@ -619,13 +458,13 @@ Automatically log selected methods and their arguments as they are called at run
        alt="nodejs" title="nodejs" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg"
        alt="postgresql" title="postgresql" width="28" height="28" />
-    <img src="https://github.com/devicons/devicon/blob/master/icons/rails/rails-plain.svg"
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-plain.svg"
        alt="rails" title="rails" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-plain.svg"
        alt="ruby" title="ruby" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rubymine/rubymine-plain.svg"
        alt="rubymine" title="rubymine" width="28" height="28" />
-    <img src="https://github.com/devicons/devicon/blob/master/icons/svelte/svelte-plain.svg"
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/svelte/svelte-plain.svg"
        alt="svelte" title="svelte" width="28" height="28" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg"
        alt="wordpress" title="wordpress" width="28" height="28" />
@@ -643,7 +482,7 @@ Automatically log selected methods and their arguments as they are called at run
 - Open Source Contributor, OWASP | [🌪️ OWASP CycloneDX](https://github.com/CycloneDX/cyclonedx-ruby-gem/pulls?q=is%3Apr+author%3Apboling+)
 - Open Source Contributor, ASF | [👀 Apache SkyWalking Eyes](https://github.com/apache/skywalking-eyes/pulls?q=is%3Amerged+is%3Apr+author%3Apboling+)
 - FLOSS Blogger | [RailsBling](https://dev.to/galtzo)
-- FLOSS Author | [RubyGems](https://bestgems.org/profiles/pboling)
+- FLOSS Author | [RubyGems](https://rubygems.org/profiles/pboling)
 - FLOSS Maintainer | [Tidelift Enterprise OSS](https://tidelift.com/subscription/pkg/rubygems-oauth2?utm_source=rubygems-oauth2&utm_medium=referral&utm_campaign=enterprise)
 - Researcher | [WordTree Foundation](http://wordtree.org/)
 
