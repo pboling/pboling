@@ -318,6 +318,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-09-07T22:07:47Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.11" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.11&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
 * 🗓️ 2026-08-27T23:34:23Z | <a href="https://rubygems.org/gems/resque-unique_by_arity/versions/3.0.3" rel="noopener" target="_blank">resque-unique_by_arity &lpar;3.0.3&rpar;</a> | 
 💎 Configure resque-unique_in_queue and resque-unique_at_runtime uniqueness by arity of perform method, with automated cleanup tools    
 * 🗓️ 2026-08-27T22:34:39Z | <a href="https://rubygems.org/gems/resque-unique_in_queue/versions/2.0.2" rel="noopener" target="_blank">resque-unique_in_queue &lpar;2.0.2&rpar;</a> | 
@@ -391,9 +395,7 @@ ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
 * 🗓️ 2026-07-31T16:17:00Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.1.2" rel="noopener" target="_blank">debug_logging &lpar;4.1.2&rpar;</a> | 
 🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
 Automatically log selected methods and their arguments as they are called at runtime!
-    
-* 🗓️ 2026-07-31T14:33:39Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.25" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.25&rpar;</a> | 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
