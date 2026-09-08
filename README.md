@@ -318,6 +318,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-09-08T03:20:51Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.12" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.12&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
 * 🗓️ 2026-09-07T22:07:47Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.11" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.11&rpar;</a> | 
 Enables Ruby projects to more confidently support even the most finely-aged Rubies.
 Part of the rubocop-lts family.
@@ -391,10 +395,6 @@ This gem lets you use a single integer column in an ActiveRecord model
 to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
 almost in the same way you would use any boolean attribute on an
 ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
-    
-* 🗓️ 2026-07-31T16:17:00Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.1.2" rel="noopener" target="_blank">debug_logging &lpar;4.1.2&rpar;</a> | 
-🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
-Automatically log selected methods and their arguments as they are called at runtime!
     <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
