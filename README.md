@@ -318,6 +318,8 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-09-09T11:57:09Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/0.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;0.3.3&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-09-09T05:21:27Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.7" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.7&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
 * 🗓️ 2026-09-09T05:20:45Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.8&rpar;</a> | 
@@ -345,10 +347,6 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-09-09T05:02:05Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.7" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.7&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
 * 🗓️ 2026-09-09T04:36:56Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.13" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.13&rpar;</a> | 
-Enables Ruby projects to more confidently support even the most finely-aged Rubies.
-Part of the rubocop-lts family.
-    
-* 🗓️ 2026-09-08T03:20:51Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.12" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.12&rpar;</a> | 
 Enables Ruby projects to more confidently support even the most finely-aged Rubies.
 Part of the rubocop-lts family.
     <!-- PBOLINGS-RUBYGEMS:END -->
