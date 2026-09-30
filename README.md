@@ -318,6 +318,13 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-09-30T04:45:49Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.14" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.14&rpar;</a> | 
+🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
+* 🗓️ 2026-09-30T04:44:33Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.15" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.15&rpar;</a> | 
+🫥 Stub or hide environment variables in a scoped context for testing
+stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
+hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
+    
 * 🗓️ 2026-09-12T01:55:26Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.6" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.6&rpar;</a> | 
 🏁 Single and Multi-Bit Fields for ActiveRecord:
 This gem lets you use a single integer column in an ActiveRecord model
@@ -355,10 +362,6 @@ Automatically log selected methods and their arguments as they are called at run
 * 🗓️ 2026-09-09T17:01:52Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/14.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;14.3.3&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
 * 🗓️ 2026-09-09T16:57:06Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/12.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;12.3.3&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-09-09T16:51:49Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/10.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;10.3.3&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-09-09T15:43:32Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/8.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;8.3.3&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
