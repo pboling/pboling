@@ -318,6 +318,32 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-10-01T21:34:56Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
+* 🗓️ 2026-10-01T21:33:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
+* 🗓️ 2026-10-01T21:33:01Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
+* 🗓️ 2026-10-01T21:31:58Z | <a href="https://rubygems.org/gems/rubocop-ruby2_4/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_4 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.4 code    
+* 🗓️ 2026-10-01T21:28:00Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    
+* 🗓️ 2026-10-01T21:26:14Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
+* 🗓️ 2026-10-01T21:24:36Z | <a href="https://rubygems.org/gems/rubocop-ruby2_0/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_0 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.0 code    
+* 🗓️ 2026-10-01T21:23:55Z | <a href="https://rubygems.org/gems/rubocop-ruby2_5/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_5 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.5 code    
+* 🗓️ 2026-10-01T21:23:29Z | <a href="https://rubygems.org/gems/rubocop-ruby2_3/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_3 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.3 code    
+* 🗓️ 2026-10-01T21:23:28Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.7 code    
+* 🗓️ 2026-10-01T21:02:52Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.14" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.14&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
+* 🗓️ 2026-10-01T18:47:02Z | <a href="https://rubygems.org/gems/include_with_respect/versions/1.0.2" rel="noopener" target="_blank">include_with_respect &lpar;1.0.2&rpar;</a> | 
+💎 Find out if your Module include/extend hooks are misbehaving!    
 * 🗓️ 2026-10-01T11:14:10Z | <a href="https://rubygems.org/gems/month-serializer/versions/1.0.3" rel="noopener" target="_blank">month-serializer &lpar;1.0.3&rpar;</a> | 
 🗓️ Serialize Month objects to Integer    
 * 🗓️ 2026-10-01T11:13:01Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.16" rel="noopener" target="_blank">sanitize_email &lpar;2.0.16&rpar;</a> | 
@@ -328,48 +354,7 @@ In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, 
 🫥 Stub or hide environment variables in a scoped context for testing
 stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
 hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    
-* 🗓️ 2026-10-01T10:36:17Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.15" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.15&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-10-01T05:24:37Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.1.5" rel="noopener" target="_blank">debug_logging &lpar;4.1.5&rpar;</a> | 
-🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
-Automatically log selected methods and their arguments as they are called at runtime!
-    
-* 🗓️ 2026-09-30T04:45:49Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.14" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.14&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-09-30T04:44:33Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.15" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.15&rpar;</a> | 
-🫥 Stub or hide environment variables in a scoped context for testing
-stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
-hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    
-* 🗓️ 2026-09-12T01:55:26Z | <a href="https://rubygems.org/gems/flag_shih_tzu/versions/1.0.6" rel="noopener" target="_blank">flag_shih_tzu &lpar;1.0.6&rpar;</a> | 
-🏁 Single and Multi-Bit Fields for ActiveRecord:
-This gem lets you use a single integer column in an ActiveRecord model
-to store a collection of boolean attributes &lpar;flags&rpar;. Each flag can be used
-almost in the same way you would use any boolean attribute on an
-ActiveRecord object. Support for multi-bit fields, like tri-state or enums.
-    
-* 🗓️ 2026-09-12T00:43:46Z | <a href="https://rubygems.org/gems/rspec-pending_for/versions/0.1.28" rel="noopener" target="_blank">rspec-pending_for &lpar;0.1.28&rpar;</a> | 
-⏳️ Mark specs pending or skipped for specific Ruby engine &lpar;e.g. MRI or JRuby&rpar; &amp;amp; versions, or version ranges. Fund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-09-11T20:49:51Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.14" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.14&rpar;</a> | 
-🫥 Stub or hide environment variables in a scoped context for testing
-stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
-hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    
-* 🗓️ 2026-09-11T20:49:50Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.15" rel="noopener" target="_blank">sanitize_email &lpar;2.0.15&rpar;</a> | 
-  Email Condom for your Ruby Server.
-In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
-    
-* 🗓️ 2026-09-11T20:49:49Z | <a href="https://rubygems.org/gems/gitmoji-regex/versions/2.0.13" rel="noopener" target="_blank">gitmoji-regex &lpar;2.0.13&rpar;</a> | 
-🏁 A regular expression matching Gitmoji &lpar;a subset of Unicode Emoji&rpar; symbolsFund overlooked open source projects - bottom of stack, dev/test dependencies: floss-funding.dev    
-* 🗓️ 2026-09-11T20:49:47Z | <a href="https://rubygems.org/gems/debug_logging/versions/4.1.4" rel="noopener" target="_blank">debug_logging &lpar;4.1.4&rpar;</a> | 
-🪲 Unobtrusive debug logging for Ruby.  NO LITTERING.
-Automatically log selected methods and their arguments as they are called at runtime!
-    
-* 🗓️ 2026-09-09T17:26:33Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/24.2.3" rel="noopener" target="_blank">rubocop-lts &lpar;24.2.3&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-09-09T17:21:47Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/22.3.3" rel="noopener" target="_blank">rubocop-lts &lpar;22.3.3&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
