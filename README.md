@@ -318,6 +318,12 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-10-02T00:49:20Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
+* 🗓️ 2026-10-02T00:48:55Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
+* 🗓️ 2026-10-01T21:56:45Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.8" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.8&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
 * 🗓️ 2026-10-01T21:34:56Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.8&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
 * 🗓️ 2026-10-01T21:33:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.8&rpar;</a> | 
@@ -343,18 +349,7 @@ Enables Ruby projects to more confidently support even the most finely-aged Rubi
 Part of the rubocop-lts family.
     
 * 🗓️ 2026-10-01T18:47:02Z | <a href="https://rubygems.org/gems/include_with_respect/versions/1.0.2" rel="noopener" target="_blank">include_with_respect &lpar;1.0.2&rpar;</a> | 
-💎 Find out if your Module include/extend hooks are misbehaving!    
-* 🗓️ 2026-10-01T11:14:10Z | <a href="https://rubygems.org/gems/month-serializer/versions/1.0.3" rel="noopener" target="_blank">month-serializer &lpar;1.0.3&rpar;</a> | 
-🗓️ Serialize Month objects to Integer    
-* 🗓️ 2026-10-01T11:13:01Z | <a href="https://rubygems.org/gems/sanitize_email/versions/2.0.16" rel="noopener" target="_blank">sanitize_email &lpar;2.0.16&rpar;</a> | 
-  Email Condom for your Ruby Server.
-In Rails, Sinatra, et al, or simply the mail gem: Aids in development, testing, qa, and production troubleshooting of email issues without worrying that emails will get sent to actual live addresses.
-    
-* 🗓️ 2026-10-01T10:36:46Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.16" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.16&rpar;</a> | 
-🫥 Stub or hide environment variables in a scoped context for testing
-stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
-hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    <!-- PBOLINGS-RUBYGEMS:END -->
+💎 Find out if your Module include/extend hooks are misbehaving!    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
