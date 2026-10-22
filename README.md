@@ -318,39 +318,41 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-10-22T02:56:11Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.10" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.10&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
+* 🗓️ 2026-10-22T02:53:20Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
+* 🗓️ 2026-10-22T02:51:44Z | <a href="https://rubygems.org/gems/rubocop-ruby2_4/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_4 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.4 code    
+* 🗓️ 2026-10-22T02:51:10Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
+* 🗓️ 2026-10-22T02:48:16Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.9" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
+* 🗓️ 2026-10-22T02:48:14Z | <a href="https://rubygems.org/gems/rubocop-ruby2_7/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_7 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.7 code    
+* 🗓️ 2026-10-22T02:48:12Z | <a href="https://rubygems.org/gems/rubocop-ruby2_3/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_3 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.3 code    
+* 🗓️ 2026-10-22T02:47:23Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
+* 🗓️ 2026-10-22T02:47:10Z | <a href="https://rubygems.org/gems/rubocop-ruby1_9/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby1_9 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.9 code    
+* 🗓️ 2026-10-22T02:45:25Z | <a href="https://rubygems.org/gems/rubocop-ruby2_0/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_0 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.0 code    
+* 🗓️ 2026-10-22T02:44:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_5/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_5 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.5 code    
+* 🗓️ 2026-10-22T02:38:47Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
+* 🗓️ 2026-10-22T02:34:09Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.9&rpar;</a> | 
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    
+* 🗓️ 2026-10-22T02:12:44Z | <a href="https://rubygems.org/gems/standard-rubocop-lts/versions/2.0.15" rel="noopener" target="_blank">standard-rubocop-lts &lpar;2.0.15&rpar;</a> | 
+Enables Ruby projects to more confidently support even the most finely-aged Rubies.
+Part of the rubocop-lts family.
+    
 * 🗓️ 2026-10-13T15:53:01Z | <a href="https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.17" rel="noopener" target="_blank">rspec-stubbed_env &lpar;1.0.17&rpar;</a> | 
 🫥 Stub or hide environment variables in a scoped context for testing
 stub_env&lpar;&amp;#39;REDIS_URL&amp;#39; =&amp;gt; &amp;#39;redis://localhost:6379/&amp;#39;&rpar;
 hide_env&lpar;&amp;#39;SESSION_SECRET&amp;#39;&rpar;
-    
-* 🗓️ 2026-10-03T07:31:10Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/4.3.7" rel="noopener" target="_blank">rubocop-lts &lpar;4.3.7&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-10-03T07:25:28Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/2.3.6" rel="noopener" target="_blank">rubocop-lts &lpar;2.3.6&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-10-03T07:19:46Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/0.3.6" rel="noopener" target="_blank">rubocop-lts &lpar;0.3.6&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-10-03T06:29:46Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/2.3.5" rel="noopener" target="_blank">rubocop-lts &lpar;2.3.5&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-10-03T06:23:36Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/0.3.5" rel="noopener" target="_blank">rubocop-lts &lpar;0.3.5&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-10-03T02:02:04Z | <a href="https://rubygems.org/gems/rubocop-lts/versions/0.3.4" rel="noopener" target="_blank">rubocop-lts &lpar;0.3.4&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby code    
-* 🗓️ 2026-10-02T00:49:20Z | <a href="https://rubygems.org/gems/rubocop-ruby3_2/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby3_2 &lpar;3.0.9&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.2 code    
-* 🗓️ 2026-10-02T00:48:55Z | <a href="https://rubygems.org/gems/rubocop-ruby3_1/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby3_1 &lpar;3.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.1 code    
-* 🗓️ 2026-10-01T21:56:45Z | <a href="https://rubygems.org/gems/rubocop-ruby1_8/versions/2.0.8" rel="noopener" target="_blank">rubocop-ruby1_8 &lpar;2.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 1.8 code    
-* 🗓️ 2026-10-01T21:34:56Z | <a href="https://rubygems.org/gems/rubocop-ruby2_2/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_2 &lpar;3.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.2 code    
-* 🗓️ 2026-10-01T21:33:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
-* 🗓️ 2026-10-01T21:33:01Z | <a href="https://rubygems.org/gems/rubocop-ruby3_0/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby3_0 &lpar;3.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 3.0 code    
-* 🗓️ 2026-10-01T21:31:58Z | <a href="https://rubygems.org/gems/rubocop-ruby2_4/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_4 &lpar;3.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.4 code    
-* 🗓️ 2026-10-01T21:28:00Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.8" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.8&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    <!-- PBOLINGS-RUBYGEMS:END -->
+    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
