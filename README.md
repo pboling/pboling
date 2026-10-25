@@ -318,6 +318,10 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 - List is updated frequently by my pet robot: @autobolt
 
 <!-- PBOLINGS-RUBYGEMS:START -->
+* 🗓️ 2026-10-25T09:38:21Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.9" rel="noopener" target="_blank">snaky_hash &lpar;2.0.9&rpar;</a> | 
+🔮 A Hashie::Mash joint to make #snakelife better    
+* 🗓️ 2026-10-25T09:20:16Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.17" rel="noopener" target="_blank">version_gem &lpar;1.1.17&rpar;</a> | 
+🔖 Versions are good. Versions are cool. Versions will win.    
 * 🗓️ 2026-10-23T16:41:19Z | <a href="https://rubygems.org/gems/snaky_hash/versions/2.0.8" rel="noopener" target="_blank">snaky_hash &lpar;2.0.8&rpar;</a> | 
 🔮 A Hashie::Mash joint to make #snakelife better    
 * 🗓️ 2026-10-23T16:33:36Z | <a href="https://rubygems.org/gems/version_gem/versions/1.1.16" rel="noopener" target="_blank">version_gem &lpar;1.1.16&rpar;</a> | 
@@ -343,11 +347,7 @@ Thanks to all my sponsors across any of the donation platforms!  Special thanks 
 * 🗓️ 2026-10-22T02:45:25Z | <a href="https://rubygems.org/gems/rubocop-ruby2_0/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_0 &lpar;3.0.9&rpar;</a> | 
 🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.0 code    
 * 🗓️ 2026-10-22T02:44:41Z | <a href="https://rubygems.org/gems/rubocop-ruby2_5/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_5 &lpar;3.0.9&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.5 code    
-* 🗓️ 2026-10-22T02:38:47Z | <a href="https://rubygems.org/gems/rubocop-ruby2_6/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_6 &lpar;3.0.9&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.6 code    
-* 🗓️ 2026-10-22T02:34:09Z | <a href="https://rubygems.org/gems/rubocop-ruby2_1/versions/3.0.9" rel="noopener" target="_blank">rubocop-ruby2_1 &lpar;3.0.9&rpar;</a> | 
-🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.1 code    <!-- PBOLINGS-RUBYGEMS:END -->
+🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.5 code    <!-- PBOLINGS-RUBYGEMS:END -->
 
 ## Latest Blog Posts [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]
 
