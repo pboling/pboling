@@ -10,6 +10,17 @@ OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
 cal = json.loads((ROOT/"data/contributions.json").read_text())["days"]
+def _load(n, default):
+    f = ROOT/"data"/n
+    return json.loads(f.read_text()) if f.exists() else default
+posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
+TODAY = datetime.date.today()
+def is_new(p):
+    d = first_release.get(f"{p['ecosystem']}:{p['name']}")
+    return bool(d) and (TODAY - datetime.date.fromisoformat(d)).days <= 365
+def ago(d):
+    n = (TODAY - datetime.date.fromisoformat(d)).days
+    return "today" if n <= 0 else f"{n}d ago" if n < 60 else f"{n//30}mo ago"
 
 # palette: sm-urb-design "sm" brand (teal primary, violet secondary, amber tertiary) on dark paper
 BG, PANEL, EDGE = "#0e1718", "#14211f", "#25403c"
@@ -139,9 +150,13 @@ def card(i, p, y0=46):
     rc = ROLE.get(p.get("role"), MUTED); lc = LANG.get(p.get("language"), MUTED)
     g = (f'<rect x="{x}" y="{y}" width="{CW}" height="{CHT}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
-         f'<text x="{x+18}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:30])}</text>'
+         f'<text x="{x+18}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
          f'<circle cx="{x+CW-86}" cy="{y+22}" r="4" fill="{lc}"/>'
          f'<text x="{x+CW-76}" y="{y+26}" font-size="11" class="m">{esc(str(p.get("language") or "")[:10])}</text>')
+    if is_new(p) and p.get("role") != "contributor":
+        nx = x + 18 + min(len(p["name"]), 24) * 9.6 + 8
+        g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
+              f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
     for k, line in enumerate(wrap(p.get("description"), 52, 3)):
         g += f'<text x="{x+18}" y="{y+48+k*15}" class="s m" font-size="11.5">{esc(line)}</text>'
     st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), TEAL),
@@ -159,6 +174,33 @@ for r, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
     b += f'<rect x="{lx}" y="{H-24}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{H-15}" font-size="10" class="m">{r}</text>'; lx += 100
 b += f'<text x="{W-16}" y="{H-15}" font-size="10" class="m" text-anchor="end">data: galtzo.com · scraped {scraped}</text>'
 svg("projects", H, b, f"Top {TOP} projects I author or maintain, by lifetime downloads, as cards")
+
+# ---- recent releases + writing (data: tools/profile/feeds.py)
+def panel_rows(items, x, y, w, fmt, n):
+    out = ""
+    for i, it in enumerate(items[:n]):
+        yy = y + i*34
+        out += f'<rect x="{x}" y="{yy}" width="{w}" height="30" rx="3" fill="{PANEL}" stroke="{EDGE}"/>'
+        out += fmt(it, x, yy, w)
+    return out
+seen = set(); latest = []
+for r in releases:                       # newest release per gem, so one busy gem can't fill the panel
+    if r["name"] not in seen: seen.add(r["name"]); latest.append(r)
+PW = (W-32-12)/2; RN = 7
+def fmt_rel(r, x, y, w):
+    new = f'<text x="{x+w-12}" y="{y+19}" font-size="10" class="m" text-anchor="end">{ago(r["date"])}</text>'
+    return (f'<a href="{esc(r["url"])}"><text x="{x+12}" y="{y+19}" font-size="12" style="fill:{TEAL}">{esc(r["name"][:22])}</text>'
+            f'<text x="{x+w-72}" y="{y+19}" font-size="11" text-anchor="end" style="fill:{VIOLET}">v{esc(r["version"][:14])}</text></a>' + new)
+def fmt_post(a, x, y, w):
+    title = "".join(ch for ch in a["title"] if ord(ch) < 0x2000).strip()
+    t = title if len(title) <= 44 else title[:43].rstrip() + "…"
+    return (f'<a href="{esc(a["url"])}"><text x="{x+12}" y="{y+13}" class="s" font-size="11.5" font-weight="600">{esc(t)}</text></a>'
+            f'<text x="{x+12}" y="{y+25}" font-size="9" class="m">{a["date"]} · {a["minutes"]} min read · ♥ {a["reactions"]}</text>')
+HF = 46 + RN*34 + 12
+b = chrome("recent releases · rubygems", HF)
+b += f'<text x="{16+PW+12+0}" y="22" font-size="11" class="m" letter-spacing="2">WRITING · DEV.TO/GALTZO</text>'
+b += panel_rows(latest, 16, 46, PW, fmt_rel, RN) + panel_rows(posts, 16+PW+12, 46, PW, fmt_post, RN)
+svg("feed", HF, b, "Recent gem releases and recent blog posts")
 
 # ---- contributor section (other people's projects; clearly separate)
 CTOP = 6

@@ -4,6 +4,7 @@
 <img src="./assets/profile/stats.svg" width="100%" align="top" alt="Telemetry: lifetime downloads, downloads per day, project count, stars.">
 <img src="./assets/profile/city.svg" width="100%" align="top" alt="Contribution city: an isometric skyline, one building per day of the last year.">
 <img src="./assets/profile/projects.svg" width="100%" align="top" alt="Top projects by lifetime downloads, shown as cards.">
+<img src="./assets/profile/feed.svg" width="100%" align="top" alt="Recent releases and recent posts.">
 <img src="./assets/profile/contributors.svg" width="100%" align="top" alt="Contributions to other people's projects, shown separately.">
 <img src="./assets/profile/footer.svg" width="100%" align="top" alt="Connection closed.">
 </p>
