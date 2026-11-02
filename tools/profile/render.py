@@ -9,7 +9,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 import shutil
-for _d in ("projects", "feed", "contributors", "trending", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _d in ("projects", "feed", "contributors", "trending", "history", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
 for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
@@ -19,6 +19,7 @@ def _load(n, default):
     return json.loads(f.read_text()) if f.exists() else default
 posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
 trending = _load("trending.json", {"days": 365, "repos": []})
+star_history = _load("star-history.json", None)
 import base64
 TODAY = datetime.date.today()
 def owner_of(p):
@@ -308,6 +309,47 @@ if TR:
     svg("trending/foot", 0, edges(yb, yb+10, bottom=True), "", vb=(0, yb, W, 10))
     readme_row(("trending/foot", "", 100, None))
 
+# ---- star history of the flagship repo (tools/profile/starhistory.py)
+def history_chart(w, h, big=True):
+    """Area chart of cumulative stars. big=True is the desktop layout (880 wide), else the phone layout."""
+    sh = star_history; ser = sh["series"]
+    n = len(ser); top = max(v for _, v in ser)
+    step = 500 if top > 1200 else 250 if top > 600 else 100
+    ymax = math.ceil(top / step) * step
+    L, R, T, B = (58, w-16, 54 if big else 44, h-34)
+    X = lambda i: L + (R-L) * i / (n-1)
+    Y = lambda v: B - (B-T) * v / ymax
+    o = ""
+    for v in range(0, ymax+1, step):
+        o += (f'<line x1="{L}" y1="{Y(v):.1f}" x2="{R}" y2="{Y(v):.1f}" stroke="{EDGE}" stroke-opacity="{1 if v == 0 else .55}"/>'
+              f'<text x="{L-8}" y="{Y(v)+3:.1f}" font-size="{10 if big else 8.5}" class="m" text-anchor="end">{v:,}</text>')
+    first_year = int(ser[0][0][:4]); every = 2 if big else 4
+    for yr in range(first_year + (first_year % every), int(ser[-1][0][:4]) + 1, every):
+        idx = next((i for i, (m, _) in enumerate(ser) if m == f"{yr}-01"), None)
+        if idx is not None:
+            o += f'<text x="{X(idx):.1f}" y="{B+16}" font-size="{10 if big else 8.5}" class="m" text-anchor="middle">{yr}</text>'
+    pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, (_, v) in enumerate(ser))
+    o += (f'<defs><linearGradient id="hg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{TEAL}" stop-opacity=".45"/>'
+          f'<stop offset="1" stop-color="{TEAL}" stop-opacity="0"/></linearGradient></defs>'
+          f'<polygon points="{L},{B} {pts} {R},{B}" fill="url(#hg)"/>'
+          f'<polyline points="{pts}" fill="none" stroke="{TEAL}" stroke-width="{2 if big else 1.6}" stroke-linejoin="round"/>')
+    for ms in (1000, 2000, 5000, 10000):             # milestone dots where the line first crosses
+        i = next((i for i, (_, v) in enumerate(ser) if v >= ms), None)
+        if i is not None and ms < top:
+            o += (f'<circle cx="{X(i):.1f}" cy="{Y(ser[i][1]):.1f}" r="3.5" fill="{AMBER}"/>'
+                  f'<text x="{X(i)-6:.1f}" y="{Y(ser[i][1])-9:.1f}" font-size="{10 if big else 8.5}" text-anchor="end" style="fill:{AMBER}">{ms:,} · {ser[i][0]}</text>')
+    o += (f'<circle cx="{R}" cy="{Y(top):.1f}" r="4" fill="{PAPER}"/>'
+          f'<text x="{R-8}" y="{Y(top)-9:.1f}" font-size="{12 if big else 10}" font-weight="700" text-anchor="end" style="fill:{PAPER}">★ {top:,}</text>')
+    return o
+if star_history and len(star_history["series"]) > 12:
+    rn = star_history["repo"]; gained = next((r["gain"] for r in trending["repos"] if r["repo"] == rn.lower()), None)
+    note = f"{rn} · {star_history['total']:,} stars" + (f" · +{gained} in the last 12 months" if gained is not None else "")
+    HH = 270
+    body = (head_bar("star history · " + rn, 40) + history_chart(W, HH) + edges(40, HH, bottom=True)
+            + f'<text x="{W-16}" y="22" font-size="11" class="m" text-anchor="end">cumulative stars, monthly</text>')
+    svg("history/chart", 0, body, "Star history: " + note, vb=(0, 0, W, HH))
+    readme_row(("history/chart", "Star history: " + note, 100, f"https://github.com/{rn}"))
+
 rows = math.ceil(TOP/2)
 def gh_url(p): return next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
 INSTALL = {"rubygems": "gem install {n}", "cargo": "cargo add {n}", "npm": "npm i {n}", "pypi": "pip install {n}",
@@ -544,6 +586,13 @@ if TR:
              f'<text x="{w-8}" y="57" font-size="7.5" class="m" text-anchor="end">★{human(t["total"])}</text>')
         psvg(f"trending/{i+1:02d}", w, h, logo_defs([t["owner"]]) + o, f'{t["name"]}: +{t["gain"]} stars in the last year')
     psvg("trending/foot", PHW, 10, pedges(PHW, 10, bottom=True), "")
+
+# star history (phone)
+if star_history and len(star_history["series"]) > 12:
+    PHH = 210
+    psvg("history/chart", PHW, PHH, pedges(PHW, PHH, top=True, bottom=True) +
+         f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">STAR HISTORY · {esc(star_history["repo"].split("/")[1].upper())}</text>'
+         + history_chart(PHW, PHH, big=False), "Star history: " + note)
 
 # contributors: head (2x2 tiles), mini cards (130 wide, three per row), foot
 pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTREAM /DAY", human(T_CON["day"]), "whole projects", VIOLET),
