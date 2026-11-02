@@ -23,14 +23,39 @@ def get(url):
 def save(name, obj):
     (D / name).write_text(json.dumps(obj, indent=1, ensure_ascii=False) + "\n")
 
-# --- posts
+# --- posts: dev.to plus any extra RSS/Atom feeds listed in EXTRA_FEEDS, merged and sorted by date
+import email.utils, re, xml.etree.ElementTree as ET
+EXTRA_FEEDS = ["https://railsbling.com/index.xml"]   # stale since 2023 today, but picks up new posts if revived
+
+def rss_posts(url):
+    root = ET.fromstring(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30).read())
+    out = []
+    for it in root.iter("item"):
+        try:
+            d = email.utils.parsedate_to_datetime(it.findtext("pubDate")).date().isoformat()
+        except Exception:
+            continue
+        out.append(dict(title=(it.findtext("title") or "").strip(), url=(it.findtext("link") or "").strip(), date=d,
+                        minutes=None, reactions=None, tags=[]))
+    return out
+
+posts = []
 try:
     arts = get(f"https://dev.to/api/articles?username={USER_DEVTO}&per_page=10")
-    posts = [dict(title=a["title"], url=a["url"], date=a["published_at"][:10], minutes=a["reading_time_minutes"],
-                  reactions=a["public_reactions_count"], tags=a["tag_list"] if isinstance(a["tag_list"], list) else []) for a in arts]
-    save("posts.json", posts); print(f"posts: {len(posts)}")
+    posts += [dict(title=a["title"], url=a["url"], date=a["published_at"][:10], minutes=a["reading_time_minutes"],
+                   reactions=a["public_reactions_count"], tags=a["tag_list"] if isinstance(a["tag_list"], list) else []) for a in arts]
 except Exception as e:
-    print("posts failed, keeping previous:", e)
+    print("dev.to failed:", e)
+for feed in EXTRA_FEEDS:
+    try: posts += rss_posts(feed)
+    except Exception as e: print("feed failed:", feed, e)
+if posts:
+    seen_urls = set(); merged = []
+    for p_ in sorted(posts, key=lambda x: x["date"], reverse=True):
+        if p_["url"] not in seen_urls: seen_urls.add(p_["url"]); merged.append(p_)
+    save("posts.json", merged[:10]); print(f"posts: {len(merged[:10])}, newest {merged[0]['date']}")
+else:
+    print("no posts fetched, keeping previous")
 
 # --- releases + first releases
 projects = yaml.safe_load((D / "projects.yml").read_text())

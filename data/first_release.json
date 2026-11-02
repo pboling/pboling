@@ -196,5 +196,10 @@
  "cargo:typescript-merge": "2026-05-06",
  "cargo:yaml-merge": "2026-05-06",
  "cargo:yaml-serde-merge": "2026-05-06",
- "cargo:structuredmerge-zip-merge": "2026-05-06"
+ "cargo:structuredmerge-zip-merge": "2026-05-06",
+ "cargo:alef": "2026-05-11",
+ "cargo:tree-sitter-language-pack": "2026-03-16",
+ "cargo:ts-pack-cli": "2026-04-08",
+ "npm:@xberg-io/tree-sitter-language-pack": "2026-06-26",
+ "npm:@xberg-io/tree-sitter-language-pack-wasm": "2026-06-26"
 }

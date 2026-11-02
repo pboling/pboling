@@ -266,10 +266,12 @@ def fmt_post(a, x, y, w):
     title = "".join(ch for ch in a["title"] if ord(ch) < 0x2000).strip()
     t = title if len(title) <= 44 else title[:43].rstrip() + "…"
     return (f'<a href="{esc(a["url"])}"><text x="{x+12}" y="{y+13}" class="s" font-size="11.5" font-weight="600">{esc(t)}</text></a>'
-            f'<text x="{x+12}" y="{y+25}" font-size="9" class="m">{a["date"]} · {a["minutes"]} min read · ♥ {a["reactions"]}</text>')
+            f'<text x="{x+12}" y="{y+25}" font-size="9" class="m">{a["date"]}' + (f' · {a["minutes"]} min read' if a.get("minutes") else '') + (f' · ♥ {a["reactions"]}' if a.get("reactions") is not None else '') + '</text>')
 HF = 46 + RN*34 + 12
 b = chrome("recent releases · rubygems", HF)
-b += f'<text x="{16+PW+12+0}" y="22" font-size="11" class="m" letter-spacing="2">WRITING · DEV.TO/GALTZO</text>'
+newest = posts[0]["date"] if posts else None
+stale = f" · LATEST {ago(newest).upper()}" if newest and (TODAY - datetime.date.fromisoformat(newest)).days > 90 else ""
+b += f'<text x="{16+PW+12+0}" y="22" font-size="11" class="m" letter-spacing="2">WRITING{stale}</text>'
 b += panel_rows(latest, 16, 46, PW, fmt_rel, RN) + panel_rows(posts, 16+PW+12, 46, PW, fmt_post, RN)
 svg("feed", HF, b, "Recent gem releases and recent blog posts")
 
