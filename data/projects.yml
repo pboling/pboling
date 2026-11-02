@@ -282,8 +282,8 @@
   - type: GitHub
     url: https://github.com/apache/skywalking-eyes
     owner: apache
-    total_downloads: 2843
-    release_downloads: 630
+    total_downloads: 2846
+    release_downloads: 633
   tags:
   - bundler
   - ci
@@ -1223,9 +1223,9 @@
   github_stars: 2
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 270886
-  daily_downloads: 1629
-  release_downloads: 1618
+  total_downloads: 271166
+  daily_downloads: 1639
+  release_downloads: 1886
   release_date: 2026/10/29
   last_commit_on: 2026/10/29
   status: active
@@ -1268,9 +1268,9 @@
   github_stars: 10
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 80084
+  total_downloads: 80109
   daily_downloads: 480
-  release_downloads: 860
+  release_downloads: 878
   release_date: 2026/10/29
   last_commit_on: 2026/10/29
   status: active
@@ -1319,7 +1319,7 @@
   gitlab_stars: 0
   codeberg_stars: 0
   total_downloads: 177547
-  daily_downloads: 1156
+  daily_downloads: 1166
   release_downloads: 2048
   release_date: 2026/10/29
   last_commit_on: 2026/10/29
@@ -1675,7 +1675,7 @@
   gitlab_stars: 24
   codeberg_stars: 2
   total_downloads: 283929207
-  daily_downloads: 159582
+  daily_downloads: 159863
   release_downloads: 96103
   release_date: 2026/10/25
   last_commit_on: 2026/11/01
@@ -2006,7 +2006,7 @@
   docs_site:
   github_stars: 6
   total_downloads: 37482
-  daily_downloads: 11
+  daily_downloads: 6
   release_downloads: 12717
   release_date: 2022/02/25
   last_commit_on: 2026/08/29
@@ -2281,7 +2281,7 @@
   docs_site:
   github_stars: 159
   total_downloads: 68807
-  daily_downloads: 12
+  daily_downloads: 11
   release_downloads: 37902
   release_date: 2011/08/14
   last_commit_on: 2013/03/27
@@ -2405,7 +2405,7 @@
   docs_site:
   github_stars: 6
   total_downloads: 326329
-  daily_downloads: 107
+  daily_downloads: 236
   release_downloads: 391
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
@@ -2452,7 +2452,7 @@
   docs_site:
   github_stars: 8
   total_downloads: 120202
-  daily_downloads: 102
+  daily_downloads: 109
   release_downloads: 4021
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
@@ -2491,7 +2491,7 @@
   docs_site:
   github_stars: 9
   total_downloads: 46655
-  daily_downloads: 29
+  daily_downloads: 13
   release_downloads: 187
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
@@ -2528,7 +2528,7 @@
   docs_site:
   github_stars: 8
   total_downloads: 174139
-  daily_downloads: 223
+  daily_downloads: 295
   release_downloads: 2378
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
@@ -2573,7 +2573,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 1362
-  daily_downloads: 2
+  daily_downloads: 4
   release_downloads: 1362
   release_date: 2024/09/25
   last_commit_on: 2026/10/22
@@ -2618,7 +2618,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 557499
-  daily_downloads: 758
+  daily_downloads: 745
   release_downloads: 445356
   release_date: 2024/06/23
   last_commit_on: 2026/01/17
@@ -2663,7 +2663,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 295543
-  daily_downloads: 832
+  daily_downloads: 822
   release_downloads: 41965
   release_date: 2026/09/12
   last_commit_on: 2026/10/12
@@ -2708,7 +2708,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 543520
-  daily_downloads: 829
+  daily_downloads: 1060
   release_downloads: 20176
   release_date: 2026/10/13
   last_commit_on: 2026/10/13
@@ -2749,7 +2749,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 330283
-  daily_downloads: 547
+  daily_downloads: 462
   release_downloads: 5356
   release_date: 2026/09/09
   last_commit_on: 2026/10/21
@@ -2825,7 +2825,7 @@
   github_stars: 6
   gitlab_stars: 1
   total_downloads: 18358
-  daily_downloads: 38
+  daily_downloads: 47
   release_downloads: 445
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -2863,7 +2863,7 @@
   github_stars: 6
   gitlab_stars: 1
   total_downloads: 16172
-  daily_downloads: 42
+  daily_downloads: 32
   release_downloads: 200
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -2901,7 +2901,7 @@
   github_stars: 6
   gitlab_stars: 1
   total_downloads: 26863
-  daily_downloads: 53
+  daily_downloads: 28
   release_downloads: 218
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -2939,7 +2939,7 @@
   github_stars: 6
   gitlab_stars: 1
   total_downloads: 44181
-  daily_downloads: 64
+  daily_downloads: 59
   release_downloads: 649
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -3015,7 +3015,7 @@
   github_stars: 6
   gitlab_stars: 1
   total_downloads: 70152
-  daily_downloads: 69
+  daily_downloads: 109
   release_downloads: 924
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -3091,7 +3091,7 @@
   github_stars: 6
   gitlab_stars: 1
   total_downloads: 18752
-  daily_downloads: 45
+  daily_downloads: 29
   release_downloads: 197
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -3246,7 +3246,7 @@
   github_stars: 7
   gitlab_stars: 1
   total_downloads: 280109
-  daily_downloads: 813
+  daily_downloads: 315
   release_downloads: 4640
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -3331,7 +3331,7 @@
   gitlab_stars: 0
   codeberg_stars: 1
   total_downloads: 11884
-  daily_downloads: 12
+  daily_downloads: 25
   release_downloads: 9261
   release_date: 2024/09/25
   last_commit_on: 2026/10/22
@@ -3378,7 +3378,7 @@
   gitlab_stars: 0
   codeberg_stars: 0
   total_downloads: 2778416
-  daily_downloads: 1063
+  daily_downloads: 946
   release_downloads: 4041
   release_date: 2026/10/01
   last_commit_on: 2026/11/02
@@ -3415,7 +3415,7 @@
   docs_site:
   github_stars: 382
   total_downloads: 1752401
-  daily_downloads: 541
+  daily_downloads: 767
   release_downloads: 1362589
   release_date: 2017/08/01
   last_commit_on: 2025/08/18
@@ -3453,7 +3453,7 @@
   docs_site:
   github_stars: 6
   total_downloads: 4265
-  daily_downloads: 3
+  daily_downloads: 2
   release_downloads: 4265
   release_date: 2014/02/26
   last_commit_on: 2026/01/17
@@ -3490,7 +3490,7 @@
   docs_site:
   github_stars: 10
   total_downloads: 17759
-  daily_downloads: 6
+  daily_downloads: 5
   release_downloads: 14857
   release_date: 2022/07/03
   last_commit_on: 2025/08/13
@@ -3532,7 +3532,7 @@
   gitlab_stars: 1
   codeberg_stars: 1
   total_downloads: 726
-  daily_downloads: 3
+  daily_downloads: 2
   release_downloads: 726
   release_date: 2025/05/30
   last_commit_on: 2026/10/13
@@ -3570,7 +3570,7 @@
   docs_site:
   github_stars: 7
   total_downloads: 31019
-  daily_downloads: 19
+  daily_downloads: 6
   release_downloads: 13419
   release_date: 2021/11/15
   last_commit_on: 2026/01/17
@@ -3616,7 +3616,7 @@
   gitlab_stars: 0
   codeberg_stars: 0
   total_downloads: 290938
-  daily_downloads: 566
+  daily_downloads: 751
   release_downloads: 145731
   release_date: 2025/08/21
   last_commit_on: 2026/10/12
@@ -3652,7 +3652,7 @@
   docs_site:
   github_stars: 2
   total_downloads: 3757
-  daily_downloads: 5
+  daily_downloads: 3
   release_downloads: 377
   release_date: 2026/02/04
   last_commit_on: 2026/10/12
@@ -3693,7 +3693,7 @@
   gitlab_stars: 2
   codeberg_stars: 2
   total_downloads: 136008433
-  daily_downloads: 123359
+  daily_downloads: 191531
   release_downloads: 179865
   release_date: 2026/10/25
   last_commit_on: 2026/11/01
@@ -3729,7 +3729,7 @@
   docs_site:
   github_stars: 3
   total_downloads: 1052
-  daily_downloads: 3
+  daily_downloads: 2
   release_downloads: 1052
   release_date: 2024/03/23
   last_commit_on: 2026/11/02
@@ -3768,7 +3768,7 @@
   docs_site:
   github_stars: 7
   total_downloads: 385659
-  daily_downloads: 51
+  daily_downloads: 102
   release_downloads: 200740
   release_date: 2017/05/31
   last_commit_on: 2025/08/04
@@ -3810,7 +3810,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 400165
-  daily_downloads: 920
+  daily_downloads: 563
   release_downloads: 7478
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
@@ -3855,7 +3855,7 @@
   gitlab_stars: 0
   codeberg_stars: 0
   total_downloads: 14494
-  daily_downloads: 12
+  daily_downloads: 6
   release_downloads: 4976
   release_date: 2015/08/24
   last_commit_on: 2026/01/17
@@ -3903,7 +3903,7 @@
   gitlab_stars: 0
   codeberg_stars: 0
   total_downloads: 176807
-  daily_downloads: 677
+  daily_downloads: 718
   release_downloads: 37451
   release_date: 2026/09/11
   last_commit_on: 2026/10/22
@@ -3943,7 +3943,7 @@
   archived: true
   github_stars: 5
   total_downloads: 3577
-  daily_downloads: 3
+  daily_downloads: 2
   release_downloads: 3577
   release_date: 2015/11/09
   last_commit_on: 2026/01/17
@@ -3982,7 +3982,7 @@
   docs_site:
   github_stars: 64
   total_downloads: 100878
-  daily_downloads: 32
+  daily_downloads: 12
   release_downloads: 4619
   release_date: 2014/01/19
   last_commit_on: 2014/01/19
@@ -4021,7 +4021,7 @@
   docs_site: https://timecop-rspec.galtzo.com
   github_stars: 4
   total_downloads: 136222
-  daily_downloads: 504
+  daily_downloads: 721
   release_downloads: 134724
   release_date: 2025/08/20
   last_commit_on: 2026/11/02
@@ -4065,7 +4065,7 @@
   gitlab_stars: 0
   codeberg_stars: 0
   total_downloads: 5793
-  daily_downloads: 11
+  daily_downloads: 6
   release_downloads: 445
   release_date: 2025/10/21
   last_commit_on: 2026/10/12
@@ -4109,7 +4109,7 @@
   gitlab_stars: 1
   codeberg_stars: 0
   total_downloads: 150967736
-  daily_downloads: 128823
+  daily_downloads: 201183
   release_downloads: 199518
   release_date: 2026/10/25
   last_commit_on: 2026/10/25
@@ -4147,7 +4147,7 @@
   docs_site:
   github_stars: 59
   total_downloads: 32885
-  daily_downloads: 28
+  daily_downloads: 5
   release_downloads: 512
   release_date: 2026/07/15
   last_commit_on: 2026/09/21
@@ -4211,7 +4211,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-fence/0.8.2
   total_downloads: 24139
-  daily_downloads: 142
+  daily_downloads: 130
   release_downloads: 3036
   release_date: 2026/10/01
   github_stars: 1
@@ -4247,7 +4247,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/yaml-converter/0.1.0
   total_downloads: 22042
-  daily_downloads: 123
+  daily_downloads: 126
   release_downloads: 3204
   release_date: 2026/10/01
   github_stars: 2
@@ -4280,7 +4280,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-yaml/0.1.0
   total_downloads: 21001
-  daily_downloads: 125
+  daily_downloads: 104
   release_downloads: 5325
   release_date: 2026/09/12
   github_stars: 2
@@ -4316,7 +4316,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/tree_haver/5.0.5
   total_downloads: 33145
-  daily_downloads: 88
+  daily_downloads: 375
   release_downloads: 407
   release_date: 2026/10/30
   github_stars: 19
@@ -4357,7 +4357,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/ast-merge/4.0.6
   total_downloads: 34152
-  daily_downloads: 87
+  daily_downloads: 313
   release_downloads: 394
   release_date: 2026/10/30
   github_stars: 19
@@ -4396,7 +4396,7 @@
   - templating
   docs_site: https://www.rubydoc.info/gems/token-resolver/1.0.2
   total_downloads: 31191
-  daily_downloads: 126
+  daily_downloads: 479
   release_downloads: 1158
   release_date: 2026/10/29
   github_stars: 4
@@ -4437,7 +4437,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/bash-merge/2.0.6
   total_downloads: 18906
-  daily_downloads: 18
+  daily_downloads: 231
   release_downloads: 220
   release_date: 2026/10/30
   github_stars: 19
@@ -4477,7 +4477,7 @@
   - templating
   docs_site: https://www.rubydoc.info/gems/commonmarker-merge/1.0.1
   total_downloads: 10432
-  daily_downloads: 7
+  daily_downloads: 99
   release_downloads: 152
   release_date: 2026/10/30
   github_stars: 19
@@ -4519,7 +4519,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/dotenv-merge/1.0.3
   total_downloads: 18659
-  daily_downloads: 7
+  daily_downloads: 226
   release_downloads: 230
   release_date: 2026/10/30
   github_stars: 19
@@ -4560,7 +4560,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/json-merge/1.1.2
   total_downloads: 16477
-  daily_downloads: 17
+  daily_downloads: 227
   release_downloads: 225
   release_date: 2026/10/30
   github_stars: 19
@@ -4602,7 +4602,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/jsonc-merge/1.0.1
   total_downloads: 1045
-  daily_downloads: 8
+  daily_downloads: 3
   release_downloads: 710
   release_date: 2026/02/19
   github_stars: 19
@@ -4642,7 +4642,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/markdown-merge/1.0.3
   total_downloads: 15913
-  daily_downloads: 8
+  daily_downloads: 242
   release_downloads: 247
   release_date: 2026/10/30
   github_stars: 19
@@ -4682,7 +4682,7 @@
   - templating
   docs_site: https://www.rubydoc.info/gems/markly-merge/1.0.0
   total_downloads: 14242
-  daily_downloads: 4
+  daily_downloads: 230
   release_downloads: 226
   release_date: 2026/10/30
   github_stars: 19
@@ -4720,7 +4720,7 @@
   - templating
   docs_site: https://www.rubydoc.info/gems/prism-merge/2.0.4
   total_downloads: 18910
-  daily_downloads: 23
+  daily_downloads: 246
   release_downloads: 229
   release_date: 2026/10/30
   github_stars: 19
@@ -4759,7 +4759,7 @@
   - yaml
   docs_site: https://www.rubydoc.info/gems/psych-merge/1.0.0
   total_downloads: 13855
-  daily_downloads: 4
+  daily_downloads: 230
   release_downloads: 234
   release_date: 2026/10/30
   github_stars: 19
@@ -4800,7 +4800,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/rbs-merge/2.0.0
   total_downloads: 15807
-  daily_downloads: 4
+  daily_downloads: 222
   release_downloads: 221
   release_date: 2026/10/30
   github_stars: 19
@@ -4842,7 +4842,7 @@
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/toml-merge/2.0.1
   total_downloads: 20222
-  daily_downloads: 53
+  daily_downloads: 231
   release_downloads: 232
   release_date: 2026/10/30
   github_stars: 19
@@ -4943,7 +4943,7 @@
   funding_sites: []
   docs_site: https://www.rubydoc.info/gems/cyclonedx-ruby/1.1.0
   total_downloads: 268792
-  daily_downloads: 404
+  daily_downloads: 380
   release_downloads: 268792
   release_date: 2019/07/13
   github_stars: 35
@@ -5012,7 +5012,7 @@
   funding_sites: []
   docs_site:
   total_downloads: 37677045
-  daily_downloads: 22125
+  daily_downloads: 29601
   release_downloads: 571391
   release_date: 2026/08/21
   github_stars: 318
@@ -5128,7 +5128,7 @@
   funding_sites: []
   docs_site:
   total_downloads: 1451
-  daily_downloads: 4
+  daily_downloads: 3
   release_downloads: 690
   release_date: 2026/02/16
   github_stars: 11
@@ -5162,7 +5162,7 @@
   funding_sites: []
   docs_site: https://faveod.github.io/ruby-tree-sitter/
   total_downloads: 207776
-  daily_downloads: 601
+  daily_downloads: 395
   release_downloads: 569
   release_date: 2026/04/30
   github_stars: 75
@@ -5196,7 +5196,7 @@
   funding_sites: []
   docs_site: https://www.mongodb.com/docs/ruby-driver/current/tutorials/bson-v4/
   total_downloads: 120052210
-  daily_downloads: 29063
+  daily_downloads: 33612
   release_downloads: 3630888
   release_date: 2025/10/16
   github_stars: 81
@@ -5230,7 +5230,7 @@
   funding_sites: []
   docs_site:
   total_downloads: 854391301
-  daily_downloads: 505389
+  daily_downloads: 660577
   release_downloads: 135620432
   release_date: 2025/09/10
   github_stars: 181
@@ -5263,7 +5263,7 @@
   funding_sites: []
   docs_site:
   total_downloads: 3900627608
-  daily_downloads: 2607445
+  daily_downloads: 3568771
   release_downloads: 5263236
   release_date: 2026/10/14
   github_stars: 3986
@@ -5296,7 +5296,7 @@
   funding_sites: []
   docs_site: https://www.rubydoc.info/gems/hashie
   total_downloads: 499315027
-  daily_downloads: 216505
+  daily_downloads: 303631
   release_downloads: 317563
   release_date: 2026/10/23
   github_stars: 3037
@@ -5330,9 +5330,9 @@
   - ruby
   funding_sites: []
   docs_site: https://api.rubyonrails.org/v8.1.2/
-  total_downloads: 810193308
-  daily_downloads: 331427
-  release_downloads: 3832212
+  total_downloads: 810215003
+  daily_downloads: 481634
+  release_downloads: 3838711
   release_date: 2026/09/24
   github_stars: 58849
   last_commit_on: 2026/11/02
@@ -5355,7 +5355,7 @@
   - type: GitHub
     url: https://github.com/spinel-coop/rv/
     owner: spinel-coop
-    total_downloads: 198310
+    total_downloads: 198316
     release_downloads: 28465
   description: "\U0001F48E\U0001F4A8 Extremely fast Ruby version and gem manager"
   description_source: site
@@ -5444,7 +5444,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/nomono/1.1.1
   total_downloads: 27961
-  daily_downloads: 193
+  daily_downloads: 429
   release_downloads: 937
   release_date: 2026/10/29
   github_stars: 1
@@ -5474,7 +5474,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/ast-template/7.0.0
   total_downloads: 7033
-  daily_downloads: 3
+  daily_downloads: 171
   release_downloads: 222
   release_date: 2026/10/30
   github_stars: 19
@@ -5508,7 +5508,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/plain-merge/7.0.0
   total_downloads: 12808
-  daily_downloads: 3
+  daily_downloads: 222
   release_downloads: 227
   release_date: 2026/10/30
   github_stars: 19
@@ -5546,7 +5546,7 @@
   last_commit_on: 2026/11/01
   status: active
   total_downloads: 17388
-  daily_downloads: 48
+  daily_downloads: 232
   release_downloads: 247
   last_scrape_at: '2026-11-02T07:55:11Z'
   theme: family
@@ -5575,7 +5575,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/ruby-merge/7.0.0
   total_downloads: 16698
-  daily_downloads: 48
+  daily_downloads: 225
   release_downloads: 236
   release_date: 2026/10/30
   github_stars: 19
@@ -5609,7 +5609,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/go-merge/7.0.0
   total_downloads: 4384
-  daily_downloads: 3
+  daily_downloads: 80
   release_downloads: 144
   release_date: 2026/10/30
   github_stars: 19
@@ -5643,7 +5643,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/rust-merge/7.0.0
   total_downloads: 4393
-  daily_downloads: 3
+  daily_downloads: 79
   release_downloads: 149
   release_date: 2026/10/30
   github_stars: 19
@@ -5677,7 +5677,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/typescript-merge/7.0.0
   total_downloads: 4559
-  daily_downloads: 3
+  daily_downloads: 83
   release_downloads: 153
   release_date: 2026/10/30
   github_stars: 19
@@ -5711,7 +5711,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/binary-merge/7.0.0
   total_downloads: 4376
-  daily_downloads: 3
+  daily_downloads: 83
   release_downloads: 150
   release_date: 2026/10/30
   github_stars: 19
@@ -5745,7 +5745,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/zip-merge/7.0.0
   total_downloads: 4446
-  daily_downloads: 3
+  daily_downloads: 78
   release_downloads: 152
   release_date: 2026/10/30
   github_stars: 19
@@ -5778,7 +5778,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/citrus-toml-merge/7.0.0
   total_downloads: 12981
-  daily_downloads: 3
+  daily_downloads: 220
   release_downloads: 224
   release_date: 2026/10/30
   github_stars: 19
@@ -5812,7 +5812,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/parslet-toml-merge/7.0.0
   total_downloads: 4559
-  daily_downloads: 3
+  daily_downloads: 81
   release_downloads: 166
   release_date: 2026/10/30
   github_stars: 19
@@ -5846,7 +5846,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/kramdown-merge/7.0.0
   total_downloads: 9692
-  daily_downloads: 3
+  daily_downloads: 102
   release_downloads: 149
   release_date: 2026/10/30
   github_stars: 19
@@ -5882,7 +5882,7 @@
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/kettle-jem/7.0.0
   total_downloads: 28879
-  daily_downloads: 52
+  daily_downloads: 322
   release_downloads: 443
   release_date: 2026/10/31
   github_stars: 19
@@ -5918,9 +5918,9 @@
   - oauth
   - ruby
   docs_site: https://www.rubydoc.info/gems/auth-sanitizer/0.2.3
-  total_downloads: 17358461
-  daily_downloads: 62145
-  release_downloads: 179317
+  total_downloads: 17368852
+  daily_downloads: 153220
+  release_downloads: 181371
   release_date: 2026/10/25
   github_stars: 15
   last_commit_on: 2026/11/01
@@ -5956,7 +5956,7 @@
   - test
   docs_site: https://www.rubydoc.info/gems/turbo_tests2/3.2.3
   total_downloads: 281186
-  daily_downloads: 902
+  daily_downloads: 2617
   release_downloads: 14903
   release_date: 2026/10/15
   github_stars: 10
@@ -5989,9 +5989,9 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-timekeeper/0.2.4
-  total_downloads: 19996
-  daily_downloads: 139
-  release_downloads: 3016
+  total_downloads: 20000
+  daily_downloads: 121
+  release_downloads: 3019
   release_date: 2026/10/01
   github_stars: 3
   last_commit_on: 2026/11/02
@@ -6023,7 +6023,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-drift/1.0.8
   total_downloads: 20249
-  daily_downloads: 135
+  daily_downloads: 234
   release_downloads: 839
   release_date: 2026/10/29
   github_stars: 1
@@ -6058,7 +6058,7 @@
   - security
   docs_site: https://www.rubydoc.info/gems/oauth2-mcp/0.1.2
   total_downloads: 1056
-  daily_downloads: 17
+  daily_downloads: 6
   release_downloads: 483
   release_date: 2026/07/15
   github_stars: 4
@@ -6094,7 +6094,7 @@
   - test
   docs_site: https://www.rubydoc.info/gems/rubocop-lts-rspec/1.0.5
   total_downloads: 33639
-  daily_downloads: 165
+  daily_downloads: 363
   release_downloads: 5785
   release_date: 2026/10/22
   github_stars: 6
@@ -6126,7 +6126,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/appraisal2-rubocop/1.0.0
   total_downloads: 28373
-  daily_downloads: 135
+  daily_downloads: 265
   release_downloads: 3912
   release_date: 2026/10/21
   github_stars: 1
@@ -6159,7 +6159,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-family/1.2.11
   total_downloads: 108862
-  daily_downloads: 567
+  daily_downloads: 951
   release_downloads: 718
   release_date: 2026/10/31
   github_stars: 1
@@ -6193,7 +6193,7 @@
   - test
   docs_site: https://www.rubydoc.info/gems/gem_mine/0.1.2
   total_downloads: 6125
-  daily_downloads: 9
+  daily_downloads: 86
   release_downloads: 827
   release_date: 2026/10/21
   github_stars: 1
@@ -6227,7 +6227,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/anonymous_loader/0.1.3
   total_downloads: 11422010
-  daily_downloads: 34660
+  daily_downloads: 121850
   release_downloads: 182861
   release_date: 2026/10/25
   github_stars: 2
@@ -6261,7 +6261,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-rb/0.1.7
   total_downloads: 101691
-  daily_downloads: 688
+  daily_downloads: 1110
   release_downloads: 2220
   release_date: 2026/10/28
   github_stars: 1
@@ -6295,7 +6295,7 @@
   - test
   docs_site: https://www.rubydoc.info/gems/kettle-wash/0.1.2
   total_downloads: 27565
-  daily_downloads: 342
+  daily_downloads: 433
   release_downloads: 1091
   release_date: 2026/10/28
   github_stars: 1
@@ -6331,7 +6331,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-gha-pins/0.3.3
   total_downloads: 87909
-  daily_downloads: 907
+  daily_downloads: 1105
   release_downloads: 2072
   release_date: 2026/10/29
   github_stars: 1
@@ -6365,7 +6365,7 @@
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-ndjson/0.1.3
   total_downloads: 85032
-  daily_downloads: 1098
+  daily_downloads: 1111
   release_downloads: 2254
   release_date: 2026/10/28
   github_stars: 1
@@ -7727,7 +7727,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 14651
-  daily_downloads: 191
+  daily_downloads: 234
   release_downloads: 240
   release_date: 2026/10/30
   github_stars: 19
@@ -7761,7 +7761,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 14200
-  daily_downloads: 183
+  daily_downloads: 225
   release_downloads: 224
   release_date: 2026/10/30
   github_stars: 19
@@ -7795,7 +7795,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 14508
-  daily_downloads: 184
+  daily_downloads: 227
   release_downloads: 221
   release_date: 2026/10/30
   github_stars: 19
@@ -7828,7 +7828,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 6598
-  daily_downloads: 54
+  daily_downloads: 86
   release_downloads: 168
   release_date: 2026/10/30
   github_stars: 19
@@ -7861,7 +7861,7 @@
   licenses:
   - MIT
   total_downloads: 6326
-  daily_downloads: 52
+  daily_downloads: 83
   release_downloads: 152
   release_date: 2026/10/30
   github_stars: 19
@@ -7895,7 +7895,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 6719
-  daily_downloads: 56
+  daily_downloads: 88
   release_downloads: 172
   release_date: 2026/10/30
   github_stars: 19
@@ -7932,7 +7932,7 @@
   licenses:
   - AGPL-3.0-only
   total_downloads: 4970
-  daily_downloads: 21
+  daily_downloads: 26
   release_downloads: 168
   release_date: 2026/10/22
   github_stars: 1
@@ -7967,7 +7967,7 @@
   licenses:
   - MIT
   total_downloads: 32033
-  daily_downloads: 397
+  daily_downloads: 487
   release_downloads: 7327
   release_date: 2026/10/22
   github_stars: 1
@@ -8000,7 +8000,7 @@
   licenses:
   - AGPL-3.0-only
   total_downloads: 24464
-  daily_downloads: 366
+  daily_downloads: 415
   release_downloads: 1058
   release_date: 2026/10/29
   github_stars: 1
@@ -8037,7 +8037,7 @@
   licenses:
   - MIT
   total_downloads: 1163
-  daily_downloads: 41
+  daily_downloads: 62
   release_downloads: 160
   release_date: 2026/10/28
   github_stars: 1
@@ -8073,7 +8073,7 @@
   licenses:
   - MIT
   total_downloads: 15748
-  daily_downloads: 1071
+  daily_downloads: 846
   release_downloads: 14999
   release_date: 2026/10/15
   github_stars: 0
@@ -8107,7 +8107,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 3972
-  daily_downloads: 495
+  daily_downloads: 266
   release_downloads: 160
   release_date: 2026/10/31
   github_stars: 19
@@ -8141,7 +8141,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 1077
-  daily_downloads: 197
+  daily_downloads: 85
   release_downloads: 147
   release_date: 2026/10/30
   github_stars: 19
@@ -8174,7 +8174,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   total_downloads: 1199
-  daily_downloads: 207
+  daily_downloads: 94
   release_downloads: 154
   release_date: 2026/10/30
   github_stars: 19
