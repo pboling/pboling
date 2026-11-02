@@ -221,7 +221,9 @@ def wrap(s, n, k):
     full = textwrap.wrap(" ".join(s.split()), n); lines = full[:k]
     if len(full) > k: lines[-1] = lines[-1][:n-1].rstrip(" ,.") + "…"
     return lines
-ranked = sorted(owned, key=lambda p: -(p.get("total_downloads") or 0))
+# Featured cards: mine, still maintained (not archived) and not up for adoption. Totals above still count everything I own.
+featured = [p for p in owned if not p.get("adoptable") and p.get("status") != "archived"]
+ranked = sorted(featured, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 24
 CW, CHT = (W-32-12)/2, 128
 def mini_card(i, p, y0, cols=3, link=False):
