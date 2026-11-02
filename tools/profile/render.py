@@ -9,7 +9,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 import shutil
-for _d in ("projects", "feed", "contributors"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _d in ("projects", "feed", "contributors", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
 for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
@@ -76,13 +76,15 @@ def svg(name, h, body, title, vb=None):
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:g}" height="{hh:g}" viewBox="{x0:g} {y0:g} {w:g} {hh:g}" role="img" aria-label="{esc(title)}">'
         f'<title>{esc(title)}</title><style>{css}</style><rect x="{x0:g}" y="{y0:g}" width="{w:g}" height="{hh:g}" fill="{BG}"/>{body}</svg>')
 
+README_ITEMS = []
 def readme_row(*items):
-    """items: (src, alt, width_pct, href|None). No whitespace between tiles, or they wrap."""
-    out = ""
-    for src, alt, pct, href in items:
-        img = f'<img src="./assets/profile/{src}.svg" width="{pct}%" align="top" alt="{esc(alt)}">'
-        out += f'<a href="{esc(href)}">{img}</a>' if href else img
-    README_ROWS.append(out)
+    """items: (src, alt, width_pct, href|None). Composed into HTML at the end so phone variants can be detected."""
+    README_ITEMS.append(items)
+def img_html(src, alt, pct, href):
+    desktop = f'<img src="./assets/profile/{src}.svg" width="{pct}%" align="top" alt="{esc(alt)}">'
+    if (OUT/"phone"/f"{src}.svg").exists():
+        desktop = (f'<picture><source media="(max-width: 600px)" srcset="./assets/profile/phone/{src}.svg">{desktop}</picture>')
+    return f'<a href="{esc(href)}">{desktop}</a>' if href else desktop
 
 def edges(y0, y1, x0=0, x1=W, color=EDGE, top=False, bottom=False):
     """Panel border pieces for a window: left/right sides when the window touches the page edge."""
@@ -387,10 +389,128 @@ b += (f'<text x="24" y="34" font-size="13" class="m">$ open <tspan style="fill:{
       f' · connection closed.</text>')
 svg("footer", 56, b, "Footer: galtzo.com and sponsors link")
 readme_row(("footer", "Connection closed. galtzo.com and github.com/sponsors/pboling", 100, None))
+# ---- phone variants (<= 600px): redesigned at device scale, not just shrunk. See #11.
+PHW = 390
+def psvg(name, w, h, body, alt):
+    css = f"""text{{font-family:{MONO};fill:{PAPER}}} .s{{font-family:{SANS}}} .m{{fill:{MUTED}}}
+    @keyframes bl{{50%{{opacity:0}}}} .cur{{animation:bl 1.1s steps(1) infinite}}
+    @media (prefers-reduced-motion:reduce){{.cur{{animation:none}}}}"""
+    path = OUT/"phone"/f"{name}.svg"; path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:g}" height="{h:g}" viewBox="0 0 {w:g} {h:g}" role="img" aria-label="{esc(alt)}">'
+                    f'<title>{esc(alt)}</title><style>{css}</style><rect width="{w:g}" height="{h:g}" fill="{BG}"/>{body}</svg>')
+def pedges(w, h, col=0, ncols=1, color=EDGE, top=False, bottom=False):
+    o = ""
+    if col == 0: o += f'<line x1="1" y1="0" x2="1" y2="{h}" stroke="{color}"/>'
+    if col == ncols-1: o += f'<line x1="{w-1}" y1="0" x2="{w-1}" y2="{h}" stroke="{color}"/>'
+    if top: o += f'<line x1="0" y1="0.5" x2="{w}" y2="0.5" stroke="{color}"/>'
+    if bottom: o += f'<line x1="0" y1="{h-0.5}" x2="{w}" y2="{h-0.5}" stroke="{color}"/>'
+    return o
+def ptiles(tiles, y, accent=None):
+    """2x2 stat tiles at phone scale."""
+    o = ""; tw = (PHW-24-8)/2
+    for i, (k, v, sub, col) in enumerate(tiles):
+        x = 12 + (i % 2)*(tw+8); yy = y + (i//2)*64
+        o += (f'<rect x="{x}" y="{yy}" width="{tw}" height="58" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
+              f'<rect x="{x}" y="{yy}" width="3" height="58" fill="{accent or col}"/>'
+              f'<text x="{x+12}" y="{yy+16}" font-size="8.5" class="m" letter-spacing="1.5">{k}</text>'
+              f'<text x="{x+12}" y="{yy+42}" class="s" font-size="24" font-weight="700" style="fill:{col}">{v}</text>'
+              f'<text x="{x+tw-8}" y="{yy+52}" font-size="8" class="m" text-anchor="end">{esc(sub[:26])}</text>')
+    return o
+def pbar(label, color=EDGE, h=34, right=""):
+    return (pedges(PHW, h, color=color, top=True) +
+            f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">{esc(label.upper())}</text>{right}')
+
+# header + stats
+hb = pedges(PHW, 150, top=True)
+for i, c in enumerate(("#dc2626", "#e8b04a", "#16a34a")): hb += f'<circle cx="{16+i*14}" cy="18" r="4" fill="{c}"/>'
+hb += (f'<text x="12" y="52" font-size="12" style="fill:{TEAL}">$ whoami</text>'
+       f'<text x="12" y="88" class="s" font-size="27" font-weight="700" letter-spacing="-0.5">Hi, I am <tspan style="fill:{TEAL}">Peter Boling</tspan></text>'
+       f'<text x="12" y="112" font-size="11" class="m">team leader · web architect</text>'
+       f'<text x="12" y="127" font-size="11" class="m">security researcher · rubyist</text>'
+       f'<text x="12" y="142" font-size="11" style="fill:{AMBER}">$ <tspan class="cur" style="fill:{PAPER}">█</tspan></text>')
+psvg("header", PHW, 150, hb, "Peter Boling: team leader, web architect, security researcher, rubyist")
+pst = [("DOWNLOADS", human(tot_dl), "registries + assets", TEAL), ("PER DAY", human(day_dl), "authored + maintained", VIOLET),
+       ("PACKAGES", str(n_proj), f"{T_OWN['repos']} repos", AMBER), ("STARS", human(stars), "on GitHub", TEAL)]
+psvg("stats", PHW, 172, pedges(PHW, 172) + f'<text x="12" y="22" font-size="10" class="m" letter-spacing="1.5">TELEMETRY · MINE</text>' + ptiles(pst, 32)
+     + f'<text x="12" y="166" font-size="8" class="m">{esc(basis_note(T_OWN))}</text>',
+     f"Telemetry: {human(tot_dl)} downloads, {human(day_dl)} per day, {n_proj} packages, {human(stars)} stars")
+
+# projects: head, cards (195 wide, two per row), foot
+psvg("projects/head", PHW, 34, pbar("projects I author & maintain") , "Projects I author and maintain")
+def pcard(pr, col):
+    w, h = PHW/2, 124
+    rc = ROLE.get(pr.get("role"), MUTED)
+    o = (pedges(w, h, col, 2) + f'<rect x="6" y="6" width="{w-12}" height="{h-8}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
+         f'<rect x="6" y="6" width="3" height="{h-8}" fill="{rc}"/>')
+    has = bool(logo_uri(owner_of(pr) or ""))
+    o += logo_at(owner_of(pr), 16, 14, 20)
+    nx = 42 if has else 16
+    o += f'<text x="{nx}" y="29" class="s" font-size="12.5" font-weight="700">{esc(pr["name"][:(13 if has else 17)])}</text>'
+    if is_new(pr) and pr.get("role") != "contributor":
+        o += f'<rect x="{w-40}" y="12" width="28" height="13" rx="6" fill="{AMBER}"/><text x="{w-26}" y="22" font-size="7.5" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>'
+    for k, line in enumerate(wrap(pr.get("description"), 31, 3)):
+        o += f'<text x="16" y="{50+k*12}" class="s m" font-size="9.5">{esc(line)}</text>'
+    st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), TEAL), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
+    sx = 16
+    for sym, val, c in st:
+        o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
+    return o, w, h
+for i, pr in enumerate(ranked[:TOP]):
+    col = i % 2
+    body, w, h = pcard(pr, col)
+    psvg(f"projects/{i+1:02d}", w, h, logo_defs([owner_of(pr)]) + body, card_alt(pr))
+fb = pedges(PHW, 30, bottom=True) + f'<rect x="12" y="10" width="8" height="8" fill="{ROLE["author"]}"/><text x="25" y="17" font-size="9" class="m">author</text>' \
+     f'<rect x="80" y="10" width="8" height="8" fill="{ROLE["maintainer"]}"/><text x="93" y="17" font-size="9" class="m">maintainer</text>' \
+     f'<text x="{PHW-12}" y="17" font-size="8" class="m" text-anchor="end">data: galtzo.com · {scraped}</text>'
+psvg("projects/foot", PHW, 30, fb, "Legend: author, maintainer")
+
+# feed: head, release rows, post rows (195 wide, two per row)
+psvg("feed/head", PHW, 34, pbar("releases") + f'<text x="{PHW/2+8}" y="21" font-size="10" class="m" letter-spacing="1.5">WRITING{esc(stale.replace(" · LATEST", " ·"))}</text>', "Recent releases and writing")
+for i in range(RN):
+    if i < len(latest):
+        r = latest[i]; w, h = PHW/2, 38
+        b_ = (pedges(w, h, 0, 2) + f'<rect x="6" y="2" width="{w-8}" height="34" rx="3" fill="{PANEL}" stroke="{EDGE}"/>'
+              f'<text x="14" y="17" font-size="11" style="fill:{TEAL}">{esc(r["name"][:19])}</text>'
+              f'<text x="14" y="30" font-size="9" style="fill:{VIOLET}">v{esc(r["version"][:12])}<tspan class="m"> · {ago(r["date"])}</tspan></text>')
+        psvg(f"feed/release-{i+1:02d}", w, h, b_, f'{r["name"]} {r["version"]} released {r["date"]}')
+    if i < len(posts):
+        a_ = posts[i]; w, h = PHW/2, 38
+        title = "".join(ch for ch in a_["title"] if ord(ch) < 0x2000).strip()
+        t = title if len(title) <= 30 else title[:29].rstrip() + "…"
+        b_ = (pedges(w, h, 1, 2) + f'<rect x="2" y="2" width="{w-8}" height="34" rx="3" fill="{PANEL}" stroke="{EDGE}"/>'
+              f'<text x="10" y="17" class="s" font-size="10" font-weight="600">{esc(t)}</text>'
+              f'<text x="10" y="30" font-size="8.5" class="m">{a_["date"]}</text>')
+        psvg(f"feed/post-{i+1:02d}", w, h, b_, f'{a_["title"]} ({a_["date"]})')
+psvg("feed/foot", PHW, 10, pedges(PHW, 10, bottom=True), "")
+
+# contributors: head (2x2 tiles), mini cards (130 wide, three per row), foot
+pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTREAM /DAY", human(T_CON["day"]), "whole projects", VIOLET),
+       ("PACKAGES", str(T_CON["packages"]), f"{T_CON['repos']} repos", AMBER), ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
+psvg("contributors/head", PHW, 180, pedges(PHW, 180, color=PURPLE, top=True) +
+     f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">CONTRIBUTIONS · NOT MINE</text>'
+     f'<text x="{PHW-12}" y="21" font-size="9" text-anchor="end" style="fill:{PURPLE}">CONTRIBUTOR</text>' + ptiles(pct, 40, accent=PURPLE) +
+     f'<text x="12" y="172" font-size="8" class="m">{esc(basis_note(T_CON))}</text>', ct_alt)
+for i, pr in enumerate(cranked):
+    col = i % 3; w, h = PHW/3, 64
+    n_ = pr.get("_pkgs", 1)
+    o = (pedges(w, h, col, 3, color=PURPLE) + f'<rect x="{5 if col == 0 else 2}" y="3" width="{w-8}" height="{h-6}" rx="3" fill="{PANEL}" stroke="{EDGE}"/>'
+         + logo_at(owner_of(pr), 10 if col == 0 else 7, 9, 16)
+         + f'<text x="{32 if col == 0 else 29}" y="21" class="s" font-size="10.5" font-weight="700">{esc(pr["name"][:14])}</text>'
+         f'<text x="{10 if col == 0 else 7}" y="40" font-size="9" style="fill:{TEAL}">↓{human(pr.get("total_downloads") or 0)}</text>'
+         f'<text x="{10 if col == 0 else 7}" y="53" font-size="9" style="fill:{AMBER}">★{human(pr.get("github_stars") or 0)}</text>'
+         + (f'<text x="{w-8}" y="53" font-size="8" class="m" text-anchor="end">{n_}pkg</text>' if n_ > 1 else ""))
+    psvg(f"contributors/{i+1:02d}", w, h, logo_defs([owner_of(pr)]) + o, card_alt(pr))
+for col in (range(len(cranked) % 3, 3) if len(cranked) % 3 else []):
+    psvg(f"contributors/blank-{col+1}", PHW/3, 64, pedges(PHW/3, 64, col, 3, color=PURPLE), "")
+psvg("contributors/foot", PHW, 30, pedges(PHW, 30, color=PURPLE, bottom=True) +
+     f'<text x="12" y="18" font-size="8" class="m">Upstream counts; never in my totals above.</text>', "Contributor counts belong to upstream projects")
+psvg("footer", PHW, 52, pedges(PHW, 52, top=True, bottom=True) + f'<text x="12" y="30" font-size="10" class="m">$ open <tspan style="fill:{TEAL}">galtzo.com</tspan> · <tspan style="fill:{VIOLET}">sponsors/pboling</tspan></text>', "galtzo.com and sponsors link")
+
 HEAD_ROWS = [("header", "Peter Boling: team leader, web architect, security researcher, rubyist. Building for web since 2004."),
              ("stats", "Telemetry for projects I author and maintain: downloads, downloads per day, packages, stars."),
              ("city", "Contribution city: an isometric skyline, one building per day of the last year.")]
-top = "\n".join(f'<img src="./assets/profile/{n}.svg" width="100%" align="top" alt="{esc(a)}">' for n, a in HEAD_ROWS)
+top = "\n".join(img_html(n, a, 100, None) for n, a in HEAD_ROWS)
+README_ROWS = ["".join(img_html(*it) for it in row) for row in README_ITEMS]
 (ROOT/"README.md").write_text(f"""<!-- Generated by tools/profile/render.py (see tools/profile/). Edit that, not this file or the SVGs. -->
 <p align="center">
 {top}
