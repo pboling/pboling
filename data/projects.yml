@@ -851,13 +851,13 @@
   - ruby
   docs_site:
   github_stars: 612
-  total_downloads: 13457546
+  total_downloads: 13466008
   daily_downloads: 18925
-  release_downloads: 108454
+  release_downloads: 109687
   release_date: 2026/07/26
   last_commit_on: 2026/10/02
   status: active
-  last_scrape_at: '2026-11-02T07:47:25Z'
+  last_scrape_at: '2026-11-02T20:37:53Z'
   theme: family
   family_id: rails-family
   family_position: 1
