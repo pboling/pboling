@@ -222,7 +222,7 @@ def wrap(s, n, k):
     if len(full) > k: lines[-1] = lines[-1][:n-1].rstrip(" ,.") + "…"
     return lines
 ranked = sorted(owned, key=lambda p: -(p.get("total_downloads") or 0))
-TOP = 12
+TOP = 24
 CW, CHT = (W-32-12)/2, 128
 def mini_card(i, p, y0, cols=3, link=False):
     cw, ch = (W-32-(cols-1)*12)/cols, 84
