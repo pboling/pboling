@@ -2,11 +2,15 @@
 """Render profile SVGs from data/*.yml + data/contributions.json -> assets/profile/*.svg.
 Theme: galtzo.com card motif + sm-urb-design (StructuredMerge) palette. Deterministic."""
 import json, math, pathlib, random, datetime, textwrap
-from xml.sax.saxutils import escape as esc
+from xml.sax.saxutils import escape as _esc
+def esc(t): return _esc(str(t), {'"': "&quot;"})
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
+import shutil
+for _d in ("projects", "feed", "contributors"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
 cal = json.loads((ROOT/"data/contributions.json").read_text())["days"]
@@ -58,14 +62,40 @@ def human(n):
         if n >= lim: return f"{n/lim:.1f}".rstrip("0").rstrip(".") + s
     return str(int(n))
 
-def svg(name, h, body, title):
+import shutil
+README_ROWS = []   # filled as sections render; written to README.md at the end
+def svg(name, h, body, title, vb=None):
+    """Write assets/profile/<name>.svg. vb=(x, y, w, h) crops a window out of a full-layout drawing (used for tiles)."""
     css = f"""text{{font-family:{MONO};fill:{PAPER}}} .s{{font-family:{SANS}}} .m{{fill:{MUTED}}}
     @keyframes bl{{50%{{opacity:0}}}} .cur{{animation:bl 1.1s steps(1) infinite}}
     @keyframes fl{{0%,100%{{opacity:1}}50%{{opacity:.35}}}} .w{{animation:fl 3s ease-in-out infinite}}
     @media (prefers-reduced-motion:reduce){{.cur,.w{{animation:none}}}}"""
-    (OUT/f"{name}.svg").write_text(
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="{esc(title)}">'
-        f'<title>{esc(title)}</title><style>{css}</style><rect width="{W}" height="{h}" fill="{BG}"/>{body}</svg>')
+    x0, y0, w, hh = vb or (0, 0, W, h)
+    path = OUT/f"{name}.svg"; path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:g}" height="{hh:g}" viewBox="{x0:g} {y0:g} {w:g} {hh:g}" role="img" aria-label="{esc(title)}">'
+        f'<title>{esc(title)}</title><style>{css}</style><rect x="{x0:g}" y="{y0:g}" width="{w:g}" height="{hh:g}" fill="{BG}"/>{body}</svg>')
+
+def readme_row(*items):
+    """items: (src, alt, width_pct, href|None). No whitespace between tiles, or they wrap."""
+    out = ""
+    for src, alt, pct, href in items:
+        img = f'<img src="./assets/profile/{src}.svg" width="{pct}%" align="top" alt="{esc(alt)}">'
+        out += f'<a href="{esc(href)}">{img}</a>' if href else img
+    README_ROWS.append(out)
+
+def edges(y0, y1, x0=0, x1=W, color=EDGE, top=False, bottom=False):
+    """Panel border pieces for a window: left/right sides when the window touches the page edge."""
+    o = ""
+    if x0 <= 0: o += f'<line x1="1" y1="{y0}" x2="1" y2="{y1}" stroke="{color}"/>'
+    if x1 >= W: o += f'<line x1="{W-1}" y1="{y0}" x2="{W-1}" y2="{y1}" stroke="{color}"/>'
+    if top: o += f'<line x1="1" y1="{y0+0.5}" x2="{W-1}" y2="{y0+0.5}" stroke="{color}"/>'
+    if bottom: o += f'<line x1="1" y1="{y1-0.5}" x2="{W-1}" y2="{y1-0.5}" stroke="{color}"/>'
+    return o
+def head_bar(label, h, color=EDGE, right=""):
+    return (edges(0, h, color=color, top=True) +
+            f'<text x="16" y="22" font-size="11" class="m" letter-spacing="2">{esc(label.upper())}</text>{right}'
+            f'<line x1="16" y1="32" x2="{W-16}" y2="32" stroke="{EDGE}"/>')
 
 def chrome(label, h):
     """Console window frame segment label."""
@@ -191,7 +221,7 @@ def wrap(s, n, k):
 ranked = sorted(owned, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 12
 CW, CHT = (W-32-12)/2, 128
-def mini_card(i, p, y0, cols=3):
+def mini_card(i, p, y0, cols=3, link=False):
     cw, ch = (W-32-(cols-1)*12)/cols, 84
     col, row = i % cols, i//cols
     x, y = 16 + col*(cw+12), y0 + row*(ch+10)
@@ -211,8 +241,8 @@ def mini_card(i, p, y0, cols=3):
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
-    return f'<a href="{esc(url)}">{g}</a>' if url else g
-def card(i, p, y0=46):
+    return f'<a href="{esc(url)}">{g}</a>' if url and link else g
+def card(i, p, y0=46, link=False):
     col, row = i % 2, i//2
     x, y = 16 + col*(CW+12), y0 + row*(CHT+12)
     rc = ROLE.get(p.get("role"), MUTED); lc = LANG.get(p.get("language"), MUTED)
@@ -237,43 +267,67 @@ def card(i, p, y0=46):
     tag = f'{p["_pkgs"]} packages · {p["_regs"]} registries' if p.get("_pkgs", 1) > 1 else str(p.get("role", ""))
     g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" class="m" text-anchor="end">{esc(tag)}</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
-    return f'<a href="{esc(url)}">{g}</a>' if url else g
-rows = math.ceil(TOP/2); H = 46 + rows*(CHT+12) + 28
-b = logo_defs(owner_of(p) for p in ranked[:TOP]) + chrome("projects I author & maintain · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
-lx = 16
-for r, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
-    b += f'<rect x="{lx}" y="{H-24}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{H-15}" font-size="10" class="m">{r}</text>'; lx += 100
-b += f'<text x="{W-16}" y="{H-15}" font-size="10" class="m" text-anchor="end">data: galtzo.com · scraped {scraped}</text>'
-svg("projects", H, b, f"Top {TOP} projects I author or maintain, by lifetime downloads, as cards")
+    return f'<a href="{esc(url)}">{g}</a>' if url and link else g
+rows = math.ceil(TOP/2)
+def gh_url(p): return next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+def card_alt(p):
+    return (f'{p["name"]}, {p.get("role")}: {" ".join((p.get("description") or "").split())[:120]} '
+            f'{human(p.get("github_stars") or 0)} stars, {human(p.get("total_downloads") or 0)} downloads')
+svg("projects/head", 40, head_bar("projects I author & maintain · by lifetime downloads", 40), "Projects I author and maintain, by lifetime downloads", vb=(0, 0, W, 40))
+readme_row(("projects/head", "Projects I author and maintain, by lifetime downloads", 100, None))
+for r in range(rows):
+    items = []
+    for col in range(2):
+        i = r*2 + col
+        if i >= min(TOP, len(ranked)): break
+        pr = ranked[i]; y = 46 + r*(CHT+12)
+        body = logo_defs([owner_of(pr)]) + card(i, pr) + edges(y-6, y+CHT+6, col*W/2, (col+1)*W/2)
+        name = f"projects/{i+1:02d}"
+        svg(name, 0, body, card_alt(pr), vb=(col*W/2, y-6, W/2, CHT+12))
+        items.append((name, card_alt(pr), 50, gh_url(pr)))
+    readme_row(*items)
+yf = 46 + rows*(CHT+12) - 6
+foot = edges(yf, yf+34, bottom=True); lx = 16
+for r_, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
+    foot += f'<rect x="{lx}" y="{yf+12}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{yf+21}" font-size="10" class="m">{r_}</text>'; lx += 100
+foot += f'<text x="{W-16}" y="{yf+21}" font-size="10" class="m" text-anchor="end">data: galtzo.com · scraped {scraped}</text>'
+svg("projects/foot", 0, foot, "Legend: author, maintainer", vb=(0, yf, W, 34))
+readme_row(("projects/foot", "Legend: red is author, green is maintainer", 100, None))
 
 # ---- recent releases + writing (data: tools/profile/feeds.py)
-def panel_rows(items, x, y, w, fmt, n):
-    out = ""
-    for i, it in enumerate(items[:n]):
-        yy = y + i*34
-        out += f'<rect x="{x}" y="{yy}" width="{w}" height="30" rx="3" fill="{PANEL}" stroke="{EDGE}"/>'
-        out += fmt(it, x, yy, w)
-    return out
 seen = set(); latest = []
 for r in releases:                       # newest release per gem, so one busy gem can't fill the panel
     if r["name"] not in seen: seen.add(r["name"]); latest.append(r)
 PW = (W-32-12)/2; RN = 7
 def fmt_rel(r, x, y, w):
-    new = f'<text x="{x+w-12}" y="{y+19}" font-size="10" class="m" text-anchor="end">{ago(r["date"])}</text>'
-    return (f'<a href="{esc(r["url"])}"><text x="{x+12}" y="{y+19}" font-size="12" style="fill:{TEAL}">{esc(r["name"][:22])}</text>'
-            f'<text x="{x+w-72}" y="{y+19}" font-size="11" text-anchor="end" style="fill:{VIOLET}">v{esc(r["version"][:14])}</text></a>' + new)
+    return (f'<text x="{x+12}" y="{y+19}" font-size="12" style="fill:{TEAL}">{esc(r["name"][:22])}</text>'
+            f'<text x="{x+w-72}" y="{y+19}" font-size="11" text-anchor="end" style="fill:{VIOLET}">v{esc(r["version"][:14])}</text>'
+            f'<text x="{x+w-12}" y="{y+19}" font-size="10" class="m" text-anchor="end">{ago(r["date"])}</text>')
 def fmt_post(a, x, y, w):
     title = "".join(ch for ch in a["title"] if ord(ch) < 0x2000).strip()
     t = title if len(title) <= 44 else title[:43].rstrip() + "…"
-    return (f'<a href="{esc(a["url"])}"><text x="{x+12}" y="{y+13}" class="s" font-size="11.5" font-weight="600">{esc(t)}</text></a>'
+    return (f'<text x="{x+12}" y="{y+13}" class="s" font-size="11.5" font-weight="600">{esc(t)}</text>'
             f'<text x="{x+12}" y="{y+25}" font-size="9" class="m">{a["date"]}' + (f' · {a["minutes"]} min read' if a.get("minutes") else '') + (f' · ♥ {a["reactions"]}' if a.get("reactions") is not None else '') + '</text>')
-HF = 46 + RN*34 + 12
-b = chrome("recent releases · rubygems", HF)
 newest = posts[0]["date"] if posts else None
 stale = f" · LATEST {ago(newest).upper()}" if newest and (TODAY - datetime.date.fromisoformat(newest)).days > 90 else ""
-b += f'<text x="{16+PW+12+0}" y="22" font-size="11" class="m" letter-spacing="2">WRITING{stale}</text>'
-b += panel_rows(latest, 16, 46, PW, fmt_rel, RN) + panel_rows(posts, 16+PW+12, 46, PW, fmt_post, RN)
-svg("feed", HF, b, "Recent gem releases and recent blog posts")
+svg("feed/head", 0, head_bar("recent releases · rubygems", 40) +
+    f'<text x="{16+PW+12}" y="22" font-size="11" class="m" letter-spacing="2">WRITING{stale}</text>', "Recent releases and writing", vb=(0, 0, W, 40))
+readme_row(("feed/head", "Recent gem releases and recent writing", 100, None))
+for i in range(RN):
+    items = []; y = 46 + i*34
+    for col, (src, fmt, kind) in enumerate(((latest, fmt_rel, "release"), (posts, fmt_post, "post"))):
+        if i >= len(src): items.append(None); continue
+        it = src[i]; x = 16 + col*(PW+12)
+        body = (f'<rect x="{x}" y="{y}" width="{PW}" height="30" rx="3" fill="{PANEL}" stroke="{EDGE}"/>' + fmt(it, x, y, PW)
+                + edges(y-2, y+32, col*W/2, (col+1)*W/2))
+        name = f"feed/{kind}-{i+1:02d}"
+        alt = f'{it["name"]} {it["version"]} released {it["date"]}' if kind == "release" else f'{it["title"]} ({it["date"]})'
+        svg(name, 0, body, alt, vb=(col*W/2, y-2, W/2, 34))
+        items.append((name, alt, 50, it["url"]))
+    readme_row(*[i_ for i_ in items if i_])
+yf = 46 + RN*34
+svg("feed/foot", 0, edges(yf-2, yf+10, bottom=True), "", vb=(0, yf-2, W, 12))
+readme_row(("feed/foot", "", 100, None))
 
 # ---- contributor section (other people's projects; clearly separate)
 def group_card(plist):
@@ -292,23 +346,64 @@ def group_card(plist):
 by_repo = {}
 for p in contrib: by_repo.setdefault(gh_repo(p) or p["name"], []).append(p)
 cranked = sorted((group_card(v) for v in by_repo.values()), key=lambda p: -p["total_downloads"])
-HC = 46 + 84 + 18 + math.ceil(len(cranked)/3)*94 + 34
-b = logo_defs(owner_of(p) for p in cranked) + chrome("contributions to other people's projects · not my projects", HC)
-b += f'<rect x="1" y="0" width="{W-2}" height="{HC}" fill="none" stroke="{ROLE["contributor"]}" stroke-opacity=".5"/>'
-b += f'<text x="{W-16}" y="22" font-size="11" text-anchor="end" style="fill:{ROLE["contributor"]}">ROLE: CONTRIBUTOR</text>'
+PURPLE = ROLE["contributor"]
 ctiles = [("UPSTREAM DOWNLOADS", human(T_CON["dl"]), "registries + release assets", TEAL),
           ("UPSTREAM PER DAY", human(T_CON["day"]), "per day, whole projects", VIOLET),
           ("PACKAGES", str(T_CON["packages"]), f"{T_CON['repos']} repos", AMBER),
           ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
-b += tile_row(ctiles, accent=ROLE["contributor"])
-b += f'<text x="16" y="132" font-size="9" class="m">{esc(basis_note(T_CON))}</text>'
-b += "".join(mini_card(i, p, 148) for i, p in enumerate(cranked))
-b += f'<text x="16" y="{HC-14}" font-size="10" class="m">Counts belong to the upstream projects and are tallied only here, never in the totals above.</text>'
-svg("contributors", HC, b, "Contributions to other people's projects, shown separately from the projects I author and maintain")
+HCH = 148
+hb = (head_bar("contributions to other people's projects · not my projects", HCH, color=PURPLE,
+               right=f'<text x="{W-16}" y="22" font-size="11" text-anchor="end" style="fill:{PURPLE}">ROLE: CONTRIBUTOR</text>')
+      + tile_row(ctiles, accent=PURPLE) + f'<text x="16" y="132" font-size="9" class="m">{esc(basis_note(T_CON))}</text>')
+ct_alt = (f"Contributor totals: {human(T_CON['dl'])} upstream downloads, {human(T_CON['day'])} per day, "
+          f"{T_CON['packages']} packages in {T_CON['repos']} repos, {human(T_CON['stars'])} stars. Not included in my totals.")
+svg("contributors/head", 0, hb.replace(f'<line x1="1" y1="0.5"', '<line x1="1" y1="0.5"'), ct_alt, vb=(0, 0, W, HCH))
+readme_row(("contributors/head", ct_alt, 100, None))
+CWID = W/3
+for r in range(math.ceil(len(cranked)/3)):
+    items = []
+    for col in range(3):
+        i = r*3 + col
+        if i >= len(cranked): break
+        pr = cranked[i]; y = HCH + r*94
+        body = logo_defs([owner_of(pr)]) + mini_card(i, pr, HCH) + edges(y-5, y+89, col*CWID, (col+1)*CWID, color=PURPLE)
+        name = f"contributors/{i+1:02d}"
+        alt = card_alt(pr)
+        svg(name, 0, body, alt, vb=(col*CWID, y-5, CWID, 94))
+        items.append((name, alt, 33.33, gh_url(pr)))
+    for col in range(len(items), 3):     # pad the last row so <p align=center> doesn't center it
+        svg(f"contributors/blank-{col+1}", 0, edges(HCH, HCH+94, col*CWID, (col+1)*CWID, color=PURPLE), "", vb=(col*CWID, HCH, CWID, 94))
+        items.append((f"contributors/blank-{col+1}", "", 33.33, None))
+    readme_row(*items)
+yf = HCH + math.ceil(len(cranked)/3)*94 - 5
+svg("contributors/foot", 0, edges(yf, yf+34, color=PURPLE, bottom=True) +
+    f'<text x="16" y="{yf+20}" font-size="10" class="m">Counts belong to the upstream projects and are tallied only here, never in the totals above.</text>',
+    "Contributor counts belong to upstream projects", vb=(0, yf, W, 34))
+readme_row(("contributors/foot", "Contributor counts belong to upstream projects and are not in my totals", 100, None))
 
 # ---- footer
 b = f'<rect x="1" y="0" width="{W-2}" height="56" fill="none" stroke="{EDGE}"/>'
 b += (f'<text x="24" y="34" font-size="13" class="m">$ open <tspan style="fill:{TEAL}">galtzo.com</tspan> · <tspan style="fill:{VIOLET}">github.com/sponsors/pboling</tspan>'
       f' · connection closed.</text>')
 svg("footer", 56, b, "Footer: galtzo.com and sponsors link")
+readme_row(("footer", "Connection closed. galtzo.com and github.com/sponsors/pboling", 100, None))
+HEAD_ROWS = [("header", "Peter Boling: team leader, web architect, security researcher, rubyist. Building for web since 2004."),
+             ("stats", "Telemetry for projects I author and maintain: downloads, downloads per day, packages, stars."),
+             ("city", "Contribution city: an isometric skyline, one building per day of the last year.")]
+top = "\n".join(f'<img src="./assets/profile/{n}.svg" width="100%" align="top" alt="{esc(a)}">' for n, a in HEAD_ROWS)
+(ROOT/"README.md").write_text(f"""<!-- Generated by tools/profile/render.py (see tools/profile/). Edit that, not this file or the SVGs. -->
+<p align="center">
+{top}
+{chr(10).join(README_ROWS)}
+</p>
+
+<p align="center">
+Browse all 200+ projects at <a href="https://galtzo.com">galtzo.com</a> ·
+<a href="https://github.com/sponsors/pboling">Sponsor</a> ·
+<a href="https://discord.gg/3qme4XHNKN">Discord</a> ·
+<a href="./docs/README.legacy.md">previous profile</a>
+</p>
+
+<p align="center"><sub>Data from <a href="https://github.com/galtzo-floss/galtzo.com">galtzo.com</a> project YAML. Console and city idea by <a href="https://github.com/georgekobaidze/georgekobaidze">Giorgi Kobaidze</a> (MIT). Palette from sm-urb-design.</sub></p>
+""")
 print("ok", tot_dl, day_dl, stars, n_proj)
