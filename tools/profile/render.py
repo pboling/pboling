@@ -14,7 +14,28 @@ def _load(n, default):
     f = ROOT/"data"/n
     return json.loads(f.read_text()) if f.exists() else default
 posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
+import base64
 TODAY = datetime.date.today()
+def owner_of(p):
+    f = next((f for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+    return (f or {}).get("owner")
+_logo_cache = {}
+def logo_uri(owner):
+    """data: URI for the cached org logo (assets/logos), or None. External images are blocked inside SVGs."""
+    if owner not in _logo_cache:
+        _logo_cache[owner] = None
+        for ext, mime in (("png", "image/png"), ("jpg", "image/jpeg")):
+            f = ROOT/"assets"/"logos"/f"{owner}.{ext}"
+            if f.exists(): _logo_cache[owner] = f"data:{mime};base64," + base64.b64encode(f.read_bytes()).decode(); break
+    return _logo_cache[owner]
+def logo_defs(owners):
+    return "<defs>" + "".join(f'<image id="lg-{esc(o)}" href="{logo_uri(o)}" width="64" height="64" preserveAspectRatio="xMidYMid slice"/>'
+                              for o in sorted(set(owners)) if o and logo_uri(o)) + "</defs>"
+def logo_at(owner, x, y, size):
+    if not owner or not logo_uri(owner): return ""
+    k = size/64
+    return (f'<g transform="translate({x},{y}) scale({k:.4f})"><rect width="64" height="64" rx="12" fill="#fff"/>'
+            f'<use href="#lg-{esc(owner)}"/></g><rect x="{x}" y="{y}" width="{size}" height="{size}" rx="{size*12/64:.1f}" fill="none" stroke="{EDGE}"/>')
 def is_new(p):
     d = first_release.get(f"{p['ecosystem']}:{p['name']}")
     return bool(d) and (TODAY - datetime.date.fromisoformat(d)).days <= 365
@@ -55,12 +76,38 @@ def chrome(label, h):
 # ---- aggregates
 owned = [p for p in projects if p.get("role") != "contributor"]      # author + maintainer
 contrib = [p for p in projects if p.get("role") == "contributor"]  # work on other people's projects
-tot_dl = sum(p.get("total_downloads") or 0 for p in owned)
-day_dl = sum(p.get("daily_downloads") or 0 for p in owned)
-stars = sum(p.get("github_stars") or 0 for p in owned)
-n_proj = len(owned)
-by_eco = {}
-for p in owned: by_eco[p["ecosystem"]] = by_eco.get(p["ecosystem"], 0) + 1
+def gh_repo(p):
+    f = next((f for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+    return f["url"].rstrip("/").lower() if f else None
+def gh_release_dl(p):
+    f = next((f for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+    return (f or {}).get("total_downloads") or 0
+seen_repos = set()
+def tally(plist):
+    """Downloads/stars for a set of package entries. One entry per package per registry, so
+    registry downloads sum per entry, but anything repo-level (stars, GitHub release assets)
+    is counted once per repository, and never again in a later group (seen_repos)."""
+    dl = sum(p.get("total_downloads") or 0 for p in plist)
+    day = sum(p.get("daily_downloads") or 0 for p in plist)
+    stars = rel = 0; repos = set()
+    for repo in {gh_repo(p) for p in plist if gh_repo(p)} - seen_repos:
+        group = [p for p in plist if gh_repo(p) == repo]
+        stars += max(p.get("github_stars") or 0 for p in group)
+        rel += max(gh_release_dl(p) for p in group)
+        repos.add(repo)
+    seen_repos.update(repos)
+    stars += sum(p.get("github_stars") or 0 for p in plist if not gh_repo(p))
+    windows = sorted({p["downloads_basis"] for p in plist if p.get("downloads_basis") not in (None, "lifetime")})
+    n_repos = len({gh_repo(p) or p["name"] for p in plist})
+    return dict(dl=dl + rel, reg=dl, rel=rel, day=day, stars=stars, packages=len(plist), repos=n_repos, windows=windows)
+owned = [p for p in projects if p.get("role") != "contributor"]      # author + maintainer
+contrib = [p for p in projects if p.get("role") == "contributor"]  # work on other people's projects
+T_OWN = tally(owned); T_CON = tally(contrib)
+tot_dl, day_dl, stars, n_proj = T_OWN["dl"], T_OWN["day"], T_OWN["stars"], T_OWN["packages"]
+WINDOW_NOTE = {"180d": "PyPI = last 180 days", "18mo": "npm = last 18 months"}
+def basis_note(t):
+    w = [WINDOW_NOTE.get(x, x) for x in t["windows"]]
+    return "includes GitHub release assets" + ("; " + ", ".join(w) if w else "")
 scraped = max((p.get("last_scrape_at") or "")[:10] for p in projects)
 contrib_total = sum(d["count"] for d in cal)
 
@@ -91,12 +138,12 @@ def eco_line(ps):
     c = {}
     for p in ps: c[p["ecosystem"]] = c.get(p["ecosystem"], 0) + 1
     return " · ".join(f"{v} {k}" for k, v in sorted(c.items(), key=lambda x: -x[1]) if k != "none")
-tiles = [("DOWNLOADS", human(tot_dl), "lifetime, authored + maintained", TEAL),
+tiles = [("DOWNLOADS", human(tot_dl), "registries + release assets", TEAL),
          ("PER DAY", human(day_dl), "per day, authored + maintained", VIOLET),
-         ("PROJECTS", str(n_proj), eco_line(owned), AMBER),
+         ("PACKAGES", str(n_proj), eco_line(owned), AMBER),
          ("STARS", human(stars), "on GitHub", TEAL)]
-b = chrome("telemetry · projects I author & maintain", 130) + tile_row(tiles)
-svg("stats", 130, b, f"Projects I author or maintain: {human(tot_dl)} lifetime downloads, {human(day_dl)} per day, {n_proj} projects, {human(stars)} stars")
+b = chrome("telemetry · projects I author & maintain", 142) + tile_row(tiles) + f'<text x="16" y="134" font-size="9" class="m">{esc(basis_note(T_OWN))}</text>'
+svg("stats", 142, b, f"Projects I author or maintain: {human(tot_dl)} lifetime downloads, {human(day_dl)} per day, {n_proj} projects, {human(stars)} stars")
 
 # ---- contribution city (isometric, painter's algorithm)
 start = datetime.date.fromisoformat(cal[0]["date"])
@@ -144,17 +191,40 @@ def wrap(s, n, k):
 ranked = sorted(owned, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 12
 CW, CHT = (W-32-12)/2, 128
+def mini_card(i, p, y0, cols=3):
+    cw, ch = (W-32-(cols-1)*12)/cols, 84
+    col, row = i % cols, i//cols
+    x, y = 16 + col*(cw+12), y0 + row*(ch+10)
+    lc = LANG.get(p.get("language"), MUTED)
+    n = p.get("_pkgs", 1)
+    g = (f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
+         f'<rect x="{x}" y="{y}" width="4" height="{ch}" fill="{ROLE["contributor"]}"/>'
+         + logo_at(owner_of(p), x+14, y+8, 22) +
+         f'<circle cx="{x+cw-14}" cy="{y+20}" r="4" fill="{lc}"/>'
+         f'<text x="{x+42}" y="{y+25}" class="s" font-size="14" font-weight="700">{esc(p["name"][:(14 if n > 1 else 22)])}{"…" if n > 1 and len(p["name"]) > 14 else ""}</text>')
+    if n > 1:
+        g += f'<text x="{x+cw-26}" y="{y+24}" font-size="9" class="m" text-anchor="end">{n} pkgs · {p["_regs"]} regs</text>'
+    for k, line in enumerate(wrap(p.get("description"), 40, 1)):
+        g += f'<text x="{x+18}" y="{y+44}" class="s m" font-size="10.5">{esc(line)}</text>'
+    st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), TEAL), ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
+    sx = x+18
+    for sym, val, c in st:
+        g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
+    url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+    return f'<a href="{esc(url)}">{g}</a>' if url else g
 def card(i, p, y0=46):
     col, row = i % 2, i//2
     x, y = 16 + col*(CW+12), y0 + row*(CHT+12)
     rc = ROLE.get(p.get("role"), MUTED); lc = LANG.get(p.get("language"), MUTED)
+    nx0 = x + (48 if logo_uri(owner_of(p) or "") else 18)
     g = (f'<rect x="{x}" y="{y}" width="{CW}" height="{CHT}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
-         f'<text x="{x+18}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
+         f'<text x="{nx0}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
+         + logo_at(owner_of(p), x+16, y+8, 24) +
          f'<circle cx="{x+CW-86}" cy="{y+22}" r="4" fill="{lc}"/>'
          f'<text x="{x+CW-76}" y="{y+26}" font-size="11" class="m">{esc(str(p.get("language") or "")[:10])}</text>')
     if is_new(p) and p.get("role") != "contributor":
-        nx = x + 18 + min(len(p["name"]), 24) * 9.6 + 8
+        nx = x + CW - 132
         g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
               f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
     for k, line in enumerate(wrap(p.get("description"), 52, 3)):
@@ -164,11 +234,12 @@ def card(i, p, y0=46):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 86
-    g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" class="m" text-anchor="end">{esc(str(p.get("role","")))}</text>'
+    tag = f'{p["_pkgs"]} packages · {p["_regs"]} registries' if p.get("_pkgs", 1) > 1 else str(p.get("role", ""))
+    g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" class="m" text-anchor="end">{esc(tag)}</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url else g
 rows = math.ceil(TOP/2); H = 46 + rows*(CHT+12) + 28
-b = chrome("projects I author & maintain · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
+b = logo_defs(owner_of(p) for p in ranked[:TOP]) + chrome("projects I author & maintain · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
 lx = 16
 for r, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
     b += f'<rect x="{lx}" y="{H-24}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{H-15}" font-size="10" class="m">{r}</text>'; lx += 100
@@ -203,23 +274,34 @@ b += panel_rows(latest, 16, 46, PW, fmt_rel, RN) + panel_rows(posts, 16+PW+12, 4
 svg("feed", HF, b, "Recent gem releases and recent blog posts")
 
 # ---- contributor section (other people's projects; clearly separate)
-CTOP = 6
-cranked = sorted(contrib, key=lambda p: -(p.get("total_downloads") or 0))[:CTOP]
-HC = 46 + 84 + math.ceil(len(cranked)/2)*(CHT+12) + 44
-b = chrome("contributions to other people's projects · not my projects", HC)
+def group_card(plist):
+    """One card per upstream repo: all of its registry packages rolled up (alef, tree-sitter-language-pack, ...)."""
+    g = dict(plist[0])
+    seen_registry = {(p["ecosystem"]) for p in plist}
+    rel = max(gh_release_dl(p) for p in plist)
+    g["name"] = plist[0]["name"] if len(plist) == 1 else gh_repo(plist[0]).split("/")[-1]
+    g["total_downloads"] = sum(p.get("total_downloads") or 0 for p in plist) + rel
+    g["daily_downloads"] = sum(p.get("daily_downloads") or 0 for p in plist)
+    g["github_stars"] = max(p.get("github_stars") or 0 for p in plist)
+    g["language"] = plist[0]["language"] if len(plist) == 1 else plist[0]["language"]
+    g["_regs"] = len(seen_registry) if len(plist) > 1 else 0
+    g["_pkgs"] = len(plist)
+    return g
+by_repo = {}
+for p in contrib: by_repo.setdefault(gh_repo(p) or p["name"], []).append(p)
+cranked = sorted((group_card(v) for v in by_repo.values()), key=lambda p: -p["total_downloads"])
+HC = 46 + 84 + 18 + math.ceil(len(cranked)/3)*94 + 34
+b = logo_defs(owner_of(p) for p in cranked) + chrome("contributions to other people's projects · not my projects", HC)
 b += f'<rect x="1" y="0" width="{W-2}" height="{HC}" fill="none" stroke="{ROLE["contributor"]}" stroke-opacity=".5"/>'
 b += f'<text x="{W-16}" y="22" font-size="11" text-anchor="end" style="fill:{ROLE["contributor"]}">ROLE: CONTRIBUTOR</text>'
-c_dl = sum(p.get("total_downloads") or 0 for p in contrib)
-c_day = sum(p.get("daily_downloads") or 0 for p in contrib)
-c_stars = sum(p.get("github_stars") or 0 for p in contrib)
-ctiles = [("UPSTREAM DOWNLOADS", human(c_dl), "lifetime, whole projects", TEAL),
-          ("UPSTREAM PER DAY", human(c_day), "per day, whole projects", VIOLET),
-          ("PROJECTS", str(len(contrib)), eco_line(contrib), AMBER),
-          ("UPSTREAM STARS", human(c_stars), "on GitHub", TEAL)]
+ctiles = [("UPSTREAM DOWNLOADS", human(T_CON["dl"]), "registries + release assets", TEAL),
+          ("UPSTREAM PER DAY", human(T_CON["day"]), "per day, whole projects", VIOLET),
+          ("PACKAGES", str(T_CON["packages"]), f"{T_CON['repos']} repos", AMBER),
+          ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
 b += tile_row(ctiles, accent=ROLE["contributor"])
-b += "".join(card(i, p, y0=130) for i, p in enumerate(cranked))
-b += (f'<text x="16" y="{HC-16}" font-size="10" class="m">Download and star counts belong to the upstream projects; '
-      f'they are tallied here only, never in the totals above. {len(contrib)} contributor projects tracked on galtzo.com.</text>')
+b += f'<text x="16" y="132" font-size="9" class="m">{esc(basis_note(T_CON))}</text>'
+b += "".join(mini_card(i, p, 148) for i, p in enumerate(cranked))
+b += f'<text x="16" y="{HC-14}" font-size="10" class="m">Counts belong to the upstream projects and are tallied only here, never in the totals above.</text>'
 svg("contributors", HC, b, "Contributions to other people's projects, shown separately from the projects I author and maintain")
 
 # ---- footer
