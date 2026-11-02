@@ -121,7 +121,8 @@ def wrap(s, n, k):
     full = textwrap.wrap(" ".join(s.split()), n); lines = full[:k]
     if len(full) > k: lines[-1] = lines[-1][:n-1].rstrip(" ,.") + "…"
     return lines
-ranked = sorted(projects, key=lambda p: -(p.get("total_downloads") or 0))
+CARD_EXCLUDE = {"bundler", "rexml", "rails", "hashie"}  # shown on galtzo.com, not featured here
+ranked = sorted((p for p in projects if p["name"] not in CARD_EXCLUDE), key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 12
 CW, CHT = (W-32-12)/2, 128
 def card(i, p):
