@@ -261,6 +261,11 @@ def card(i, p, y0=46, link=False):
               f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
     for k, line in enumerate(wrap(p.get("description"), 52, 3)):
         g += f'<text x="{x+18}" y="{y+48+k*15}" class="s m" font-size="11.5">{esc(line)}</text>'
+    cmd = install_cmd(p, 52)
+    if cmd:
+        wpx = len(cmd)*6.2 + 24
+        g += (f'<rect x="{x+18}" y="{y+85}" width="{wpx:.0f}" height="18" rx="3" fill="{BG}" stroke="{EDGE}"/>'
+              f'<text x="{x+27}" y="{y+98}" font-size="10"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
     st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), TEAL),
           ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
@@ -272,6 +277,13 @@ def card(i, p, y0=46, link=False):
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 rows = math.ceil(TOP/2)
 def gh_url(p): return next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+INSTALL = {"rubygems": "gem install {n}", "cargo": "cargo add {n}", "npm": "npm i {n}", "pypi": "pip install {n}",
+           "nuget": "dotnet add package {n}", "packagist": "composer require {n}", "go": "go get {n}"}
+def install_cmd(p, limit):
+    t = INSTALL.get(p.get("ecosystem"))
+    if not t: return None
+    c = t.format(n=p["name"])
+    return c if len(c) <= limit else c[:limit-1] + "…"
 def card_alt(p):
     return (f'{p["name"]}, {p.get("role")}: {" ".join((p.get("description") or "").split())[:120]} '
             f'{human(p.get("github_stars") or 0)} stars, {human(p.get("total_downloads") or 0)} downloads')
@@ -448,8 +460,12 @@ def pcard(pr, col):
     o += f'<text x="{nx}" y="29" class="s" font-size="12.5" font-weight="700">{esc(pr["name"][:(13 if has else 17)])}</text>'
     if is_new(pr) and pr.get("role") != "contributor":
         o += f'<rect x="{w-40}" y="12" width="28" height="13" rx="6" fill="{AMBER}"/><text x="{w-26}" y="22" font-size="7.5" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>'
-    for k, line in enumerate(wrap(pr.get("description"), 31, 3)):
+    for k, line in enumerate(wrap(pr.get("description"), 31, 2 if install_cmd(pr, 27) else 3)):
         o += f'<text x="16" y="{50+k*12}" class="s m" font-size="9.5">{esc(line)}</text>'
+    cmd = install_cmd(pr, 27)
+    if cmd:
+        o += (f'<rect x="14" y="{h-40}" width="{len(cmd)*5.2+18:.0f}" height="14" rx="3" fill="{BG}" stroke="{EDGE}"/>'
+              f'<text x="21" y="{h-30}" font-size="8.5"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
     st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), TEAL), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
     sx = 16
     for sym, val, c in st:
