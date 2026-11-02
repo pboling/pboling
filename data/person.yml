@@ -1,0 +1,128 @@
+---
+full_name: "@pboling team leader, web architect, security researcher, and rubyist.
+  Building for web since 2004. \U0001F9F0"
+name: Peter Boling
+nickname: Peter
+greeting: Hi, I am
+avatar: avatar.jpg
+headshot: headshot.jpg
+contact_info:
+  email:
+    handle: peter.boling
+    domain: gmail.com
+    full: peter.boling@gmail.com
+  phone: "+1-925-252-5351"
+summary:
+- I am a computer programmer
+- I build web applications
+- I am a father, son, husband, brother
+- I work on free and open-source projects
+- I tenaciously study reality
+- I am a humanist
+- I took this picture of jellyfish
+description: |
+  <span class="intro">
+  Hi! I love to solve problems with code.
+  Maintaining these projects, with a focus on improving developer experience,
+  requires a great deal of time and energy.
+  I would appreciate your <a href="https://github.com/sponsors/pboling" class="text-link" target="_blank" rel="noopener">financial support</a>.
+  Use the switches to filter projects by role, year, tags, and minimum language versions.
+  Join the <a href="https://discord.gg/3qme4XHNKN" target="_blank" rel="noopener" class="text-link">Discord</a>
+  if you need support, or would like to chat, about any of these projects.
+  If you need an expert, <a href="https://docs.google.com/document/d/1H9fYtkMFmnkQO1sucrFPt5E3dvhozgVtI31LgpNLmJ4/pub" target="_blank" rel="noopener" class="text-link">hire me</a>.
+  </span>
+description2: |
+  <span class="intro">
+  Focus on efficiency, repeatable outcomes, and resiliency, to build dozens of rock-solid libraries that "just work".
+  Tests, code coverage, and documented APIs, breed confidence and peace of mind.
+  The Ruby community trusts me with infrastructure-level authorization and authentication libraries.
+  In 2025, <a href="https://github.com/ruby-oauth/oauth2" target="_blank" rel="noopener" class="text-link">oauth2</a>
+  and I were invited to participate in Session 3 of the
+  <a href="https://github.blog/open-source/maintainers/securing-the-ai-software-supply-chain-security-results-across-67-open-source-projects/" target="_blank" rel="noopener" class="text-link">GitHub SOSF</a> (Secure Open Source Fund).
+  </span>
+language: Ruby
+aspect: wide
+ecosystem:
+minimum_version: '1.8'
+role: author
+first_commit_by_person_on: 1985/12/25
+first_commit_by_person: https://github.com/galtzo-floss/galtzo.com/commit/23b15c81cfe20eb53117efbcba8d76d7c2959290
+funding_sites:
+- type: OpenCollective
+  url: https://opencollective.com/appraisal-rb
+- type: OpenCollective
+  url: https://opencollective.com/dynamoid
+- type: OpenCollective
+  url: https://opencollective.com/kettle-dev
+- type: OpenCollective
+  url: https://opencollective.com/galtzo-floss
+- type: OpenCollective
+  url: https://opencollective.com/resque
+- type: OpenCollective
+  url: https://opencollective.com/rubocop-lts
+- type: OpenCollective
+  url: https://opencollective.com/ruby-oauth
+- type: OpenCollective
+  url: https://opencollective.com/ruby-openid
+- type: Liberapay
+  url: https://liberapay.com/pboling
+forges:
+- type: GitHub
+  url: https://github.com/pboling
+  owner: pboling
+- type: GitLab
+  url: https://gitlab.com/pboling
+- type: Codeberg
+  url: https://codeberg.org/pboling
+- type: SourceHut
+  url: https://sr.ht/~galtzo/
+tags:
+- api
+- ast
+- bash
+- bridgetown
+- ci/cd
+- css
+- docker
+- go
+- graphql
+- hanami
+- html
+- javascript
+- jquery
+- k8s
+- markdown
+- minitest
+- mysql
+- oauth
+- openid
+- postgres
+- rails
+- react
+- resque
+- roda
+- sidekiq
+- sinatra
+- sqlite3
+- svelte
+- test
+- tree-sitter
+- typescript
+- websockets
+docs_site: https://galtzo.com
+tech_site: https://peterboling.com
+orgs:
+- appraisal-rb
+- contriboss
+- Dynamoid
+- kettle-dev
+- floss_funding
+- galtzo-floss
+- omniauth
+- rails
+- resque
+- rubocop-lts
+- ruby
+- ruby-oauth
+- ruby-openid
+- wordtreefoundation
