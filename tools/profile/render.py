@@ -42,12 +42,14 @@ def chrome(label, h):
             f'<line x1="16" y1="32" x2="{W-16}" y2="32" stroke="{EDGE}"/>')
 
 # ---- aggregates
-tot_dl = sum(p.get("total_downloads") or 0 for p in projects)
-day_dl = sum(p.get("daily_downloads") or 0 for p in projects)
-stars = sum(p.get("github_stars") or 0 for p in projects)
-n_proj = len(projects)
+owned = [p for p in projects if p.get("role") != "contributor"]      # author + maintainer
+contrib = [p for p in projects if p.get("role") == "contributor"]  # work on other people's projects
+tot_dl = sum(p.get("total_downloads") or 0 for p in owned)
+day_dl = sum(p.get("daily_downloads") or 0 for p in owned)
+stars = sum(p.get("github_stars") or 0 for p in owned)
+n_proj = len(owned)
 by_eco = {}
-for p in projects: by_eco[p["ecosystem"]] = by_eco.get(p["ecosystem"], 0) + 1
+for p in owned: by_eco[p["ecosystem"]] = by_eco.get(p["ecosystem"], 0) + 1
 scraped = max((p.get("last_scrape_at") or "")[:10] for p in projects)
 contrib_total = sum(d["count"] for d in cal)
 
@@ -64,8 +66,8 @@ b += f'<text x="24" y="172" font-size="14" style="fill:{AMBER}">$ <tspan class="
 svg("header", 190, b, "Peter Boling: team leader, web architect, security researcher, rubyist")
 
 # ---- stats
-tiles = [("DOWNLOADS", human(tot_dl), "lifetime, all registries", TEAL),
-         ("PER DAY", human(day_dl), "across every package", VIOLET),
+tiles = [("DOWNLOADS", human(tot_dl), "lifetime, authored + maintained", TEAL),
+         ("PER DAY", human(day_dl), "per day, authored + maintained", VIOLET),
          ("PROJECTS", str(n_proj), " · ".join(f"{v} {k}" for k, v in sorted(by_eco.items(), key=lambda x: -x[1]) if k != "none"), AMBER),
          ("STARS", human(stars), "on GitHub", TEAL)]
 b = chrome("telemetry", 130); tw = (W-32-3*12)/4
@@ -121,13 +123,12 @@ def wrap(s, n, k):
     full = textwrap.wrap(" ".join(s.split()), n); lines = full[:k]
     if len(full) > k: lines[-1] = lines[-1][:n-1].rstrip(" ,.") + "…"
     return lines
-CARD_EXCLUDE = {"bundler", "rexml", "rails", "hashie"}  # shown on galtzo.com, not featured here
-ranked = sorted((p for p in projects if p["name"] not in CARD_EXCLUDE), key=lambda p: -(p.get("total_downloads") or 0))
+ranked = sorted(owned, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 12
 CW, CHT = (W-32-12)/2, 128
-def card(i, p):
+def card(i, p, y0=46):
     col, row = i % 2, i//2
-    x, y = 16 + col*(CW+12), 46 + row*(CHT+12)
+    x, y = 16 + col*(CW+12), y0 + row*(CHT+12)
     rc = ROLE.get(p.get("role"), MUTED); lc = LANG.get(p.get("language"), MUTED)
     g = (f'<rect x="{x}" y="{y}" width="{CW}" height="{CHT}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
@@ -145,12 +146,24 @@ def card(i, p):
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url else g
 rows = math.ceil(TOP/2); H = 46 + rows*(CHT+12) + 28
-b = chrome("projects · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
+b = chrome("projects I author & maintain · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
 lx = 16
-for r, c in ROLE.items():
+for r, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
     b += f'<rect x="{lx}" y="{H-24}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{H-15}" font-size="10" class="m">{r}</text>'; lx += 100
 b += f'<text x="{W-16}" y="{H-15}" font-size="10" class="m" text-anchor="end">data: galtzo.com · scraped {scraped}</text>'
-svg("projects", H, b, f"Top {TOP} projects by lifetime downloads, as cards")
+svg("projects", H, b, f"Top {TOP} projects I author or maintain, by lifetime downloads, as cards")
+
+# ---- contributor section (other people's projects; clearly separate)
+CTOP = 6
+cranked = sorted(contrib, key=lambda p: -(p.get("total_downloads") or 0))[:CTOP]
+HC = 46 + math.ceil(len(cranked)/2)*(CHT+12) + 44
+b = chrome("contributions to other people's projects · not my projects", HC)
+b += f'<rect x="1" y="0" width="{W-2}" height="{HC}" fill="none" stroke="{ROLE["contributor"]}" stroke-opacity=".5"/>'
+b += f'<text x="{W-16}" y="22" font-size="11" text-anchor="end" style="fill:{ROLE["contributor"]}">ROLE: CONTRIBUTOR</text>'
+b += "".join(card(i, p) for i, p in enumerate(cranked))
+b += (f'<text x="16" y="{HC-16}" font-size="10" class="m">Download and star counts belong to the upstream projects; '
+      f'they are not included in the totals above. {len(contrib)} contributor projects tracked on galtzo.com.</text>')
+svg("contributors", HC, b, "Contributions to other people's projects, shown separately from the projects I author and maintain")
 
 # ---- footer
 b = f'<rect x="1" y="0" width="{W-2}" height="56" fill="none" stroke="{EDGE}"/>'
