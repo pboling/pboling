@@ -56,6 +56,9 @@
 - id: rubocop-lts
   name: RuboCop-LTS Family
   position: 19
+- id: xberg-io
+  name: xberg.io
+  position: 20
 - id: miscellaneous
   name: Miscellanous
-  position: 20
+  position: 21
