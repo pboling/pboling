@@ -1,0 +1,131 @@
+[
+ {
+  "title": "Why flag_shih_tzu is changing its default SQL for bit flags",
+  "url": "https://dev.to/galtzo/why-flagshihtzu-is-changing-its-default-sql-for-bit-flags-41l9",
+  "date": "2026-05-26",
+  "minutes": 4,
+  "reactions": 1,
+  "tags": [
+   "ruby",
+   "rails",
+   "activerecord",
+   "bitfield"
+  ]
+ },
+ {
+  "title": "yard-yaml 0.1.1: safer UTF-8 handling for YAML documentation",
+  "url": "https://dev.to/galtzo/yard-yaml-011-safer-utf-8-handling-for-yaml-documentation-43jh",
+  "date": "2026-05-25",
+  "minutes": 2,
+  "reactions": 0,
+  "tags": [
+   "ruby",
+   "rubygems",
+   "yard",
+   "yaml"
+  ]
+ },
+ {
+  "title": "yard-fence 0.9.0: cleaner YARD docs when Markdown braces get in the way",
+  "url": "https://dev.to/galtzo/yard-fence-090-cleaner-yard-docs-when-markdown-braces-get-in-the-way-2683",
+  "date": "2026-05-24",
+  "minutes": 3,
+  "reactions": 0,
+  "tags": [
+   "ruby",
+   "rubygems",
+   "yard",
+   "opensource"
+  ]
+ },
+ {
+  "title": "yard-timekeeper: Stop YARD Timestamp Churn in Checked-In Docs",
+  "url": "https://dev.to/galtzo/yard-timekeeper-stop-yard-timestamp-churn-in-checked-in-docs-369o",
+  "date": "2026-05-24",
+  "minutes": 2,
+  "reactions": 0,
+  "tags": [
+   "ruby",
+   "rubygem",
+   "yard",
+   "opensource"
+  ]
+ },
+ {
+  "title": "💎REL: oauth2 v2.0.18",
+  "url": "https://dev.to/galtzo/rel-oauth2-v2018-43pf",
+  "date": "2026-04-01",
+  "minutes": 1,
+  "reactions": 1,
+  "tags": [
+   "ruby",
+   "oauth",
+   "security",
+   "github"
+  ]
+ },
+ {
+  "title": "🐠 ANN: appraisal2 v3.0.6 - support frozen appraisal lockfiles",
+  "url": "https://dev.to/galtzo/ann-appraisal2-v306-support-frozen-appraisal-lockfiles-20ml",
+  "date": "2026-02-18",
+  "minutes": 1,
+  "reactions": 1,
+  "tags": [
+   "news",
+   "ruby",
+   "testing",
+   "tooling"
+  ]
+ },
+ {
+  "title": "Hostile Takeover of RubyGems: My Thoughts",
+  "url": "https://dev.to/galtzo/hostile-takeover-of-rubygems-my-thoughts-5hlo",
+  "date": "2026-02-06",
+  "minutes": 4,
+  "reactions": 11,
+  "tags": [
+   "opensource",
+   "ruby",
+   "rails",
+   "governance"
+  ]
+ },
+ {
+  "title": "⚡️ setup-ruby-flash",
+  "url": "https://dev.to/galtzo/setup-ruby-flash-25lb",
+  "date": "2026-01-19",
+  "minutes": 7,
+  "reactions": 0,
+  "tags": [
+   "ruby",
+   "gha",
+   "ore",
+   "rv"
+  ]
+ },
+ {
+  "title": "💲FLOSS Funding",
+  "url": "https://dev.to/galtzo/floss-funding-2cfn",
+  "date": "2025-11-06",
+  "minutes": 3,
+  "reactions": 0,
+  "tags": [
+   "career",
+   "discuss",
+   "opensource"
+  ]
+ },
+ {
+  "title": "💎 ANN: omniauth-identity v3.1.5 (Hanami/ROM Support)",
+  "url": "https://dev.to/galtzo/ann-omniauth-identity-v315-hanamirom-support-4ha3",
+  "date": "2025-10-14",
+  "minutes": 4,
+  "reactions": 1,
+  "tags": [
+   "webdev",
+   "ruby",
+   "rom",
+   "authentication"
+  ]
+ }
+]

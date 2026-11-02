@@ -1,0 +1,242 @@
+[
+ {
+  "name": "kettle-jem",
+  "version": "7.1.42",
+  "date": "2026-10-31",
+  "at": "2026-10-31T04:26:17.314Z",
+  "url": "https://rubygems.org/gems/kettle-jem/versions/7.1.42",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-family",
+  "version": "1.3.37",
+  "date": "2026-10-31",
+  "at": "2026-10-31T02:47:02.087Z",
+  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.37",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-crispr-toml",
+  "version": "7.1.18",
+  "date": "2026-10-31",
+  "at": "2026-10-31T01:13:01.011Z",
+  "url": "https://rubygems.org/gems/ast-crispr-toml/versions/7.1.18",
+  "registry": "rubygems"
+ },
+ {
+  "name": "smorg-rb",
+  "version": "7.1.18",
+  "date": "2026-10-30",
+  "at": "2026-10-30T23:33:07.898Z",
+  "url": "https://rubygems.org/gems/smorg-rb/versions/7.1.18",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-jem",
+  "version": "7.1.41",
+  "date": "2026-10-30",
+  "at": "2026-10-30T22:53:25.201Z",
+  "url": "https://rubygems.org/gems/kettle-jem/versions/7.1.41",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-merge-git",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:25:25.313Z",
+  "url": "https://rubygems.org/gems/ast-merge-git/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-crispr-ruby-prism",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:24:11.082Z",
+  "url": "https://rubygems.org/gems/ast-crispr-ruby-prism/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-crispr-markdown-markly",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:24:08.870Z",
+  "url": "https://rubygems.org/gems/ast-crispr-markdown-markly/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-crispr-yaml-psych",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:23:08.129Z",
+  "url": "https://rubygems.org/gems/ast-crispr-yaml-psych/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "parslet-toml-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:54.216Z",
+  "url": "https://rubygems.org/gems/parslet-toml-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "psych-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:52.203Z",
+  "url": "https://rubygems.org/gems/psych-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "citrus-toml-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:51.112Z",
+  "url": "https://rubygems.org/gems/citrus-toml-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "dotenv-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:50.265Z",
+  "url": "https://rubygems.org/gems/dotenv-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-template",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:49.208Z",
+  "url": "https://rubygems.org/gems/ast-template/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "zip-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:48.213Z",
+  "url": "https://rubygems.org/gems/zip-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "html-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:47.040Z",
+  "url": "https://rubygems.org/gems/html-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "prism-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:46.315Z",
+  "url": "https://rubygems.org/gems/prism-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "markly-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:45.251Z",
+  "url": "https://rubygems.org/gems/markly-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kramdown-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:44.239Z",
+  "url": "https://rubygems.org/gems/kramdown-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "commonmarker-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:20:42.916Z",
+  "url": "https://rubygems.org/gems/commonmarker-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "typescript-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:15:04.949Z",
+  "url": "https://rubygems.org/gems/typescript-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "yaml-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:15:04.327Z",
+  "url": "https://rubygems.org/gems/yaml-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "toml-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:15:03.032Z",
+  "url": "https://rubygems.org/gems/toml-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "config-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:53.726Z",
+  "url": "https://rubygems.org/gems/config-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ruby-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:53.015Z",
+  "url": "https://rubygems.org/gems/ruby-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "bash-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:52.009Z",
+  "url": "https://rubygems.org/gems/bash-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "plain-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:50.752Z",
+  "url": "https://rubygems.org/gems/plain-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "markdown-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:49.789Z",
+  "url": "https://rubygems.org/gems/markdown-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "json-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:49.192Z",
+  "url": "https://rubygems.org/gems/json-merge/versions/7.1.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "go-merge",
+  "version": "7.1.17",
+  "date": "2026-10-30",
+  "at": "2026-10-30T03:13:47.873Z",
+  "url": "https://rubygems.org/gems/go-merge/versions/7.1.17",
+  "registry": "rubygems"
+ }
+]
