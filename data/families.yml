@@ -1,0 +1,61 @@
+---
+- id: smorg-rb
+  name: StructuredMerge Ruby
+  position: 1
+- id: smorg-ts
+  name: StructuredMerge TypeScript
+  position: 2
+- id: smorg-rs
+  name: StructuredMerge Rust
+  position: 3
+- id: smorg-go
+  name: StructuredMerge Go
+  position: 4
+- id: ast-merge
+  name: AST / Ruby Interoperability
+  position: 6
+- id: galtzo-floss
+  name: Galtzo FLOSS
+  position: 5
+- id: active-record
+  name: ActiveRecord Plugins
+  position: 7
+- id: logging-family
+  name: Logging Tools
+  position: 8
+- id: rspec-family
+  name: RSpec Plugins
+  position: 9
+- id: adoptable-family
+  name: Looking for Maintainers!
+  position: 10
+- id: archived-family
+  name: Thanks for the Memories!
+  position: 11
+- id: rails-family
+  name: Rails Plugins
+  position: 12
+- id: rubygems-bundler-family
+  name: RubyGems/Bundler Plugins
+  position: 13
+- id: kettle-dev-family
+  name: Kettle Dev
+  position: 14
+- id: ruby-openid
+  name: Ruby OpenID Family
+  position: 15
+- id: ruby-oauth
+  name: Ruby OAuth Family
+  position: 16
+- id: omniauth-family
+  name: OmniAuth Family
+  position: 17
+- id: resque-family
+  name: Resque Family
+  position: 18
+- id: rubocop-lts
+  name: RuboCop-LTS Family
+  position: 19
+- id: miscellaneous
+  name: Miscellanous
+  position: 20
