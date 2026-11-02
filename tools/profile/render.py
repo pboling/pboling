@@ -9,7 +9,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 import shutil
-for _d in ("projects", "feed", "contributors", "trending", "history", "banner", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _d in ("projects", "feed", "contributors", "trending", "history", "banner", "sponsors", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
 for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
@@ -20,6 +20,15 @@ def _load(n, default):
 posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
 trending = _load("trending.json", {"days": 365, "repos": []})
 star_history = _load("star-history.json", None)
+def _sponsors():
+    f = ROOT/"data"/"sponsors.yml"
+    items = yaml.safe_load(f.read_text()) if f.exists() else []
+    return [x for x in items if not x.get("until") or datetime.date.fromisoformat(str(x["until"])) >= datetime.date.today()]
+sponsors = _sponsors()
+def sponsor_uri(name):
+    f = ROOT/"assets"/"sponsors"/name
+    mime = {"svg": "image/svg+xml", "png": "image/png", "jpg": "image/jpeg"}.get(f.suffix.lstrip("."), "image/png")
+    return f"data:{mime};base64," + base64.b64encode(f.read_bytes()).decode() if f.exists() else None
 import base64
 TODAY = datetime.date.today()
 def owner_of(p):
@@ -470,6 +479,46 @@ svg("contributors/foot", 0, edges(yf, yf+34, color=PURPLE, bottom=True) +
     "Contributor counts belong to upstream projects", vb=(0, yf, W, 34))
 readme_row(("contributors/foot", "Contributor counts belong to upstream projects and are not in my totals", 100, None))
 
+# ---- sponsors (data/sponsors.yml): logos for sponsors who are already public, text names for minor donors
+SPN = [x for x in sponsors if x["tier"] in ("personal", "project")]
+MINOR = [x for x in sponsors if x["tier"] == "minor"]
+def sponsor_tile_body(sp, x, y, w, h):
+    uri = sponsor_uri(sp.get("logo", ""))
+    o = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
+    if uri:
+        o += (f'<rect x="{x+12}" y="{y+12}" width="{w*0.36:.0f}" height="{h-24}" rx="8" fill="#fff"/>'
+              f'<image href="{uri}" x="{x+20}" y="{y+18}" width="{w*0.36-16:.0f}" height="{h-36}" preserveAspectRatio="xMidYMid meet"/>')
+    tx = x + 12 + w*0.36 + 16
+    o += f'<text x="{tx:.0f}" y="{y+30}" class="s" font-size="15" font-weight="700">{esc(sp["name"])}</text>'
+    lines = textwrap.wrap(sp.get("scope") or "", 34)[:2]
+    sub = sp.get("via") and f"via {sp['via']}" or (sp.get("since") and f"since {str(sp['since'])[:7]}") or ""
+    lines += [sub] if sub else []
+    for k, ln in enumerate(lines[:3]):
+        o += f'<text x="{tx:.0f}" y="{y+45+k*12}" font-size="10" class="m">{esc(ln)}</text>'
+    return o
+if sponsors:
+    svg("sponsors/head", 0, head_bar("sponsors · thank you", 40), "Sponsors: thank you", vb=(0, 0, W, 40))
+    readme_row(("sponsors/head", "Sponsors: thank you", 100, None))
+    SH = 92
+    for r in range((len(SPN)+1)//2):
+        items = []
+        for col in range(2):
+            i = r*2 + col
+            if i >= len(SPN): break
+            sp = SPN[i]; y = 6
+            body = sponsor_tile_body(sp, col*W/2 + (16 if col == 0 else 6), y, W/2 - 22 if col == 0 else W/2 - 22, SH-12) + edges(0, SH, col*W/2, (col+1)*W/2)
+            name = f"sponsors/{i+1:02d}"
+            alt = f'{sp["name"]}: {sp.get("scope", "")}' + (f' (via {sp["via"]})' if sp.get("via") else "")
+            svg(name, 0, body, alt, vb=(col*W/2, 0, W/2, SH))
+            items.append((name, alt, 50, sp["url"]))
+        readme_row(*items)
+    if MINOR:
+        txt = " · ".join(f'{m["name"]}' for m in MINOR)
+        via = ", ".join(sorted({m["via"] for m in MINOR if m.get("via")}))
+        body = (edges(0, 40, bottom=True) + f'<text x="16" y="25" font-size="11" class="m">Also thank you: <tspan style="fill:{PAPER}">{esc(txt)}</tspan>  ({esc(via)})</text>')
+        svg("sponsors/minor", 0, body, "Also thank you: " + txt, vb=(0, 0, W, 40))
+        readme_row(("sponsors/minor", "Also thank you: " + txt, 100, None))
+
 # ---- footer
 b = f'<rect x="1" y="0" width="{W-2}" height="56" fill="none" stroke="{EDGE}"/>'
 b += (f'<text x="24" y="34" font-size="13" class="m">$ open <tspan style="fill:{TEAL}">galtzo.com</tspan> · <tspan style="fill:{VIOLET}">github.com/sponsors/pboling</tspan>'
@@ -600,6 +649,26 @@ if star_history and len(star_history["series"]) > 12:
     psvg("history/chart", PHW, PHH, pedges(PHW, PHH, top=True, bottom=True) +
          f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">STAR HISTORY · {esc(star_history["repo"].split("/")[1].upper())}</text>'
          + history_chart(PHW, PHH, big=False), "Star history: " + note)
+
+# sponsors (phone)
+if sponsors:
+    psvg("sponsors/head", PHW, 34, pbar("sponsors · thank you"), "Sponsors: thank you")
+    for i, sp in enumerate(SPN):
+        col = i % 2; w, h = PHW/2, 106
+        uri = sponsor_uri(sp.get("logo", ""))
+        o = pedges(w, h, col, 2) + f'<rect x="{10 if col == 0 else 3}" y="4" width="{w-13}" height="{h-8}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
+        if uri:
+            o += (f'<rect x="{18 if col == 0 else 11}" y="12" width="{w-29}" height="40" rx="6" fill="#fff"/>'
+                  f'<image href="{uri}" x="{22 if col == 0 else 15}" y="16" width="{w-37}" height="32" preserveAspectRatio="xMidYMid meet"/>')
+        tx = 18 if col == 0 else 11
+        o += f'<text x="{tx}" y="68" class="s" font-size="11" font-weight="700">{esc(sp["name"][:20])}</text>'
+        for k, ln in enumerate(textwrap.wrap(sp.get("scope") or "", 27)[:2]):
+            o += f'<text x="{tx}" y="{80+k*10}" font-size="8" class="m">{esc(ln)}</text>'
+        psvg(f"sponsors/{i+1:02d}", w, h, o, f'{sp["name"]}: {sp.get("scope", "")}')
+    if MINOR:
+        mt = " · ".join(m["name"] for m in MINOR)
+        psvg("sponsors/minor", PHW, 40, pedges(PHW, 40, bottom=True) + f'<text x="12" y="16" font-size="8.5" class="m">Also thank you:</text>'
+             f'<text x="12" y="30" font-size="9.5">{esc(mt)}</text>', "Also thank you: " + mt)
 
 # contributors: head (2x2 tiles), mini cards (130 wide, three per row), foot
 pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTREAM /DAY", human(T_CON["day"]), "whole projects", VIOLET),

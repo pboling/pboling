@@ -1,0 +1,40 @@
+# Sponsors shown on the profile. Logos are public brand assets copied into assets/sponsors/.
+# tier: personal (sponsors me) | project (sponsors an org/project) | minor (named in text only: no logo, they did not opt in)
+# until: entries past this date drop out automatically.
+- name: HealthSherpa
+  url: https://healthsherpa.com
+  logo: healthsherpa.png
+  tier: personal
+  scope: sponsors me
+  via: GitHub Sponsors
+- name: Sonar (Tidelift)
+  url: https://www.sonarsource.com
+  logo: sonar.png
+  tier: personal
+  scope: pays for oauth, oauth2, snaky_hash, version_gem
+  via: Tidelift
+- name: SerpApi
+  url: https://serpapi.com
+  logo: serpapi.svg
+  tier: project
+  scope: ruby-oauth org
+  since: "2026-01-01"
+- name: Alpha-Omega
+  url: https://alpha-omega.dev
+  logo: alpha-omega.svg
+  tier: project
+  scope: ruby-oauth/oauth2
+  since: "2026-08-29"
+  until: "2027-12-31"
+- name: makeplans
+  tier: minor
+  via: GitHub Sponsors
+- name: Square
+  tier: minor
+  via: thanks.dev
+- name: Block
+  tier: minor
+  via: thanks.dev
+- name: Sentry
+  tier: minor
+  via: thanks.dev
