@@ -24,13 +24,13 @@
   - ruby
   docs_site:
   github_stars: 7
-  total_downloads: 4316
+  total_downloads: 4337
   daily_downloads: 6
-  release_downloads: 3718
+  release_downloads: 3734
   release_date: 2024/07/05
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:29:27Z'
+  last_scrape_at: '2026-11-02T07:46:01Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/active_security/blob/main/LICENSE.md
@@ -63,13 +63,13 @@
   - validation
   docs_site:
   github_stars: 2
-  total_downloads: 113838
+  total_downloads: 113938
   daily_downloads: 19
-  release_downloads: 87614
+  release_downloads: 87683
   release_date: 2018/09/23
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:29:30Z'
+  last_scrape_at: '2026-11-02T07:46:05Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/activerecord-tablefree/blob/main/LICENSE.md
@@ -106,13 +106,13 @@
   github_stars: 11
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 62783
+  total_downloads: 62843
   daily_downloads: 13
-  release_downloads: 3953
+  release_downloads: 3971
   release_date: 2024/03/06
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:29:34Z'
+  last_scrape_at: '2026-11-02T07:46:10Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/activerecord-transactionable/blob/main/LICENSE.md
@@ -143,13 +143,13 @@
   - ruby
   docs_site:
   github_stars: 9
-  total_downloads: 11351
-  daily_downloads: 19
-  release_downloads: 557
+  total_downloads: 11563
+  daily_downloads: 18
+  release_downloads: 600
   release_date: 2026/08/09
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:29:36Z'
+  last_scrape_at: '2026-11-02T07:46:13Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/activesupport-broadcast_logger/blob/main/LICENSE.md
@@ -180,13 +180,13 @@
   - ruby
   docs_site:
   github_stars: 9
-  total_downloads: 19825
-  daily_downloads: 38
-  release_downloads: 418
+  total_downloads: 20234
+  daily_downloads: 32
+  release_downloads: 494
   release_date: 2026/10/01
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:29:40Z'
+  last_scrape_at: '2026-11-02T07:46:17Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/activesupport-logger/blob/main/LICENSE.md
@@ -217,13 +217,13 @@
   - ruby
   docs_site:
   github_stars: 9
-  total_downloads: 6775
-  daily_downloads: 11
-  release_downloads: 207
+  total_downloads: 6922
+  daily_downloads: 10
+  release_downloads: 221
   release_date: 2026/08/09
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:29:42Z'
+  last_scrape_at: '2026-11-02T07:46:20Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/activesupport-tagged_logging/blob/main/LICENSE.md
@@ -252,13 +252,13 @@
   - ruby
   docs_site:
   github_stars: 12
-  total_downloads: 321720
-  daily_downloads: 52
-  release_downloads: 260980
+  total_downloads: 322157
+  daily_downloads: 47
+  release_downloads: 261380
   release_date: 2024/09/18
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:29:46Z'
+  last_scrape_at: '2026-11-02T07:46:24Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/anonymous_active_record/blob/main/LICENSE.txt
@@ -282,8 +282,8 @@
   - type: GitHub
     url: https://github.com/apache/skywalking-eyes
     owner: apache
-    total_downloads: 2542
-    release_downloads: 375
+    total_downloads: 2843
+    release_downloads: 630
   tags:
   - bundler
   - ci
@@ -296,9 +296,9 @@
   docs_site:
   github_stars: 317
   release_date: 2026/09/01
-  last_commit_on: 2026/10/18
+  last_commit_on: 2026/10/23
   status: active
-  last_scrape_at: '2026-10-21T22:29:48Z'
+  last_scrape_at: '2026-11-02T07:46:27Z'
   theme: family
   family_id: rubygems-bundler-family
   family_position: 10
@@ -339,13 +339,13 @@
   github_stars: 22
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 260886
-  daily_downloads: 1135
-  release_downloads: 1076
+  total_downloads: 275958
+  daily_downloads: 1164
+  release_downloads: 12907
   release_date: 2026/10/21
   last_commit_on: 2026/10/21
   status: active
-  last_scrape_at: '2026-10-21T22:29:52Z'
+  last_scrape_at: '2026-11-02T07:46:31Z'
   licenses:
   - MIT
   license_url: https://github.com/appraisal-rb/appraisal2/blob/main/LICENSE.md
@@ -371,13 +371,13 @@
   - shell
   docs_site:
   github_stars: 16
-  total_downloads: 39844
-  daily_downloads: 12
-  release_downloads: 3431
+  total_downloads: 39876
+  daily_downloads: 10
+  release_downloads: 3444
   release_date: 2018/09/04
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:29:55Z'
+  last_scrape_at: '2026-11-02T07:46:35Z'
   theme: family
   family_id: miscellaneous
   family_position: 2
@@ -410,13 +410,13 @@
   archived: true
   docs_site:
   github_stars: 8
-  total_downloads: 11488
+  total_downloads: 11498
   daily_downloads: 3
-  release_downloads: 6418
+  release_downloads: 6427
   release_date: 2010/06/22
   last_commit_on: 2026/01/22
   status: active
-  last_scrape_at: '2026-10-21T22:29:58Z'
+  last_scrape_at: '2026-11-02T07:46:39Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/awesome_search/blob/main/LICENSE
@@ -446,7 +446,7 @@
   release_date:
   last_commit_on: 2026/03/20
   status: active
-  last_scrape_at: '2026-10-21T22:30:01Z'
+  last_scrape_at: '2026-11-02T07:46:42Z'
   theme: family
   family_id: miscellaneous
   family_position: 3
@@ -476,7 +476,7 @@
   release_date:
   last_commit_on: 2021/12/07
   status: stale
-  last_scrape_at: '2026-10-21T22:30:03Z'
+  last_scrape_at: '2026-11-02T07:46:45Z'
   theme: family
   family_id: miscellaneous
   family_position: 4
@@ -506,7 +506,7 @@
   release_date:
   last_commit_on: 2021/12/07
   status: stale
-  last_scrape_at: '2026-10-21T22:30:06Z'
+  last_scrape_at: '2026-11-02T07:46:48Z'
   theme: family
   family_id: miscellaneous
   family_position: 5
@@ -535,9 +535,9 @@
   - flash
   - rails
   - ruby
-  total_downloads: 479879
-  daily_downloads: 128
-  release_downloads: 191827
+  total_downloads: 480242
+  daily_downloads: 111
+  release_downloads: 192064
   adoptable: false
   archived: true
   deprecation_reason: Incompatible with modern Rails
@@ -546,7 +546,7 @@
   release_date: 2017/04/11
   last_commit_on: 2020/11/15
   status: archived
-  last_scrape_at: '2026-10-21T22:30:09Z'
+  last_scrape_at: '2026-11-02T07:46:51Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/cacheable-flash/blob/master/LICENSE
@@ -580,13 +580,13 @@
   archived: true
   docs_site:
   github_stars: 49
-  total_downloads: 100308
-  daily_downloads: 13
-  release_downloads: 14551
+  total_downloads: 100357
+  daily_downloads: 10
+  release_downloads: 14570
   release_date: 2013/01/22
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:12Z'
+  last_scrape_at: '2026-11-02T07:46:56Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/capistrano_mailer/blob/main/LICENSE
@@ -619,13 +619,13 @@
   archived: true
   docs_site:
   github_stars: 11
-  total_downloads: 25016
+  total_downloads: 25265
   daily_downloads: 24
-  release_downloads: 5603
+  release_downloads: 5838
   release_date: 2015/11/30
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:15Z'
+  last_scrape_at: '2026-11-02T07:47:00Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/celluloid-io-pg-listener/blob/main/LICENSE.txt
@@ -654,13 +654,13 @@
   - validation
   docs_site:
   github_stars: 8
-  total_downloads: 7990
+  total_downloads: 8005
   daily_downloads: 3
-  release_downloads: 7990
+  release_downloads: 8005
   release_date: 2014/11/20
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:18Z'
+  last_scrape_at: '2026-11-02T07:47:04Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/controller_validator/blob/main/LICENSE.txt
@@ -694,13 +694,13 @@
   - ruby
   docs_site:
   github_stars: 34
-  total_downloads: 154497
-  daily_downloads: 21
-  release_downloads: 6022
+  total_downloads: 154618
+  daily_downloads: 22
+  release_downloads: 6033
   release_date: 2013/11/26
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:21Z'
+  last_scrape_at: '2026-11-02T07:47:08Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/csv_pirate/blob/main/LICENSE
@@ -737,13 +737,13 @@
   github_stars: 18
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 93747
-  daily_downloads: 55
-  release_downloads: 308
+  total_downloads: 94115
+  daily_downloads: 42
+  release_downloads: 443
   release_date: 2026/10/01
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:30:24Z'
+  last_scrape_at: '2026-11-02T07:47:12Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/debug_logging/blob/main/LICENSE.md
@@ -778,13 +778,13 @@
   docs_site:
   github_stars: 3
   gitlab_stars: 0
-  total_downloads: 18525
+  total_downloads: 18546
   daily_downloads: 5
-  release_downloads: 4517
+  release_downloads: 4527
   release_date: 2015/05/20
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:28Z'
+  last_scrape_at: '2026-11-02T07:47:17Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/destination_errors/blob/main/LICENSE.txt
@@ -816,13 +816,13 @@
   - view
   docs_site:
   github_stars: 11
-  total_downloads: 10443
+  total_downloads: 10458
   daily_downloads: 3
-  release_downloads: 6656
+  release_downloads: 6667
   release_date: 2012/08/15
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:30Z'
+  last_scrape_at: '2026-11-02T07:47:21Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/dry_views/blob/main/LICENSE
@@ -851,13 +851,13 @@
   - ruby
   docs_site:
   github_stars: 612
-  total_downloads: 13284100
-  daily_downloads: 16552
-  release_downloads: 92441
+  total_downloads: 13457546
+  daily_downloads: 18925
+  release_downloads: 108454
   release_date: 2026/07/26
   last_commit_on: 2026/10/02
   status: active
-  last_scrape_at: '2026-10-21T22:30:33Z'
+  last_scrape_at: '2026-11-02T07:47:25Z'
   theme: family
   family_id: rails-family
   family_position: 1
@@ -891,13 +891,13 @@
   - ruby
   docs_site:
   github_stars: 12
-  total_downloads: 15595
+  total_downloads: 15620
   daily_downloads: 4
-  release_downloads: 7118
+  release_downloads: 7128
   release_date: 2016/06/01
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:30:36Z'
+  last_scrape_at: '2026-11-02T07:47:29Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/each_in_batches/blob/main/MIT-LICENSE
@@ -939,13 +939,13 @@
   github_stars: 508
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 6729356
-  daily_downloads: 11247
-  release_downloads: 20712
+  total_downloads: 6836403
+  daily_downloads: 10302
+  release_downloads: 25694
   release_date: 2026/09/12
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:30:40Z'
+  last_scrape_at: '2026-11-02T07:47:34Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/flag_shih_tzu/blob/main/LICENSE
@@ -958,7 +958,7 @@
   theme: family
   family_id: rubygems-bundler-family
   family_position: 7
-  minimum_version: '1.8'
+  minimum_version: '1.9'
   role: author
   first_commit_by_person_on: 2025/08/08
   first_commit_by_person: https://github.com/floss-funding/floss_funding/commit/389ece6fb9bd04013d11edca6fb6830139a84f4c
@@ -976,13 +976,13 @@
   - ruby
   docs_site: https://floss-funding.galtzo.com
   github_stars: 5
-  total_downloads: 779
-  daily_downloads: 4
-  release_downloads: 446
+  total_downloads: 789
+  daily_downloads: 3
+  release_downloads: 455
   release_date: 2025/08/11
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:30:43Z'
+  last_scrape_at: '2026-11-02T07:47:38Z'
   licenses:
   - MIT
   license_url: https://github.com/floss-funding/floss_funding/blob/main/LICENSE.md
@@ -999,7 +999,7 @@
   theme: family
   family_id: rubygems-bundler-family
   family_position: 5
-  minimum_version: '1.8'
+  minimum_version: '2.3'
   role: author
   first_commit_by_person_on: 2013/04/05
   first_commit_by_person: https://github.com/galtzo-floss/gem_bench/commit/b553f295f03eef7749d1faa811b0f27cc88288b5
@@ -1019,14 +1019,14 @@
   - perf
   - ruby
   docs_site:
-  github_stars: 94
-  total_downloads: 2973766
-  daily_downloads: 239
-  release_downloads: 29635
-  release_date: 2013/04/05
+  github_stars: 93
+  total_downloads: 2977154
+  daily_downloads: 279
+  release_downloads: 31380
+  release_date: 2024/09/22
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:30:45Z'
+  last_scrape_at: '2026-11-02T07:47:41Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/gem_bench/blob/main/LICENSE.md
@@ -1059,13 +1059,13 @@
   - vcs
   docs_site:
   github_stars: 12
-  total_downloads: 154315
-  daily_downloads: 788
-  release_downloads: 14107
-  release_date: 2022/03/28
-  last_commit_on: 2026/10/13
+  total_downloads: 162231
+  daily_downloads: 732
+  release_downloads: 21606
+  release_date: 2026/10/01
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:30:48Z'
+  last_scrape_at: '2026-11-02T07:47:44Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/gitmoji-regex/blob/main/LICENSE.md
@@ -1094,13 +1094,13 @@
   adoptable: true
   docs_site:
   github_stars: 9
-  total_downloads: 7710
+  total_downloads: 7721
   daily_downloads: 3
-  release_downloads: 4920
+  release_downloads: 4928
   release_date: 2014/10/18
   last_commit_on: 2026/01/22
   status: active
-  last_scrape_at: '2026-10-21T22:30:51Z'
+  last_scrape_at: '2026-11-02T07:47:49Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/humorous_log_formatter/blob/main/LICENSE.txt
@@ -1132,13 +1132,13 @@
   archived: true
   docs_site:
   github_stars: 6
-  total_downloads: 21819
-  daily_downloads: 51
-  release_downloads: 369
+  total_downloads: 22003
+  daily_downloads: 17
+  release_downloads: 484
   release_date: 2026/10/01
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:30:54Z'
+  last_scrape_at: '2026-11-02T07:47:53Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/include_with_respect/blob/main/LICENSE
@@ -1164,13 +1164,13 @@
   - test
   docs_site:
   github_stars: 8
-  total_downloads: 1203
+  total_downloads: 1218
   daily_downloads: 3
-  release_downloads: 1203
+  release_downloads: 1218
   release_date: 2023/10/26
   last_commit_on: 2026/01/22
   status: active
-  last_scrape_at: '2026-10-21T22:30:57Z'
+  last_scrape_at: '2026-11-02T07:47:57Z'
   theme: family
   family_id: rspec-family
   family_position: 7
@@ -1223,13 +1223,13 @@
   github_stars: 2
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 255126
-  daily_downloads: 1644
-  release_downloads: 529
-  release_date: 2026/10/21
-  last_commit_on: 2026/10/21
+  total_downloads: 270886
+  daily_downloads: 1629
+  release_downloads: 1618
+  release_date: 2026/10/29
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:31:02Z'
+  last_scrape_at: '2026-11-02T07:48:03Z'
   licenses:
   - AGPL-3.0-only
   license_url: https://github.com/kettle-dev/kettle-dev/blob/main/LICENSE.md
@@ -1244,7 +1244,7 @@
   theme: family
   family_id: kettle-dev-family
   family_position: 3
-  minimum_version: '2.7'
+  minimum_version: '3.2'
   role: author
   first_commit_by_person_on: 2023/10/16
   first_commit_by_person: https://github.com/kettle-dev/kettle-soup-cover/commit/97ddbbca309b87c7f6eed0137b08cad74ec81235
@@ -1268,13 +1268,13 @@
   github_stars: 10
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 75843
-  daily_downloads: 412
-  release_downloads: 3907
-  release_date: 2023/10/17
-  last_commit_on: 2026/10/16
+  total_downloads: 80084
+  daily_downloads: 480
+  release_downloads: 860
+  release_date: 2026/10/29
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:31:12Z'
+  last_scrape_at: '2026-11-02T07:48:09Z'
   licenses:
   - AGPL-3.0-only
   license_url: https://github.com/kettle-dev/kettle-soup-cover/blob/main/LICENSE.md
@@ -1292,7 +1292,7 @@
   theme: family
   family_id: kettle-dev-family
   family_position: 2
-  minimum_version: '2.3'
+  minimum_version: '2.4'
   role: author
   first_commit_by_person_on: 2023/08/17
   first_commit_by_person: https://github.com/kettle-dev/kettle-test/commit/baed02cf1ca1e0e8c75c11fd188edaf1a4f5f08b
@@ -1318,13 +1318,13 @@
   github_stars: 1
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 165928
-  daily_downloads: 1136
-  release_downloads: 7340
-  release_date: 2025/08/22
-  last_commit_on: 2026/10/16
+  total_downloads: 177547
+  daily_downloads: 1156
+  release_downloads: 2048
+  release_date: 2026/10/29
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:31:15Z'
+  last_scrape_at: '2026-11-02T07:48:14Z'
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
@@ -1356,13 +1356,13 @@
   archived: true
   docs_site:
   github_stars: 3
-  total_downloads: 13147
+  total_downloads: 13162
   daily_downloads: 4
-  release_downloads: 7980
+  release_downloads: 7989
   release_date: 2015/04/11
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:31:18Z'
+  last_scrape_at: '2026-11-02T07:48:18Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/letter_group/blob/main/LICENSE.txt
@@ -1390,13 +1390,13 @@
   - ruby
   docs_site:
   github_stars: 2
-  total_downloads: 577
+  total_downloads: 584
   daily_downloads: 2
-  release_downloads: 577
+  release_downloads: 584
   release_date: 2025/08/12
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:31:21Z'
+  last_scrape_at: '2026-11-02T07:48:22Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/library_tree/blob/main/LICENSE.md
@@ -1429,7 +1429,7 @@
   release_date:
   last_commit_on: 2026/09/26
   status: active
-  last_scrape_at: '2026-10-21T22:31:24Z'
+  last_scrape_at: '2026-11-02T07:48:26Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/logos/blob/main/LICENSE.txt
@@ -1468,12 +1468,12 @@
   gitlab_stars: 0
   codeberg_stars: 0
   release_date: 2025/06/01
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:31:29Z'
+  last_scrape_at: '2026-11-02T07:48:31Z'
   licenses:
   - MIT
-  license_url: https://github.com/ruby-openid/masq2/blob/main/LICENSE.txt
+  license_url: https://github.com/ruby-openid/masq2/blob/main/LICENSE.md
 - name: masq2
   description: Masq2 supports OpenID 2.0 and supports SReg, AX (fetch and store requests)
     and PAPE as well as some custom additions like multi-factor authentication using
@@ -1508,16 +1508,16 @@
   github_stars: 10
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 880
+  total_downloads: 887
   daily_downloads: 2
-  release_downloads: 880
+  release_downloads: 887
   release_date: 2025/04/04
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:31:33Z'
+  last_scrape_at: '2026-11-02T07:48:35Z'
   licenses:
   - MIT
-  license_url: https://github.com/ruby-openid/masq2/blob/main/LICENSE.txt
+  license_url: https://github.com/ruby-openid/masq2/blob/main/LICENSE.md
 - name: month-serializer
   description: "\U0001F5D3️ Serialize Month objects to Integer"
   description_source: registry
@@ -1543,13 +1543,13 @@
   - serialization
   docs_site:
   github_stars: 7
-  total_downloads: 11558
-  daily_downloads: 26
-  release_downloads: 406
+  total_downloads: 11613
+  daily_downloads: 9
+  release_downloads: 449
   release_date: 2026/10/01
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:31:36Z'
+  last_scrape_at: '2026-11-02T07:48:38Z'
   theme: family
   family_id: active-record
   family_position: 13
@@ -1588,13 +1588,13 @@
   github_stars: 669
   gitlab_stars: 5
   codeberg_stars: 0
-  total_downloads: 172771810
-  daily_downloads: 100842
-  release_downloads: 1162608
+  total_downloads: 173983449
+  daily_downloads: 100132
+  release_downloads: 1357635
   release_date: 2026/07/15
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/10/25
   status: active
-  last_scrape_at: '2026-10-21T22:31:39Z'
+  last_scrape_at: '2026-11-02T07:48:43Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth/blob/main/LICENSE.md
@@ -1631,13 +1631,13 @@
   github_stars: 7
   gitlab_stars: 1
   codeberg_stars: 1
-  total_downloads: 28271937
-  daily_downloads: 84622
-  release_downloads: 4491438
+  total_downloads: 29294127
+  daily_downloads: 83394
+  release_downloads: 5202248
   release_date: 2026/07/15
   last_commit_on: 2026/09/26
   status: active
-  last_scrape_at: '2026-10-21T22:31:42Z'
+  last_scrape_at: '2026-11-02T07:48:47Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth-tty/blob/main/LICENSE.md
@@ -1674,13 +1674,13 @@
   github_stars: 2181
   gitlab_stars: 24
   codeberg_stars: 2
-  total_downloads: 282066400
-  daily_downloads: 152978
-  release_downloads: 4097101
-  release_date: 2026/07/15
-  last_commit_on: 2026/09/29
+  total_downloads: 283929207
+  daily_downloads: 159582
+  release_downloads: 96103
+  release_date: 2026/10/25
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:31:46Z'
+  last_scrape_at: '2026-11-02T07:48:51Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth2/blob/main/LICENSE.md
@@ -1709,13 +1709,13 @@
   - security
   docs_site: https://omniauth-identity.galtzo.com
   github_stars: 363
-  total_downloads: 2443585
-  daily_downloads: 1244
-  release_downloads: 15518
+  total_downloads: 2455131
+  daily_downloads: 1164
+  release_downloads: 18447
   release_date: 2026/07/15
   last_commit_on: 2026/08/11
   status: active
-  last_scrape_at: '2026-10-21T22:31:48Z'
+  last_scrape_at: '2026-11-02T07:48:56Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-identity/blob/main/LICENSE.md
@@ -1743,13 +1743,13 @@
   - security
   docs_site:
   github_stars: 101
-  total_downloads: 147811
-  daily_downloads: 3
-  release_downloads: 144588
+  total_downloads: 147833
+  daily_downloads: 4
+  release_downloads: 144607
   release_date: 2013/10/19
   last_commit_on: 2026/06/16
   status: active
-  last_scrape_at: '2026-10-21T22:31:51Z'
+  last_scrape_at: '2026-11-02T07:48:59Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-jwt/blob/main/LICENSE.txt
@@ -1777,13 +1777,13 @@
   - security
   docs_site:
   github_stars: 6
-  total_downloads: 6057
-  daily_downloads: 6
-  release_downloads: 573
+  total_downloads: 6111
+  daily_downloads: 7
+  release_downloads: 604
   release_date: 2026/07/14
   last_commit_on: 2026/08/16
   status: active
-  last_scrape_at: '2026-10-21T22:31:54Z'
+  last_scrape_at: '2026-11-02T07:49:04Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-jwt2/blob/main/LICENSE.md
@@ -1811,13 +1811,13 @@
   - security
   docs_site:
   github_stars: 148
-  total_downloads: 772885
-  daily_downloads: 89
-  release_downloads: 4237
+  total_downloads: 773960
+  daily_downloads: 100
+  release_downloads: 4849
   release_date: 2026/07/14
   last_commit_on: 2026/09/21
   status: active
-  last_scrape_at: '2026-10-21T22:31:57Z'
+  last_scrape_at: '2026-11-02T07:49:08Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-ldap/blob/main/LICENSE.md
@@ -1853,13 +1853,13 @@
   github_stars: 95
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 4976961
-  daily_downloads: 978
-  release_downloads: 101035
+  total_downloads: 4989217
+  daily_downloads: 965
+  release_downloads: 106908
   release_date: 2025/06/08
   last_commit_on: 2026/08/16
   status: active
-  last_scrape_at: '2026-10-21T22:32:01Z'
+  last_scrape_at: '2026-11-02T07:49:13Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/omniauth-openid/blob/main/LICENSE.md
@@ -1895,13 +1895,13 @@
   github_stars: 10
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 138480
-  daily_downloads: 24
-  release_downloads: 6224
+  total_downloads: 138663
+  daily_downloads: 23
+  release_downloads: 6251
   release_date: 2024/09/25
-  last_commit_on: 2026/08/16
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:04Z'
+  last_scrape_at: '2026-11-02T07:49:18Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/open_id_authentication/blob/main/LICENSE.md
@@ -1925,13 +1925,13 @@
   - test
   docs_site:
   github_stars: 166
-  total_downloads: 479444100
-  daily_downloads: 315542
-  release_downloads: 298489005
+  total_downloads: 483027474
+  daily_downloads: 322884
+  release_downloads: 301953243
   release_date: 2021/11/07
   last_commit_on: 2025/06/08
   status: stale
-  last_scrape_at: '2026-10-21T22:32:08Z'
+  last_scrape_at: '2026-11-02T07:49:21Z'
   theme: family
   family_id: miscellaneous
   family_position: 11
@@ -1967,13 +1967,13 @@
   - ruby
   docs_site:
   github_stars: 6
-  total_downloads: 22188
-  daily_downloads: 9
-  release_downloads: 6246
+  total_downloads: 22351
+  daily_downloads: 10
+  release_downloads: 6401
   release_date: 2023/10/18
   last_commit_on: 2026/01/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:10Z'
+  last_scrape_at: '2026-11-02T07:49:26Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/pretty_feed/blob/main/LICENSE.txt
@@ -2005,13 +2005,13 @@
   - ruby
   docs_site:
   github_stars: 6
-  total_downloads: 37461
+  total_downloads: 37482
   daily_downloads: 11
-  release_downloads: 12709
+  release_downloads: 12717
   release_date: 2022/02/25
   last_commit_on: 2026/08/29
   status: active
-  last_scrape_at: '2026-10-21T22:32:13Z'
+  last_scrape_at: '2026-11-02T07:49:29Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/qfill/blob/main/LICENSE
@@ -2044,13 +2044,13 @@
   archived: true
   docs_site:
   github_stars: 151
-  total_downloads: 136624
-  daily_downloads: 15
-  release_downloads: 23045
+  total_downloads: 136676
+  daily_downloads: 11
+  release_downloads: 23057
   release_date: 2015/11/29
   last_commit_on: 2016/04/27
   status: stale
-  last_scrape_at: '2026-10-21T22:32:16Z'
+  last_scrape_at: '2026-11-02T07:49:33Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/rack-insight/blob/master/LICENSE
@@ -2086,13 +2086,13 @@
   github_stars: 5
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 8340606
-  daily_downloads: 1284
-  release_downloads: 4031070
+  total_downloads: 8356715
+  daily_downloads: 1269
+  release_downloads: 4044150
   release_date: 2014/01/20
   last_commit_on: 2026/06/29
   status: active
-  last_scrape_at: '2026-10-21T22:32:20Z'
+  last_scrape_at: '2026-11-02T07:49:39Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/rack-openid/blob/master/LICENSE.txt
@@ -2128,13 +2128,13 @@
   github_stars: 10
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 8982
-  daily_downloads: 7
-  release_downloads: 6724
+  total_downloads: 9076
+  daily_downloads: 8
+  release_downloads: 6804
   release_date: 2024/09/25
-  last_commit_on: 2026/08/16
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:23Z'
+  last_scrape_at: '2026-11-02T07:49:46Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/rack-openid2/blob/main/LICENSE.md
@@ -2166,13 +2166,13 @@
   archived: true
   docs_site:
   github_stars: 12
-  total_downloads: 38185
-  daily_downloads: 5
-  release_downloads: 27927
+  total_downloads: 38210
+  daily_downloads: 4
+  release_downloads: 27946
   release_date: 2015/04/13
   last_commit_on: 2025/08/13
   status: stale
-  last_scrape_at: '2026-10-21T22:32:26Z'
+  last_scrape_at: '2026-11-02T07:49:50Z'
   licenses:
   - MIT
 - name: rails_env_local
@@ -2206,13 +2206,13 @@
   deprecation_reason: Incompatible with modern Rails
   docs_site:
   github_stars: 2
-  total_downloads: 17502
-  daily_downloads: 8
-  release_downloads: 7074
+  total_downloads: 17521
+  daily_downloads: 4
+  release_downloads: 7083
   release_date: 2016/03/11
   last_commit_on: 2025/08/04
   status: archived
-  last_scrape_at: '2026-10-21T22:32:29Z'
+  last_scrape_at: '2026-11-02T07:49:54Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/rails_env_local/blob/master/LICENSE
@@ -2245,13 +2245,13 @@
   adoptable: true
   docs_site:
   github_stars: 20
-  total_downloads: 3698
+  total_downloads: 3705
   daily_downloads: 2
-  release_downloads: 3698
+  release_downloads: 3705
   release_date: 2015/06/21
   last_commit_on: 2025/08/13
   status: stale
-  last_scrape_at: '2026-10-21T22:32:32Z'
+  last_scrape_at: '2026-11-02T07:49:58Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/react-rails-benchmark_renderer/blob/main/LICENSE.txt
@@ -2280,13 +2280,13 @@
   archived: true
   docs_site:
   github_stars: 159
-  total_downloads: 68704
+  total_downloads: 68807
   daily_downloads: 12
-  release_downloads: 37810
+  release_downloads: 37902
   release_date: 2011/08/14
   last_commit_on: 2013/03/27
   status: stale
-  last_scrape_at: '2026-10-21T22:32:34Z'
+  last_scrape_at: '2026-11-02T07:50:01Z'
   licenses:
   - MIT
   license_url: https://github.com/tylerhunt/remit/blob/master/LICENSE
@@ -2299,7 +2299,7 @@
   theme: family
   family_id: logging-family
   family_position: 2
-  minimum_version: '1.8'
+  minimum_version: '2.2'
   role: author
   first_commit_by_person_on: 2018/09/21
   first_commit_by_person: https://github.com/galtzo-floss/require_bench/commit/67e03119ddb8be7b04ae7fd12da62d0ea5b6fb74
@@ -2325,13 +2325,13 @@
   github_stars: 7
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 178848
-  daily_downloads: 691
-  release_downloads: 130125
-  release_date: 2018/09/21
-  last_commit_on: 2026/10/12
+  total_downloads: 186816
+  daily_downloads: 698
+  release_downloads: 138063
+  release_date: 2023/10/10
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:38Z'
+  last_scrape_at: '2026-11-02T07:50:06Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/require_bench/blob/main/LICENSE.md
@@ -2363,13 +2363,13 @@
   - shell
   docs_site:
   github_stars: 9468
-  total_downloads: 55350718
-  daily_downloads: 19193
-  release_downloads: 6754
+  total_downloads: 55581481
+  daily_downloads: 19930
+  release_downloads: 24412
   release_date: 2026/10/16
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:32:41Z'
+  last_scrape_at: '2026-11-02T07:50:09Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque/blob/master/LICENSE
@@ -2404,13 +2404,13 @@
   adoptable: false
   docs_site:
   github_stars: 6
-  total_downloads: 321856
+  total_downloads: 326329
   daily_downloads: 107
-  release_downloads: 327
+  release_downloads: 391
   release_date: 2026/08/27
-  last_commit_on: 2026/08/27
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:44Z'
+  last_scrape_at: '2026-11-02T07:50:13Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-lonely_job/blob/main/LICENSE.md
@@ -2451,13 +2451,13 @@
   - uniq
   docs_site:
   github_stars: 8
-  total_downloads: 118861
+  total_downloads: 120202
   daily_downloads: 102
-  release_downloads: 3180
+  release_downloads: 4021
   release_date: 2026/08/27
-  last_commit_on: 2026/08/27
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:47Z'
+  last_scrape_at: '2026-11-02T07:50:17Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-unique_at_runtime/blob/main/LICENSE
@@ -2490,13 +2490,13 @@
   - uniq
   docs_site:
   github_stars: 9
-  total_downloads: 46592
+  total_downloads: 46655
   daily_downloads: 29
-  release_downloads: 178
+  release_downloads: 187
   release_date: 2026/08/27
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:50Z'
+  last_scrape_at: '2026-11-02T07:50:21Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-unique_by_arity/blob/main/LICENSE
@@ -2527,13 +2527,13 @@
   - uniq
   docs_site:
   github_stars: 8
-  total_downloads: 170616
+  total_downloads: 174139
   daily_downloads: 223
-  release_downloads: 1629
+  release_downloads: 2378
   release_date: 2026/08/27
-  last_commit_on: 2026/08/27
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:53Z'
+  last_scrape_at: '2026-11-02T07:50:25Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-unique_in_queue/blob/main/LICENSE
@@ -2572,13 +2572,13 @@
   github_stars: 35
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 1329
+  total_downloads: 1362
   daily_downloads: 2
-  release_downloads: 1329
+  release_downloads: 1362
   release_date: 2024/09/25
-  last_commit_on: 2026/08/01
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:32:57Z'
+  last_scrape_at: '2026-11-02T07:50:30Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/rots/blob/master/LICENSE.md
@@ -2617,13 +2617,13 @@
   github_stars: 8
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 549007
+  total_downloads: 557499
   daily_downloads: 758
-  release_downloads: 436898
+  release_downloads: 445356
   release_date: 2024/06/23
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:33:00Z'
+  last_scrape_at: '2026-11-02T07:50:33Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/rspec-block_is_expected/blob/main/LICENSE.txt
@@ -2662,13 +2662,13 @@
   github_stars: 12
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 286130
+  total_downloads: 295543
   daily_downloads: 832
-  release_downloads: 32938
+  release_downloads: 41965
   release_date: 2026/09/12
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:33:03Z'
+  last_scrape_at: '2026-11-02T07:50:37Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/rspec-pending_for/blob/main/LICENSE.md
@@ -2707,13 +2707,13 @@
   github_stars: 16
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 532926
+  total_downloads: 543520
   daily_downloads: 829
-  release_downloads: 10732
-  release_date: 2018/10/06
+  release_downloads: 20176
+  release_date: 2026/10/13
   last_commit_on: 2026/10/13
   status: active
-  last_scrape_at: '2026-10-21T22:33:08Z'
+  last_scrape_at: '2026-11-02T07:50:40Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/rspec-stubbed_env/blob/main/LICENSE.md
@@ -2748,13 +2748,13 @@
   github_stars: 12
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 326042
+  total_downloads: 330283
   daily_downloads: 547
-  release_downloads: 4140
+  release_downloads: 5356
   release_date: 2026/09/09
   last_commit_on: 2026/10/21
   status: active
-  last_scrape_at: '2026-10-21T22:33:11Z'
+  last_scrape_at: '2026-11-02T07:50:44Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-lts/blob/main/LICENSE.md
@@ -2786,13 +2786,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 11404
-  daily_downloads: 40
-  release_downloads: 676
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  total_downloads: 11873
+  daily_downloads: 37
+  release_downloads: 378
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:15Z'
+  last_scrape_at: '2026-11-02T07:50:48Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby1_8/blob/main/LICENSE.md
@@ -2824,13 +2824,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 17759
+  total_downloads: 18358
   daily_downloads: 38
-  release_downloads: 519
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 445
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:19Z'
+  last_scrape_at: '2026-11-02T07:50:51Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby1_9/blob/main/LICENSE.md
@@ -2862,13 +2862,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 15850
+  total_downloads: 16172
   daily_downloads: 42
-  release_downloads: 379
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 200
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:22Z'
+  last_scrape_at: '2026-11-02T07:50:55Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_0/blob/main/LICENSE.md
@@ -2900,13 +2900,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 26557
+  total_downloads: 26863
   daily_downloads: 53
-  release_downloads: 318
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 218
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:25Z'
+  last_scrape_at: '2026-11-02T07:50:59Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_1/blob/main/LICENSE.md
@@ -2938,13 +2938,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 43380
+  total_downloads: 44181
   daily_downloads: 64
-  release_downloads: 548
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 649
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:28Z'
+  last_scrape_at: '2026-11-02T07:51:02Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_2/blob/main/LICENSE.md
@@ -2976,13 +2976,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 20871
-  daily_downloads: 63
-  release_downloads: 456
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  total_downloads: 21514
+  daily_downloads: 62
+  release_downloads: 321
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:32Z'
+  last_scrape_at: '2026-11-02T07:51:06Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/LICENSE.md
@@ -3014,13 +3014,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 69061
+  total_downloads: 70152
   daily_downloads: 69
-  release_downloads: 1782
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 924
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:35Z'
+  last_scrape_at: '2026-11-02T07:51:10Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_4/blob/main/LICENSE.md
@@ -3052,13 +3052,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 13679
-  daily_downloads: 40
-  release_downloads: 309
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  total_downloads: 13997
+  daily_downloads: 31
+  release_downloads: 197
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:38Z'
+  last_scrape_at: '2026-11-02T07:51:13Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_5/blob/main/LICENSE.md
@@ -3090,13 +3090,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 18449
+  total_downloads: 18752
   daily_downloads: 45
-  release_downloads: 330
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 197
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:42Z'
+  last_scrape_at: '2026-11-02T07:51:17Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_6/blob/main/LICENSE.md
@@ -3128,13 +3128,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 107697
-  daily_downloads: 73
-  release_downloads: 428
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  total_downloads: 108378
+  daily_downloads: 59
+  release_downloads: 338
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:45Z'
+  last_scrape_at: '2026-11-02T07:51:21Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_7/blob/main/LICENSE.md
@@ -3169,13 +3169,13 @@
   github_stars: 6
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 20137
-  daily_downloads: 47
-  release_downloads: 325
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  total_downloads: 20461
+  daily_downloads: 32
+  release_downloads: 199
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:48Z'
+  last_scrape_at: '2026-11-02T07:51:26Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_0/blob/main/LICENSE.md
@@ -3207,13 +3207,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 35565
-  daily_downloads: 55
-  release_downloads: 473
-  release_date: 2026/10/02
-  last_commit_on: 2026/10/21
+  total_downloads: 35975
+  daily_downloads: 42
+  release_downloads: 253
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:51Z'
+  last_scrape_at: '2026-11-02T07:51:29Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/LICENSE.md
@@ -3245,13 +3245,13 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 7
   gitlab_stars: 1
-  total_downloads: 274866
+  total_downloads: 280109
   daily_downloads: 813
-  release_downloads: 4183
-  release_date: 2026/10/02
-  last_commit_on: 2026/10/21
+  release_downloads: 4640
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:54Z'
+  last_scrape_at: '2026-11-02T07:51:32Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_2/blob/main/LICENSE.md
@@ -3287,13 +3287,13 @@
   github_stars: 12
   gitlab_stars: 0
   codeberg_stars: 1
-  total_downloads: 13749061
-  daily_downloads: 7958
-  release_downloads: 6829302
+  total_downloads: 13773735
+  daily_downloads: 1986
+  release_downloads: 6849947
   release_date: 2019/10/16
-  last_commit_on: 2026/08/16
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:33:59Z'
+  last_scrape_at: '2026-11-02T07:51:37Z'
   licenses:
   - Ruby
   - Apache Software License 2.0
@@ -3330,13 +3330,13 @@
   github_stars: 12
   gitlab_stars: 0
   codeberg_stars: 1
-  total_downloads: 11535
+  total_downloads: 11884
   daily_downloads: 12
-  release_downloads: 8925
+  release_downloads: 9261
   release_date: 2024/09/25
-  last_commit_on: 2026/08/16
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:34:02Z'
+  last_scrape_at: '2026-11-02T07:51:42Z'
   licenses:
   - Ruby
   - Apache Software License 2.0
@@ -3377,13 +3377,13 @@
   github_stars: 174
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 2767226
+  total_downloads: 2778416
   daily_downloads: 1063
-  release_downloads: 1885
+  release_downloads: 4041
   release_date: 2026/10/01
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:34:06Z'
+  last_scrape_at: '2026-11-02T07:51:47Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/sanitize_email/blob/main/LICENSE.md
@@ -3414,13 +3414,13 @@
   - ruby
   docs_site:
   github_stars: 382
-  total_downloads: 1744304
+  total_downloads: 1752401
   daily_downloads: 541
-  release_downloads: 1354891
+  release_downloads: 1362589
   release_date: 2017/08/01
   last_commit_on: 2025/08/18
   status: stale
-  last_scrape_at: '2026-10-21T22:34:09Z'
+  last_scrape_at: '2026-11-02T07:51:50Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/seed_migration/blob/main/LICENSE.txt
@@ -3452,13 +3452,13 @@
   archived: true
   docs_site:
   github_stars: 6
-  total_downloads: 4256
+  total_downloads: 4265
   daily_downloads: 3
-  release_downloads: 4256
+  release_downloads: 4265
   release_date: 2014/02/26
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:34:11Z'
+  last_scrape_at: '2026-11-02T07:51:54Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/sequential_file/blob/main/LICENSE.txt
@@ -3489,13 +3489,13 @@
   - service-objects
   docs_site:
   github_stars: 10
-  total_downloads: 17713
+  total_downloads: 17759
   daily_downloads: 6
-  release_downloads: 14814
+  release_downloads: 14857
   release_date: 2022/07/03
   last_commit_on: 2025/08/13
   status: stale
-  last_scrape_at: '2026-10-21T22:34:15Z'
+  last_scrape_at: '2026-11-02T07:51:58Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/service_actor-promptable/blob/main/LICENSE.txt
@@ -3531,13 +3531,13 @@
   github_stars: 12
   gitlab_stars: 1
   codeberg_stars: 1
-  total_downloads: 719
+  total_downloads: 726
   daily_downloads: 3
-  release_downloads: 719
+  release_downloads: 726
   release_date: 2025/05/30
   last_commit_on: 2026/10/13
   status: active
-  last_scrape_at: '2026-10-21T22:34:18Z'
+  last_scrape_at: '2026-11-02T07:52:02Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/shields-badge/blob/main/LICENSE.md
@@ -3569,13 +3569,13 @@
   - ruby
   docs_site:
   github_stars: 7
-  total_downloads: 30997
+  total_downloads: 31019
   daily_downloads: 19
-  release_downloads: 13412
+  release_downloads: 13419
   release_date: 2021/11/15
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:34:21Z'
+  last_scrape_at: '2026-11-02T07:52:06Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/shiftable/blob/main/LICENSE.txt
@@ -3615,13 +3615,13 @@
   github_stars: 7
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 282533
+  total_downloads: 290938
   daily_downloads: 566
-  release_downloads: 137440
+  release_downloads: 145731
   release_date: 2025/08/21
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:34:25Z'
+  last_scrape_at: '2026-11-02T07:52:09Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/silent_stream/blob/main/LICENSE.md
@@ -3651,13 +3651,13 @@
   - ruby
   docs_site:
   github_stars: 2
-  total_downloads: 3732
+  total_downloads: 3757
   daily_downloads: 5
-  release_downloads: 367
+  release_downloads: 377
   release_date: 2026/02/04
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:34:28Z'
+  last_scrape_at: '2026-11-02T07:52:13Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/simple_column-scopes/blob/main/LICENSE.md
@@ -3692,13 +3692,13 @@
   github_stars: 19
   gitlab_stars: 2
   codeberg_stars: 2
-  total_downloads: 133726000
+  total_downloads: 136008433
   daily_downloads: 123359
-  release_downloads: 9282142
-  release_date: 2026/07/14
-  last_commit_on: 2026/09/21
+  release_downloads: 179865
+  release_date: 2026/10/25
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:34:31Z'
+  last_scrape_at: '2026-11-02T07:52:18Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/snaky_hash/blob/main/LICENSE.md
@@ -3728,13 +3728,13 @@
   - ruby
   docs_site:
   github_stars: 3
-  total_downloads: 1041
+  total_downloads: 1052
   daily_downloads: 3
-  release_downloads: 1041
+  release_downloads: 1052
   release_date: 2024/03/23
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:34:35Z'
+  last_scrape_at: '2026-11-02T07:52:22Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/spyke-connection_lambda/blob/main/LICENSE.md
@@ -3767,13 +3767,13 @@
     your deployed environments instead
   docs_site:
   github_stars: 7
-  total_downloads: 385373
+  total_downloads: 385659
   daily_downloads: 51
-  release_downloads: 200481
+  release_downloads: 200740
   release_date: 2017/05/31
   last_commit_on: 2025/08/04
   status: archived
-  last_scrape_at: '2026-10-21T22:34:37Z'
+  last_scrape_at: '2026-11-02T07:52:25Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/stackable_flash/blob/master/LICENSE
@@ -3809,13 +3809,13 @@
   github_stars: 6
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 391676
+  total_downloads: 400165
   daily_downloads: 920
-  release_downloads: 7878
-  release_date: 2026/10/01
-  last_commit_on: 2026/10/21
+  release_downloads: 7478
+  release_date: 2026/10/22
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:34:41Z'
+  last_scrape_at: '2026-11-02T07:52:29Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/standard-rubocop-lts/blob/main/LICENSE.md
@@ -3854,13 +3854,13 @@
   github_stars: 9
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 14484
+  total_downloads: 14494
   daily_downloads: 12
-  release_downloads: 4970
+  release_downloads: 4976
   release_date: 2015/08/24
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:34:45Z'
+  last_scrape_at: '2026-11-02T07:52:33Z'
   licenses:
   - MIT
 - name: stone_checksums
@@ -3902,13 +3902,13 @@
   github_stars: 6
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 168674
+  total_downloads: 176807
   daily_downloads: 677
-  release_downloads: 29638
-  release_date: 2025/02/24
-  last_commit_on: 2026/10/12
+  release_downloads: 37451
+  release_date: 2026/09/11
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:34:49Z'
+  last_scrape_at: '2026-11-02T07:52:37Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/stone_checksums/blob/main/LICENSE.md
@@ -3942,13 +3942,13 @@
   adoptable: true
   archived: true
   github_stars: 5
-  total_downloads: 3569
+  total_downloads: 3577
   daily_downloads: 3
-  release_downloads: 3569
+  release_downloads: 3577
   release_date: 2015/11/09
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-10-21T22:34:52Z'
+  last_scrape_at: '2026-11-02T07:52:40Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/strict_states/blob/main/LICENSE.txt
@@ -3981,13 +3981,13 @@
   archived: true
   docs_site:
   github_stars: 64
-  total_downloads: 100828
+  total_downloads: 100878
   daily_downloads: 32
-  release_downloads: 4611
+  release_downloads: 4619
   release_date: 2014/01/19
   last_commit_on: 2014/01/19
   status: stale
-  last_scrape_at: '2026-10-21T22:34:54Z'
+  last_scrape_at: '2026-11-02T07:52:44Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/super_exception_notifier/blob/master/LICENSE
@@ -4020,13 +4020,13 @@
   - test
   docs_site: https://timecop-rspec.galtzo.com
   github_stars: 4
-  total_downloads: 128196
+  total_downloads: 136222
   daily_downloads: 504
-  release_downloads: 126706
+  release_downloads: 134724
   release_date: 2025/08/20
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:34:57Z'
+  last_scrape_at: '2026-11-02T07:52:47Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/timecop-rspec/blob/main/LICENSE.md
@@ -4064,18 +4064,18 @@
   github_stars: 2
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 5773
+  total_downloads: 5793
   daily_downloads: 11
-  release_downloads: 436
+  release_downloads: 445
   release_date: 2025/10/21
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:35:01Z'
+  last_scrape_at: '2026-11-02T07:52:51Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/undrive_google/blob/main/LICENSE.md
 - name: version_gem
-  description: "\U0001F372 Versions are good. Versions are cool. Versions will win."
+  description: "\U0001F516 Versions are good. Versions are cool. Versions will win."
   description_source: registry
   language: Ruby
   ecosystem: rubygems
@@ -4108,13 +4108,13 @@
   github_stars: 22
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 148546668
+  total_downloads: 150967736
   daily_downloads: 128823
-  release_downloads: 4193667
-  release_date: 2022/06/20
-  last_commit_on: 2026/09/21
+  release_downloads: 199518
+  release_date: 2026/10/25
+  last_commit_on: 2026/10/25
   status: active
-  last_scrape_at: '2026-10-21T22:35:04Z'
+  last_scrape_at: '2026-11-02T07:52:55Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/version_gem/blob/main/LICENSE.md
@@ -4146,13 +4146,13 @@
   - security
   docs_site:
   github_stars: 59
-  total_downloads: 32865
+  total_downloads: 32885
   daily_downloads: 28
-  release_downloads: 499
+  release_downloads: 512
   release_date: 2026/07/15
   last_commit_on: 2026/09/21
   status: active
-  last_scrape_at: '2026-10-21T22:35:07Z'
+  last_scrape_at: '2026-11-02T07:52:59Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/warden_oauth/blob/main/LICENSE.md
@@ -4179,7 +4179,7 @@
   release_date:
   last_commit_on: 2025/12/17
   status: active
-  last_scrape_at: '2026-10-21T22:35:09Z'
+  last_scrape_at: '2026-11-02T07:53:02Z'
   theme: family
   family_id: miscellaneous
   family_position: 15
@@ -4210,14 +4210,14 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-fence/0.8.2
-  total_downloads: 22894
+  total_downloads: 24139
   daily_downloads: 142
-  release_downloads: 2052
-  release_date: 2025/11/07
+  release_downloads: 3036
+  release_date: 2026/10/01
   github_stars: 1
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:35:12Z'
+  last_scrape_at: '2026-11-02T07:53:06Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yard-fence/blob/main/LICENSE.md
@@ -4246,14 +4246,14 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yaml-converter/0.1.0
-  total_downloads: 20760
+  total_downloads: 22042
   daily_downloads: 123
-  release_downloads: 2158
-  release_date: 2025/11/09
+  release_downloads: 3204
+  release_date: 2026/10/01
   github_stars: 2
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:35:14Z'
+  last_scrape_at: '2026-11-02T07:53:08Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yaml-converter/blob/main/LICENSE.md
@@ -4279,14 +4279,14 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-yaml/0.1.0
-  total_downloads: 19893
+  total_downloads: 21001
   daily_downloads: 125
-  release_downloads: 4384
-  release_date: 2025/11/10
+  release_downloads: 5325
+  release_date: 2026/09/12
   github_stars: 2
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-10-21T22:35:17Z'
+  last_scrape_at: '2026-11-02T07:53:12Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yard-yaml/blob/main/LICENSE.md
@@ -4315,14 +4315,14 @@
   - structuredmerge
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/tree_haver/5.0.5
-  total_downloads: 29746
+  total_downloads: 33145
   daily_downloads: 88
-  release_downloads: 404
-  release_date: 2026/10/21
+  release_downloads: 407
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:20Z'
+  last_scrape_at: '2026-11-02T07:53:16Z'
   theme: family
   family_id: smorg-rb
   family_position: 22
@@ -4356,14 +4356,14 @@
   - test
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/ast-merge/4.0.6
-  total_downloads: 31062
+  total_downloads: 34152
   daily_downloads: 87
-  release_downloads: 392
-  release_date: 2026/10/21
+  release_downloads: 394
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:22Z'
+  last_scrape_at: '2026-11-02T07:53:20Z'
   theme: family
   family_id: smorg-rb
   family_position: 1
@@ -4395,14 +4395,14 @@
   - ruby
   - templating
   docs_site: https://www.rubydoc.info/gems/token-resolver/1.0.2
-  total_downloads: 27394
+  total_downloads: 31191
   daily_downloads: 126
-  release_downloads: 4576
-  release_date: 2026/10/17
+  release_downloads: 1158
+  release_date: 2026/10/29
   github_stars: 4
-  last_commit_on: 2026/10/17
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:35:25Z'
+  last_scrape_at: '2026-11-02T07:53:24Z'
   theme: family
   family_id: ast-merge
   family_position: 2
@@ -4436,14 +4436,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/bash-merge/2.0.6
-  total_downloads: 16467
+  total_downloads: 18906
   daily_downloads: 18
-  release_downloads: 258
-  release_date: 2026/10/21
+  release_downloads: 220
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:27Z'
+  last_scrape_at: '2026-11-02T07:53:28Z'
   theme: family
   family_id: smorg-rb
   family_position: 3
@@ -4476,14 +4476,14 @@
   - structuredmerge
   - templating
   docs_site: https://www.rubydoc.info/gems/commonmarker-merge/1.0.1
-  total_downloads: 9588
+  total_downloads: 10432
   daily_downloads: 7
-  release_downloads: 116
-  release_date: 2026/10/21
+  release_downloads: 152
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:30Z'
+  last_scrape_at: '2026-11-02T07:53:32Z'
   theme: family
   family_id: smorg-rb
   family_position: 6
@@ -4518,14 +4518,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/dotenv-merge/1.0.3
-  total_downloads: 16226
+  total_downloads: 18659
   daily_downloads: 7
-  release_downloads: 257
-  release_date: 2026/10/21
+  release_downloads: 230
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:33Z'
+  last_scrape_at: '2026-11-02T07:53:36Z'
   theme: family
   family_id: smorg-rb
   family_position: 7
@@ -4559,14 +4559,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/json-merge/1.1.2
-  total_downloads: 14109
+  total_downloads: 16477
   daily_downloads: 17
-  release_downloads: 254
-  release_date: 2026/10/21
+  release_downloads: 225
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:35Z'
+  last_scrape_at: '2026-11-02T07:53:39Z'
   theme: family
   family_id: smorg-rb
   family_position: 9
@@ -4601,14 +4601,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/jsonc-merge/1.0.1
-  total_downloads: 1030
+  total_downloads: 1045
   daily_downloads: 8
-  release_downloads: 699
+  release_downloads: 710
   release_date: 2026/02/19
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:38Z'
+  last_scrape_at: '2026-11-02T07:53:43Z'
   theme: family
   family_id: ast-merge
   family_position: 8
@@ -4641,14 +4641,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/markdown-merge/1.0.3
-  total_downloads: 13348
+  total_downloads: 15913
   daily_downloads: 8
-  release_downloads: 276
-  release_date: 2026/10/21
+  release_downloads: 247
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:40Z'
+  last_scrape_at: '2026-11-02T07:53:46Z'
   theme: family
   family_id: smorg-rb
   family_position: 12
@@ -4681,14 +4681,14 @@
   - structuredmerge
   - templating
   docs_site: https://www.rubydoc.info/gems/markly-merge/1.0.0
-  total_downloads: 11777
+  total_downloads: 14242
   daily_downloads: 4
-  release_downloads: 271
-  release_date: 2026/10/21
+  release_downloads: 226
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:43Z'
+  last_scrape_at: '2026-11-02T07:53:50Z'
   theme: family
   family_id: smorg-rb
   family_position: 13
@@ -4719,14 +4719,14 @@
   - structuredmerge
   - templating
   docs_site: https://www.rubydoc.info/gems/prism-merge/2.0.4
-  total_downloads: 16399
+  total_downloads: 18910
   daily_downloads: 23
-  release_downloads: 267
-  release_date: 2026/10/21
+  release_downloads: 229
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:45Z'
+  last_scrape_at: '2026-11-02T07:53:54Z'
   theme: family
   family_id: smorg-rb
   family_position: 16
@@ -4758,14 +4758,14 @@
   - templating
   - yaml
   docs_site: https://www.rubydoc.info/gems/psych-merge/1.0.0
-  total_downloads: 11372
+  total_downloads: 13855
   daily_downloads: 4
-  release_downloads: 268
-  release_date: 2026/10/21
+  release_downloads: 234
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:47Z'
+  last_scrape_at: '2026-11-02T07:53:57Z'
   theme: family
   family_id: smorg-rb
   family_position: 17
@@ -4799,14 +4799,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/rbs-merge/2.0.0
-  total_downloads: 13433
+  total_downloads: 15807
   daily_downloads: 4
-  release_downloads: 259
-  release_date: 2026/10/21
+  release_downloads: 221
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:50Z'
+  last_scrape_at: '2026-11-02T07:54:01Z'
   theme: family
   family_id: smorg-rb
   family_position: 18
@@ -4841,14 +4841,14 @@
   - toml
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/toml-merge/2.0.1
-  total_downloads: 17725
+  total_downloads: 20222
   daily_downloads: 53
-  release_downloads: 273
-  release_date: 2026/10/21
+  release_downloads: 232
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:35:52Z'
+  last_scrape_at: '2026-11-02T07:54:04Z'
   theme: family
   family_id: smorg-rb
   family_position: 21
@@ -4864,8 +4864,8 @@
   - type: GitHub
     url: https://github.com/contriboss/ore-light
     owner: contriboss
-    total_downloads: 1550
-    release_downloads: 254
+    total_downloads: 1581
+    release_downloads: 256
   description: Lean, Bundler-compatible gem manager written in Go
   description_source: site
   minimum_version: '1.25'
@@ -4875,14 +4875,14 @@
   - go
   - ruby
   - rubygems
-  github_stars: 62
+  github_stars: 61
   last_commit_on: 2026/05/25
   status: active
   first_commit_by_person: https://github.com/contriboss/ore-light/commit/6c950bfc29c7ce6ade5d46e7b8742ec0dafcfbf5
   first_commit_by_person_on: 2026/01/19
   funding_sites: []
   release_date: 2026/02/17
-  last_scrape_at: '2026-10-21T22:35:56Z'
+  last_scrape_at: '2026-11-02T07:54:08Z'
   theme: family
   family_id: rubygems-bundler-family
   family_position: 6
@@ -4913,7 +4913,7 @@
   first_commit_by_person_on: 2026/02/08
   funding_sites: []
   release_date: 2026/02/16
-  last_scrape_at: '2026-10-21T22:35:59Z'
+  last_scrape_at: '2026-11-02T07:54:11Z'
   theme: family
   family_id: rubygems-bundler-family
   family_position: 8
@@ -4942,16 +4942,16 @@
   - sbom
   funding_sites: []
   docs_site: https://www.rubydoc.info/gems/cyclonedx-ruby/1.1.0
-  total_downloads: 264375
+  total_downloads: 268792
   daily_downloads: 404
-  release_downloads: 264375
+  release_downloads: 268792
   release_date: 2019/07/13
   github_stars: 35
   last_commit_on: 2026/07/23
   status: active
   first_commit_by_person: https://github.com/CycloneDX/cyclonedx-ruby-gem/commit/6a174b8a9248c6eb29d90bd2e5f100f7213f2cd5
   first_commit_by_person_on: 2025/10/26
-  last_scrape_at: '2026-10-21T22:36:02Z'
+  last_scrape_at: '2026-11-02T07:54:15Z'
   theme: family
   family_id: rubygems-bundler-family
   family_position: 2
@@ -4990,7 +4990,7 @@
   theme: family
   family_id: ast-merge
   family_position: 17
-  last_scrape_at: '2026-10-21T22:36:05Z'
+  last_scrape_at: '2026-11-02T07:54:18Z'
   licenses:
   - MIT OR Apache-2.0
   license_url: https://github.com/oxidize-rb/rb-sys/blob/main/LICENSE-APACHE
@@ -5011,9 +5011,9 @@
   - rust
   funding_sites: []
   docs_site:
-  total_downloads: 37336057
+  total_downloads: 37677045
   daily_downloads: 22125
-  release_downloads: 448809
+  release_downloads: 571391
   release_date: 2026/08/21
   github_stars: 318
   last_commit_on: 2026/08/22
@@ -5023,7 +5023,7 @@
   theme: family
   family_id: ast-merge
   family_position: 18
-  last_scrape_at: '2026-10-21T22:36:07Z'
+  last_scrape_at: '2026-11-02T07:54:21Z'
   licenses:
   - MIT
   - Apache-2.0
@@ -5054,15 +5054,15 @@
   daily_downloads:
   release_downloads: 157703
   release_date: 2026/10/16
-  github_stars: 913
-  last_commit_on: 2026/10/18
+  github_stars: 918
+  last_commit_on: 2026/10/26
   status: active
   first_commit_by_person: https://github.com/matsadler/magnus/commit/3d15dc8ec4d669002dea2295e89df947dd477058
   first_commit_by_person_on: 2026/01/30
   theme: family
   family_id: ast-merge
   family_position: 16
-  last_scrape_at: '2026-10-21T22:36:10Z'
+  last_scrape_at: '2026-11-02T07:54:24Z'
   licenses:
   - MIT
   license_url: https://github.com/matsadler/magnus/blob/main/LICENSE
@@ -5104,7 +5104,7 @@
   theme: family
   family_id: rubygems-bundler-family
   family_position: 9
-  last_scrape_at: '2026-10-21T22:36:12Z'
+  last_scrape_at: '2026-11-02T07:54:26Z'
   licenses:
   - MIT
   license_url: https://github.com/appraisal-rb/setup-ruby-flash/blob/main/LICENSE.txt
@@ -5127,9 +5127,9 @@
   - tree-sitter
   funding_sites: []
   docs_site:
-  total_downloads: 1437
+  total_downloads: 1451
   daily_downloads: 4
-  release_downloads: 677
+  release_downloads: 690
   release_date: 2026/02/16
   github_stars: 11
   last_commit_on: 2026/02/16
@@ -5139,7 +5139,7 @@
   theme: family
   family_id: ast-merge
   family_position: 15
-  last_scrape_at: '2026-10-21T22:36:15Z'
+  last_scrape_at: '2026-11-02T07:54:30Z'
   licenses:
   - MIT
   license_url: https://github.com/joker1007/tree_stump/blob/main/LICENSE
@@ -5161,9 +5161,9 @@
   - tree-sitter
   funding_sites: []
   docs_site: https://faveod.github.io/ruby-tree-sitter/
-  total_downloads: 205681
+  total_downloads: 207776
   daily_downloads: 601
-  release_downloads: 544
+  release_downloads: 569
   release_date: 2026/04/30
   github_stars: 75
   last_commit_on: 2026/04/30
@@ -5173,7 +5173,7 @@
   theme: family
   family_id: ast-merge
   family_position: 19
-  last_scrape_at: '2026-10-21T22:36:18Z'
+  last_scrape_at: '2026-11-02T07:54:34Z'
   licenses:
   - MIT
   license_url: https://github.com/Faveod/ruby-tree-sitter/blob/master/LICENSE
@@ -5195,16 +5195,16 @@
   - serialization
   funding_sites: []
   docs_site: https://www.mongodb.com/docs/ruby-driver/current/tutorials/bson-v4/
-  total_downloads: 119689255
+  total_downloads: 120052210
   daily_downloads: 29063
-  release_downloads: 3475895
+  release_downloads: 3630888
   release_date: 2025/10/16
   github_stars: 81
   last_commit_on: 2026/10/15
   status: active
   first_commit_by_person: https://github.com/mongodb/bson-ruby/commit/ddbfce8c9b71470f61b68f0730102e1db4a965f8
   first_commit_by_person_on: 2025/06/02
-  last_scrape_at: '2026-10-21T22:36:21Z'
+  last_scrape_at: '2026-11-02T07:54:38Z'
   theme: family
   family_id: miscellaneous
   family_position: 6
@@ -5229,16 +5229,16 @@
   - xml
   funding_sites: []
   docs_site:
-  total_downloads: 846775312
+  total_downloads: 854391301
   daily_downloads: 505389
-  release_downloads: 129783048
+  release_downloads: 135620432
   release_date: 2025/09/10
   github_stars: 181
   last_commit_on: 2026/10/15
   status: active
   first_commit_by_person: https://github.com/ruby/rexml/commit/ec410a0d5e5e5daddca82fd1455824219403f676
   first_commit_by_person_on: 2025/07/09
-  last_scrape_at: '2026-10-21T22:36:24Z'
+  last_scrape_at: '2026-11-02T07:54:41Z'
   theme: family
   family_id: miscellaneous
   family_position: 1
@@ -5262,19 +5262,19 @@
   - ruby
   funding_sites: []
   docs_site:
-  total_downloads: 3860690058
+  total_downloads: 3900627608
   daily_downloads: 2607445
-  release_downloads: 1960607
+  release_downloads: 5263236
   release_date: 2026/10/14
-  github_stars: 3981
-  last_commit_on: 2026/10/15
+  github_stars: 3986
+  last_commit_on: 2026/11/01
   status: active
   first_commit_by_person: https://github.com/ruby/rubygems/commit/4c2c259ed307633186534440457bb0f46fc01108
   first_commit_by_person_on: 2023/09/14
   theme: family
   family_id: rubygems-bundler-family
   family_position: 4
-  last_scrape_at: '2026-10-21T22:36:27Z'
+  last_scrape_at: '2026-11-02T07:54:45Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby/rubygems/blob/master/LICENSE.txt
@@ -5289,22 +5289,22 @@
   description: Hashie is a collection of classes and mixins that make hashes more
     powerful.
   description_source: site
-  minimum_version: '2.7'
+  minimum_version: '3.0'
   tags:
   - data
   - ruby
   funding_sites: []
   docs_site: https://www.rubydoc.info/gems/hashie
-  total_downloads: 495720750
+  total_downloads: 499315027
   daily_downloads: 216505
-  release_downloads: 29928590
-  release_date: 2025/12/24
-  github_stars: 3039
-  last_commit_on: 2026/10/12
+  release_downloads: 317563
+  release_date: 2026/10/23
+  github_stars: 3037
+  last_commit_on: 2026/10/23
   status: active
   first_commit_by_person: https://github.com/hashie/hashie/commit/a44dd9a2687055d0074f8e71f1c50e3096ee846b
   first_commit_by_person_on: 2015/10/19
-  last_scrape_at: '2026-10-21T22:36:30Z'
+  last_scrape_at: '2026-11-02T07:54:48Z'
   theme: family
   family_id: miscellaneous
   family_position: 8
@@ -5330,16 +5330,16 @@
   - ruby
   funding_sites: []
   docs_site: https://api.rubyonrails.org/v8.1.2/
-  total_downloads: 804536766
+  total_downloads: 810193308
   daily_downloads: 331427
-  release_downloads: 2349856
+  release_downloads: 3832212
   release_date: 2026/09/24
-  github_stars: 58843
-  last_commit_on: 2026/10/21
+  github_stars: 58849
+  last_commit_on: 2026/11/02
   status: active
   first_commit_by_person: https://github.com/rails/rails/commit/40143bf9d032fbc0081384f00edb5ca1d600068f
   first_commit_by_person_on: 2023/02/23
-  last_scrape_at: '2026-10-21T22:36:33Z'
+  last_scrape_at: '2026-11-02T07:54:51Z'
   theme: family
   family_id: rails-family
   family_position: 3
@@ -5355,8 +5355,8 @@
   - type: GitHub
     url: https://github.com/spinel-coop/rv/
     owner: spinel-coop
-    total_downloads: 159374
-    release_downloads: 73
+    total_downloads: 198310
+    release_downloads: 28465
   description: "\U0001F48E\U0001F4A8 Extremely fast Ruby version and gem manager"
   description_source: site
   minimum_version: '1.93'
@@ -5371,15 +5371,15 @@
   daily_downloads:
   release_downloads:
   release_date: 2026/10/21
-  github_stars: 1812
-  last_commit_on: 2026/10/21
+  github_stars: 1819
+  last_commit_on: 2026/10/28
   status: active
   first_commit_by_person: https://github.com/spinel-coop/rv/commit/fb840bf830986170df2bbe9b51b5d7774770cf67
   first_commit_by_person_on: 2026/01/21
   theme: family
   family_id: rubygems-bundler-family
   family_position: 1
-  last_scrape_at: '2026-10-21T22:36:36Z'
+  last_scrape_at: '2026-11-02T07:54:53Z'
   licenses:
   - Apache-2.0
   license_url: https://github.com/spinel-coop/rv/blob/main/LICENSE-APACHE
@@ -5413,14 +5413,14 @@
   - rubygems
   - test
   docs_site:
-  total_downloads: 212
+  total_downloads: 220
   daily_downloads: 2
-  release_downloads: 212
+  release_downloads: 220
   release_date: 2026/03/08
   status: active
   licenses:
   - MIT
-  last_scrape_at: '2026-10-21T23:04:43Z'
+  last_scrape_at: '2026-11-02T07:54:56Z'
 - name: nomono
   description: 1️⃣ Provides nomono_gems and eval_nomono_gems to standardize local
     multi-repo dependency wiring in Gemfiles.
@@ -5443,14 +5443,14 @@
   - kettle
   - ruby
   docs_site: https://www.rubydoc.info/gems/nomono/1.1.1
-  total_downloads: 24307
+  total_downloads: 27961
   daily_downloads: 193
-  release_downloads: 1152
-  release_date: 2026/10/20
+  release_downloads: 937
+  release_date: 2026/10/29
   github_stars: 1
-  last_commit_on: 2026/10/20
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:36:39Z'
+  last_scrape_at: '2026-11-02T07:55:00Z'
   licenses:
   - AGPL-3.0-only
   license_url: https://github.com/kettle-dev/nomono/blob/main/LICENSE.md
@@ -5473,14 +5473,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/ast-template/7.0.0
-  total_downloads: 4782
+  total_downloads: 7033
   daily_downloads: 3
-  release_downloads: 260
-  release_date: 2026/10/21
+  release_downloads: 222
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:36:41Z'
+  last_scrape_at: '2026-11-02T07:55:04Z'
   theme: family
   family_id: smorg-rb
   family_position: 2
@@ -5507,14 +5507,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/plain-merge/7.0.0
-  total_downloads: 10407
+  total_downloads: 12808
   daily_downloads: 3
-  release_downloads: 258
-  release_date: 2026/10/21
+  release_downloads: 227
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:36:44Z'
+  last_scrape_at: '2026-11-02T07:55:07Z'
   theme: family
   family_id: smorg-rb
   family_position: 15
@@ -5541,14 +5541,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/yaml-merge/7.0.0
-  release_date: 2026/10/21
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  total_downloads: 14819
+  total_downloads: 17388
   daily_downloads: 48
-  release_downloads: 263
-  last_scrape_at: '2026-10-21T22:36:47Z'
+  release_downloads: 247
+  last_scrape_at: '2026-11-02T07:55:11Z'
   theme: family
   family_id: smorg-rb
   family_position: 24
@@ -5574,14 +5574,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/ruby-merge/7.0.0
-  total_downloads: 14312
+  total_downloads: 16698
   daily_downloads: 48
-  release_downloads: 262
-  release_date: 2026/10/21
+  release_downloads: 236
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:36:49Z'
+  last_scrape_at: '2026-11-02T07:55:15Z'
   theme: family
   family_id: smorg-rb
   family_position: 19
@@ -5608,14 +5608,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/go-merge/7.0.0
-  total_downloads: 3667
+  total_downloads: 4384
   daily_downloads: 3
-  release_downloads: 121
-  release_date: 2026/10/21
+  release_downloads: 144
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:36:52Z'
+  last_scrape_at: '2026-11-02T07:55:18Z'
   theme: family
   family_id: smorg-rb
   family_position: 8
@@ -5642,14 +5642,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/rust-merge/7.0.0
-  total_downloads: 3696
+  total_downloads: 4393
   daily_downloads: 3
-  release_downloads: 123
-  release_date: 2026/10/21
+  release_downloads: 149
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:36:54Z'
+  last_scrape_at: '2026-11-02T07:55:22Z'
   theme: family
   family_id: smorg-rb
   family_position: 20
@@ -5676,14 +5676,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/typescript-merge/7.0.0
-  total_downloads: 3796
+  total_downloads: 4559
   daily_downloads: 3
-  release_downloads: 125
-  release_date: 2026/10/21
+  release_downloads: 153
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:36:57Z'
+  last_scrape_at: '2026-11-02T07:55:26Z'
   theme: family
   family_id: smorg-rb
   family_position: 23
@@ -5710,14 +5710,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/binary-merge/7.0.0
-  total_downloads: 3584
+  total_downloads: 4376
   daily_downloads: 3
-  release_downloads: 119
-  release_date: 2026/10/21
+  release_downloads: 150
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:00Z'
+  last_scrape_at: '2026-11-02T07:55:29Z'
   theme: family
   family_id: smorg-rb
   family_position: 4
@@ -5744,14 +5744,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/zip-merge/7.0.0
-  total_downloads: 3734
+  total_downloads: 4446
   daily_downloads: 3
-  release_downloads: 122
-  release_date: 2026/10/21
+  release_downloads: 152
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:02Z'
+  last_scrape_at: '2026-11-02T07:55:33Z'
   theme: family
   family_id: smorg-rb
   family_position: 25
@@ -5777,14 +5777,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/citrus-toml-merge/7.0.0
-  total_downloads: 10600
+  total_downloads: 12981
   daily_downloads: 3
-  release_downloads: 256
-  release_date: 2026/10/21
+  release_downloads: 224
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:05Z'
+  last_scrape_at: '2026-11-02T07:55:36Z'
   theme: family
   family_id: smorg-rb
   family_position: 5
@@ -5811,14 +5811,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/parslet-toml-merge/7.0.0
-  total_downloads: 3775
+  total_downloads: 4559
   daily_downloads: 3
-  release_downloads: 128
-  release_date: 2026/10/21
+  release_downloads: 166
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:07Z'
+  last_scrape_at: '2026-11-02T07:55:40Z'
   theme: family
   family_id: smorg-rb
   family_position: 14
@@ -5845,14 +5845,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/kramdown-merge/7.0.0
-  total_downloads: 8859
+  total_downloads: 9692
   daily_downloads: 3
-  release_downloads: 117
-  release_date: 2026/10/21
+  release_downloads: 149
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:10Z'
+  last_scrape_at: '2026-11-02T07:55:43Z'
   theme: family
   family_id: smorg-rb
   family_position: 11
@@ -5881,14 +5881,14 @@
   - ruby
   - structuredmerge
   docs_site: https://www.rubydoc.info/gems/kettle-jem/7.0.0
-  total_downloads: 25228
+  total_downloads: 28879
   daily_downloads: 52
-  release_downloads: 171
-  release_date: 2026/10/21
+  release_downloads: 443
+  release_date: 2026/10/31
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:12Z'
+  last_scrape_at: '2026-11-02T07:55:46Z'
   theme: family
   family_id: smorg-rb
   family_position: 10
@@ -5918,14 +5918,14 @@
   - oauth
   - ruby
   docs_site: https://www.rubydoc.info/gems/auth-sanitizer/0.2.3
-  total_downloads: 15508629
+  total_downloads: 17358461
   daily_downloads: 62145
-  release_downloads: 9227732
-  release_date: 2026/07/14
+  release_downloads: 179317
+  release_date: 2026/10/25
   github_stars: 15
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:15Z'
+  last_scrape_at: '2026-11-02T07:55:50Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/auth-sanitizer/blob/main/LICENSE.md
@@ -5955,14 +5955,14 @@
   - ruby
   - test
   docs_site: https://www.rubydoc.info/gems/turbo_tests2/3.2.3
-  total_downloads: 253710
+  total_downloads: 281186
   daily_downloads: 902
-  release_downloads: 6359
-  release_date: 2026/05/23
-  github_stars: 9
+  release_downloads: 14903
+  release_date: 2026/10/15
+  github_stars: 10
   last_commit_on: 2026/10/15
   status: active
-  last_scrape_at: '2026-10-21T22:37:18Z'
+  last_scrape_at: '2026-11-02T07:55:54Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/turbo_tests2/blob/main/LICENSE.md
@@ -5989,14 +5989,14 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-timekeeper/0.2.4
-  total_downloads: 18783
+  total_downloads: 19996
   daily_downloads: 139
-  release_downloads: 2038
-  release_date: 2026/05/23
+  release_downloads: 3016
+  release_date: 2026/10/01
   github_stars: 3
-  last_commit_on: 2026/10/12
+  last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-10-21T22:37:21Z'
+  last_scrape_at: '2026-11-02T07:55:56Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yard-timekeeper/blob/main/LICENSE.md
@@ -6022,14 +6022,14 @@
   - kettle
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-drift/1.0.8
-  total_downloads: 18348
+  total_downloads: 20249
   daily_downloads: 135
-  release_downloads: 2807
-  release_date: 2026/05/25
+  release_downloads: 839
+  release_date: 2026/10/29
   github_stars: 1
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:37:23Z'
+  last_scrape_at: '2026-11-02T07:56:00Z'
   licenses:
   - AGPL-3.0-only
   license_url: https://github.com/kettle-dev/kettle-drift/blob/main/LICENSE.md
@@ -6057,14 +6057,14 @@
   - ruby
   - security
   docs_site: https://www.rubydoc.info/gems/oauth2-mcp/0.1.2
-  total_downloads: 996
+  total_downloads: 1056
   daily_downloads: 17
-  release_downloads: 431
+  release_downloads: 483
   release_date: 2026/07/15
   github_stars: 4
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/10/25
   status: active
-  last_scrape_at: '2026-10-21T22:37:26Z'
+  last_scrape_at: '2026-11-02T07:56:03Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth2-mcp/blob/main/LICENSE.md
@@ -6093,14 +6093,14 @@
   - ruby
   - test
   docs_site: https://www.rubydoc.info/gems/rubocop-lts-rspec/1.0.5
-  total_downloads: 27408
+  total_downloads: 33639
   daily_downloads: 165
-  release_downloads: 4772
-  release_date: 2026/05/30
+  release_downloads: 5785
+  release_date: 2026/10/22
   github_stars: 6
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-10-21T22:37:29Z'
+  last_scrape_at: '2026-11-02T07:56:06Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-lts-rspec/blob/main/LICENSE.md
@@ -6125,14 +6125,14 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/appraisal2-rubocop/1.0.0
-  total_downloads: 24591
+  total_downloads: 28373
   daily_downloads: 135
-  release_downloads: 473
+  release_downloads: 3912
   release_date: 2026/10/21
   github_stars: 1
   last_commit_on: 2026/10/21
   status: active
-  last_scrape_at: '2026-10-21T22:37:32Z'
+  last_scrape_at: '2026-11-02T07:56:09Z'
   licenses:
   - MIT
   license_url: https://github.com/appraisal-rb/appraisal2-rubocop/blob/main/LICENSE.md
@@ -6158,14 +6158,14 @@
   - kettle
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-family/1.2.11
-  total_downloads: 100510
+  total_downloads: 108862
   daily_downloads: 567
-  release_downloads: 386
-  release_date: 2026/10/21
+  release_downloads: 718
+  release_date: 2026/10/31
   github_stars: 1
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/10/31
   status: active
-  last_scrape_at: '2026-10-21T22:37:36Z'
+  last_scrape_at: '2026-11-02T07:56:13Z'
   licenses:
   - AGPL-3.0-only
   license_url: https://github.com/kettle-dev/kettle-family/blob/main/LICENSE.md
@@ -6192,14 +6192,14 @@
   - ruby
   - test
   docs_site: https://www.rubydoc.info/gems/gem_mine/0.1.2
-  total_downloads: 5356
+  total_downloads: 6125
   daily_downloads: 9
-  release_downloads: 186
+  release_downloads: 827
   release_date: 2026/10/21
   github_stars: 1
   last_commit_on: 2026/10/21
   status: active
-  last_scrape_at: '2026-10-21T22:37:39Z'
+  last_scrape_at: '2026-11-02T07:56:16Z'
   licenses:
   - MIT
   license_url: https://github.com/appraisal-rb/gem_mine/blob/main/LICENSE.md
@@ -6226,14 +6226,14 @@
   - oauth
   - ruby
   docs_site: https://www.rubydoc.info/gems/anonymous_loader/0.1.3
-  total_downloads: 9914328
+  total_downloads: 11422010
   daily_downloads: 34660
-  release_downloads: 8384130
-  release_date: 2026/06/18
+  release_downloads: 182861
+  release_date: 2026/10/25
   github_stars: 2
-  last_commit_on: 2026/09/21
+  last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-10-21T22:37:41Z'
+  last_scrape_at: '2026-11-02T07:56:20Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/anonymous_loader/blob/main/LICENSE.md
@@ -6260,14 +6260,14 @@
   - rails
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-rb/0.1.7
-  total_downloads: 90180
+  total_downloads: 101691
   daily_downloads: 688
-  release_downloads: 7142
-  release_date: 2026/10/15
+  release_downloads: 2220
+  release_date: 2026/10/28
   github_stars: 1
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/10/28
   status: active
-  last_scrape_at: '2026-10-21T22:37:44Z'
+  last_scrape_at: '2026-11-02T07:56:24Z'
   licenses:
   - MIT
   license_url: https://github.com/kettle-dev/kettle-rb/blob/main/LICENSE.md
@@ -6294,14 +6294,14 @@
   - ruby
   - test
   docs_site: https://www.rubydoc.info/gems/kettle-wash/0.1.2
-  total_downloads: 23495
+  total_downloads: 27565
   daily_downloads: 342
-  release_downloads: 4195
-  release_date: 2026/10/15
+  release_downloads: 1091
+  release_date: 2026/10/28
   github_stars: 1
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/10/28
   status: active
-  last_scrape_at: '2026-10-21T22:37:47Z'
+  last_scrape_at: '2026-11-02T07:56:28Z'
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
@@ -6330,14 +6330,14 @@
   - kettle
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-gha-pins/0.3.3
-  total_downloads: 76503
+  total_downloads: 87909
   daily_downloads: 907
-  release_downloads: 7072
-  release_date: 2026/10/15
+  release_downloads: 2072
+  release_date: 2026/10/29
   github_stars: 1
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/10/29
   status: active
-  last_scrape_at: '2026-10-21T22:37:50Z'
+  last_scrape_at: '2026-11-02T07:56:32Z'
   licenses:
   - MIT
   license_url: https://github.com/kettle-dev/kettle-gha-pins/blob/main/LICENSE.md
@@ -6364,14 +6364,14 @@
   - kettle
   - ruby
   docs_site: https://www.rubydoc.info/gems/kettle-ndjson/0.1.3
-  total_downloads: 73489
+  total_downloads: 85032
   daily_downloads: 1098
-  release_downloads: 7641
-  release_date: 2026/10/15
+  release_downloads: 2254
+  release_date: 2026/10/28
   github_stars: 1
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/10/28
   status: active
-  last_scrape_at: '2026-10-21T22:37:53Z'
+  last_scrape_at: '2026-11-02T07:56:36Z'
   licenses:
   - MIT
   license_url: https://github.com/kettle-dev/kettle-ndjson/blob/main/LICENSE.md
@@ -6401,7 +6401,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 134
   release_downloads:
@@ -6410,7 +6410,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:37:57Z'
+  last_scrape_at: '2026-11-02T07:56:39Z'
 - name: "@structuredmerge/ast-template"
   description: 'StructuredMerge TypeScript package: ast-template.'
   description_source: site
@@ -6437,7 +6437,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 101
   release_downloads:
@@ -6446,7 +6446,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:37:59Z'
+  last_scrape_at: '2026-11-02T07:56:42Z'
 - name: "@structuredmerge/binary-merge"
   description: 'StructuredMerge TypeScript package: binary-merge.'
   description_source: site
@@ -6473,7 +6473,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 107
   release_downloads:
@@ -6482,7 +6482,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:02Z'
+  last_scrape_at: '2026-11-02T07:56:45Z'
 - name: "@structuredmerge/go-merge"
   description: 'StructuredMerge TypeScript package: go-merge.'
   description_source: site
@@ -6509,7 +6509,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 108
   release_downloads:
@@ -6518,7 +6518,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:04Z'
+  last_scrape_at: '2026-11-02T07:56:47Z'
 - name: "@structuredmerge/js-yaml-merge"
   description: 'StructuredMerge TypeScript package: js-yaml-merge.'
   description_source: site
@@ -6545,7 +6545,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 112
   release_downloads:
@@ -6554,7 +6554,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:07Z'
+  last_scrape_at: '2026-11-02T07:56:50Z'
 - name: "@structuredmerge/json-merge"
   description: 'StructuredMerge TypeScript package: json-merge.'
   description_source: site
@@ -6581,7 +6581,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 90
   release_downloads:
@@ -6590,7 +6590,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:09Z'
+  last_scrape_at: '2026-11-02T07:56:53Z'
 - name: "@structuredmerge/kettle-nodule"
   description: 'StructuredMerge TypeScript package: kettle-nodule.'
   description_source: site
@@ -6617,7 +6617,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 106
   release_downloads:
@@ -6626,7 +6626,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:12Z'
+  last_scrape_at: '2026-11-02T07:56:56Z'
 - name: "@structuredmerge/markdown-it-merge"
   description: 'StructuredMerge TypeScript package: markdown-it-merge.'
   description_source: site
@@ -6653,7 +6653,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 103
   release_downloads:
@@ -6662,7 +6662,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:15Z'
+  last_scrape_at: '2026-11-02T07:56:58Z'
 - name: "@structuredmerge/markdown-merge"
   description: 'StructuredMerge TypeScript package: markdown-merge.'
   description_source: site
@@ -6689,7 +6689,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 108
   release_downloads:
@@ -6698,7 +6698,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:17Z'
+  last_scrape_at: '2026-11-02T07:57:01Z'
 - name: "@structuredmerge/peggy-toml-merge"
   description: 'StructuredMerge TypeScript package: peggy-toml-merge.'
   description_source: site
@@ -6725,7 +6725,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 112
   release_downloads:
@@ -6734,7 +6734,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:20Z'
+  last_scrape_at: '2026-11-02T07:57:03Z'
 - name: "@structuredmerge/plain-merge"
   description: 'StructuredMerge TypeScript package: plain-merge.'
   description_source: site
@@ -6761,7 +6761,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 101
   release_downloads:
@@ -6770,7 +6770,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:22Z'
+  last_scrape_at: '2026-11-02T07:57:06Z'
 - name: "@structuredmerge/ruby-merge"
   description: 'StructuredMerge TypeScript package: ruby-merge.'
   description_source: site
@@ -6797,7 +6797,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 111
   release_downloads:
@@ -6806,7 +6806,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:25Z'
+  last_scrape_at: '2026-11-02T07:57:09Z'
 - name: "@structuredmerge/rust-merge"
   description: 'StructuredMerge TypeScript package: rust-merge.'
   description_source: site
@@ -6833,7 +6833,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 117
   release_downloads:
@@ -6842,7 +6842,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:27Z'
+  last_scrape_at: '2026-11-02T07:57:11Z'
 - name: "@structuredmerge/toml-merge"
   description: 'StructuredMerge TypeScript package: toml-merge.'
   description_source: site
@@ -6869,7 +6869,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 110
   release_downloads:
@@ -6878,7 +6878,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:30Z'
+  last_scrape_at: '2026-11-02T07:57:14Z'
 - name: "@structuredmerge/tree-haver"
   description: 'StructuredMerge TypeScript package: tree-haver.'
   description_source: site
@@ -6905,7 +6905,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 146
   release_downloads:
@@ -6914,7 +6914,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:33Z'
+  last_scrape_at: '2026-11-02T07:57:16Z'
 - name: "@structuredmerge/typescript-compiler-merge"
   description: 'StructuredMerge TypeScript package: typescript-compiler-merge.'
   description_source: site
@@ -6941,7 +6941,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 100
   release_downloads:
@@ -6950,7 +6950,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:35Z'
+  last_scrape_at: '2026-11-02T07:57:19Z'
 - name: "@structuredmerge/typescript-merge"
   description: 'StructuredMerge TypeScript package: typescript-merge.'
   description_source: site
@@ -6977,7 +6977,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 108
   release_downloads:
@@ -6986,7 +6986,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:38Z'
+  last_scrape_at: '2026-11-02T07:57:22Z'
 - name: "@structuredmerge/yaml-merge"
   description: 'StructuredMerge TypeScript package: yaml-merge.'
   description_source: site
@@ -7013,7 +7013,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 109
   release_downloads:
@@ -7022,7 +7022,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:40Z'
+  last_scrape_at: '2026-11-02T07:57:24Z'
 - name: "@structuredmerge/zip-merge"
   description: 'StructuredMerge TypeScript package: zip-merge.'
   description_source: site
@@ -7049,7 +7049,7 @@
   - typescript
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/08/10
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 112
   release_downloads:
@@ -7058,7 +7058,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:43Z'
+  last_scrape_at: '2026-11-02T07:57:27Z'
 - name: ast-merge
   description: Core Structured Merge AST, ruleset, planning, and review contracts
   description_source: registry
@@ -7084,7 +7084,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 440
   release_downloads: 426
@@ -7092,7 +7092,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:45Z'
+  last_scrape_at: '2026-11-02T07:57:29Z'
 - name: ast-template
   description: Recipe and template helpers for Structured Merge AST libraries
   description_source: registry
@@ -7118,7 +7118,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 12
   release_downloads: 12
@@ -7126,7 +7126,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:48Z'
+  last_scrape_at: '2026-11-02T07:57:31Z'
 - name: structuredmerge-binary-merge
   description: Binary preservation planning and diagnostics for Structured Merge
   description_source: site
@@ -7152,7 +7152,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 14
   release_downloads: 14
@@ -7160,7 +7160,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:50Z'
+  last_scrape_at: '2026-11-02T07:57:34Z'
 - name: go-merge
   description: Go syntax merge helpers for Structured Merge
   description_source: registry
@@ -7186,7 +7186,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 14
   release_downloads: 14
@@ -7194,7 +7194,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:52Z'
+  last_scrape_at: '2026-11-02T07:57:36Z'
 - name: json-merge
   description: JSON merge helpers for Structured Merge
   description_source: registry
@@ -7220,7 +7220,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 19
   release_downloads: 19
@@ -7228,7 +7228,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:55Z'
+  last_scrape_at: '2026-11-02T07:57:38Z'
 - name: kettle-rusty
   description: Rust crate recipe helpers for Structured Merge
   description_source: site
@@ -7254,7 +7254,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 15
   release_downloads: 15
@@ -7262,7 +7262,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:57Z'
+  last_scrape_at: '2026-11-02T07:57:40Z'
 - name: markdown-merge
   description: Markdown merge helpers for Structured Merge
   description_source: registry
@@ -7288,7 +7288,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 76
   release_downloads: 76
@@ -7296,7 +7296,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:38:59Z'
+  last_scrape_at: '2026-11-02T07:57:42Z'
 - name: pest-toml-merge
   description: Pest TOML merge helpers for Structured Merge
   description_source: site
@@ -7322,7 +7322,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 14
   release_downloads: 14
@@ -7330,7 +7330,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:01Z'
+  last_scrape_at: '2026-11-02T07:57:44Z'
 - name: plain-merge
   description: Plain text merge helpers for Structured Merge
   description_source: registry
@@ -7356,7 +7356,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 14
   release_downloads: 14
@@ -7364,7 +7364,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:04Z'
+  last_scrape_at: '2026-11-02T07:57:46Z'
 - name: pulldown-cmark-merge
   description: Pulldown-cmark Markdown merge helpers for Structured Merge
   description_source: site
@@ -7390,7 +7390,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 16
   release_downloads: 16
@@ -7398,7 +7398,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:06Z'
+  last_scrape_at: '2026-11-02T07:57:48Z'
 - name: ruby-merge
   description: Ruby syntax merge helpers for Structured Merge
   description_source: registry
@@ -7424,7 +7424,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 46
   release_downloads: 46
@@ -7432,7 +7432,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:08Z'
+  last_scrape_at: '2026-11-02T07:57:50Z'
 - name: rust-merge
   description: Rust syntax merge helpers for Structured Merge
   description_source: registry
@@ -7458,7 +7458,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 16
   release_downloads: 16
@@ -7466,7 +7466,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:10Z'
+  last_scrape_at: '2026-11-02T07:57:52Z'
 - name: structuredmerge-toml-merge
   description: TOML merge helpers for Structured Merge
   description_source: site
@@ -7492,7 +7492,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 78
   release_downloads: 78
@@ -7500,7 +7500,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:13Z'
+  last_scrape_at: '2026-11-02T07:57:54Z'
 - name: tree-haver
   description: Tree substrate and binary location contracts for Structured Merge
   description_source: site
@@ -7526,7 +7526,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 496
   release_downloads: 478
@@ -7534,7 +7534,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:15Z'
+  last_scrape_at: '2026-11-02T07:57:57Z'
 - name: typescript-merge
   description: TypeScript syntax merge helpers for Structured Merge
   description_source: registry
@@ -7560,7 +7560,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 16
   release_downloads: 16
@@ -7568,7 +7568,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:17Z'
+  last_scrape_at: '2026-11-02T07:57:59Z'
 - name: yaml-merge
   description: YAML merge helpers for Structured Merge
   description_source: registry
@@ -7594,7 +7594,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 50
   release_downloads: 50
@@ -7602,7 +7602,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:20Z'
+  last_scrape_at: '2026-11-02T07:58:01Z'
 - name: yaml-serde-merge
   description: yaml-serde merge helpers for Structured Merge
   description_source: site
@@ -7628,7 +7628,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 16
   release_downloads: 16
@@ -7636,7 +7636,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:22Z'
+  last_scrape_at: '2026-11-02T07:58:03Z'
 - name: structuredmerge-zip-merge
   description: ZIP inventory, planning, nested dispatch, and raw-preservation helpers
     for Structured Merge
@@ -7663,7 +7663,7 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/09/16
+  last_commit_on: 2026/11/01
   status: active
   total_downloads: 15
   release_downloads: 15
@@ -7671,7 +7671,7 @@
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:24Z'
+  last_scrape_at: '2026-11-02T07:58:05Z'
 - name: github.com/structuredmerge/structuredmerge-go
   description: Go implementation of the StructuredMerge contract.
   description_source: site
@@ -7696,14 +7696,14 @@
   - structuredmerge
   docs_site: https://structuredmerge.org
   github_stars: 0
-  last_commit_on: 2026/07/21
+  last_commit_on: 2026/11/01
   status: active
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-go/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T22:39:27Z'
+  last_scrape_at: '2026-11-02T07:58:09Z'
 - name: ast-crispr
   description: "\U0001F9EC A thin structural edit tool layer over ast-merge structured-edit
     contracts."
@@ -7726,15 +7726,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 12165
+  total_downloads: 14651
   daily_downloads: 191
-  release_downloads: 289
-  release_date: 2026/10/21
+  release_downloads: 240
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:05:51Z'
+  last_scrape_at: '2026-11-02T07:58:12Z'
   theme: family
   family_id: smorg-rb
   family_position: 26
@@ -7760,15 +7760,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 11790
+  total_downloads: 14200
   daily_downloads: 183
-  release_downloads: 306
-  release_date: 2026/10/21
+  release_downloads: 224
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:05:54Z'
+  last_scrape_at: '2026-11-02T07:58:16Z'
   theme: family
   family_id: smorg-rb
   family_position: 28
@@ -7794,15 +7794,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 12059
+  total_downloads: 14508
   daily_downloads: 184
-  release_downloads: 264
-  release_date: 2026/10/21
+  release_downloads: 221
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:05:56Z'
+  last_scrape_at: '2026-11-02T07:58:19Z'
   theme: family
   family_id: smorg-rb
   family_position: 27
@@ -7827,15 +7827,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 5775
+  total_downloads: 6598
   daily_downloads: 54
-  release_downloads: 120
-  release_date: 2026/10/21
+  release_downloads: 168
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:05:59Z'
+  last_scrape_at: '2026-11-02T07:58:22Z'
   theme: family
   family_id: smorg-rb
   family_position: 31
@@ -7860,15 +7860,15 @@
   docs_site: https://www.rubydoc.info/gems/html-merge/7.1.15
   licenses:
   - MIT
-  total_downloads: 5567
+  total_downloads: 6326
   daily_downloads: 52
-  release_downloads: 129
-  release_date: 2026/10/21
+  release_downloads: 152
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:01Z'
+  last_scrape_at: '2026-11-02T07:58:27Z'
   theme: family
   family_id: smorg-rb
   family_position: 33
@@ -7894,15 +7894,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 5922
+  total_downloads: 6719
   daily_downloads: 56
-  release_downloads: 114
-  release_date: 2026/10/21
+  release_downloads: 172
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:03Z'
+  last_scrape_at: '2026-11-02T07:58:30Z'
   theme: family
   family_id: smorg-rb
   family_position: 34
@@ -7931,15 +7931,15 @@
   docs_site: https://www.rubydoc.info/gems/kettle-jem-appraisals/0.1.7
   licenses:
   - AGPL-3.0-only
-  total_downloads: 4686
+  total_downloads: 4970
   daily_downloads: 21
-  release_downloads: 109
-  release_date: 2026/10/21
+  release_downloads: 168
+  release_date: 2026/10/22
   github_stars: 1
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/10/22
   status: active
   license_url: https://github.com/appraisal-rb/kettle-jem-appraisals/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:06Z'
+  last_scrape_at: '2026-11-02T07:58:33Z'
   theme: family
   family_id: kettle-dev-family
   family_position: 12
@@ -7966,15 +7966,15 @@
   docs_site: https://www.rubydoc.info/gems/rubocop-lts-ruby/0.1.6
   licenses:
   - MIT
-  total_downloads: 24268
+  total_downloads: 32033
   daily_downloads: 397
-  release_downloads: 966
-  release_date: 2026/10/21
+  release_downloads: 7327
+  release_date: 2026/10/22
   github_stars: 1
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/10/22
   status: active
   license_url: https://github.com/rubocop-lts/rubocop-lts-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:09Z'
+  last_scrape_at: '2026-11-02T07:58:37Z'
   theme: family
   family_id: rubocop-lts
   family_position: 17
@@ -7999,15 +7999,15 @@
   docs_site: https://www.rubydoc.info/gems/kettle-changelog/1.0.13
   licenses:
   - AGPL-3.0-only
-  total_downloads: 21125
+  total_downloads: 24464
   daily_downloads: 366
-  release_downloads: 2408
-  release_date: 2026/08/11
+  release_downloads: 1058
+  release_date: 2026/10/29
   github_stars: 1
-  last_commit_on: 2026/10/18
+  last_commit_on: 2026/10/29
   status: active
   license_url: https://github.com/kettle-dev/kettle-changelog/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:11Z'
+  last_scrape_at: '2026-11-02T07:58:41Z'
   theme: family
   family_id: kettle-dev-family
   family_position: 11
@@ -8036,15 +8036,15 @@
   docs_site: https://www.rubydoc.info/gems/kettle-paths/0.1.1
   licenses:
   - MIT
-  total_downloads: 372
+  total_downloads: 1163
   daily_downloads: 41
-  release_downloads: 183
-  release_date: 2026/10/15
+  release_downloads: 160
+  release_date: 2026/10/28
   github_stars: 1
-  last_commit_on: 2026/10/16
+  last_commit_on: 2026/10/28
   status: active
   license_url: https://github.com/pboling/kettle-paths/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:13Z'
+  last_scrape_at: '2026-11-02T07:58:44Z'
   theme: family
   family_id: kettle-dev-family
   family_position: 13
@@ -8072,15 +8072,15 @@
   docs_site: https://www.rubydoc.info/gems/runtime_groups/0.1.3
   licenses:
   - MIT
-  total_downloads: 7260
+  total_downloads: 15748
   daily_downloads: 1071
-  release_downloads: 6551
+  release_downloads: 14999
   release_date: 2026/10/15
   github_stars: 0
-  last_commit_on: 2026/10/15
+  last_commit_on: 2026/11/02
   status: active
   license_url: https://github.com/galtzo-floss/runtime_groups/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:15Z'
+  last_scrape_at: '2026-11-02T07:58:47Z'
   theme: family
   family_id: kettle-dev-family
   family_position: 14
@@ -8106,15 +8106,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 1847
+  total_downloads: 3972
   daily_downloads: 495
-  release_downloads: 186
-  release_date: 2026/10/21
+  release_downloads: 160
+  release_date: 2026/10/31
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:17Z'
+  last_scrape_at: '2026-11-02T07:58:51Z'
   theme: family
   family_id: smorg-rb
   family_position: 29
@@ -8140,15 +8140,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 508
+  total_downloads: 1077
   daily_downloads: 197
-  release_downloads: 107
-  release_date: 2026/10/21
+  release_downloads: 147
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:20Z'
+  last_scrape_at: '2026-11-02T07:58:54Z'
   theme: family
   family_id: smorg-rb
   family_position: 32
@@ -8173,15 +8173,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 531
+  total_downloads: 1199
   daily_downloads: 207
-  release_downloads: 124
-  release_date: 2026/10/21
+  release_downloads: 154
+  release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/10/21
+  last_commit_on: 2026/11/01
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-10-21T23:06:22Z'
+  last_scrape_at: '2026-11-02T07:58:57Z'
   theme: family
   family_id: smorg-rb
   family_position: 30
