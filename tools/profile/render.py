@@ -9,7 +9,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 import shutil
-for _d in ("projects", "feed", "contributors", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _d in ("projects", "feed", "contributors", "trending", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
 for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
@@ -18,6 +18,7 @@ def _load(n, default):
     f = ROOT/"data"/n
     return json.loads(f.read_text()) if f.exists() else default
 posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
+trending = _load("trending.json", {"days": 365, "repos": []})
 import base64
 TODAY = datetime.date.today()
 def owner_of(p):
@@ -221,7 +222,7 @@ def wrap(s, n, k):
     if len(full) > k: lines[-1] = lines[-1][:n-1].rstrip(" ,.") + "…"
     return lines
 ranked = sorted(owned, key=lambda p: -(p.get("total_downloads") or 0))
-TOP = 12
+TOP = 24
 CW, CHT = (W-32-12)/2, 128
 def mini_card(i, p, y0, cols=3, link=False):
     cw, ch = (W-32-(cols-1)*12)/cols, 84
@@ -275,6 +276,36 @@ def card(i, p, y0=46, link=False):
     g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" class="m" text-anchor="end">{esc(tag)}</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
+# ---- trending: stars gained (tools/profile/stars.py). 30 days is too quiet to show (+5 at best), so the headline is 12 months.
+TR = trending["repos"][:6]
+if TR:
+    TW, TH = W/3, 90
+    ttl = f"stars gained in the last {'12 months' if trending['days'] == 365 else str(trending['days']) + ' days'}"
+    svg("trending/head", 0, head_bar("trending · " + ttl, 40), "Trending: " + ttl, vb=(0, 0, W, 40))
+    readme_row(("trending/head", "Trending: " + ttl, 100, None))
+    for r in range((len(TR)+2)//3):
+        items = []
+        for col in range(3):
+            i = r*3 + col
+            if i >= len(TR): break
+            t = TR[i]; y = 46 + r*TH
+            cx = col*TW; cw = (W-32-24)/3; lx0 = 16 + col*(cw+12)
+            body = (f'<rect x="{lx0}" y="{y}" width="{cw}" height="{TH-8}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
+                    + logo_at(t["owner"], lx0+12, y+10, 22)
+                    + f'<text x="{lx0+42}" y="{y+26}" class="s" font-size="14" font-weight="700">{esc(t["name"][:20])}</text>'
+                    f'<text x="{lx0+12}" y="{y+62}" class="s" font-size="26" font-weight="700" style="fill:{TEAL}">+{t["gain"]}</text>'
+                    f'<text x="{lx0+cw-12}" y="{y+52}" font-size="10" class="m" text-anchor="end">★ {human(t["total"])} total</text>'
+                    f'<text x="{lx0+cw-12}" y="{y+66}" font-size="10" class="m" text-anchor="end">+{t["gain30"]} in 30 days</text>'
+                    + edges(y-3, y+TH-3, cx, cx+TW))
+            name = f"trending/{i+1:02d}"
+            alt = f'{t["name"]}: +{t["gain"]} stars in the last year, {t["gain30"]} in the last 30 days, {t["total"]} total'
+            svg(name, 0, logo_defs([t["owner"]]) + body, alt, vb=(cx, y-3, TW, TH))
+            items.append((name, alt, 33.33, f'https://github.com/{t["repo"]}'))
+        readme_row(*items)
+    yb = 46 + ((len(TR)+2)//3)*TH - 3
+    svg("trending/foot", 0, edges(yb, yb+10, bottom=True), "", vb=(0, yb, W, 10))
+    readme_row(("trending/foot", "", 100, None))
+
 rows = math.ceil(TOP/2)
 def gh_url(p): return next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
 INSTALL = {"rubygems": "gem install {n}", "cargo": "cargo add {n}", "npm": "npm i {n}", "pypi": "pip install {n}",
@@ -498,6 +529,19 @@ for i in range(RN):
               f'<text x="10" y="30" font-size="8.5" class="m">{a_["date"]}</text>')
         psvg(f"feed/post-{i+1:02d}", w, h, b_, f'{a_["title"]} ({a_["date"]})')
 psvg("feed/foot", PHW, 10, pedges(PHW, 10, bottom=True), "")
+
+# trending (phone): head + three-up 130px tiles
+if TR:
+    psvg("trending/head", PHW, 34, pbar("trending · stars, 12 months"), "Trending stars")
+    for i, t in enumerate(TR):
+        col = i % 3; w, h = PHW/3, 66
+        o = (pedges(w, h, col, 3) + f'<rect x="{5 if col == 0 else 2}" y="3" width="{w-8}" height="{h-6}" rx="3" fill="{PANEL}" stroke="{EDGE}"/>'
+             + logo_at(t["owner"], 10 if col == 0 else 7, 9, 16)
+             + f'<text x="{32 if col == 0 else 29}" y="21" class="s" font-size="10" font-weight="700">{esc(t["name"][:11])}</text>'
+             f'<text x="{10 if col == 0 else 7}" y="48" class="s" font-size="19" font-weight="700" style="fill:{TEAL}">+{t["gain"]}</text>'
+             f'<text x="{w-8}" y="57" font-size="7.5" class="m" text-anchor="end">★{human(t["total"])}</text>')
+        psvg(f"trending/{i+1:02d}", w, h, logo_defs([t["owner"]]) + o, f'{t["name"]}: +{t["gain"]} stars in the last year')
+    psvg("trending/foot", PHW, 10, pedges(PHW, 10, bottom=True), "")
 
 # contributors: head (2x2 tiles), mini cards (130 wide, three per row), foot
 pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTREAM /DAY", human(T_CON["day"]), "whole projects", VIOLET),

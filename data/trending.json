@@ -1,0 +1,102 @@
+{
+ "days": 365,
+ "generated": "2026-11-02",
+ "repos": [
+  {
+   "repo": "resque/resque",
+   "name": "resque",
+   "owner": "resque",
+   "gain": 66,
+   "gain30": 5,
+   "total": 9468
+  },
+  {
+   "repo": "ruby-oauth/oauth2",
+   "name": "oauth2",
+   "owner": "ruby-oauth",
+   "gain": 42,
+   "gain30": 2,
+   "total": 2181
+  },
+  {
+   "repo": "contriboss/ore-light",
+   "name": "ore-light",
+   "owner": "contriboss",
+   "gain": 33,
+   "gain30": 0,
+   "total": 61
+  },
+  {
+   "repo": "structuredmerge/structuredmerge-ruby",
+   "name": "structuredmerge-ruby",
+   "owner": "structuredmerge",
+   "gain": 19,
+   "gain30": 0,
+   "total": 19
+  },
+  {
+   "repo": "appraisal-rb/setup-ruby-flash",
+   "name": "setup-ruby-flash",
+   "owner": "appraisal-rb",
+   "gain": 17,
+   "gain30": 0,
+   "total": 17
+  },
+  {
+   "repo": "dynamoid/dynamoid",
+   "name": "dynamoid",
+   "owner": "Dynamoid",
+   "gain": 17,
+   "gain30": 0,
+   "total": 612
+  },
+  {
+   "repo": "ruby-oauth/auth-sanitizer",
+   "name": "auth-sanitizer",
+   "owner": "ruby-oauth",
+   "gain": 15,
+   "gain30": 0,
+   "total": 15
+  },
+  {
+   "repo": "rdp/os",
+   "name": "os",
+   "owner": "rdp",
+   "gain": 13,
+   "gain30": 0,
+   "total": 166
+  },
+  {
+   "repo": "ruby-oauth/snaky_hash",
+   "name": "snaky_hash",
+   "owner": "ruby-oauth",
+   "gain": 13,
+   "gain30": 0,
+   "total": 19
+  },
+  {
+   "repo": "ruby-oauth/version_gem",
+   "name": "version_gem",
+   "owner": "ruby-oauth",
+   "gain": 12,
+   "gain30": 0,
+   "total": 22
+  },
+  {
+   "repo": "appraisal-rb/appraisal2",
+   "name": "appraisal2",
+   "owner": "appraisal-rb",
+   "gain": 10,
+   "gain30": 0,
+   "total": 22
+  },
+  {
+   "repo": "galtzo-floss/turbo_tests2",
+   "name": "turbo_tests2",
+   "owner": "galtzo-floss",
+   "gain": 10,
+   "gain30": 1,
+   "total": 10
+  }
+ ]
+}
