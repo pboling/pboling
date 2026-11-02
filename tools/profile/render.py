@@ -9,7 +9,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 import shutil
-for _d in ("projects", "feed", "contributors", "trending", "history", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _d in ("projects", "feed", "contributors", "trending", "history", "banner", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
 for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
@@ -476,6 +476,13 @@ b += (f'<text x="24" y="34" font-size="13" class="m">$ open <tspan style="fill:{
       f' · connection closed.</text>')
 svg("footer", 56, b, "Footer: galtzo.com and sponsors link")
 readme_row(("footer", "Connection closed. galtzo.com and github.com/sponsors/pboling", 100, None))
+# sponsor banner copy + links (wording drafted from the old README; see #14)
+BANNER_LINKS = [("SPONSOR", "GitHub Sponsors", "https://github.com/sponsors/pboling", AMBER),
+                ("BACK IT", "Open Collective", "https://opencollective.com/galtzo-floss", TEAL),
+                ("HIRE ME", "Available for work", "https://docs.google.com/document/d/1H9fYtkMFmnkQO1sucrFPt5E3dvhozgVtI31LgpNLmJ4/pub", VIOLET),
+                ("CHAT", "Discord", "https://discord.gg/3qme4XHNKN", TEAL)]
+n_projects = (len(owned) // 100) * 100     # packages I author/maintain, rounded down: "200+"
+BANNER_TEXT = ("FLOSS maintenance is my full-time job.", f"Your sponsorship keeps {n_projects}+ libraries maintained, secure and released.")
 # ---- phone variants (<= 600px): redesigned at device scale, not just shrunk. See #11.
 PHW = 390
 def psvg(name, w, h, body, alt):
@@ -615,12 +622,40 @@ for col in (range(len(cranked) % 3, 3) if len(cranked) % 3 else []):
     psvg(f"contributors/blank-{col+1}", PHW/3, 64, pedges(PHW/3, 64, col, 3, color=PURPLE), "")
 psvg("contributors/foot", PHW, 30, pedges(PHW, 30, color=PURPLE, bottom=True) +
      f'<text x="12" y="18" font-size="8" class="m">Upstream counts; never in my totals above.</text>', "Contributor counts belong to upstream projects")
+# banner (phone): copy + 2x2 buttons
+psvg("banner/banner", PHW, 92, pedges(PHW, 92, top=True) + f'<rect x="12" y="14" width="3" height="62" fill="{AMBER}"/>'
+     f'<text x="24" y="34" class="s" font-size="15" font-weight="700">FLOSS maintenance is my</text>'
+     f'<text x="24" y="52" class="s" font-size="15" font-weight="700">full-time job.</text>'
+     f'<text x="24" y="72" font-size="9.5" class="m">Sponsorship keeps {n_projects}+ libraries</text>'
+     f'<text x="24" y="85" font-size="9.5" class="m">maintained, secure and released.</text>', BANNER_TEXT[0] + " " + BANNER_TEXT[1])
+for i, (k, sub, url, col) in enumerate(BANNER_LINKS):
+    bw = PHW/2; c = i % 2
+    body = (pedges(bw, 50, c, 2, bottom=(i >= 2)) +
+            f'<rect x="{12 if c == 0 else 4}" y="4" width="{bw-16}" height="42" rx="6" fill="{PANEL}" stroke="{col}" stroke-opacity=".7"/>'
+            f'<text x="{24 if c == 0 else 16}" y="21" font-size="8.5" letter-spacing="1.5" style="fill:{col}">{k}</text>'
+            f'<text x="{24 if c == 0 else 16}" y="37" class="s" font-size="11" font-weight="600">{esc(sub[:18])}</text>')
+    psvg(f"banner/link-{i+1}", bw, 50, body, f"{k.title()}: {sub}")
 psvg("footer", PHW, 52, pedges(PHW, 52, top=True, bottom=True) + f'<text x="12" y="30" font-size="10" class="m">$ open <tspan style="fill:{TEAL}">galtzo.com</tspan> · <tspan style="fill:{VIOLET}">sponsors/pboling</tspan></text>', "galtzo.com and sponsors link")
 
+# ---- sponsor banner: full-time on FLOSS + call to action (wording drafted from the old README; see #14)
+svg("banner/banner", 0, edges(0, 74, top=True) +
+    f'<rect x="12" y="14" width="4" height="46" fill="{AMBER}"/>'
+    f'<text x="28" y="34" class="s" font-size="20" font-weight="700">{esc(BANNER_TEXT[0])}</text>'
+    f'<text x="28" y="56" font-size="12" class="m">{esc(BANNER_TEXT[1])}</text>', BANNER_TEXT[0] + " " + BANNER_TEXT[1], vb=(0, 0, W, 74))
+for i, (k, sub, url, col) in enumerate(BANNER_LINKS):
+    bw = W/4
+    body = (edges(0, 56, i*bw, (i+1)*bw, bottom=True) +
+            f'<rect x="{i*bw+(16 if i == 0 else 6):.0f}" y="4" width="{bw-(22 if i in (0, 3) else 12):.0f}" height="44" rx="6" fill="{PANEL}" stroke="{col}" stroke-opacity=".7"/>'
+            f'<text x="{i*bw+(30 if i == 0 else 20):.0f}" y="24" font-size="10" letter-spacing="2" style="fill:{col}">{k}</text>'
+            f'<text x="{i*bw+(30 if i == 0 else 20):.0f}" y="40" class="s" font-size="12" font-weight="600">{esc(sub)}</text>')
+    svg(f"banner/link-{i+1}", 0, body, f"{k.title()}: {sub}", vb=(i*bw, 0, bw, 56))
 HEAD_ROWS = [("header", "Peter Boling: team leader, web architect, security researcher, rubyist. Building for web since 2004."),
              ("stats", "Telemetry for projects I author and maintain: downloads, downloads per day, packages, stars."),
              ("city", "Contribution city: an isometric skyline, one building per day of the last year.")]
-top = "\n".join(img_html(n, a, 100, None) for n, a in HEAD_ROWS)
+banner_rows = [img_html("banner/banner", BANNER_TEXT[0] + " " + BANNER_TEXT[1], 100, None),
+               "".join(img_html(f"banner/link-{i+1}", f"{k.title()}: {sub}", 25 if True else 50, url) for i, (k, sub, url, col) in enumerate(BANNER_LINKS))]
+_top = [img_html(n, a, 100, None) for n, a in HEAD_ROWS]
+top = "\n".join([_top[0]] + banner_rows + _top[1:])
 README_ROWS = ["".join(img_html(*it) for it in row) for row in README_ITEMS]
 (ROOT/"README.md").write_text(f"""<!-- Generated by tools/profile/render.py (see tools/profile/). Edit that, not this file or the SVGs. -->
 <p align="center">
