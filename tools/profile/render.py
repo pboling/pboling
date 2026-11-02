@@ -14,7 +14,28 @@ def _load(n, default):
     f = ROOT/"data"/n
     return json.loads(f.read_text()) if f.exists() else default
 posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
+import base64
 TODAY = datetime.date.today()
+def owner_of(p):
+    f = next((f for f in p.get("forges", []) if f["type"] == "GitHub"), None)
+    return (f or {}).get("owner")
+_logo_cache = {}
+def logo_uri(owner):
+    """data: URI for the cached org logo (assets/logos), or None. External images are blocked inside SVGs."""
+    if owner not in _logo_cache:
+        _logo_cache[owner] = None
+        for ext, mime in (("png", "image/png"), ("jpg", "image/jpeg")):
+            f = ROOT/"assets"/"logos"/f"{owner}.{ext}"
+            if f.exists(): _logo_cache[owner] = f"data:{mime};base64," + base64.b64encode(f.read_bytes()).decode(); break
+    return _logo_cache[owner]
+def logo_defs(owners):
+    return "<defs>" + "".join(f'<image id="lg-{esc(o)}" href="{logo_uri(o)}" width="64" height="64" preserveAspectRatio="xMidYMid slice"/>'
+                              for o in sorted(set(owners)) if o and logo_uri(o)) + "</defs>"
+def logo_at(owner, x, y, size):
+    if not owner or not logo_uri(owner): return ""
+    k = size/64
+    return (f'<g transform="translate({x},{y}) scale({k:.4f})"><rect width="64" height="64" rx="12" fill="#fff"/>'
+            f'<use href="#lg-{esc(owner)}"/></g><rect x="{x}" y="{y}" width="{size}" height="{size}" rx="{size*12/64:.1f}" fill="none" stroke="{EDGE}"/>')
 def is_new(p):
     d = first_release.get(f"{p['ecosystem']}:{p['name']}")
     return bool(d) and (TODAY - datetime.date.fromisoformat(d)).days <= 365
@@ -178,10 +199,11 @@ def mini_card(i, p, y0, cols=3):
     n = p.get("_pkgs", 1)
     g = (f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{ch}" fill="{ROLE["contributor"]}"/>'
-         f'<circle cx="{x+18}" cy="{y+20}" r="4" fill="{lc}"/>'
-         f'<text x="{x+28}" y="{y+25}" class="s" font-size="14" font-weight="700">{esc(p["name"][:(17 if n > 1 else 24)])}{"…" if n > 1 and len(p["name"]) > 17 else ""}</text>')
+         + logo_at(owner_of(p), x+14, y+8, 22) +
+         f'<circle cx="{x+cw-14}" cy="{y+20}" r="4" fill="{lc}"/>'
+         f'<text x="{x+42}" y="{y+25}" class="s" font-size="14" font-weight="700">{esc(p["name"][:(14 if n > 1 else 22)])}{"…" if n > 1 and len(p["name"]) > 14 else ""}</text>')
     if n > 1:
-        g += f'<text x="{x+cw-12}" y="{y+24}" font-size="9" class="m" text-anchor="end">{n} pkgs · {p["_regs"]} regs</text>'
+        g += f'<text x="{x+cw-26}" y="{y+24}" font-size="9" class="m" text-anchor="end">{n} pkgs · {p["_regs"]} regs</text>'
     for k, line in enumerate(wrap(p.get("description"), 40, 1)):
         g += f'<text x="{x+18}" y="{y+44}" class="s m" font-size="10.5">{esc(line)}</text>'
     st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), TEAL), ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
@@ -194,13 +216,15 @@ def card(i, p, y0=46):
     col, row = i % 2, i//2
     x, y = 16 + col*(CW+12), y0 + row*(CHT+12)
     rc = ROLE.get(p.get("role"), MUTED); lc = LANG.get(p.get("language"), MUTED)
+    nx0 = x + (48 if logo_uri(owner_of(p) or "") else 18)
     g = (f'<rect x="{x}" y="{y}" width="{CW}" height="{CHT}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
-         f'<text x="{x+18}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
+         f'<text x="{nx0}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
+         + logo_at(owner_of(p), x+16, y+8, 24) +
          f'<circle cx="{x+CW-86}" cy="{y+22}" r="4" fill="{lc}"/>'
          f'<text x="{x+CW-76}" y="{y+26}" font-size="11" class="m">{esc(str(p.get("language") or "")[:10])}</text>')
     if is_new(p) and p.get("role") != "contributor":
-        nx = x + 18 + min(len(p["name"]), 24) * 9.6 + 8
+        nx = x + CW - 132
         g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
               f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
     for k, line in enumerate(wrap(p.get("description"), 52, 3)):
@@ -215,7 +239,7 @@ def card(i, p, y0=46):
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url else g
 rows = math.ceil(TOP/2); H = 46 + rows*(CHT+12) + 28
-b = chrome("projects I author & maintain · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
+b = logo_defs(owner_of(p) for p in ranked[:TOP]) + chrome("projects I author & maintain · by lifetime downloads", H) + "".join(card(i, p) for i, p in enumerate(ranked[:TOP]))
 lx = 16
 for r, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
     b += f'<rect x="{lx}" y="{H-24}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{H-15}" font-size="10" class="m">{r}</text>'; lx += 100
@@ -267,7 +291,7 @@ by_repo = {}
 for p in contrib: by_repo.setdefault(gh_repo(p) or p["name"], []).append(p)
 cranked = sorted((group_card(v) for v in by_repo.values()), key=lambda p: -p["total_downloads"])
 HC = 46 + 84 + 18 + math.ceil(len(cranked)/3)*94 + 34
-b = chrome("contributions to other people's projects · not my projects", HC)
+b = logo_defs(owner_of(p) for p in cranked) + chrome("contributions to other people's projects · not my projects", HC)
 b += f'<rect x="1" y="0" width="{W-2}" height="{HC}" fill="none" stroke="{ROLE["contributor"]}" stroke-opacity=".5"/>'
 b += f'<text x="{W-16}" y="22" font-size="11" text-anchor="end" style="fill:{ROLE["contributor"]}">ROLE: CONTRIBUTOR</text>'
 ctiles = [("UPSTREAM DOWNLOADS", human(T_CON["dl"]), "registries + release assets", TEAL),
