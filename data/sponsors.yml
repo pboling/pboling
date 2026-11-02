@@ -18,13 +18,13 @@
   logo: serpapi.svg
   tier: project
   scope: ruby-oauth org
-  since: "2026-01-01"
+  since: "2026-08"
 - name: Alpha-Omega
   url: https://alpha-omega.dev
   logo: alpha-omega.svg
   tier: project
   scope: ruby-oauth/oauth2
-  since: "2026-08-29"
+  since: "2025-08"
   until: "2027-12-31"
 - name: makeplans
   tier: minor
