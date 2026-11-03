@@ -1,5 +1,13 @@
 [
  {
+  "name": "nomono",
+  "version": "1.1.18",
+  "date": "2026-11-03",
+  "at": "2026-11-03T22:59:53.865Z",
+  "url": "https://rubygems.org/gems/nomono/versions/1.1.18",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-jem",
   "version": "7.1.42",
   "date": "2026-10-31",
@@ -229,14 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:13:49.192Z",
   "url": "https://rubygems.org/gems/json-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "go-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:13:47.873Z",
-  "url": "https://rubygems.org/gems/go-merge/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
