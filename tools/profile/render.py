@@ -19,7 +19,7 @@ def _load(n, default):
     return json.loads(f.read_text()) if f.exists() else default
 posts, releases, first_release = _load("posts.json", []), _load("releases.json", []), _load("first_release.json", {})
 trending = _load("trending.json", {"days": 365, "repos": []})
-star_history = _load("star-history.json", None)
+stars_cache = _load("stars.json", {})
 def _sponsors():
     f = ROOT/"data"/"sponsors.yml"
     items = yaml.safe_load(f.read_text()) if f.exists() else []
@@ -318,46 +318,86 @@ if TR:
     svg("trending/foot", 0, edges(yb, yb+10, bottom=True), "", vb=(0, yb, W, 10))
     readme_row(("trending/foot", "", 100, None))
 
-# ---- star history of the flagship repo (tools/profile/starhistory.py)
-def history_chart(w, h, big=True):
-    """Area chart of cumulative stars. big=True is the desktop layout (880 wide), else the phone layout."""
-    sh = star_history; ser = sh["series"]
-    n = len(ser); top = max(v for _, v in ser)
-    step = 500 if top > 1200 else 250 if top > 600 else 100
-    ymax = math.ceil(top / step) * step
-    L, R, T, B = (58, w-16, 54 if big else 44, h-34)
-    X = lambda i: L + (R-L) * i / (n-1)
-    Y = lambda v: B - (B-T) * v / ymax
+# ---- stacked stars gained over the last 12 months (tools/profile/stars.py -> data/stars.json)
+# Floor = total stars a year ago; each band is one repo's gain since then, stacked, labeled. Repos with a
+# single star are never drawn on their own: they (and everything below the top-N) fold into a grey band.
+STACK_DAYS, MAX_BANDS, BAND_MIN_GAIN = 365, 12, 2
+STACK_COLORS = [TEAL, VIOLET, AMBER, "#e0463c", "#5b9bea", "#7fcf6a", "#d96fc0", "#4fc3d9", "#e8a15a", "#c6d95a", "#9b8cf5", "#f08c8c"]
+REST_COLOR = "#6b7f7a"
+def stack_model():
+    rows = [(sl, v) for sl, v in stars_cache.items() if v.get("days") is not None]
+    if not rows: return None
+    start = TODAY - datetime.timedelta(days=STACK_DAYS)
+    dates = [start + datetime.timedelta(days=7*i) for i in range(STACK_DAYS//7 + 1)]
+    if dates[-1] != TODAY: dates.append(TODAY)
+    gains = {sl: sum(v["days"].values()) for sl, v in rows}
+    total_gain = sum(gains.values())
+    if not total_gain: return None
+    baseline = sum(v["total"] for _, v in rows) - total_gain
+    cum = lambda v, d: sum(n for ds, n in v["days"].items() if ds <= d.isoformat())
+    ranked_ = sorted(((sl, v) for sl, v in rows if gains[sl] >= BAND_MIN_GAIN), key=lambda t: -gains[t[0]])
+    own = ranked_[:MAX_BANDS]; own_ids = {sl for sl, _ in own}
+    rest = [(sl, v) for sl, v in rows if sl not in own_ids and gains[sl] >= 1]
+    bands = []
+    if rest:
+        bands.append(dict(label=f"+{len(rest)} more", color=REST_COLOR, total=sum(gains[sl] for sl, _ in rest),
+                          values=[sum(cum(v, d) for _, v in rest) for d in dates]))
+    for i, (sl, v) in enumerate(own):
+        bands.append(dict(label=sl.split("/")[1], color=STACK_COLORS[i % len(STACK_COLORS)], total=gains[sl], values=[cum(v, d) for d in dates]))
+    return dict(dates=dates, bands=bands, total=total_gain, baseline=baseline, repos=len([1 for sl in gains if gains[sl]]), start=start)
+stack = stack_model()
+def nice_step(raw):
+    p = 10 ** math.floor(math.log10(raw))
+    return next(m * p for m in (1, 2, 2.5, 5, 10) if m * p >= raw)
+def stack_alt():
+    return (f"Stars gained by projects I author or maintain over the last 12 months, stacked by repo: +{stack['total']} on a base of "
+            f"{stack['baseline']:,} a year ago. " + ", ".join(f'{b["label"]} +{b["total"]}' for b in reversed(stack["bands"])) + ".")
+def stack_plot(px0, px1, py0, py1, big=True):
+    st = stack; dates = st["dates"]
+    step = nice_step(st["total"] / 4); ymax = math.ceil(st["total"] / step) * step
+    t0 = dates[0].toordinal(); span = dates[-1].toordinal() - t0
+    X = lambda d: px0 + (px1 - px0) * (d.toordinal() - t0) / span
+    Y = lambda v: py1 - (py1 - py0) * v / ymax
+    fs = 10 if big else 8.5
     o = ""
-    for v in range(0, ymax+1, step):
-        o += (f'<line x1="{L}" y1="{Y(v):.1f}" x2="{R}" y2="{Y(v):.1f}" stroke="{EDGE}" stroke-opacity="{1 if v == 0 else .55}"/>'
-              f'<text x="{L-8}" y="{Y(v)+3:.1f}" font-size="{10 if big else 8.5}" class="m" text-anchor="end">{v:,}</text>')
-    first_year = int(ser[0][0][:4]); every = 2 if big else 4
-    for yr in range(first_year + (first_year % every), int(ser[-1][0][:4]) + 1, every):
-        idx = next((i for i, (m, _) in enumerate(ser) if m == f"{yr}-01"), None)
-        if idx is not None:
-            o += f'<text x="{X(idx):.1f}" y="{B+16}" font-size="{10 if big else 8.5}" class="m" text-anchor="middle">{yr}</text>'
-    pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, (_, v) in enumerate(ser))
-    o += (f'<defs><linearGradient id="hg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{TEAL}" stop-opacity=".45"/>'
-          f'<stop offset="1" stop-color="{TEAL}" stop-opacity="0"/></linearGradient></defs>'
-          f'<polygon points="{L},{B} {pts} {R},{B}" fill="url(#hg)"/>'
-          f'<polyline points="{pts}" fill="none" stroke="{TEAL}" stroke-width="{2 if big else 1.6}" stroke-linejoin="round"/>')
-    for ms in (1000, 2000, 5000, 10000):             # milestone dots where the line first crosses
-        i = next((i for i, (_, v) in enumerate(ser) if v >= ms), None)
-        if i is not None and ms < top:
-            o += (f'<circle cx="{X(i):.1f}" cy="{Y(ser[i][1]):.1f}" r="3.5" fill="{AMBER}"/>'
-                  f'<text x="{X(i)-6:.1f}" y="{Y(ser[i][1])-9:.1f}" font-size="{10 if big else 8.5}" text-anchor="end" style="fill:{AMBER}">{ms:,} · {ser[i][0]}</text>')
-    o += (f'<circle cx="{R}" cy="{Y(top):.1f}" r="4" fill="{PAPER}"/>'
-          f'<text x="{R-8}" y="{Y(top)-9:.1f}" font-size="{12 if big else 10}" font-weight="700" text-anchor="end" style="fill:{PAPER}">★ {top:,}</text>')
-    return o
-if star_history and len(star_history["series"]) > 12:
-    rn = star_history["repo"]; gained = next((r["gain"] for r in trending["repos"] if r["repo"] == rn.lower()), None)
-    note = f"{rn} · {star_history['total']:,} stars" + (f" · +{gained} in the last 12 months" if gained is not None else "")
-    HH = 270
-    body = (head_bar("star history · " + rn, 40) + history_chart(W, HH) + edges(40, HH, bottom=True)
-            + f'<text x="{W-16}" y="22" font-size="11" class="m" text-anchor="end">cumulative stars, monthly</text>')
-    svg("history/chart", 0, body, "Star history: " + note, vb=(0, 0, W, HH))
-    readme_row(("history/chart", "Star history: " + note, 100, f"https://github.com/{rn}"))
+    for v in range(0, ymax + 1, step):
+        o += (f'<line x1="{px0}" y1="{Y(v):.1f}" x2="{px1}" y2="{Y(v):.1f}" stroke="{EDGE}" stroke-opacity="{1 if v == 0 else .55}"/>'
+              f'<text x="{px0-8}" y="{Y(v)+3:.1f}" font-size="{fs}" class="m" text-anchor="end">{"floor" if v == 0 else f"+{v}"}</text>')
+    seen_m = set()
+    for d in dates:
+        if d.day <= 7 and (d.year, d.month) not in seen_m and d.month % (2 if big else 3) == 1 or (d.day <= 7 and d.month == 1 and (d.year, 1) not in seen_m):
+            seen_m.add((d.year, d.month))
+            lbl = d.strftime("%b") + (f" '{str(d.year)[2:]}" if d.month == 1 else "")
+            o += f'<text x="{X(d):.1f}" y="{py1+16}" font-size="{fs}" class="m" text-anchor="middle">{lbl}</text>'
+    lower = [0] * len(dates)
+    for bi, b in enumerate(st["bands"]):
+        top = [lower[i] + v for i, v in enumerate(b["values"])]
+        up = " ".join(f"{X(d):.1f},{Y(top[i]):.1f}" for i, d in enumerate(dates))
+        down = " ".join(f"{X(d):.1f},{Y(lower[i]):.1f}" for i, d in reversed(list(enumerate(dates))))
+        o += (f'<polygon points="{up} {down}" fill="{b["color"]}" fill-opacity=".30"/>'
+              f'<polyline points="{up}" fill="none" stroke="{b["color"]}" stroke-width="{1.6 if big else 1.3}" stroke-linejoin="round"/>')
+        lower = top
+    return o, Y, st
+if stack:
+    HS = 380
+    px0, px1, py0, py1 = 64, 690, 92, 330
+    plot, Y, st = stack_plot(px0, px1, py0, py1)
+    body = head_bar("stars gained · last 12 months", 40) + plot + edges(40, HS, bottom=True)
+    body += (f'<text x="16" y="64" font-size="12" class="m">stacked by repo · floor = {st["baseline"]:,} stars a year ago</text>'
+             f'<text x="{W-16}" y="64" font-size="12" text-anchor="end"><tspan style="fill:{TEAL}" font-weight="700">+{st["total"]}★</tspan><tspan class="m"> across {st["repos"]} repos</tspan></text>')
+    # right-gutter labels at each band's midpoint, at least 15px apart (jdx-style)
+    base = 0; want = []
+    for b in st["bands"]:
+        want.append(Y(base + b["total"] / 2)); base += b["total"]
+    placed = list(want)
+    for i in range(1, len(placed)): placed[i] = min(placed[i], placed[i-1] - 15)
+    shift_down = max(0, py0 - 4 - placed[-1])
+    for i, b in enumerate(st["bands"]):
+        y = placed[i] + shift_down
+        body += (f'<path d="M{px1+2} {want[i]:.1f}L{px1+12} {y:.1f}" stroke="{b["color"]}" stroke-opacity=".6" fill="none"/>'
+                 f'<text x="{px1+16}" y="{y+4:.1f}" font-size="11" style="fill:{b["color"]}">{esc(b["label"][:18])} <tspan class="m">+{b["total"]}</tspan></text>')
+    svg("history/chart", 0, body, "Stars gained: " + stack_alt(), vb=(0, 0, W, HS))
+    readme_row(("history/chart", "Stars gained: " + stack_alt(), 100, None))
 
 rows = math.ceil(TOP/2)
 def gh_url(p): return next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
@@ -643,32 +683,20 @@ if TR:
         psvg(f"trending/{i+1:02d}", w, h, logo_defs([t["owner"]]) + o, f'{t["name"]}: +{t["gain"]} stars in the last year')
     psvg("trending/foot", PHW, 10, pedges(PHW, 10, bottom=True), "")
 
-# star history (phone)
-if star_history and len(star_history["series"]) > 12:
-    PHH = 210
-    psvg("history/chart", PHW, PHH, pedges(PHW, PHH, top=True, bottom=True) +
-         f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">STAR HISTORY · {esc(star_history["repo"].split("/")[1].upper())}</text>'
-         + history_chart(PHW, PHH, big=False), "Star history: " + note)
-
-# sponsors (phone)
-if sponsors:
-    psvg("sponsors/head", PHW, 34, pbar("sponsors · thank you"), "Sponsors: thank you")
-    for i, sp in enumerate(SPN):
-        col = i % 2; w, h = PHW/2, 106
-        uri = sponsor_uri(sp.get("logo", ""))
-        o = pedges(w, h, col, 2) + f'<rect x="{10 if col == 0 else 3}" y="4" width="{w-13}" height="{h-8}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
-        if uri:
-            o += (f'<rect x="{18 if col == 0 else 11}" y="12" width="{w-29}" height="40" rx="6" fill="#fff"/>'
-                  f'<image href="{uri}" x="{22 if col == 0 else 15}" y="16" width="{w-37}" height="32" preserveAspectRatio="xMidYMid meet"/>')
-        tx = 18 if col == 0 else 11
-        o += f'<text x="{tx}" y="68" class="s" font-size="11" font-weight="700">{esc(sp["name"][:20])}</text>'
-        for k, ln in enumerate(textwrap.wrap(sp.get("scope") or "", 27)[:2]):
-            o += f'<text x="{tx}" y="{80+k*10}" font-size="8" class="m">{esc(ln)}</text>'
-        psvg(f"sponsors/{i+1:02d}", w, h, o, f'{sp["name"]}: {sp.get("scope", "")}')
-    if MINOR:
-        mt = " · ".join(m["name"] for m in MINOR)
-        psvg("sponsors/minor", PHW, 40, pedges(PHW, 40, bottom=True) + f'<text x="12" y="16" font-size="8.5" class="m">Also thank you:</text>'
-             f'<text x="12" y="30" font-size="9.5">{esc(mt)}</text>', "Also thank you: " + mt)
+# stars gained, stacked (phone): plot on top, two-column legend underneath (top of the stack first)
+if stack:
+    plot, Y, st = stack_plot(44, PHW-14, 74, 214, big=False)
+    legend = list(reversed(st["bands"])); rows_n = (len(legend) + 1) // 2
+    PHH = 244 + rows_n * 15 + 12
+    o = pedges(PHW, PHH, top=True, bottom=True) + plot
+    o += (f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">STARS GAINED · 12 MONTHS</text>'
+          f'<text x="12" y="40" font-size="11" style="fill:{TEAL}" font-weight="700">+{st["total"]}★ <tspan class="m" font-weight="400">across {st["repos"]} repos</tspan></text>'
+          f'<text x="12" y="55" font-size="8.5" class="m">stacked · floor = {st["baseline"]:,} a year ago</text>')
+    for i, b in enumerate(legend):
+        cx = 12 + (i % 2) * (PHW/2); cy = 250 + (i // 2) * 15
+        o += (f'<rect x="{cx}" y="{cy-8}" width="8" height="8" fill="{b["color"]}"/>'
+              f'<text x="{cx+13}" y="{cy}" font-size="9.5">{esc(b["label"][:16])} <tspan class="m">+{b["total"]}</tspan></text>')
+    psvg("history/chart", PHW, PHH, o, "Stars gained: " + stack_alt())
 
 # contributors: head (2x2 tiles), mini cards (130 wide, three per row), foot
 pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTREAM /DAY", human(T_CON["day"]), "whole projects", VIOLET),
