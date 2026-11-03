@@ -6,7 +6,7 @@
    "repo": "resque/resque",
    "name": "resque",
    "owner": "resque",
-   "gain": 65,
+   "gain": 66,
    "gain30": 5,
    "total": 9468
   },
@@ -22,7 +22,7 @@
    "repo": "contriboss/ore-light",
    "name": "ore-light",
    "owner": "contriboss",
-   "gain": 29,
+   "gain": 33,
    "gain30": 0,
    "total": 61
   },
@@ -35,20 +35,20 @@
    "total": 19
   },
   {
-   "repo": "appraisal-rb/setup-ruby-flash",
-   "name": "setup-ruby-flash",
-   "owner": "appraisal-rb",
-   "gain": 17,
-   "gain30": 0,
-   "total": 17
-  },
-  {
    "repo": "dynamoid/dynamoid",
    "name": "dynamoid",
    "owner": "Dynamoid",
    "gain": 17,
    "gain30": 0,
    "total": 612
+  },
+  {
+   "repo": "appraisal-rb/setup-ruby-flash",
+   "name": "setup-ruby-flash",
+   "owner": "appraisal-rb",
+   "gain": 17,
+   "gain30": 0,
+   "total": 17
   },
   {
    "repo": "ruby-oauth/auth-sanitizer",

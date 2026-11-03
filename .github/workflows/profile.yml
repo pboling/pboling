@@ -21,8 +21,6 @@ jobs:
       - run: python3 tools/profile/feeds.py
       - run: python3 tools/profile/logos.py
       - run: python3 tools/profile/stars.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: python3 tools/profile/render.py
       - run: |
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
