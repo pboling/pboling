@@ -888,10 +888,12 @@ _scene, _ = city.build(cal, W, 460, dict(PANEL=PANEL, EDGE=EDGE, TEAL=TEAL, AMBE
 _k = (PHW - 2)/W
 _sh = 440*_k
 _active = sum(1 for d in cal if d["count"]); _best = max(cal, key=lambda d: d["count"])
-_ly = _sh + 112
+_phase, _event, _at = city.sky()
+_ly = _sh + 128
 _t = (f'<text x="12" y="{_sh+34:.0f}" font-size="28" font-weight="700" class="s" style="fill:{TEAL}">{contrib_total:,}</text>'
       f'<text x="12" y="{_sh+50:.0f}" font-size="9.5" class="m">contributions · last 12 months</text>'
       f'<text x="12" y="{_sh+66:.0f}" font-size="9.5" class="m">{_active} active days · busiest {_best["date"]}: {_best["count"]}</text>'
+      f'<text x="12" y="{_sh+82:.0f}" font-size="9.5" class="m"><tspan style="fill:{city.PHASE_COLOR[_phase]}" font-weight="700">{_phase}</tspan> in New York · {_event} {_at}</text>'
       f'<text x="12" y="{_ly-6:.0f}" font-size="9" class="m">quiet</text>'
       + "".join(f'<rect x="{42+i*14}" y="{_ly-14:.0f}" width="10" height="10" fill="{c[0]}"/>' for i, c in enumerate(city.RAMP))
       + f'<text x="{42+5*14+4}" y="{_ly-6:.0f}" font-size="9" class="m">top 10% of days</text>'
