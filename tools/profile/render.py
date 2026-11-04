@@ -43,8 +43,25 @@ def logo_uri(owner):
             f = ROOT/"assets"/"logos"/f"{owner}.{ext}"
             if f.exists(): _logo_cache[owner] = f"data:{mime};base64," + base64.b64encode(f.read_bytes()).decode(); break
     return _logo_cache[owner]
+# Neon: the glyph plus two blurred copies of itself, so numbers glow in their own color.
+NGLOW = ('<filter id="nglow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="a"/>'
+         '<feGaussianBlur in="SourceGraphic" stdDeviation="2.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="a"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
+def cov_color(pct):
+    """Coverage badge colors (shields/coveralls style): green, yellow, orange, red as it gets worse."""
+    return "#4cd964" if pct >= 90 else "#f2d12f" if pct >= 75 else "#ff9a2e" if pct >= 50 else "#ff5a4a"
+def star_mark(x, y, size, c):
+    """A real star shape (the ★ glyph was a tiny font character); x = left edge, y = text baseline."""
+    cx, cy, ro = x + size*.54, y - size*.34, size*.54
+    ri = ro*.42
+    pts_ = " ".join(f"{cx + (ro if k % 2 == 0 else ri)*math.sin(k*math.pi/5):.1f},{cy - (ro if k % 2 == 0 else ri)*math.cos(k*math.pi/5):.1f}" for k in range(10))
+    return f'<polygon points="{pts_}" fill="{c}" filter="url(#nglow)"/>'
+def stat_text(sym, val, c, x, y, fs, gap=" "):
+    """One bottom-row number: a drawn star or the symbol, then the value, all glowing."""
+    if sym == "★":
+        return star_mark(x, y, fs, c) + f'<text x="{x+fs*1.45:.1f}" y="{y}" font-size="{fs}" style="fill:{c}" filter="url(#nglow)">{val}</text>'
+    return f'<text x="{x}" y="{y}" font-size="{fs}" style="fill:{c}" filter="url(#nglow)">{sym}{gap}{val}</text>'
 def logo_defs(owners):
-    return "<defs>" + "".join(f'<image id="lg-{esc(o)}" href="{logo_uri(o)}" width="64" height="64" preserveAspectRatio="xMidYMid slice"/>'
+    return "<defs>" + NGLOW + "".join(f'<image id="lg-{esc(o)}" href="{logo_uri(o)}" width="64" height="64" preserveAspectRatio="xMidYMid slice"/>'
                               for o in sorted(set(owners)) if o and logo_uri(o)) + "</defs>"
 _lang_cache = {}
 LIGHT_TILE = {"Bash", "Rust"}          # dark artwork: sits on a light tile, like org logos on the dark card
@@ -333,7 +350,7 @@ def mini_card(i, p, y0, cols=3, link=False):
     st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), DLGREEN), ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
     for sym, val, c in st:
-        g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
+        g += stat_text(sym, val, c, sx, y+ch-12, 11); sx += 80
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 def card(i, p, y0=46, link=False):
@@ -361,9 +378,11 @@ def card(i, p, y0=46, link=False):
           ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
     for sym, val, c in st:
-        g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 80
+        g += stat_text(sym, val, c, sx, y+CHT-14, 12); sx += 80
     if p.get("coverage") is not None:
-        g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12"><tspan style="fill:{MUTED}">cov</tspan> {p["coverage"]:.0f}%</text>'
+        cc = cov_color(p["coverage"])
+        g += (f'<text x="{sx}" y="{y+CHT-14}" font-size="12"><tspan style="fill:{MUTED}">cov</tspan> '
+              f'<tspan style="fill:{cc}" filter="url(#nglow)">{p["coverage"]:.0f}%</tspan></text>')
     cy = y + 50
     for flag, label in (("owner", "OWNER"), ("releaser", "RELEASER")):
         if p.get(flag):
@@ -751,10 +770,10 @@ def pcard(pr, col):
     st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), DLGREEN), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
     sx = 16
     for sym, val, c in st:
-        o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
+        o += stat_text(sym, val, c, sx, h-14, 9.5, gap=""); sx += 56
     o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
     facts = [t for t, on in (("OWNER", pr.get("owner")), ("RELEASER", pr.get("releaser"))) if on]
-    if pr.get("coverage") is not None: facts.append(f'cov {pr["coverage"]:.0f}%')
+    if pr.get("coverage") is not None: facts.append(f'cov <tspan style="fill:{cov_color(pr["coverage"])}">{pr["coverage"]:.0f}%</tspan>')
     if facts:
         o += f'<text x="{w-12}" y="{h-6}" font-size="7.5" class="m" text-anchor="end">{" · ".join(facts)}</text>'
     if pr.get("_rollup"):
