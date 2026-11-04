@@ -500,7 +500,7 @@ ctiles = [("UPSTREAM DOWNLOADS", human(T_CON["dl"]), "registries + release asset
           ("PACKAGES", str(T_CON["packages"]), f"{T_CON['repos']} repos", AMBER),
           ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
 HCH = 148
-hb = (head_bar("contributions to other people's projects · not my projects", HCH, color=PURPLE,
+hb = (head_bar("other people's projects I have contributed to", HCH, color=PURPLE,
                right=role_key(["contributor"], W-16, 22, 11, 10))
       + tile_row(ctiles, accent=PURPLE) + f'<text x="16" y="132" font-size="9" class="m">{esc(basis_note(T_CON))}</text>')
 ct_alt = (f"Contributor totals: {human(T_CON['dl'])} upstream downloads, {human(T_CON['day'])} per day, "
@@ -711,7 +711,7 @@ if stack:
 pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTREAM /DAY", human(T_CON["day"]), "whole projects", VIOLET),
        ("PACKAGES", str(T_CON["packages"]), f"{T_CON['repos']} repos", AMBER), ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
 psvg("contributors/head", PHW, 180, pedges(PHW, 180, color=PURPLE, top=True) +
-     f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">CONTRIBUTIONS · NOT MINE</text>'
+     f'<text x="12" y="21" font-size="9" class="m" letter-spacing="0.8">OTHER PEOPLE’S PROJECTS I’VE CONTRIBUTED TO</text>'
      + role_key(["contributor"], PHW-12, 21, 8, 8) + ptiles(pct, 40, accent=PURPLE) +
      f'<text x="12" y="172" font-size="8" class="m">{esc(basis_note(T_CON))}</text>', ct_alt)
 for i, pr in enumerate(cranked):
