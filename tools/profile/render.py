@@ -287,6 +287,14 @@ def group_card(plist):
 FAMILIES = {f["id"]: f for f in yaml.safe_load((ROOT/"data/families.yml").read_text())}
 def rollup_of(p):
     return (FAMILIES.get(p.get("family_id")) or {}).get("rollup")
+def filter_tags(p):
+    """The same filter tags galtzo.com puts on a card (its data-tags), so the site can reuse that filter UI."""
+    year = str(p.get("first_commit_by_person_on") or "").split("/")[0]
+    tags = list(p.get("tags") or []) + [p.get("role")] + ([year] if year else [])
+    if p.get("minimum_version"): tags.append(f'{p["language"]} >= {p["minimum_version"]}')
+    for key, lang in (("minimum_typescript_version", "TypeScript"), ("minimum_node_version", "Node.js")):
+        if p.get(key): tags.append(f"{lang} >= {p[key]}")
+    return sorted(set(t for t in tags if t))
 COVERAGE_KEYS = ("coverage", "coverage_branch", "coverage_lines_covered", "coverage_lines_total", "coverage_release")
 def rollup_card(rid, plist):
     fams = [FAMILIES[f] for f in dict.fromkeys(q.get("family_id") for q in plist) if f in FAMILIES]
@@ -313,6 +321,8 @@ def rollup_card(rid, plist):
         cov, tot = sum(q["coverage_lines_covered"] for q in rep), sum(q["coverage_lines_total"] for q in rep)
         g.update(coverage=100.0*cov/tot, coverage_lines_covered=cov, coverage_lines_total=tot)
     g["owner"] = any(q.get("owner") for q in plist); g["releaser"] = any(q.get("releaser") for q in plist)
+    g["_members"] = sorted(q["name"] for q in plist)
+    g["_tags"] = sorted({t for q in plist for t in filter_tags(q)})
     return g
 def collapse(plists):
     out, poly, same = [], {}, {}
@@ -910,4 +920,21 @@ Browse all 200+ projects at <a href="https://galtzo.com">galtzo.com</a> ·
 
 <p align="center"><sub>Updated automatically by my pet robot <a href="https://github.com/autobolt">@autobolt</a>. Data from <a href="https://github.com/galtzo-floss/galtzo.com">galtzo.com</a> project YAML. Console and city idea by <a href="https://github.com/georgekobaidze/georgekobaidze">Giorgi Kobaidze</a> (MIT). Palette from sm-urb-design.</sub></p>
 """)
+# ---- cards.json: the collapsed, ordered cards (roll-ups included) for peterboling.com to render as HTML.
+# Same selection as the profile's top list without the cap: mine, maintained, not adoptable, not archived.
+def site_card(p):
+    cov = p.get("coverage")
+    return {
+        "name": p["name"], "description": " ".join((p.get("description") or "").split()), "role": p.get("role"),
+        "ecosystem": p.get("ecosystem"), "language": p.get("language"), "languages": p.get("_lang_list") or [p.get("language")],
+        "minimum_version": str(p["minimum_version"]) if p.get("minimum_version") else None,
+        "owner": bool(p.get("owner")), "releaser": bool(p.get("releaser")),
+        "stars": p.get("github_stars") or 0, "downloads": p.get("total_downloads") or 0, "daily": p.get("daily_downloads") or 0,
+        "coverage": round(cov, 1) if cov is not None else None,
+        "new": bool(is_new(p)), "install": install_cmd(p, 80), "logo": owner_of(p) if logo_uri(owner_of(p) or "") else None,
+        "url": gh_url(p), "docs": p.get("docs_site"), "family": p.get("family_id"),
+        "rollup": bool(p.get("_rollup")), "members": p.get("_members"), "pkgs": p.get("_pkgs", 1) if p.get("_rollup") else None,
+        "tags": p.get("_tags") or filter_tags(p),
+    }
+(ROOT/"data"/"cards.json").write_text(json.dumps({"cards": [site_card(p) for p in ranked]}, indent=1, ensure_ascii=False) + "\n")
 print("ok", tot_dl, day_dl, stars, n_proj)
