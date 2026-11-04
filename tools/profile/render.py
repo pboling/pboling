@@ -4,7 +4,7 @@ Theme: galtzo.com card motif + sm-urb-design (StructuredMerge) palette. Determin
 import json, math, pathlib, random, datetime, textwrap
 from xml.sax.saxutils import escape as _esc
 def esc(t): return _esc(str(t), {'"': "&quot;"})
-import yaml, pngalpha
+import yaml, pngalpha, city
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
@@ -199,42 +199,10 @@ tiles = [("DOWNLOADS", human(tot_dl), "registries + release assets", TEAL),
 b = chrome("telemetry · projects I author & maintain", 142) + tile_row(tiles) + f'<text x="16" y="134" font-size="9" class="m">{esc(basis_note(T_OWN))}</text>'
 svg("stats", 142, b, f"Projects I author or maintain: {human(tot_dl)} lifetime downloads, {human(day_dl)} per day, {n_proj} projects, {human(stars)} stars")
 
-# ---- contribution city (isometric, painter's algorithm)
-start = datetime.date.fromisoformat(cal[0]["date"])
-cells = []
-for d in cal:
-    dt = datetime.date.fromisoformat(d["date"])
-    idx = (dt - start).days
-    cells.append((idx//7, (dt.weekday()+1) % 7, d["count"]))   # week col, weekday row (Sun=0)
-cols = max(c for c, _, _ in cells)+1
-tw_, th_ = 24.0, 9.5
-mx = max(n for *_, n in cells) or 1
-CH = 400
-ox = W/2 - ((cols-7)/2)*tw_/2
-oy = 105
-def P(c, r, z=0): return (ox + (c-r)*tw_/2, oy + (c+r)*th_/2 - z)
-rng = random.Random(7)
-b = chrome(f"contribution city · {contrib_total:,} contributions · last 12 months", CH)
-# stars in sky
-for _ in range(40):
-    b += f'<circle cx="{rng.randint(16,W-16)}" cy="{rng.randint(40,110)}" r="{rng.choice([.6,.9,1.2])}" fill="{PAPER}" opacity="{rng.choice([.3,.5,.7])}"/>'
-ramp = [("#1c3330", "#162a27", "#112220"), ("#2a6f66", "#215850", "#1a4640"), ("#3aa395", "#2c8075", "#23665d"),
-        ("#4fc3b3", "#3a9d90", "#2e7f74"), ("#a58bf5", "#8369d6", "#6a52b5")]
-for c, r, n in sorted(cells, key=lambda t: (t[0]+t[1], t[1])):
-    lvl = 0 if n == 0 else 1 if n < mx*.15 else 2 if n < mx*.4 else 3 if n < mx*.7 else 4
-    hgt = 2 + (math.sqrt(n)/math.sqrt(mx))*105 if n else 1.5
-    top, left, right = ramp[lvl]
-    a, bb, cc, dd = P(c, r, hgt), P(c+1, r, hgt), P(c+1, r+1, hgt), P(c, r+1, hgt)
-    g0, g1, g2 = P(c, r+1), P(c+1, r+1), P(c+1, r)
-    pts = lambda *ps: " ".join(f"{x:.1f},{y:.1f}" for x, y in ps)
-    b += (f'<polygon points="{pts(dd,cc,g1,g0)}" fill="{left}"/><polygon points="{pts(cc,bb,g2,g1)}" fill="{right}"/>'
-          f'<polygon points="{pts(a,bb,cc,dd)}" fill="{top}"/>')
-    if hgt > 22 and rng.random() < .8:
-        wx, wy = P(c+.5, r+1, hgt*.5)
-        b += f'<rect x="{wx-1.5:.1f}" y="{wy:.1f}" width="3" height="2.5" fill="{AMBER}" class="w" style="animation-delay:{rng.random()*3:.1f}s"/>'
-busiest = max(cal, key=lambda d: d["count"])
-b += f'<text x="{W-16}" y="{CH-12}" font-size="10" class="m" text-anchor="end">busiest day {busiest["date"]}: {busiest["count"]} · one building per day, height ∝ √contributions</text>'
-svg("city", CH, b, f"Isometric night skyline, one building per day. {contrib_total} contributions in the last year; busiest day {busiest['date']} with {busiest['count']}.")
+# ---- contribution city (tools/profile/city.py)
+CH = 470
+city_body, city_alt = city.build(cal, W, CH, dict(PANEL=PANEL, EDGE=EDGE, TEAL=TEAL, AMBER=AMBER, PAPER=PAPER, MUTED=MUTED), contrib_total)
+svg("city", CH, chrome(f"contribution city · {contrib_total:,} contributions · last 12 months", CH) + city_body, city_alt)
 
 # ---- project cards (galtzo card motif)
 def wrap(s, n, k):
