@@ -46,6 +46,41 @@ def logo_uri(owner):
 def logo_defs(owners):
     return "<defs>" + "".join(f'<image id="lg-{esc(o)}" href="{logo_uri(o)}" width="64" height="64" preserveAspectRatio="xMidYMid slice"/>'
                               for o in sorted(set(owners)) if o and logo_uri(o)) + "</defs>"
+_lang_cache = {}
+LIGHT_TILE = {"Bash", "Rust"}          # dark artwork: sits on a light tile, like org logos on the dark card
+def lang_uri(lang):
+    if lang not in _lang_cache:
+        f = ROOT/"assets"/"langs"/f"{lang}.svg"
+        _lang_cache[lang] = "data:image/svg+xml;base64," + base64.b64encode(f.read_bytes()).decode() if f.exists() else None
+    return _lang_cache[lang]
+def lang_icon(lang, x, y, size):
+    """galtzo.com's language mark at (x, y); "" when we have none."""
+    uri = lang_uri(lang)
+    if not uri: return ""
+    if lang in LIGHT_TILE:
+        pad = size*.14
+        return (f'<rect x="{x:.1f}" y="{y:.1f}" width="{size}" height="{size}" rx="{size*.22:.1f}" fill="#e8eefc"/>'
+                f'<image x="{x+pad:.1f}" y="{y+pad:.1f}" width="{size-2*pad:.1f}" height="{size-2*pad:.1f}" href="{uri}"/>')
+    return f'<image x="{x:.1f}" y="{y:.1f}" width="{size}" height="{size}" href="{uri}"/>'
+def lang_badge(p, xr, cy, size, text=True, fs=11):
+    """Language mark(s) right-aligned at xr, vertically centred on cy: icon + minimum version for one language,
+    a row of icons for a roll-up, a dot and the name for languages we have no mark for."""
+    langs = p.get("_lang_list") or [p.get("language")]
+    icons = [l for l in langs if lang_uri(l)]
+    if not icons:
+        return (f'<circle cx="{xr-60}" cy="{cy}" r="4" fill="{LANG.get(p.get("language"), MUTED)}"/>'
+                f'<text x="{xr-50}" y="{cy+4}" font-size="{fs}" class="m">{esc(str(p.get("language") or "")[:10])}</text>') if text else ""
+    out, x = "", xr
+    mv = p.get("minimum_version") if text and len(icons) == 1 else None
+    if mv:
+        label = f"≥ {mv}"
+        out += f'<text x="{x}" y="{cy+4}" font-size="{fs}" class="m" text-anchor="end">{esc(label)}</text>'
+        x -= len(label)*fs*.62 + 6
+    for l in reversed(icons[:4]):
+        x -= size
+        out += lang_icon(l, x, cy-size/2, size)
+        x -= 4
+    return out
 _float_cache = {}
 def logo_floats(owner):
     """Transparent PNGs (logos.galtzo.com art made for dark backgrounds) skip the white tile."""
@@ -244,6 +279,7 @@ def rollup_card(rid, plist):
     langs = sorted({q.get("language") for q in plist if q.get("language")})
     if not lead: g.update(name=rid, ecosystem=None, language="multi-lang", description=f"{len(plist)} packages across {', '.join(langs)}")
     g.update(_rollup=True, _pkgs=len(plist), _langs=len(langs))
+    if len(langs) > 1: g["_lang_list"] = [l for l, _ in __import__("collections").Counter(q.get("language") for q in plist).most_common()]
     g["_tag"] = (f"multi-language monorepos · {len(plist)} packages · {len(langs)} languages" if len(langs) > 1
                  else f"{fams[0]['name']} · {len(plist)} packages")
     g["_tag_phone"] = f"multi-language · {len(plist)} packages · {len(langs)} langs" if len(langs) > 1 else f"{len(plist)} pkgs"
@@ -288,7 +324,7 @@ def mini_card(i, p, y0, cols=3, link=False):
     g = (f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{ch}" fill="{ROLE["contributor"]}"/>'
          + logo_at(owner_of(p), x+14, y+8, 22) +
-         f'<circle cx="{x+cw-14}" cy="{y+20}" r="4" fill="{lc}"/>'
+         lang_badge(p, x+cw-12, y+20, 16, text=False) +
          f'<text x="{x+42}" y="{y+25}" class="s" font-size="14" font-weight="700">{esc(p["name"][:(14 if n > 1 else 22)])}{"…" if n > 1 and len(p["name"]) > 14 else ""}</text>')
     if n > 1:
         g += f'<text x="{x+cw-26}" y="{y+24}" font-size="9" class="m" text-anchor="end">{n} pkgs · {p["_regs"]} regs</text>'
@@ -298,7 +334,7 @@ def mini_card(i, p, y0, cols=3, link=False):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
-    g += f'<text x="{x+cw-10}" y="{y+ch-12}" font-size="8" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{ROLE["contributor"]}">CONTRIBUTOR</text>'
+    g += f'<text x="{x+cw-10}" y="{y+36}" font-size="8" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{ROLE["contributor"]}">CONTRIBUTOR</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 def card(i, p, y0=46, link=False):
@@ -310,10 +346,9 @@ def card(i, p, y0=46, link=False):
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
          f'<text x="{nx0}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
          + logo_at(owner_of(p), x+16, y+8, 24) +
-         f'<circle cx="{x+CW-86}" cy="{y+22}" r="4" fill="{lc}"/>'
-         f'<text x="{x+CW-76}" y="{y+26}" font-size="11" class="m">{esc(str(p.get("language") or "")[:10])}</text>')
+         lang_badge(p, x+CW-14, y+22, 18))
     if is_new(p) and p.get("role") != "contributor":
-        nx = x + CW - 132
+        nx = x + CW - 132 - (22*min(4, len(p['_lang_list'])) - 40 if p.get('_lang_list') else 0)
         g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
               f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
     for k, line in enumerate(wrap(p.get("description"), 46, 3)):
@@ -707,6 +742,7 @@ def pcard(pr, col):
     o += f'<text x="{nx}" y="29" class="s" font-size="12.5" font-weight="700">{esc(pr["name"][:(13 if has else 17)])}</text>'
     if is_new(pr) and pr.get("role") != "contributor":
         o += f'<rect x="{w-40}" y="12" width="28" height="13" rx="6" fill="{AMBER}"/><text x="{w-26}" y="22" font-size="7.5" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>'
+    o += lang_badge(pr, w-12, 36, 13, text=False)
     for k, line in enumerate(wrap(pr.get("description"), 31, 2 if install_cmd(pr, 27) else 3)):
         o += f'<text x="16" y="{50+k*12}" class="s m" font-size="9.5">{esc(line)}</text>'
     cmd = install_cmd(pr, 27)
