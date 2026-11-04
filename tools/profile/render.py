@@ -4,7 +4,7 @@ Theme: galtzo.com card motif + sm-urb-design (StructuredMerge) palette. Determin
 import json, math, pathlib, random, datetime, textwrap
 from xml.sax.saxutils import escape as _esc
 def esc(t): return _esc(str(t), {'"': "&quot;"})
-import yaml
+import yaml, pngalpha
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
@@ -46,9 +46,18 @@ def logo_uri(owner):
 def logo_defs(owners):
     return "<defs>" + "".join(f'<image id="lg-{esc(o)}" href="{logo_uri(o)}" width="64" height="64" preserveAspectRatio="xMidYMid slice"/>'
                               for o in sorted(set(owners)) if o and logo_uri(o)) + "</defs>"
+_float_cache = {}
+def logo_floats(owner):
+    """Transparent PNGs (logos.galtzo.com art made for dark backgrounds) skip the white tile."""
+    if owner not in _float_cache:
+        f = ROOT/"assets"/"logos"/f"{owner}.png"
+        _float_cache[owner] = f.exists() and pngalpha.floats_on_dark(f)
+    return _float_cache[owner]
 def logo_at(owner, x, y, size):
     if not owner or not logo_uri(owner): return ""
     k = size/64
+    if logo_floats(owner):
+        return f'<g transform="translate({x},{y}) scale({k:.4f})"><use href="#lg-{esc(owner)}"/></g>'
     return (f'<g transform="translate({x},{y}) scale({k:.4f})"><rect width="64" height="64" rx="12" fill="#fff"/>'
             f'<use href="#lg-{esc(owner)}"/></g><rect x="{x}" y="{y}" width="{size}" height="{size}" rx="{size*12/64:.1f}" fill="none" stroke="{EDGE}"/>')
 def is_new(p):
