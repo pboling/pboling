@@ -60,4 +60,4 @@ Browse all 200+ projects at <a href="https://galtzo.com">galtzo.com</a> ·
 <a href="./docs/README.legacy.md">previous profile</a>
 </p>
 
-<p align="center"><sub>Updated automatically by my pet robot <a href="https://github.com/autobolt">@autobolt</a>. Data from <a href="https://github.com/galtzo-floss/galtzo.com">galtzo.com</a> project YAML. Console and city idea by <a href="https://github.com/georgekobaidze/georgekobaidze">Giorgi Kobaidze</a> (MIT). Palette from sm-urb-design.</sub></p>
+<p align="center"><sub>Updated automatically by my pet robot <a href="https://github.com/autobolt">@autobolt</a>. Data from <a href="https://github.com/galtzo-floss/galtzo.com">galtzo.com</a> project YAML. Console and city idea by <a href="https://github.com/georgekobaidze/georgekobaidze">Giorgi Kobaidze</a> (MIT). Inspired by <a href="https://github.com/jdx/jdx">Jeff Dickey's profile</a> (trending strip, day/night sky, plane, legend); ideas only, no code taken. Palette from sm-urb-design.</sub></p>
