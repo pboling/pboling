@@ -4,7 +4,8 @@ shades by quartile), so one huge day can't flatten the skyline and the legend me
 
 Ours: neon rings on the ten busiest days, a subway train that rides the near-left edge from tunnel to
 tunnel, a moon, a plane crossing behind the skyline, and seeded stars/windows (same data, same city)."""
-import datetime, math, random
+import datetime, math, os, random
+from zoneinfo import ZoneInfo
 
 # quiet -> busy roof/left/right shades; the last is the top decile
 RAMP = [("#1c3330", "#162a27", "#112220"), ("#2a6f66", "#215850", "#1a4640"), ("#3aa395", "#2c8075", "#23665d"),
@@ -13,6 +14,54 @@ CUTS = (.25, .5, .75, .9)            # rank thresholds between the five levels
 # Rings, busiest first. No red/green pair; spread over hue and lightness so neighbours stay apart.
 NEON = ["#ff2bd6", "#22d3ee", "#ffb000", "#a3e635", "#818cf8", "#fb923c", "#f472b6", "#facc15", "#60a5fa", "#e879f9"]
 WARM, COOL = "#f6d68a", "#8fe9ff"
+PHASE_COLOR = {"night": "#e8eefc", "dawn": "#ff9ec7", "day": "#ffd36e", "dusk": "#ff9e3d"}
+
+# ---- the sky follows the time of day in New York (NOAA sunrise/sunset approximation). Only the phase reaches the
+# drawing, so the city changes a handful of times a day and the same phase + data always draw the same bytes.
+# PROFILE_NOW (any ISO timestamp) stands in for the clock when testing.
+TZ, LAT, LON = "America/New_York", 40.7128, -74.0060
+LIT = {"night": .55, "dawn": .2, "day": .05, "dusk": .24}      # a window is lit when its seeded draw is under this
+DARK_WIN = {"night": "#0c1717", "dawn": "#14211f", "day": "#20403d", "dusk": "#14211f"}
+GRAD = {"dawn": [(0, "#2b1a5e", 0), (.4, "#4b2a8a", .28), (.75, "#ff7ab6", .3), (1, "#ffb877", .55)],
+        "day": [(0, "#1d4f73", 0), (.35, "#2a6f9a", .4), (1, "#8fd0e6", .6)],
+        "dusk": [(0, "#2a0f4a", 0), (.4, "#6a1b9a", .34), (.75, "#d94fb0", .3), (1, "#ff9e3d", .55)]}
+
+def _hex(h): return [int(h[i:i+2], 16) for i in (1, 3, 5)]
+def mix(a, b, k):
+    x, y = _hex(a), _hex(b)
+    return "#" + "".join(f"{round(p + (q - p)*k):02x}" for p, q in zip(x, y))
+
+def sun_times(day):
+    """(sunrise, sunset) as aware datetimes for a local date, NOAA's general solar position calculation."""
+    doy = day.timetuple().tm_yday
+    g = 2*math.pi/(366 if day.year % 4 == 0 else 365)*(doy - 1)
+    eqt = 229.18*(0.000075 + 0.001868*math.cos(g) - 0.032077*math.sin(g) - 0.014615*math.cos(2*g) - 0.040849*math.sin(2*g))
+    decl = (0.006918 - 0.399912*math.cos(g) + 0.070257*math.sin(g) - 0.006758*math.cos(2*g) + 0.000907*math.sin(2*g)
+            - 0.002697*math.cos(3*g) + 0.00148*math.sin(3*g))
+    rad = math.pi/180
+    ha = math.acos(math.cos(90.833*rad)/(math.cos(LAT*rad)*math.cos(decl)) - math.tan(LAT*rad)*math.tan(decl))/rad
+    noon_utc = datetime.datetime(day.year, day.month, day.day, tzinfo=datetime.timezone.utc)
+    rise = noon_utc + datetime.timedelta(minutes=720 - 4*(LON + ha) - eqt)
+    sset = noon_utc + datetime.timedelta(minutes=720 - 4*(LON - ha) - eqt)
+    return rise, sset
+
+def sky(now=None):
+    """(phase, event, clock): night/dawn/day/dusk, the next sunrise or sunset, and its local time."""
+    tz = ZoneInfo(TZ)
+    if now is None:
+        env = os.environ.get("PROFILE_NOW")
+        now = datetime.datetime.fromisoformat(env) if env else datetime.datetime.now(datetime.timezone.utc)
+        if now.tzinfo is None: now = now.replace(tzinfo=datetime.timezone.utc)
+    local = now.astimezone(tz)
+    rise, sset = sun_times(local.date())
+    m = lambda n: datetime.timedelta(minutes=n)
+    clock = lambda t: t.astimezone(tz).strftime("%H:%M %Z")
+    if now < rise - m(45): return "night", "sunrise", clock(rise)
+    if now < rise + m(45): return "dawn", "sunrise", clock(rise)
+    if now < sset - m(60): return "day", "sunset", clock(sset)
+    if now < sset + m(45): return "dusk", "sunset", clock(sset)
+    nrise, _ = sun_times(local.date() + datetime.timedelta(days=1))
+    return "night", "sunrise", clock(nrise)
 
 
 def build(cal, W, CH, pal, total, text=True):
@@ -37,9 +86,12 @@ def build(cal, W, CH, pal, total, text=True):
     top = sorted((c for c in cells if c[2]), key=lambda c: (-c[2], c[3]))[:10]
     ring_of = {c[3]: NEON[i] for i, c in enumerate(top)}
 
+    phase, event, at = sky()
     rng = random.Random(7)
     out = ['<defs>'
            '<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.4"/></filter>'
+           + "".join(f'<linearGradient id="skyg" x1="0" y1="0" x2="0" y2="1">' + "".join(f'<stop offset="{o}" stop-color="{c}" stop-opacity="{a}"/>' for o, c, a in [(o*.8, c, a) for o, c, a in GRAD[phase]] + [(1, GRAD[phase][-1][1], 0)]) + '</linearGradient>' for _ in [0] if phase != "night") +
+           '<radialGradient id="sunglow"><stop offset="0" stop-color="#ffd36e" stop-opacity=".55"/><stop offset="1" stop-color="#ffd36e" stop-opacity="0"/></radialGradient>'
            '<radialGradient id="moonglow"><stop offset="0" stop-color="#e8eefc" stop-opacity=".28"/><stop offset="1" stop-color="#e8eefc" stop-opacity="0"/></radialGradient>'
            f'<clipPath id="track"><polygon points="{pts(P(0, 6.9, 40), P(cols, 6.9, 40), P(cols, 8.2, -6), P(0, 8.2, -6))}"/></clipPath>'
            f'<clipPath id="skyclip"><rect x="2" y="34" width="{W-4}" height="{CH-36}"/></clipPath>'
@@ -51,27 +103,38 @@ def build(cal, W, CH, pal, total, text=True):
     out.append(
         '<style>'
         '.tw{animation:twk 4s ease-in-out infinite}.fk{animation:fk 50s linear infinite}.rg{animation:rg 3s ease-in-out infinite}'
-        '.pl{animation:fly 34s linear infinite}.bk{animation:bk 1.4s steps(1) infinite}'
+        '.cd{animation:drift linear infinite}.pl{animation:fly 34s linear infinite}.bk{animation:bk 1.4s steps(1) infinite}'
         f'.tr{{animation:ride 30s linear infinite}}'
         '@keyframes twk{50%{opacity:.25}}@keyframes fk{0%,90%{opacity:1}91%,96%{opacity:0}97%,100%{opacity:1}}@keyframes rg{50%{opacity:.55}}@keyframes bk{50%{opacity:0}}'
+        f'@keyframes drift{{from{{transform:translate(-80px,0)}}to{{transform:translate({W+80}px,0)}}}}'
         f'@keyframes fly{{from{{transform:translate(0,0)}}to{{transform:translate({W+80},-26px)}}}}'
         f'@keyframes ride{{from{{transform:translate({-a*T:.1f}px,{-a*TA:.1f}px)}}to{{transform:translate({b*T:.1f}px,{b*TA:.1f}px)}}}}'
-        '@media (prefers-reduced-motion:reduce){.tw,.fk,.rg,.pl,.bk,.tr{animation:none}}'
+        '@media (prefers-reduced-motion:reduce){.tw,.fk,.rg,.pl,.bk,.tr,.cd{animation:none}}'
         '</style>')
 
     # --- sky: stars above the skyline, a moon with craters, a plane crossing behind the buildings
     def skyline_y(x): return oy + (x - ox)*th/tw - HMAX - 6          # top of the tallest possible building at x
     stars = ""
-    for _ in range(140):
+    for i in range(140):
         x, y = rng.uniform(14, W - 14), rng.uniform(40, 330)
         r_, o_, tw_ = rng.choice([.5, .7, .9, 1.2]), rng.choice([.3, .45, .6, .8]), rng.random() < .18
-        if y < skyline_y(x) - 4 and not (W - 150 < x < W - 40 and y < 130):
+        shown = phase == "night" or (phase in ("dawn", "dusk") and i % 3 == 0)      # the same stars, fewer as the sun nears
+        if shown and y < skyline_y(x) - 4 and not (W - 150 < x < W - 40 and y < 130):
             stars += (f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r_}" fill="{PAPER}" opacity="{o_}"'
                       + (f' class="tw" style="animation-delay:{rng.random()*4:.1f}s"' if tw_ else "") + '/>')
-    mx_, my_ = W - 95, 92
-    out.append(stars +
-               f'<circle cx="{mx_}" cy="{my_}" r="42" fill="url(#moonglow)"/><circle cx="{mx_}" cy="{my_}" r="15" fill="#e8eefc"/>'
-               f'<circle cx="{mx_-5}" cy="{my_-3}" r="3.2" fill="#c3cce4"/><circle cx="{mx_+5}" cy="{my_+5}" r="2.2" fill="#c3cce4"/><circle cx="{mx_+3}" cy="{my_-7}" r="1.6" fill="#c3cce4"/>'
+    backdrop = f'<rect x="2" y="34" width="{W-4}" height="300" fill="url(#skyg)"/>' if phase != "night" else ""
+    if phase == "night":
+        mx_, my_ = W - 95, 92
+        body = (f'<circle cx="{mx_}" cy="{my_}" r="42" fill="url(#moonglow)"/><circle cx="{mx_}" cy="{my_}" r="15" fill="#e8eefc"/>'
+                f'<circle cx="{mx_-5}" cy="{my_-3}" r="3.2" fill="#c3cce4"/><circle cx="{mx_+5}" cy="{my_+5}" r="2.2" fill="#c3cce4"/><circle cx="{mx_+3}" cy="{my_-7}" r="1.6" fill="#c3cce4"/>')
+    else:
+        sx_, sy_ = {"day": (W - 95, 92), "dawn": (130, 232), "dusk": (W - 130, 262)}[phase]
+        face = {"day": "#fff3c4", "dawn": "#ffd9a0", "dusk": "#ffb96a"}[phase]
+        body = (f'<circle cx="{sx_}" cy="{sy_}" r="70" fill="url(#sunglow)"/><circle cx="{sx_}" cy="{sy_}" r="17" fill="{face}"/>')
+        cl = "".join(f'<g transform="translate(0 {y})"><g class="cd" style="animation-delay:-{d}s;animation-duration:{dur}s"><ellipse cx="0" cy="0" rx="{rx}" ry="{ry}" fill="{mix("#0e1718", "#ffffff", .55 if phase == "day" else .35)}" opacity=".4"/><ellipse cx="{rx*.55:.0f}" cy="{-ry*.5:.0f}" rx="{rx*.6:.0f}" ry="{ry*.9:.0f}" fill="{mix("#0e1718", "#ffffff", .55 if phase == "day" else .35)}" opacity=".4"/></g></g>'
+                     for d, dur, y, rx, ry in ((10, 140, 80, 46, 9), (60, 170, 130, 58, 11), (95, 120, 190, 40, 8)))
+        body += f'<g clip-path="url(#skyclip)">{cl}</g>'
+    out.append(backdrop + stars + body +
                f'<g clip-path="url(#skyclip)"><g class="pl"><g transform="translate(-60 74)">'
                f'<line x1="-46" y1="1" x2="0" y2="1" stroke="{PAPER}" stroke-opacity=".12" stroke-width="2"/>'
                f'<rect x="0" y="0" width="16" height="2.4" rx="1.2" fill="#9fb4af"/><polygon points="6,1 1,-4.5 3.5,-4.5 10,1" fill="#9fb4af"/>'
@@ -87,6 +150,9 @@ def build(cal, W, CH, pal, total, text=True):
         h = 8 + (HMAX - 8)*rk**1.3
         lvl = sum(rk >= cut for cut in CUTS)
         roof, left, right = RAMP[lvl]
+        if phase == "dawn": left, right = mix(left, "#4b2a8a", .12), mix(right, "#ff7ab6", .1)
+        elif phase == "dusk": left, right = mix(left, "#6a1b9a", .14), mix(right, "#ff9e3d", .12)
+        elif phase == "day": left, right, roof = mix(left, "#bfeaff", .1), mix(right, "#bfeaff", .08), mix(roof, "#ffffff", .06)
         a_, b_, c_, d_ = P(c, r, h), P(c+1, r, h), P(c+1, r+1, h), P(c, r+1, h)
         g0, g1, g2 = P(c, r+1), P(c+1, r+1), P(c+1, r)
         out.append(f'<polygon points="{pts(d_, c_, g1, g0)}" fill="{left}"/><polygon points="{pts(c_, b_, g2, g1)}" fill="{right}"/>'
@@ -100,9 +166,15 @@ def build(cal, W, CH, pal, total, text=True):
                     q = [(p0[0] + (p1[0] - p0[0])*uu, p0[1] + (p1[1] - p0[1])*uu - vv)
                          for uu, vv in ((u0, v0), (u0 + .25, v0), (u0 + .25, v0 + 3.6), (u0, v0 + 3.6))]
                     seg = "M" + "L".join(f"{x:.1f},{y:.1f}" for x, y in q) + "Z"
-                    if u < .55: (flick if rng.random() < .04 else lit).append((seg, rng.random() < .12))
+                    # The draws are the night's (u < .55) whatever the hour, so the grid never moves; the phase only
+                    # decides how many of those windows are lit.
+                    if u < .55:
+                        item = (seg, rng.random() < .12)
+                        target = flick if rng.random() < .04 else lit
+                        if u < LIT[phase]: target.append(item)
+                        else: dark.append(seg)
                     else: dark.append(seg)
-        if dark: out.append(f'<path d="{"".join(dark)}" fill="#0c1717"/>')
+        if dark: out.append(f'<path d="{"".join(dark)}" fill="{DARK_WIN[phase]}"/>')
         for group, cls in ((lit, ""), (flick, ' class="fk" style="animation-duration:%.0fs;animation-delay:-%.0fs"' % (rng.uniform(40, 90), rng.uniform(0, 90)))):
             for color, warm in ((WARM, False), (COOL, True)):
                 segs = "".join(s for s, cool in group if cool == warm)
@@ -155,7 +227,8 @@ def build(cal, W, CH, pal, total, text=True):
         ty = CH - 118
         out.append(f'<text x="16" y="{ty}" font-size="30" font-weight="700" class="s" style="fill:{TEAL}">{total:,}</text>'
                    f'<text x="16" y="{ty+18}" font-size="11" class="m">contributions · last 12 months</text>'
-                   f'<text x="16" y="{ty+38}" font-size="11" class="m">{active} active days · busiest {best[3]}: {best[2]}</text>')
+                   f'<text x="16" y="{ty+38}" font-size="11" class="m">{active} active days · busiest {best[3]}: {best[2]}</text>'
+               f'<text x="16" y="{ty+56}" font-size="11" class="m"><tspan style="fill:{PHASE_COLOR[phase]}" font-weight="700">{phase}</tspan> in New York · {event} {at}</text>')
         lx = 16
         ly = CH - 52
         out.append(f'<text x="{lx}" y="{ly+9}" font-size="10" class="m">quiet</text>')
@@ -166,6 +239,6 @@ def build(cal, W, CH, pal, total, text=True):
             out.append(f'<polygon points="{lx+8+i*0:.0f},{ly+27} {lx+14},{ly+30} {lx+8},{ly+33} {lx+2},{ly+30}" fill="none" stroke="{col}" stroke-width="1.3" transform="translate({i*13} 0)"/>')
         out.append(f'<text x="{lx+60}" y="{ly+33}" font-size="10" class="m">neon ring: the 10 busiest days</text>'
                    f'<text x="{lx}" y="{ly+50}" font-size="10" class="m">height ranks the day · one building per day</text>')
-    alt = (f"Isometric night skyline, one building per day, with a subway train under the near edge. {total} contributions in the last year; "
+    alt = (f"Isometric skyline at {phase}, one building per day, with a subway train under the near edge. {total} contributions in the last year; "
            f"busiest day {best[3]} with {best[2]}. The ten busiest days wear neon rings: " + ", ".join(f"{c[3]} ({c[2]})" for c in top) + ".")
     return "".join(out), alt
