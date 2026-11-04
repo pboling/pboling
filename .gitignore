@@ -46,3 +46,7 @@ Appraisal.*.gemfile.lock
 
 # Sentinels
 .floss_funding.*.lock
+
+# Python bytecode
+__pycache__/
+*.pyc

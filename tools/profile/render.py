@@ -322,6 +322,7 @@ def rollup_card(rid, plist):
         g.update(coverage=100.0*cov/tot, coverage_lines_covered=cov, coverage_lines_total=tot)
     g["owner"] = any(q.get("owner") for q in plist); g["releaser"] = any(q.get("releaser") for q in plist)
     g["_members"] = sorted(q["name"] for q in plist)
+    g["_repos"] = sorted({gh_repo(q) for q in plist if gh_repo(q)})
     g["_tags"] = sorted({t for q in plist for t in filter_tags(q)})
     return g
 def collapse(plists):
@@ -943,6 +944,19 @@ Browse all 200+ projects at <a href="https://galtzo.com">galtzo.com</a> ·
 """)
 # ---- cards.json: the collapsed, ordered cards (roll-ups included) for peterboling.com to render as HTML.
 # Same selection as the profile's top list without the cap: mine, maintained, not adoptable, not archived.
+def spark(p, n=25):
+    """Cumulative stars at n evenly spaced days over the last year (summed over the card's repos), or None.
+    From the star-event history in data/stars.json: the count a year ago plus each day's gains."""
+    repos = p.get("_repos") or ([gh_repo(p)] if gh_repo(p) else [])
+    dates = [(TODAY - datetime.timedelta(days=round(365*(n-1-i)/(n-1)))).isoformat() for i in range(n)]
+    series, found = [0]*n, False
+    for repo in repos:
+        c = stars_cache.get(repo.replace("https://github.com/", ""))
+        if not c: continue
+        found = True
+        start = max(0, c["total"] - c["gain"])
+        for i, d in enumerate(dates): series[i] += start + sum(v for day, v in c["days"].items() if day <= d)
+    return series if found else None
 def site_card(p):
     cov = p.get("coverage")
     return {
@@ -955,7 +969,8 @@ def site_card(p):
         "new": bool(is_new(p)), "install": install_cmd(p, 80), "logo": owner_of(p) if logo_uri(owner_of(p) or "") else None,
         "url": gh_url(p), "docs": p.get("docs_site"), "family": p.get("family_id"),
         "rollup": bool(p.get("_rollup")), "members": p.get("_members"), "pkgs": p.get("_pkgs", 1) if p.get("_rollup") else None,
-        "tags": p.get("_tags") or filter_tags(p),
+        "tags": sorted(set((p.get("_tags") or filter_tags(p)) + [t for t, on in (("owner", p.get("owner")), ("releaser", p.get("releaser"))) if on])),
+        "spark": spark(p),
     }
 (ROOT/"data"/"cards.json").write_text(json.dumps({"cards": [site_card(p) for p in ranked]}, indent=1, ensure_ascii=False) + "\n")
 print("ok", tot_dl, day_dl, stars, n_proj)
