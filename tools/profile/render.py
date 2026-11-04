@@ -262,35 +262,51 @@ def group_card(plist):
 # Cards that stand for several entries rank, and show, once: the same project on several registries
 # (tree-sitter-language-pack) and the structuredmerge family (many gems/crates/packages across four
 # languages). Downloads are summed; a group's first release is its earliest member's, so NEW is honest.
-POLYGLOT = {"structuredmerge": {"https://github.com/structuredmerge/structuredmerge-" + l for l in ("ruby", "typescript", "rust", "go")}}
-def polyglot_card(name, plist):
-    g = dict(plist[0])
-    g.update(name=name, ecosystem=None, language="multi-lang", _polyglot=True, _pkgs=len(plist), _langs=len({q.get("language") for q in plist}))
+# Family roll-ups come from galtzo.com's families.yml: `rollup: <id>` groups every family sharing the id
+# (structuredmerge spans four), `rollup_lead: <project>` names the member that supplies name/description/install.
+FAMILIES = {f["id"]: f for f in yaml.safe_load((ROOT/"data/families.yml").read_text())}
+def rollup_of(p):
+    return (FAMILIES.get(p.get("family_id")) or {}).get("rollup")
+COVERAGE_KEYS = ("coverage", "coverage_branch", "coverage_lines_covered", "coverage_lines_total", "coverage_release")
+def rollup_card(rid, plist):
+    fams = [FAMILIES[f] for f in dict.fromkeys(q.get("family_id") for q in plist) if f in FAMILIES]
+    lead_name = next((f["rollup_lead"] for f in fams if f.get("rollup_lead")), None)
+    lead = next((q for q in plist if q["name"] == lead_name), None)
+    g = dict(lead or plist[0])
+    langs = sorted({q.get("language") for q in plist if q.get("language")})
+    if not lead: g.update(name=rid, ecosystem=None, language="multi-lang", description=f"{len(plist)} packages across {', '.join(langs)}")
+    g.update(_rollup=True, _pkgs=len(plist), _langs=len(langs))
+    g["_tag"] = (f"multi-language monorepos · {len(plist)} packages · {len(langs)} languages" if len(langs) > 1
+                 else f"{fams[0]['name']} · {len(plist)} packages")
+    g["_tag_phone"] = f"multi-language · {len(plist)} packages · {len(langs)} langs" if len(langs) > 1 else f"{len(plist)} pkgs"
     g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist)
     g["daily_downloads"] = sum(q.get("daily_downloads") or 0 for q in plist)
     per_repo = {}
     for q in plist: per_repo[gh_repo(q)] = max(per_repo.get(gh_repo(q), 0), q.get("github_stars") or 0)
     g["github_stars"] = sum(per_repo.values())
     g["_first_release"] = earliest(plist)
-    for k in ("coverage", "coverage_branch", "coverage_lines_covered", "coverage_lines_total", "coverage_release"): g.pop(k, None)
+    # Coverage rolls up as pooled lines over the members that report it; the rest are ignored.
+    for k in COVERAGE_KEYS: g.pop(k, None)
+    rep = [q for q in plist if q.get("coverage_lines_total")]
+    if rep:
+        cov, tot = sum(q["coverage_lines_covered"] for q in rep), sum(q["coverage_lines_total"] for q in rep)
+        g.update(coverage=100.0*cov/tot, coverage_lines_covered=cov, coverage_lines_total=tot)
     g["owner"] = any(q.get("owner") for q in plist); g["releaser"] = any(q.get("releaser") for q in plist)
-    langs = sorted({q.get("language") for q in plist if q.get("language")})
-    g["description"] = f"{len(plist)} packages across {', '.join(langs)}"
     return g
 def collapse(plists):
     out, poly, same = [], {}, {}
     for p in plists:
-        key = next((k for k, repos in POLYGLOT.items() if gh_repo(p) in repos), None)
+        key = rollup_of(p)
         if key: poly.setdefault(key, []).append(p)
         else: same.setdefault((gh_repo(p) or id(p), p["name"]), []).append(p)
     for v in same.values():
         if len({q["ecosystem"] for q in v}) > 1:
             g = group_card(v); g["_first_release"] = earliest(v)
-            for k in ("coverage", "coverage_branch", "coverage_lines_covered", "coverage_lines_total", "coverage_release"): g.pop(k, None)
+            for k in COVERAGE_KEYS: g.pop(k, None)
             g["owner"] = any(q.get("owner") for q in v); g["releaser"] = any(q.get("releaser") for q in v)
             out.append(g)
         else: out.extend(v)
-    return out + [polyglot_card(k, v) for k, v in poly.items()]
+    return out + [rollup_card(k, v) for k, v in poly.items()]
 featured = collapse(featured)
 ranked = sorted(featured, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 24
@@ -353,8 +369,8 @@ def card(i, p, y0=46, link=False):
             g += (f'<rect x="{x+CW-14-wch:.0f}" y="{cy}" width="{wch:.0f}" height="15" rx="7.5" fill="none" stroke="{rc}" stroke-opacity=".7"/>'
                   f'<text x="{x+CW-14-wch/2:.0f}" y="{cy+11}" font-size="8.5" font-weight="700" letter-spacing=".5" text-anchor="middle" style="fill:{rc}">{label}</text>')
             cy += 21
-    if p.get("_polyglot"):
-        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">multi-language monorepos · {p["_pkgs"]} packages · {p["_langs"]} languages</text>'
+    if p.get("_rollup"):
+        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{esc(p["_tag"])}</text>'
     elif p.get("_pkgs", 1) > 1:
         g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
     g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(str(p.get("role", "")).upper())}</text>'
@@ -736,10 +752,10 @@ def pcard(pr, col):
     o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
     facts = [t for t, on in (("OWNER", pr.get("owner")), ("RELEASER", pr.get("releaser"))) if on]
     if pr.get("coverage") is not None: facts.append(f'cov {pr["coverage"]:.0f}%')
-    if facts and not pr.get("_polyglot"):
+    if facts:
         o += f'<text x="{w-12}" y="{h-6}" font-size="7.5" class="m" text-anchor="end">{" · ".join(facts)}</text>'
-    if pr.get("_polyglot"):
-        o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">multi-language · {pr["_pkgs"]} packages · {pr["_langs"]} langs</text>'
+    if pr.get("_rollup"):
+        o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">{esc(pr["_tag_phone"])}</text>'
     return o, w, h
 for i, pr in enumerate(ranked[:TOP]):
     col = i % 2
