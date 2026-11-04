@@ -883,6 +883,25 @@ for i, (k, sub, url, col) in enumerate(BANNER_LINKS):
             f'<text x="{24 if c == 0 else 16}" y="21" font-size="8.5" letter-spacing="1.5" style="fill:{col}">{k}</text>'
             f'<text x="{24 if c == 0 else 16}" y="37" class="s" font-size="11" font-weight="600">{esc(sub[:18])}</text>')
     psvg(f"banner/link-{i+1}", bw, 50, body, f"{k.title()}: {sub}")
+# city on a phone: the same skyline, scaled to the screen width, with its numbers and legend set at a readable size below it
+_scene, _ = city.build(cal, W, 460, dict(PANEL=PANEL, EDGE=EDGE, TEAL=TEAL, AMBER=AMBER, PAPER=PAPER, MUTED=MUTED), contrib_total, text=False)
+_k = (PHW - 2)/W
+_sh = 440*_k
+_active = sum(1 for d in cal if d["count"]); _best = max(cal, key=lambda d: d["count"])
+_ly = _sh + 112
+_t = (f'<text x="12" y="{_sh+34:.0f}" font-size="28" font-weight="700" class="s" style="fill:{TEAL}">{contrib_total:,}</text>'
+      f'<text x="12" y="{_sh+50:.0f}" font-size="9.5" class="m">contributions · last 12 months</text>'
+      f'<text x="12" y="{_sh+66:.0f}" font-size="9.5" class="m">{_active} active days · busiest {_best["date"]}: {_best["count"]}</text>'
+      f'<text x="12" y="{_ly-6:.0f}" font-size="9" class="m">quiet</text>'
+      + "".join(f'<rect x="{42+i*14}" y="{_ly-14:.0f}" width="10" height="10" fill="{c[0]}"/>' for i, c in enumerate(city.RAMP))
+      + f'<text x="{42+5*14+4}" y="{_ly-6:.0f}" font-size="9" class="m">top 10% of days</text>'
+      + "".join(f'<polygon points="{14+i*13},{_ly+6:.0f} {20+i*13},{_ly+9:.0f} {14+i*13},{_ly+12:.0f} {8+i*13},{_ly+9:.0f}" fill="none" stroke="{col}" stroke-width="1.2"/>' for i, col in enumerate(city.NEON[:4]))
+      + f'<text x="66" y="{_ly+12:.0f}" font-size="9" class="m">neon ring: the 10 busiest days</text>'
+      f'<text x="12" y="{_ly+28:.0f}" font-size="9" class="m">height ranks the day · one building per day</text>')
+_h = _ly + 40
+psvg("city", PHW, _h, pedges(PHW, _h, top=True, bottom=True)
+     + f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">CONTRIBUTION CITY</text>'
+     + f'<g transform="translate(1 24) scale({_k:.4f})">{_scene}</g>' + _t, city_alt)
 psvg("footer", PHW, 52, pedges(PHW, 52, top=True, bottom=True) + f'<text x="12" y="30" font-size="10" class="m">$ open <tspan style="fill:{TEAL}">galtzo.com</tspan> · <tspan style="fill:{VIOLET}">sponsors/pboling</tspan></text>', "galtzo.com and sponsors link")
 
 # ---- sponsor banner: full-time on FLOSS + call to action (wording drafted from the old README; see #14)
