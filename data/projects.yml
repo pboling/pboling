@@ -891,13 +891,13 @@
   - ruby
   docs_site:
   github_stars: 612
-  total_downloads: 13485107
+  total_downloads: 13494950
   daily_downloads: 19050
-  release_downloads: 112069
+  release_downloads: 113513
   release_date: 2026/07/26
   last_commit_on: 2026/10/02
   status: active
-  last_scrape_at: '2026-11-03T22:02:53Z'
+  last_scrape_at: '2026-11-04T17:30:45Z'
   theme: family
   family_id: rails-family
   family_position: 1
@@ -983,23 +983,18 @@
   github_stars: 508
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 6854483
+  total_downloads: 6863811
   daily_downloads: 10199
-  release_downloads: 27133
+  release_downloads: 27755
   release_date: 2026/09/12
   last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-11-03T22:02:57Z'
+  last_scrape_at: '2026-11-04T17:30:49Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/flag_shih_tzu/blob/main/LICENSE
   owner: true
   releaser: true
-  coverage: 90.75
-  coverage_lines_covered: 412
-  coverage_lines_total: 454
-  coverage_branch: 76.76
-  coverage_release: 1.0.7
 - name: floss_funding
   description: Help overlooked open source projects - the ones at the bottom of the
     stack, and the dev dependencies - by funding them.
@@ -1073,23 +1068,18 @@
   - ruby
   docs_site:
   github_stars: 93
-  total_downloads: 2977403
+  total_downloads: 2977545
   daily_downloads: 278
-  release_downloads: 31529
+  release_downloads: 31613
   release_date: 2024/09/22
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T22:03:00Z'
+  last_scrape_at: '2026-11-04T17:30:52Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/gem_bench/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 99.6
-  coverage_lines_covered: 502
-  coverage_lines_total: 504
-  coverage_branch: 93.71
-  coverage_release: 2.0.6
 - name: gitmoji-regex
   description: "\U0001F3C1 A regular expression matching Gitmoji (a subset of Unicode
     Emoji) symbolsFund overlooked open source projects - bottom of stack, dev/test
@@ -1595,7 +1585,7 @@
   release_date: 2025/04/04
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:11Z'
+  last_scrape_at: '2026-11-04T18:51:27Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/masq2/blob/main/LICENSE.md
@@ -1626,13 +1616,13 @@
   - serialization
   docs_site:
   github_stars: 7
-  total_downloads: 11617
+  total_downloads: 11621
   daily_downloads: 10
-  release_downloads: 453
+  release_downloads: 456
   release_date: 2026/10/01
   last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-11-03T14:50:14Z'
+  last_scrape_at: '2026-11-04T18:51:31Z'
   theme: family
   family_id: active-record
   family_position: 13
@@ -1641,11 +1631,6 @@
   license_url: https://github.com/galtzo-floss/month-serializer/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 90.0
-  coverage_lines_covered: 36
-  coverage_lines_total: 40
-  coverage_branch: 60.0
-  coverage_release: 1.0.3
 - name: oauth
   description: "\U0001F52E A Ruby wrapper for the original OAuth 1.0 / 1.0a spec."
   description_source: registry
@@ -1861,13 +1846,13 @@
   - security
   docs_site:
   github_stars: 101
-  total_downloads: 147836
+  total_downloads: 147837
   daily_downloads: 4
-  release_downloads: 144610
+  release_downloads: 144611
   release_date: 2013/10/19
   last_commit_on: 2026/06/16
   status: active
-  last_scrape_at: '2026-11-03T14:50:17Z'
+  last_scrape_at: '2026-11-04T18:51:34Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-jwt/blob/main/LICENSE.txt
@@ -1897,23 +1882,18 @@
   - security
   docs_site:
   github_stars: 6
-  total_downloads: 6122
+  total_downloads: 6124
   daily_downloads: 7
-  release_downloads: 612
+  release_downloads: 613
   release_date: 2026/07/14
   last_commit_on: 2026/08/16
   status: active
-  last_scrape_at: '2026-11-03T14:50:20Z'
+  last_scrape_at: '2026-11-04T18:51:38Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-jwt2/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 98.84
-  coverage_lines_covered: 85
-  coverage_lines_total: 86
-  coverage_branch: 92.31
-  coverage_release: 1.0.1
 - name: omniauth-ldap
   description: "\U0001F4C1 LDAP strategy for OmniAuth."
   description_source: registry
@@ -2036,13 +2016,13 @@
   github_stars: 10
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 138685
+  total_downloads: 138701
   daily_downloads: 23
-  release_downloads: 6255
+  release_downloads: 6265
   release_date: 2024/09/25
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:24Z'
+  last_scrape_at: '2026-11-04T18:51:42Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/open_id_authentication/blob/main/LICENSE.md
@@ -2068,13 +2048,13 @@
   - test
   docs_site:
   github_stars: 166
-  total_downloads: 483700555
+  total_downloads: 484019593
   daily_downloads: 325303
-  release_downloads: 302605141
+  release_downloads: 302912495
   release_date: 2021/11/07
   last_commit_on: 2025/06/08
   status: stale
-  last_scrape_at: '2026-11-03T22:02:48Z'
+  last_scrape_at: '2026-11-04T17:30:38Z'
   theme: family
   family_id: miscellaneous
   family_position: 11
@@ -2112,13 +2092,13 @@
   - ruby
   docs_site:
   github_stars: 6
-  total_downloads: 22358
+  total_downloads: 22376
   daily_downloads: 10
-  release_downloads: 6408
+  release_downloads: 6425
   release_date: 2023/10/18
   last_commit_on: 2026/01/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:27Z'
+  last_scrape_at: '2026-11-04T18:51:45Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/pretty_feed/blob/main/LICENSE.txt
@@ -2158,7 +2138,7 @@
   release_date: 2022/02/25
   last_commit_on: 2026/08/29
   status: active
-  last_scrape_at: '2026-11-03T14:50:30Z'
+  last_scrape_at: '2026-11-04T18:51:49Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/qfill/blob/main/LICENSE
@@ -2281,13 +2261,13 @@
   github_stars: 10
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 9079
+  total_downloads: 9098
   daily_downloads: 8
-  release_downloads: 6807
+  release_downloads: 6826
   release_date: 2024/09/25
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:34Z'
+  last_scrape_at: '2026-11-04T18:51:53Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/rack-openid2/blob/main/LICENSE.md
@@ -2369,7 +2349,7 @@
   release_date: 2016/03/11
   last_commit_on: 2025/08/04
   status: archived
-  last_scrape_at: '2026-11-03T14:50:37Z'
+  last_scrape_at: '2026-11-04T18:51:56Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/rails_env_local/blob/master/LICENSE
@@ -2488,23 +2468,18 @@
   github_stars: 7
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 186903
+  total_downloads: 187432
   daily_downloads: 702
-  release_downloads: 138141
+  release_downloads: 138668
   release_date: 2023/10/10
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:41Z'
+  last_scrape_at: '2026-11-04T18:52:00Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/require_bench/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 93.59
-  coverage_lines_covered: 146
-  coverage_lines_total: 156
-  coverage_branch: 59.32
-  coverage_release: 1.0.5
 - name: resque
   description: Resque is a Redis-backed Ruby library for creating background jobs,
     placing them on multiple queues, and processing them later.
@@ -2576,23 +2551,18 @@
   adoptable: false
   docs_site:
   github_stars: 6
-  total_downloads: 326809
+  total_downloads: 327152
   daily_downloads: 245
-  release_downloads: 412
+  release_downloads: 447
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T16:44:45Z'
+  last_scrape_at: '2026-11-04T18:53:28Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-lonely_job/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 41
-  coverage_lines_total: 41
-  coverage_branch: 100.0
-  coverage_release: 1.1.4
 - name: resque-unique_at_runtime
   description: |
     Ensures that for a given queue, only one worker is working on a job at any given time.
@@ -2630,23 +2600,18 @@
   - uniq
   docs_site:
   github_stars: 8
-  total_downloads: 120296
+  total_downloads: 120488
   daily_downloads: 108
-  release_downloads: 4048
+  release_downloads: 4129
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:44Z'
+  last_scrape_at: '2026-11-04T18:52:04Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-unique_at_runtime/blob/main/LICENSE
   owner: true
   releaser: true
-  coverage: 99.21
-  coverage_lines_covered: 126
-  coverage_lines_total: 127
-  coverage_branch: 86.21
-  coverage_release: 4.0.2
 - name: resque-unique_by_arity
   description: "\U0001F48E Configure resque-unique_in_queue and resque-unique_at_runtime
     uniqueness by arity of perform method, with automated cleanup tools"
@@ -2676,23 +2641,18 @@
   - uniq
   docs_site:
   github_stars: 9
-  total_downloads: 46656
+  total_downloads: 46659
   daily_downloads: 13
   release_downloads: 188
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:47Z'
+  last_scrape_at: '2026-11-04T18:52:07Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-unique_by_arity/blob/main/LICENSE
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 318
-  coverage_lines_total: 318
-  coverage_branch: 82.71
-  coverage_release: 3.0.3
 - name: resque-unique_in_queue
   description: "\U0001F48E A resque plugin that ensures job uniqueness at enqueue
     time."
@@ -2720,23 +2680,18 @@
   - uniq
   docs_site:
   github_stars: 8
-  total_downloads: 174696
+  total_downloads: 175258
   daily_downloads: 294
-  release_downloads: 2462
+  release_downloads: 2527
   release_date: 2026/08/27
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:50Z'
+  last_scrape_at: '2026-11-04T18:52:11Z'
   licenses:
   - MIT
   license_url: https://github.com/resque/resque-unique_in_queue/blob/main/LICENSE
   owner: true
   releaser: true
-  coverage: 93.26
-  coverage_lines_covered: 180
-  coverage_lines_total: 193
-  coverage_branch: 78.57
-  coverage_release: 2.0.2
 - name: rots
   description: |
     Ruby OpenID Test Server (ROTS) provides a basic OpenID server made in top of the Rack gem.
@@ -2778,7 +2733,7 @@
   release_date: 2024/09/25
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:50:54Z'
+  last_scrape_at: '2026-11-04T18:52:16Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/rots/blob/master/LICENSE.md
@@ -2866,23 +2821,18 @@
   github_stars: 12
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 295720
+  total_downloads: 296340
   daily_downloads: 818
-  release_downloads: 42122
+  release_downloads: 42712
   release_date: 2026/09/12
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T14:50:58Z'
+  last_scrape_at: '2026-11-04T18:52:20Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/rspec-pending_for/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 99
-  coverage_lines_total: 99
-  coverage_branch: 100.0
-  coverage_release: 0.1.28
 - name: rspec-stubbed_env
   description: "\U0001FAE5 Stub or hide environment variables in a scoped context
     for testing\nstub_env('REDIS_URL' => 'redis://localhost:6379/')\nhide_env('SESSION_SECRET')\n"
@@ -3001,23 +2951,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 11893
+  total_downloads: 11906
   daily_downloads: 37
-  release_downloads: 382
+  release_downloads: 394
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:01Z'
+  last_scrape_at: '2026-11-04T18:52:23Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby1_8/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 2.0.9
 - name: rubocop-ruby1_9
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 1.9 code"
@@ -3046,23 +2991,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 18365
+  total_downloads: 18373
   daily_downloads: 47
-  release_downloads: 449
+  release_downloads: 452
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:04Z'
+  last_scrape_at: '2026-11-04T18:52:27Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby1_9/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_0
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.0 code"
@@ -3091,23 +3031,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 16181
+  total_downloads: 16188
   daily_downloads: 31
-  release_downloads: 206
+  release_downloads: 208
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:08Z'
+  last_scrape_at: '2026-11-04T18:52:34Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_0/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_1
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.1 code"
@@ -3136,23 +3071,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 26873
+  total_downloads: 26879
   daily_downloads: 28
-  release_downloads: 222
+  release_downloads: 224
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:11Z'
+  last_scrape_at: '2026-11-04T18:52:38Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_1/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_2
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.2 code"
@@ -3181,23 +3111,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 44197
+  total_downloads: 44208
   daily_downloads: 58
-  release_downloads: 658
+  release_downloads: 663
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:15Z'
+  last_scrape_at: '2026-11-04T18:52:42Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_2/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_3
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.3 code"
@@ -3226,23 +3151,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 21559
+  total_downloads: 21584
   daily_downloads: 62
-  release_downloads: 345
+  release_downloads: 349
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:18Z'
+  last_scrape_at: '2026-11-04T18:52:45Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_4
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.4 code"
@@ -3271,23 +3191,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 70163
+  total_downloads: 70242
   daily_downloads: 105
-  release_downloads: 929
+  release_downloads: 1000
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:22Z'
+  last_scrape_at: '2026-11-04T18:52:49Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_4/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_5
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.5 code"
@@ -3316,23 +3231,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 14009
+  total_downloads: 14014
   daily_downloads: 30
-  release_downloads: 204
+  release_downloads: 207
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:25Z'
+  last_scrape_at: '2026-11-04T18:52:53Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_5/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_6
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.6 code"
@@ -3361,23 +3271,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 18761
+  total_downloads: 18769
   daily_downloads: 28
-  release_downloads: 202
+  release_downloads: 206
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:29Z'
+  last_scrape_at: '2026-11-04T18:52:57Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_6/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby2_7
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.7 code"
@@ -3406,23 +3311,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 108407
+  total_downloads: 108416
   daily_downloads: 60
-  release_downloads: 347
+  release_downloads: 350
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:32Z'
+  last_scrape_at: '2026-11-04T18:53:00Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_7/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby3_0
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 3.0 code"
@@ -3454,23 +3354,18 @@
   github_stars: 6
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 20472
+  total_downloads: 20481
   daily_downloads: 32
-  release_downloads: 204
+  release_downloads: 207
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:36Z'
+  last_scrape_at: '2026-11-04T18:53:05Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_0/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby3_1
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 3.1 code"
@@ -3499,23 +3394,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 6
   gitlab_stars: 1
-  total_downloads: 35994
+  total_downloads: 36002
   daily_downloads: 41
-  release_downloads: 264
+  release_downloads: 267
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:40Z'
+  last_scrape_at: '2026-11-04T18:53:09Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.9
 - name: rubocop-ruby3_2
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 3.2 code"
@@ -3544,23 +3434,18 @@
   docs_site: https://rubocop-lts.gitlab.io/
   github_stars: 7
   gitlab_stars: 1
-  total_downloads: 280236
+  total_downloads: 280531
   daily_downloads: 314
-  release_downloads: 4758
+  release_downloads: 5044
   release_date: 2026/10/22
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:43Z'
+  last_scrape_at: '2026-11-04T18:53:12Z'
   licenses:
   - MIT
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_2/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 16
-  coverage_lines_total: 16
-  coverage_branch: 0.0
-  coverage_release: 3.0.10
 - name: ruby-openid
   description: A library for consuming and serving OpenID identities.
   description_source: site
@@ -3638,13 +3523,13 @@
   github_stars: 12
   gitlab_stars: 0
   codeberg_stars: 1
-  total_downloads: 11921
+  total_downloads: 11960
   daily_downloads: 26
-  release_downloads: 9298
+  release_downloads: 9337
   release_date: 2024/09/25
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T14:51:47Z'
+  last_scrape_at: '2026-11-04T18:53:17Z'
   licenses:
   - Ruby
   - Apache Software License 2.0
@@ -3726,13 +3611,13 @@
   - ruby
   docs_site:
   github_stars: 382
-  total_downloads: 1753979
+  total_downloads: 1754683
   daily_downloads: 773
-  release_downloads: 1364114
+  release_downloads: 1364786
   release_date: 2017/08/01
   last_commit_on: 2025/08/18
   status: stale
-  last_scrape_at: '2026-11-03T22:02:51Z'
+  last_scrape_at: '2026-11-04T17:30:42Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/seed_migration/blob/main/LICENSE.txt
@@ -3766,13 +3651,13 @@
   archived: true
   docs_site:
   github_stars: 6
-  total_downloads: 4267
+  total_downloads: 4270
   daily_downloads: 2
-  release_downloads: 4267
+  release_downloads: 4270
   release_date: 2014/02/26
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-11-03T14:51:51Z'
+  last_scrape_at: '2026-11-04T18:53:20Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/sequential_file/blob/main/LICENSE.txt
@@ -3849,23 +3734,18 @@
   github_stars: 12
   gitlab_stars: 1
   codeberg_stars: 1
-  total_downloads: 726
+  total_downloads: 727
   daily_downloads: 2
-  release_downloads: 726
+  release_downloads: 727
   release_date: 2025/05/30
   last_commit_on: 2026/10/13
   status: active
-  last_scrape_at: '2026-11-03T14:51:54Z'
+  last_scrape_at: '2026-11-04T18:53:24Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/shields-badge/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 99.48
-  coverage_lines_covered: 379
-  coverage_lines_total: 381
-  coverage_branch: 94.29
-  coverage_release: 1.0.1
 - name: shiftable
   description: Move single records (has_one) or collections (has_many) from one parent
     (belongs_to) to another
@@ -3900,7 +3780,7 @@
   release_date: 2021/11/15
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-11-03T18:00:43Z'
+  last_scrape_at: '2026-11-04T18:53:31Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/shiftable/blob/main/LICENSE.txt
@@ -3942,23 +3822,18 @@
   github_stars: 7
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 291123
+  total_downloads: 291589
   daily_downloads: 747
-  release_downloads: 145907
+  release_downloads: 146371
   release_date: 2025/08/21
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T18:00:48Z'
+  last_scrape_at: '2026-11-04T18:53:35Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/silent_stream/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 81
-  coverage_lines_total: 81
-  coverage_branch: 100.0
-  coverage_release: 1.0.13
 - name: simple_column-scopes
   description: "\U0001F3DB️ Dynamic modules which define dynamic methods for scopes
     based on a dynamic array of column names"
@@ -3985,23 +3860,18 @@
   - ruby
   docs_site:
   github_stars: 2
-  total_downloads: 3758
+  total_downloads: 3760
   daily_downloads: 3
   release_downloads: 377
   release_date: 2026/02/04
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T18:00:51Z'
+  last_scrape_at: '2026-11-04T18:53:39Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/simple_column-scopes/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 29
-  coverage_lines_total: 29
-  coverage_branch: 100.0
-  coverage_release: 0.1.1
 - name: snaky_hash
   description: "\U0001F52E A Hashie::Mash joint to make #snakelife better"
   description_source: registry
@@ -4071,13 +3941,13 @@
   - ruby
   docs_site:
   github_stars: 3
-  total_downloads: 1052
+  total_downloads: 1053
   daily_downloads: 2
-  release_downloads: 1052
+  release_downloads: 1053
   release_date: 2024/03/23
   last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-11-03T18:00:54Z'
+  last_scrape_at: '2026-11-04T18:53:42Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/spyke-connection_lambda/blob/main/LICENSE.md
@@ -4112,13 +3982,13 @@
     your deployed environments instead
   docs_site:
   github_stars: 7
-  total_downloads: 385710
+  total_downloads: 385805
   daily_downloads: 83
-  release_downloads: 200790
+  release_downloads: 200885
   release_date: 2017/05/31
   last_commit_on: 2025/08/04
   status: archived
-  last_scrape_at: '2026-11-03T18:00:57Z'
+  last_scrape_at: '2026-11-04T18:53:45Z'
   licenses:
   - MIT
   license_url: https://github.com/pboling/stackable_flash/blob/master/LICENSE
@@ -4209,7 +4079,7 @@
   release_date: 2015/08/24
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-11-03T18:01:02Z'
+  last_scrape_at: '2026-11-04T18:53:49Z'
   licenses:
   - MIT
   owner: true
@@ -4253,23 +4123,18 @@
   github_stars: 6
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 176971
+  total_downloads: 177434
   daily_downloads: 713
-  release_downloads: 37596
+  release_downloads: 38033
   release_date: 2026/09/11
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T18:01:06Z'
+  last_scrape_at: '2026-11-04T18:53:54Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/stone_checksums/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 129
-  coverage_lines_total: 129
-  coverage_branch: 95.24
-  coverage_release: 1.0.10
 - name: strict_states
   description: Safely access state machine states with guarantee that there are no
     typos.  Compatible with all Ruby state machine libraries.
@@ -4300,13 +4165,13 @@
   adoptable: true
   archived: true
   github_stars: 5
-  total_downloads: 3577
+  total_downloads: 3578
   daily_downloads: 2
-  release_downloads: 3577
+  release_downloads: 3578
   release_date: 2015/11/09
   last_commit_on: 2026/01/17
   status: active
-  last_scrape_at: '2026-11-03T18:01:09Z'
+  last_scrape_at: '2026-11-04T18:53:56Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/strict_states/blob/main/LICENSE.txt
@@ -4382,23 +4247,18 @@
   - test
   docs_site: https://timecop-rspec.galtzo.com
   github_stars: 4
-  total_downloads: 136359
+  total_downloads: 136820
   daily_downloads: 717
-  release_downloads: 134859
+  release_downloads: 135319
   release_date: 2025/08/20
   last_commit_on: 2026/11/02
   status: active
-  last_scrape_at: '2026-11-03T18:01:12Z'
+  last_scrape_at: '2026-11-04T18:54:00Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/timecop-rspec/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 132
-  coverage_lines_total: 132
-  coverage_branch: 100.0
-  coverage_release: 1.0.3
 - name: undrive_google
   description: "\U0001F3F4‍☠️ Liberate files from your Google Drive with transformations"
   description_source: registry
@@ -4433,23 +4293,18 @@
   github_stars: 2
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 5794
+  total_downloads: 5796
   daily_downloads: 6
-  release_downloads: 445
+  release_downloads: 446
   release_date: 2025/10/21
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T18:01:17Z'
+  last_scrape_at: '2026-11-04T18:54:04Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/undrive_google/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 98.94
-  coverage_lines_covered: 373
-  coverage_lines_total: 377
-  coverage_branch: 80.17
-  coverage_release: 1.1.2
 - name: version_gem
   description: "\U0001F516 Versions are good. Versions are cool. Versions will win."
   description_source: registry
@@ -4484,23 +4339,18 @@
   github_stars: 22
   gitlab_stars: 1
   codeberg_stars: 0
-  total_downloads: 151348897
+  total_downloads: 151534273
   daily_downloads: 201603
-  release_downloads: 265801
+  release_downloads: 299857
   release_date: 2026/10/25
   last_commit_on: 2026/10/25
   status: active
-  last_scrape_at: '2026-11-03T22:02:40Z'
+  last_scrape_at: '2026-11-04T17:30:29Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/version_gem/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 119
-  coverage_lines_total: 119
-  coverage_branch: 100.0
-  coverage_release: 1.1.17
 - name: warden_oauth
   description: "\U0001F6E1️ warden_oauth will help you create oauth authentication
     strategies using the oauth\n      helper method on the Warden::Manager config
@@ -4535,17 +4385,12 @@
   release_date: 2026/07/15
   last_commit_on: 2026/09/21
   status: active
-  last_scrape_at: '2026-11-03T18:01:20Z'
+  last_scrape_at: '2026-11-04T18:54:08Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/warden_oauth/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 96.84
-  coverage_lines_covered: 153
-  coverage_lines_total: 158
-  coverage_branch: 80.56
-  coverage_release: 0.1.3
 - name: yacs
   description: Yet Another Crypto Scanner; Alternative Front End Demo for DEX
   description_source: site
@@ -4569,7 +4414,7 @@
   release_date:
   last_commit_on: 2025/12/17
   status: active
-  last_scrape_at: '2026-11-03T18:01:24Z'
+  last_scrape_at: '2026-11-04T18:54:11Z'
   theme: family
   family_id: miscellaneous
   family_position: 15
@@ -4601,24 +4446,19 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-fence/0.8.2
-  total_downloads: 24170
+  total_downloads: 24251
   daily_downloads: 129
-  release_downloads: 3052
+  release_downloads: 3112
   release_date: 2026/10/01
   github_stars: 1
   last_commit_on: 2026/10/22
   status: active
-  last_scrape_at: '2026-11-03T18:01:27Z'
+  last_scrape_at: '2026-11-04T18:54:15Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yard-fence/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 95.41
-  coverage_lines_covered: 208
-  coverage_lines_total: 218
-  coverage_branch: 84.62
-  coverage_release: 0.9.11
 - name: yaml-converter
   description: "\U0001F968 yaml-converter parses YAML files (with inline #note: annotations
     and validation markers) and emits polished Markdown, HTML, and PDF/DOCX (via pandoc)
@@ -4644,24 +4484,19 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yaml-converter/0.1.0
-  total_downloads: 22069
+  total_downloads: 22156
   daily_downloads: 125
-  release_downloads: 3220
+  release_downloads: 3282
   release_date: 2026/10/01
   github_stars: 2
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T18:01:30Z'
+  last_scrape_at: '2026-11-04T18:54:18Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yaml-converter/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 92.69
-  coverage_lines_covered: 444
-  coverage_lines_total: 479
-  coverage_branch: 68.42
-  coverage_release: 0.2.8
 - name: yard-yaml
   description: "\U0001F997 A YARD plugin for YAML documents"
   description_source: registry
@@ -4684,24 +4519,19 @@
   tags:
   - ruby
   docs_site: https://www.rubydoc.info/gems/yard-yaml/0.1.0
-  total_downloads: 21026
+  total_downloads: 21099
   daily_downloads: 104
-  release_downloads: 5338
+  release_downloads: 5388
   release_date: 2026/09/12
   github_stars: 2
   last_commit_on: 2026/10/12
   status: active
-  last_scrape_at: '2026-11-03T18:01:34Z'
+  last_scrape_at: '2026-11-04T18:54:22Z'
   licenses:
   - MIT
   license_url: https://github.com/galtzo-floss/yard-yaml/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 95.13
-  coverage_lines_covered: 527
-  coverage_lines_total: 554
-  coverage_branch: 83.25
-  coverage_release: 0.2.6
 - name: tree_haver
   description: "\U0001F334 Backend registry, parser request/result contracts, and
     tree-sitter language-pack integration for Structured Merge."
@@ -4727,14 +4557,14 @@
   - structuredmerge
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/tree_haver/5.0.5
-  total_downloads: 33239
+  total_downloads: 33456
   daily_downloads: 377
-  release_downloads: 428
+  release_downloads: 541
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:37Z'
+  last_scrape_at: '2026-11-04T18:54:25Z'
   theme: family
   family_id: smorg-rb
   family_position: 22
@@ -4770,14 +4600,14 @@
   - test
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/ast-merge/4.0.6
-  total_downloads: 34245
+  total_downloads: 34471
   daily_downloads: 314
-  release_downloads: 411
+  release_downloads: 524
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:40Z'
+  last_scrape_at: '2026-11-04T18:54:28Z'
   theme: family
   family_id: smorg-rb
   family_position: 1
@@ -4811,14 +4641,14 @@
   - ruby
   - templating
   docs_site: https://www.rubydoc.info/gems/token-resolver/1.0.2
-  total_downloads: 31235
+  total_downloads: 31444
   daily_downloads: 479
-  release_downloads: 1187
+  release_downloads: 1376
   release_date: 2026/10/29
   github_stars: 4
-  last_commit_on: 2026/10/29
+  last_commit_on: 2026/10/31
   status: active
-  last_scrape_at: '2026-11-03T18:01:43Z'
+  last_scrape_at: '2026-11-04T18:54:31Z'
   theme: family
   family_id: ast-merge
   family_position: 2
@@ -4828,11 +4658,6 @@
   license_url: https://github.com/kettle-dev/token-resolver/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 267
-  coverage_lines_total: 267
-  coverage_branch: 100.0
-  coverage_release: 2.0.16
 - name: bash-merge
   description: "☯️ Bash statement, comment, freeze-block, and template merge behavior
     for Structured Merge."
@@ -4859,14 +4684,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/bash-merge/2.0.6
-  total_downloads: 18948
+  total_downloads: 19060
   daily_downloads: 231
-  release_downloads: 237
+  release_downloads: 268
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:45Z'
+  last_scrape_at: '2026-11-04T18:54:34Z'
   theme: family
   family_id: smorg-rb
   family_position: 3
@@ -4901,14 +4726,14 @@
   - structuredmerge
   - templating
   docs_site: https://www.rubydoc.info/gems/commonmarker-merge/1.0.1
-  total_downloads: 10460
+  total_downloads: 10474
   daily_downloads: 100
-  release_downloads: 160
+  release_downloads: 164
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:48Z'
+  last_scrape_at: '2026-11-04T18:54:37Z'
   theme: family
   family_id: smorg-rb
   family_position: 6
@@ -4945,14 +4770,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/dotenv-merge/1.0.3
-  total_downloads: 18708
+  total_downloads: 18824
   daily_downloads: 227
-  release_downloads: 248
+  release_downloads: 284
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:50Z'
+  last_scrape_at: '2026-11-04T18:54:39Z'
   theme: family
   family_id: smorg-rb
   family_position: 7
@@ -4988,14 +4813,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/json-merge/1.1.2
-  total_downloads: 16526
+  total_downloads: 16637
   daily_downloads: 227
-  release_downloads: 244
+  release_downloads: 274
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:53Z'
+  last_scrape_at: '2026-11-04T18:54:42Z'
   theme: family
   family_id: smorg-rb
   family_position: 9
@@ -5037,9 +4862,9 @@
   release_downloads: 710
   release_date: 2026/02/19
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:55Z'
+  last_scrape_at: '2026-11-04T18:54:45Z'
   theme: family
   family_id: ast-merge
   family_position: 8
@@ -5074,14 +4899,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/markdown-merge/1.0.3
-  total_downloads: 15974
+  total_downloads: 16175
   daily_downloads: 243
-  release_downloads: 262
+  release_downloads: 363
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:01:58Z'
+  last_scrape_at: '2026-11-04T18:54:47Z'
   theme: family
   family_id: smorg-rb
   family_position: 12
@@ -5116,14 +4941,14 @@
   - structuredmerge
   - templating
   docs_site: https://www.rubydoc.info/gems/markly-merge/1.0.0
-  total_downloads: 14289
+  total_downloads: 14476
   daily_downloads: 231
-  release_downloads: 241
+  release_downloads: 341
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:02:00Z'
+  last_scrape_at: '2026-11-04T18:54:50Z'
   theme: family
   family_id: smorg-rb
   family_position: 13
@@ -5156,14 +4981,14 @@
   - structuredmerge
   - templating
   docs_site: https://www.rubydoc.info/gems/prism-merge/2.0.4
-  total_downloads: 18956
+  total_downloads: 19079
   daily_downloads: 247
-  release_downloads: 244
+  release_downloads: 275
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:02:03Z'
+  last_scrape_at: '2026-11-04T18:54:53Z'
   theme: family
   family_id: smorg-rb
   family_position: 16
@@ -5197,14 +5022,14 @@
   - templating
   - yaml
   docs_site: https://www.rubydoc.info/gems/psych-merge/1.0.0
-  total_downloads: 13903
+  total_downloads: 14026
   daily_downloads: 230
-  release_downloads: 253
+  release_downloads: 294
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:02:05Z'
+  last_scrape_at: '2026-11-04T18:54:55Z'
   theme: family
   family_id: smorg-rb
   family_position: 17
@@ -5240,14 +5065,14 @@
   - templating
   - tree-sitter
   docs_site: https://www.rubydoc.info/gems/rbs-merge/2.0.0
-  total_downloads: 15856
+  total_downloads: 15964
   daily_downloads: 223
-  release_downloads: 235
+  release_downloads: 266
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
-  last_scrape_at: '2026-11-03T18:02:07Z'
+  last_scrape_at: '2026-11-04T18:54:58Z'
   theme: family
   family_id: smorg-rb
   family_position: 18
@@ -6424,24 +6249,19 @@
   - oauth
   - ruby
   docs_site: https://www.rubydoc.info/gems/auth-sanitizer/0.2.3
-  total_downloads: 17635727
+  total_downloads: 17770174
   daily_downloads: 152968
-  release_downloads: 242565
+  release_downloads: 274774
   release_date: 2026/10/25
   github_stars: 15
   last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-11-03T22:02:43Z'
+  last_scrape_at: '2026-11-04T17:30:32Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/auth-sanitizer/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 100.0
-  coverage_lines_covered: 184
-  coverage_lines_total: 184
-  coverage_branch: 100.0
-  coverage_release: 0.2.5
 - name: turbo_tests2
   description: "\U0001F680 turbo_tests2` is an RSpec parallel test runner. It uses
     runtime_groups for process counts, pid bookkeeping, file grouping, and runtime
@@ -6795,24 +6615,19 @@
   - oauth
   - ruby
   docs_site: https://www.rubydoc.info/gems/anonymous_loader/0.1.3
-  total_downloads: 11626839
+  total_downloads: 11723966
   daily_downloads: 121557
-  release_downloads: 244900
+  release_downloads: 276300
   release_date: 2026/10/25
   github_stars: 2
   last_commit_on: 2026/11/01
   status: active
-  last_scrape_at: '2026-11-03T22:02:45Z'
+  last_scrape_at: '2026-11-04T17:30:35Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/anonymous_loader/blob/main/LICENSE.md
   owner: true
   releaser: true
-  coverage: 96.33
-  coverage_lines_covered: 105
-  coverage_lines_total: 109
-  coverage_branch: 81.58
-  coverage_release: 0.1.5
 - name: kettle-rb
   description: "\U0001F4CF Provides the shared Ruby, engine, Rails, RuboCop, and RuboCop
     LTS compatibility matrix used by Kettle-managed gems."

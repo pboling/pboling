@@ -1,5 +1,17 @@
 [
  {
+  "title": "[Boost]",
+  "url": "https://dev.to/galtzo/-4p0f",
+  "date": "2026-11-03",
+  "minutes": 1,
+  "reactions": 0,
+  "tags": [
+   "github",
+   "showdev",
+   "webdev"
+  ]
+ },
+ {
   "title": "Why flag_shih_tzu is changing its default SQL for bit flags",
   "url": "https://dev.to/galtzo/why-flagshihtzu-is-changing-its-default-sql-for-bit-flags-41l9",
   "date": "2026-05-26",
@@ -113,19 +125,6 @@
    "career",
    "discuss",
    "opensource"
-  ]
- },
- {
-  "title": "💎 ANN: omniauth-identity v3.1.5 (Hanami/ROM Support)",
-  "url": "https://dev.to/galtzo/ann-omniauth-identity-v315-hanamirom-support-4ha3",
-  "date": "2025-10-14",
-  "minutes": 4,
-  "reactions": 1,
-  "tags": [
-   "webdev",
-   "ruby",
-   "rom",
-   "authentication"
   ]
  }
 ]
