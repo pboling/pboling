@@ -334,7 +334,6 @@ def mini_card(i, p, y0, cols=3, link=False):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
-    g += f'<text x="{x+cw-10}" y="{y+36}" font-size="8" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{ROLE["contributor"]}">CONTRIBUTOR</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 def card(i, p, y0=46, link=False):
