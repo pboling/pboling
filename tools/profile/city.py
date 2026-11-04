@@ -15,7 +15,7 @@ NEON = ["#ff2bd6", "#22d3ee", "#ffb000", "#a3e635", "#818cf8", "#fb923c", "#f472
 WARM, COOL = "#f6d68a", "#8fe9ff"
 
 
-def build(cal, W, CH, pal, total):
+def build(cal, W, CH, pal, total, text=True):
     PANEL, EDGE, TEAL, AMBER, PAPER, MUTED = (pal[k] for k in ("PANEL", "EDGE", "TEAL", "AMBER", "PAPER", "MUTED"))
     tw, th, oy, HMAX = 24.0, 10.0, 150, 108
     start = datetime.date.fromisoformat(cal[0]["date"])
@@ -151,20 +151,21 @@ def build(cal, W, CH, pal, total):
     # --- text in the empty bottom-left, clear of the skyline, and the legend
     active = sum(1 for c in cells if c[2])
     best = max(cells, key=lambda c: c[2])
-    ty = CH - 118
-    out.append(f'<text x="16" y="{ty}" font-size="30" font-weight="700" class="s" style="fill:{TEAL}">{total:,}</text>'
-               f'<text x="16" y="{ty+18}" font-size="11" class="m">contributions · last 12 months</text>'
-               f'<text x="16" y="{ty+38}" font-size="11" class="m">{active} active days · busiest {best[3]}: {best[2]}</text>')
-    lx = 16
-    ly = CH - 52
-    out.append(f'<text x="{lx}" y="{ly+9}" font-size="10" class="m">quiet</text>')
-    for i, (roof, *_) in enumerate(RAMP):
-        out.append(f'<rect x="{lx+36+i*16}" y="{ly}" width="11" height="11" fill="{roof}"/>')
-    out.append(f'<text x="{lx+36+5*16+4}" y="{ly+9}" font-size="10" class="m">top 10% of days</text>')
-    for i, col in enumerate(NEON[:4]):
-        out.append(f'<polygon points="{lx+8+i*0:.0f},{ly+27} {lx+14},{ly+30} {lx+8},{ly+33} {lx+2},{ly+30}" fill="none" stroke="{col}" stroke-width="1.3" transform="translate({i*13} 0)"/>')
-    out.append(f'<text x="{lx+60}" y="{ly+33}" font-size="10" class="m">neon ring: the 10 busiest days</text>'
-               f'<text x="{lx}" y="{ly+50}" font-size="10" class="m">height ranks the day · one building per day</text>')
+    if text:
+        ty = CH - 118
+        out.append(f'<text x="16" y="{ty}" font-size="30" font-weight="700" class="s" style="fill:{TEAL}">{total:,}</text>'
+                   f'<text x="16" y="{ty+18}" font-size="11" class="m">contributions · last 12 months</text>'
+                   f'<text x="16" y="{ty+38}" font-size="11" class="m">{active} active days · busiest {best[3]}: {best[2]}</text>')
+        lx = 16
+        ly = CH - 52
+        out.append(f'<text x="{lx}" y="{ly+9}" font-size="10" class="m">quiet</text>')
+        for i, (roof, *_) in enumerate(RAMP):
+            out.append(f'<rect x="{lx+36+i*16}" y="{ly}" width="11" height="11" fill="{roof}"/>')
+        out.append(f'<text x="{lx+36+5*16+4}" y="{ly+9}" font-size="10" class="m">top 10% of days</text>')
+        for i, col in enumerate(NEON[:4]):
+            out.append(f'<polygon points="{lx+8+i*0:.0f},{ly+27} {lx+14},{ly+30} {lx+8},{ly+33} {lx+2},{ly+30}" fill="none" stroke="{col}" stroke-width="1.3" transform="translate({i*13} 0)"/>')
+        out.append(f'<text x="{lx+60}" y="{ly+33}" font-size="10" class="m">neon ring: the 10 busiest days</text>'
+                   f'<text x="{lx}" y="{ly+50}" font-size="10" class="m">height ranks the day · one building per day</text>')
     alt = (f"Isometric night skyline, one building per day, with a subway train under the near edge. {total} contributions in the last year; "
            f"busiest day {best[3]} with {best[2]}. The ten busiest days wear neon rings: " + ", ".join(f"{c[3]} ({c[2]})" for c in top) + ".")
     return "".join(out), alt
