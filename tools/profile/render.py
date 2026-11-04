@@ -62,6 +62,7 @@ def ago(d):
 BG, PANEL, EDGE = "#0e1718", "#14211f", "#25403c"
 TEAL, VIOLET, AMBER, PAPER, MUTED = "#4fc3b3", "#a58bf5", "#e8b04a", "#f4efe4", "#8fa6a1"
 # Role colors: no red/green (CI pass/fail connotation; collapse for deuteranopes). Orange/teal/lavender stay >=46 dE apart under deutan, protan and tritan simulation.
+DLGREEN = "#16a34a"   # download figure on cards; roles no longer use green, so it is free
 ROLE = {"author": "#ff8a1f", "maintainer": "#2dd4bf", "contributor": "#c084fc"}
 LANG = {"Ruby": "#e0463c", "Rust": "#e8a15a", "Go": "#4fc3d9", "TypeScript": "#5b9bea", "JavaScript": "#e8d44a", "Bash": "#7fcf6a"}
 W = 880
@@ -252,7 +253,7 @@ def mini_card(i, p, y0, cols=3, link=False):
         g += f'<text x="{x+cw-26}" y="{y+24}" font-size="9" class="m" text-anchor="end">{n} pkgs · {p["_regs"]} regs</text>'
     for k, line in enumerate(wrap(p.get("description"), 40, 1)):
         g += f'<text x="{x+18}" y="{y+44}" class="s m" font-size="10.5">{esc(line)}</text>'
-    st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), TEAL), ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
+    st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), DLGREEN), ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
@@ -281,7 +282,7 @@ def card(i, p, y0=46, link=False):
         wpx = len(cmd)*6.2 + 24
         g += (f'<rect x="{x+18}" y="{y+85}" width="{wpx:.0f}" height="18" rx="3" fill="{BG}" stroke="{EDGE}"/>'
               f'<text x="{x+27}" y="{y+98}" font-size="10"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
-    st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), TEAL),
+    st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), DLGREEN),
           ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
     for sym, val, c in st:
@@ -422,8 +423,8 @@ def role_key(roles, x_end, y, fs, sw):
         out += f'<rect x="{x:.0f}" y="{y-sw+1}" width="{sw}" height="{sw}" rx="1" fill="{ROLE[role]}"/><text x="{x+sw+6:.0f}" y="{y}" font-size="{fs}" font-weight="700" letter-spacing="1" style="fill:{ROLE[role]}">{role.upper()}</text>'
         x -= 14
     return out
-svg("projects/head", 40, head_bar("projects I author & maintain · by lifetime downloads", 40, right=role_key(["author", "maintainer"], W-16, 22, 11, 10)), "Projects I author and maintain, by lifetime downloads", vb=(0, 0, W, 40))
-readme_row(("projects/head", "Projects I author and maintain, by lifetime downloads", 100, None))
+svg("projects/head", 40, head_bar("projects I author & maintain · sort: lifetime downloads desc", 40, right=role_key(["author", "maintainer"], W-16, 22, 11, 10)), "Projects I author and maintain, sorted by lifetime downloads descending", vb=(0, 0, W, 40))
+readme_row(("projects/head", "Projects I author and maintain, sorted by lifetime downloads descending", 100, None))
 for r in range(rows):
     items = []
     for col in range(2):
@@ -436,12 +437,10 @@ for r in range(rows):
         items.append((name, card_alt(pr), 50, gh_url(pr)))
     readme_row(*items)
 yf = 46 + rows*(CHT+12) - 6
-foot = edges(yf, yf+34, bottom=True); lx = 16
-for r_, c in ((k, v) for k, v in ROLE.items() if k != "contributor"):
-    foot += f'<rect x="{lx}" y="{yf+12}" width="10" height="10" fill="{c}"/><text x="{lx+16}" y="{yf+21}" font-size="10" class="m">{r_}</text>'; lx += 100
+foot = edges(yf, yf+34, bottom=True)
 foot += f'<text x="{W-16}" y="{yf+21}" font-size="10" class="m" text-anchor="end">data: galtzo.com · scraped {scraped}</text>'
-svg("projects/foot", 0, foot, "Legend: author, maintainer", vb=(0, yf, W, 34))
-readme_row(("projects/foot", "Legend: red is author, green is maintainer", 100, None))
+svg("projects/foot", 0, foot, "Data source and scrape date", vb=(0, yf, W, 34))
+readme_row(("projects/foot", "Data source and scrape date", 100, None))
 
 # ---- recent releases + writing (data: tools/profile/feeds.py)
 seen = set(); latest = []
@@ -526,9 +525,9 @@ for r in range(math.ceil(len(cranked)/3)):
     readme_row(*items)
 yf = HCH + math.ceil(len(cranked)/3)*94 - 5
 svg("contributors/foot", 0, edges(yf, yf+34, color=PURPLE, bottom=True) +
-    f'<text x="16" y="{yf+20}" font-size="10" class="m">Counts belong to the upstream projects and are tallied only here, never in the totals above.</text>',
-    "Contributor counts belong to upstream projects", vb=(0, yf, W, 34))
-readme_row(("contributors/foot", "Contributor counts belong to upstream projects and are not in my totals", 100, None))
+    f'<text x="16" y="{yf+20}" font-size="10" class="m">Contributor project tallies are separate from author / maintainer tallies.</text>',
+    "Contributor tallies are separate from author / maintainer tallies", vb=(0, yf, W, 34))
+readme_row(("contributors/foot", "Contributor project tallies are separate from author / maintainer tallies", 100, None))
 
 # ---- sponsors (data/sponsors.yml): logos for sponsors who are already public, text names for minor donors
 SPN = [x for x in sponsors if x["tier"] in ("personal", "project")]
@@ -648,7 +647,7 @@ def pcard(pr, col):
     if cmd:
         o += (f'<rect x="14" y="{h-40}" width="{len(cmd)*5.2+18:.0f}" height="14" rx="3" fill="{BG}" stroke="{EDGE}"/>'
               f'<text x="21" y="{h-30}" font-size="8.5"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
-    st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), TEAL), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
+    st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), DLGREEN), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
     sx = 16
     for sym, val, c in st:
         o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
@@ -658,10 +657,8 @@ for i, pr in enumerate(ranked[:TOP]):
     col = i % 2
     body, w, h = pcard(pr, col)
     psvg(f"projects/{i+1:02d}", w, h, logo_defs([owner_of(pr)]) + body, card_alt(pr))
-fb = pedges(PHW, 30, bottom=True) + f'<rect x="12" y="10" width="8" height="8" fill="{ROLE["author"]}"/><text x="25" y="17" font-size="9" class="m">author</text>' \
-     f'<rect x="80" y="10" width="8" height="8" fill="{ROLE["maintainer"]}"/><text x="93" y="17" font-size="9" class="m">maintainer</text>' \
-     f'<text x="{PHW-12}" y="17" font-size="8" class="m" text-anchor="end">data: galtzo.com · {scraped}</text>'
-psvg("projects/foot", PHW, 30, fb, "Legend: author, maintainer")
+fb = pedges(PHW, 30, bottom=True) + f'<text x="{PHW-12}" y="17" font-size="8" class="m" text-anchor="end">data: galtzo.com · {scraped}</text>'
+psvg("projects/foot", PHW, 30, fb, "Data source and scrape date")
 
 # feed: head, release rows, post rows (195 wide, two per row)
 psvg("feed/head", PHW, 34, pbar("releases") + f'<text x="{PHW/2+8}" y="21" font-size="10" class="m" letter-spacing="1.5">WRITING{esc(stale.replace(" · LATEST", " ·"))}</text>', "Recent releases and writing")
@@ -730,7 +727,7 @@ for i, pr in enumerate(cranked):
 for col in (range(len(cranked) % 3, 3) if len(cranked) % 3 else []):
     psvg(f"contributors/blank-{col+1}", PHW/3, 64, pedges(PHW/3, 64, col, 3, color=PURPLE), "")
 psvg("contributors/foot", PHW, 30, pedges(PHW, 30, color=PURPLE, bottom=True) +
-     f'<text x="12" y="18" font-size="8" class="m">Upstream counts; never in my totals above.</text>', "Contributor counts belong to upstream projects")
+     f'<text x="12" y="18" font-size="8" class="m">Contributor tallies are separate from author / maintainer tallies.</text>', "Contributor tallies are separate from author / maintainer tallies")
 # banner (phone): copy + 2x2 buttons
 psvg("banner/banner", PHW, 92, pedges(PHW, 92, top=True) + f'<rect x="12" y="14" width="3" height="62" fill="{AMBER}"/>'
      f'<text x="24" y="34" class="s" font-size="15" font-weight="700">FLOSS maintenance is my</text>'
