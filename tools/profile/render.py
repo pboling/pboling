@@ -244,22 +244,49 @@ def wrap(s, n, k):
     return lines
 # Featured cards: mine, still maintained (not archived) and not up for adoption. Totals above still count everything I own.
 featured = [p for p in owned if not p.get("adoptable") and p.get("status") != "archived"]
-# The one multi-gem monorepo ranks, and shows, as a single card: downloads summed, first release = its earliest gem's.
-MONOREPOS = {"https://github.com/structuredmerge/structuredmerge-ruby"}
-def monorepo_card(repo, plist):
+def first_rel(q): return first_release.get(f"{q['ecosystem']}:{q['name']}")
+def earliest(plist): return min((d for q in plist if (d := first_rel(q))), default=None)
+def group_card(plist):
+    """One card per upstream repo: all of its registry packages rolled up (alef, tree-sitter-language-pack, ...)."""
     g = dict(plist[0])
-    g["name"] = repo.split("/")[-1]; g["_monorepo"] = True; g["_pkgs"] = len(plist); g["ecosystem"] = None
+    seen_registry = {(p["ecosystem"]) for p in plist}
+    rel = max(gh_release_dl(p) for p in plist)
+    g["name"] = plist[0]["name"] if len(plist) == 1 else gh_repo(plist[0]).split("/")[-1]
+    g["total_downloads"] = sum(p.get("total_downloads") or 0 for p in plist) + rel
+    g["daily_downloads"] = sum(p.get("daily_downloads") or 0 for p in plist)
+    g["github_stars"] = max(p.get("github_stars") or 0 for p in plist)
+    g["language"] = plist[0]["language"] if len(plist) == 1 else plist[0]["language"]
+    g["_regs"] = len(seen_registry) if len(plist) > 1 else 0
+    g["_pkgs"] = len(plist)
+    return g
+# Cards that stand for several entries rank, and show, once: the same project on several registries
+# (tree-sitter-language-pack) and the structuredmerge family (many gems/crates/packages across four
+# languages). Downloads are summed; a group's first release is its earliest member's, so NEW is honest.
+POLYGLOT = {"structuredmerge": {"https://github.com/structuredmerge/structuredmerge-" + l for l in ("ruby", "typescript", "rust", "go")}}
+def polyglot_card(name, plist):
+    g = dict(plist[0])
+    g.update(name=name, ecosystem=None, language="multi-lang", _polyglot=True, _pkgs=len(plist), _langs=len({q.get("language") for q in plist}))
     g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist)
     g["daily_downloads"] = sum(q.get("daily_downloads") or 0 for q in plist)
-    g["github_stars"] = max(q.get("github_stars") or 0 for q in plist)
-    firsts = [d for q in plist if (d := first_release.get(f"{q['ecosystem']}:{q['name']}"))]
-    g["_first_release"] = min(firsts) if firsts else None
-    g["description"] = f"{len(plist)} gems in one repo: " + ", ".join(sorted((q["name"] for q in plist), key=str.lower))
+    per_repo = {}
+    for q in plist: per_repo[gh_repo(q)] = max(per_repo.get(gh_repo(q), 0), q.get("github_stars") or 0)
+    g["github_stars"] = sum(per_repo.values())
+    g["_first_release"] = earliest(plist)
+    langs = sorted({q.get("language") for q in plist if q.get("language")})
+    g["description"] = f"{len(plist)} packages across {', '.join(langs)}"
     return g
-_mono = {}
-for p in featured:
-    if gh_repo(p) in MONOREPOS: _mono.setdefault(gh_repo(p), []).append(p)
-featured = [p for p in featured if gh_repo(p) not in MONOREPOS] + [monorepo_card(k, v) for k, v in _mono.items()]
+def collapse(plists):
+    out, poly, same = [], {}, {}
+    for p in plists:
+        key = next((k for k, repos in POLYGLOT.items() if gh_repo(p) in repos), None)
+        if key: poly.setdefault(key, []).append(p)
+        else: same.setdefault((gh_repo(p) or id(p), p["name"]), []).append(p)
+    for v in same.values():
+        if len({q["ecosystem"] for q in v}) > 1:
+            g = group_card(v); g["_first_release"] = earliest(v); out.append(g)
+        else: out.extend(v)
+    return out + [polyglot_card(k, v) for k, v in poly.items()]
+featured = collapse(featured)
 ranked = sorted(featured, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 24
 CW, CHT = (W-32-12)/2, 128
@@ -312,8 +339,8 @@ def card(i, p, y0=46, link=False):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 86
-    if p.get("_monorepo"):
-        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">multi-gem monorepo · {p["_pkgs"]} gems</text>'
+    if p.get("_polyglot"):
+        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">multi-language monorepos · {p["_pkgs"]} packages · {p["_langs"]} languages</text>'
     elif p.get("_pkgs", 1) > 1:
         g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
     g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(str(p.get("role", "")).upper())}</text>'
@@ -532,19 +559,6 @@ svg("feed/foot", 0, edges(yf-2, yf+10, bottom=True), "", vb=(0, yf-2, W, 12))
 readme_row(("feed/foot", "", 100, None))
 
 # ---- contributor section (other people's projects; clearly separate)
-def group_card(plist):
-    """One card per upstream repo: all of its registry packages rolled up (alef, tree-sitter-language-pack, ...)."""
-    g = dict(plist[0])
-    seen_registry = {(p["ecosystem"]) for p in plist}
-    rel = max(gh_release_dl(p) for p in plist)
-    g["name"] = plist[0]["name"] if len(plist) == 1 else gh_repo(plist[0]).split("/")[-1]
-    g["total_downloads"] = sum(p.get("total_downloads") or 0 for p in plist) + rel
-    g["daily_downloads"] = sum(p.get("daily_downloads") or 0 for p in plist)
-    g["github_stars"] = max(p.get("github_stars") or 0 for p in plist)
-    g["language"] = plist[0]["language"] if len(plist) == 1 else plist[0]["language"]
-    g["_regs"] = len(seen_registry) if len(plist) > 1 else 0
-    g["_pkgs"] = len(plist)
-    return g
 by_repo = {}
 for p in contrib: by_repo.setdefault(gh_repo(p) or p["name"], []).append(p)
 cranked = sorted((group_card(v) for v in by_repo.values()), key=lambda p: -p["total_downloads"])
@@ -706,8 +720,8 @@ def pcard(pr, col):
     for sym, val, c in st:
         o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
     o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
-    if pr.get("_monorepo"):
-        o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">multi-gem monorepo · {pr["_pkgs"]} gems</text>'
+    if pr.get("_polyglot"):
+        o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">multi-language · {pr["_pkgs"]} packages · {pr["_langs"]} langs</text>'
     return o, w, h
 for i, pr in enumerate(ranked[:TOP]):
     col = i % 2
