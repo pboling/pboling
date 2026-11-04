@@ -2,15 +2,19 @@
 - id: smorg-rb
   name: StructuredMerge Ruby
   position: 1
+  rollup: structuredmerge
 - id: smorg-ts
   name: StructuredMerge TypeScript
   position: 2
+  rollup: structuredmerge
 - id: smorg-rs
   name: StructuredMerge Rust
   position: 3
+  rollup: structuredmerge
 - id: smorg-go
   name: StructuredMerge Go
   position: 4
+  rollup: structuredmerge
 - id: ast-merge
   name: AST / Ruby Interoperability
   position: 6
@@ -56,6 +60,8 @@
 - id: rubocop-lts
   name: RuboCop-LTS Family
   position: 19
+  rollup: rubocop-lts
+  rollup_lead: rubocop-lts
 - id: xberg-io
   name: xberg.io
   position: 20
