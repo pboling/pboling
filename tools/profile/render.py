@@ -739,7 +739,7 @@ BANNER_LINKS = [("SPONSOR", "GitHub Sponsors", "https://github.com/sponsors/pbol
                 ("HIRE ME", "Available for work", "https://docs.google.com/document/d/1H9fYtkMFmnkQO1sucrFPt5E3dvhozgVtI31LgpNLmJ4/pub", VIOLET),
                 ("CHAT", "Discord", "https://discord.gg/3qme4XHNKN", TEAL)]
 n_projects = (len(owned) // 100) * 100     # packages I author/maintain, rounded down: "200+"
-BANNER_TEXT = ("FLOSS maintenance is my full-time job.", f"Your sponsorship keeps {n_projects}+ libraries maintained, secure and released.")
+BANNER_TEXT = ("FLOSS maintenance is a full-time job.", f"Your sponsorship keeps {n_projects}+ libraries maintained, secure and released.")
 # ---- phone variants (<= 600px): redesigned at device scale, not just shrunk. See #11.
 PHW = 390
 def psvg(name, w, h, body, alt):
