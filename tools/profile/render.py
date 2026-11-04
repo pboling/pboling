@@ -272,6 +272,8 @@ def polyglot_card(name, plist):
     for q in plist: per_repo[gh_repo(q)] = max(per_repo.get(gh_repo(q), 0), q.get("github_stars") or 0)
     g["github_stars"] = sum(per_repo.values())
     g["_first_release"] = earliest(plist)
+    for k in ("coverage", "coverage_branch", "coverage_lines_covered", "coverage_lines_total", "coverage_release"): g.pop(k, None)
+    g["owner"] = any(q.get("owner") for q in plist); g["releaser"] = any(q.get("releaser") for q in plist)
     langs = sorted({q.get("language") for q in plist if q.get("language")})
     g["description"] = f"{len(plist)} packages across {', '.join(langs)}"
     return g
@@ -283,7 +285,10 @@ def collapse(plists):
         else: same.setdefault((gh_repo(p) or id(p), p["name"]), []).append(p)
     for v in same.values():
         if len({q["ecosystem"] for q in v}) > 1:
-            g = group_card(v); g["_first_release"] = earliest(v); out.append(g)
+            g = group_card(v); g["_first_release"] = earliest(v)
+            for k in ("coverage", "coverage_branch", "coverage_lines_covered", "coverage_lines_total", "coverage_release"): g.pop(k, None)
+            g["owner"] = any(q.get("owner") for q in v); g["releaser"] = any(q.get("releaser") for q in v)
+            out.append(g)
         else: out.extend(v)
     return out + [polyglot_card(k, v) for k, v in poly.items()]
 featured = collapse(featured)
@@ -327,7 +332,7 @@ def card(i, p, y0=46, link=False):
         nx = x + CW - 132
         g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
               f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
-    for k, line in enumerate(wrap(p.get("description"), 52, 3)):
+    for k, line in enumerate(wrap(p.get("description"), 46, 3)):
         g += f'<text x="{x+18}" y="{y+48+k*15}" class="s m" font-size="11.5">{esc(line)}</text>'
     cmd = install_cmd(p, 52)
     if cmd:
@@ -338,7 +343,16 @@ def card(i, p, y0=46, link=False):
           ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
     for sym, val, c in st:
-        g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 86
+        g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 80
+    if p.get("coverage") is not None:
+        g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12"><tspan style="fill:{MUTED}">cov</tspan> {p["coverage"]:.0f}%</text>'
+    cy = y + 50
+    for flag, label in (("owner", "OWNER"), ("releaser", "RELEASER")):
+        if p.get(flag):
+            wch = len(label)*6.4 + 12
+            g += (f'<rect x="{x+CW-14-wch:.0f}" y="{cy}" width="{wch:.0f}" height="15" rx="7.5" fill="none" stroke="{rc}" stroke-opacity=".7"/>'
+                  f'<text x="{x+CW-14-wch/2:.0f}" y="{cy+11}" font-size="8.5" font-weight="700" letter-spacing=".5" text-anchor="middle" style="fill:{rc}">{label}</text>')
+            cy += 21
     if p.get("_polyglot"):
         g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">multi-language monorepos · {p["_pkgs"]} packages · {p["_langs"]} languages</text>'
     elif p.get("_pkgs", 1) > 1:
@@ -720,6 +734,10 @@ def pcard(pr, col):
     for sym, val, c in st:
         o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
     o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
+    facts = [t for t, on in (("OWNER", pr.get("owner")), ("RELEASER", pr.get("releaser"))) if on]
+    if pr.get("coverage") is not None: facts.append(f'cov {pr["coverage"]:.0f}%')
+    if facts and not pr.get("_polyglot"):
+        o += f'<text x="{w-12}" y="{h-6}" font-size="7.5" class="m" text-anchor="end">{" · ".join(facts)}</text>'
     if pr.get("_polyglot"):
         o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">multi-language · {pr["_pkgs"]} packages · {pr["_langs"]} langs</text>'
     return o, w, h
