@@ -61,7 +61,8 @@ def ago(d):
 # palette: sm-urb-design "sm" brand (teal primary, violet secondary, amber tertiary) on dark paper
 BG, PANEL, EDGE = "#0e1718", "#14211f", "#25403c"
 TEAL, VIOLET, AMBER, PAPER, MUTED = "#4fc3b3", "#a58bf5", "#e8b04a", "#f4efe4", "#8fa6a1"
-ROLE = {"author": "#dc2626", "maintainer": "#16a34a", "contributor": "#8b5cf6"}
+# Role colors: no red/green (CI pass/fail connotation; collapse for deuteranopes). Orange/teal/lavender stay >=46 dE apart under deutan, protan and tritan simulation.
+ROLE = {"author": "#ff8a1f", "maintainer": "#2dd4bf", "contributor": "#c084fc"}
 LANG = {"Ruby": "#e0463c", "Rust": "#e8a15a", "Go": "#4fc3d9", "TypeScript": "#5b9bea", "JavaScript": "#e8d44a", "Bash": "#7fcf6a"}
 W = 880
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
@@ -255,6 +256,7 @@ def mini_card(i, p, y0, cols=3, link=False):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+ch-12}" font-size="11" style="fill:{c}">{sym} {val}</text>'; sx += 80
+    g += f'<text x="{x+cw-10}" y="{y+ch-12}" font-size="8" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{ROLE["contributor"]}">CONTRIBUTOR</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 def card(i, p, y0=46, link=False):
@@ -284,8 +286,9 @@ def card(i, p, y0=46, link=False):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 86
-    tag = f'{p["_pkgs"]} packages · {p["_regs"]} registries' if p.get("_pkgs", 1) > 1 else str(p.get("role", ""))
-    g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" class="m" text-anchor="end">{esc(tag)}</text>'
+    if p.get("_pkgs", 1) > 1:
+        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
+    g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(str(p.get("role", "")).upper())}</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 # ---- trending: stars gained (tools/profile/stars.py). 30 days is too quiet to show (+5 at best), so the headline is 12 months.
@@ -411,7 +414,15 @@ def install_cmd(p, limit):
 def card_alt(p):
     return (f'{p["name"]}, {p.get("role")}: {" ".join((p.get("description") or "").split())[:120]} '
             f'{human(p.get("github_stars") or 0)} stars, {human(p.get("total_downloads") or 0)} downloads')
-svg("projects/head", 40, head_bar("projects I author & maintain · by lifetime downloads", 40), "Projects I author and maintain, by lifetime downloads", vb=(0, 0, W, 40))
+def role_key(roles, x_end, y, fs, sw):
+    out, x = "", x_end
+    for role in reversed(roles):
+        w = len(role)*fs*0.68 + sw + 8
+        x -= w
+        out += f'<rect x="{x:.0f}" y="{y-sw+1}" width="{sw}" height="{sw}" rx="1" fill="{ROLE[role]}"/><text x="{x+sw+6:.0f}" y="{y}" font-size="{fs}" font-weight="700" letter-spacing="1" style="fill:{ROLE[role]}">{role.upper()}</text>'
+        x -= 14
+    return out
+svg("projects/head", 40, head_bar("projects I author & maintain · by lifetime downloads", 40, right=role_key(["author", "maintainer"], W-16, 22, 11, 10)), "Projects I author and maintain, by lifetime downloads", vb=(0, 0, W, 40))
 readme_row(("projects/head", "Projects I author and maintain, by lifetime downloads", 100, None))
 for r in range(rows):
     items = []
@@ -491,7 +502,7 @@ ctiles = [("UPSTREAM DOWNLOADS", human(T_CON["dl"]), "registries + release asset
           ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
 HCH = 148
 hb = (head_bar("contributions to other people's projects · not my projects", HCH, color=PURPLE,
-               right=f'<text x="{W-16}" y="22" font-size="11" text-anchor="end" style="fill:{PURPLE}">ROLE: CONTRIBUTOR</text>')
+               right=role_key(["contributor"], W-16, 22, 11, 10))
       + tile_row(ctiles, accent=PURPLE) + f'<text x="16" y="132" font-size="9" class="m">{esc(basis_note(T_CON))}</text>')
 ct_alt = (f"Contributor totals: {human(T_CON['dl'])} upstream downloads, {human(T_CON['day'])} per day, "
           f"{T_CON['packages']} packages in {T_CON['repos']} repos, {human(T_CON['stars'])} stars. Not included in my totals.")
@@ -619,7 +630,7 @@ psvg("stats", PHW, 172, pedges(PHW, 172) + f'<text x="12" y="22" font-size="10" 
      f"Telemetry: {human(tot_dl)} downloads, {human(day_dl)} per day, {n_proj} packages, {human(stars)} stars")
 
 # projects: head, cards (195 wide, two per row), foot
-psvg("projects/head", PHW, 34, pbar("projects I author & maintain") , "Projects I author and maintain")
+psvg("projects/head", PHW, 34, pbar("projects I author & maintain", right=role_key(["author", "maintainer"], PHW-12, 21, 8, 8)) , "Projects I author and maintain")
 def pcard(pr, col):
     w, h = PHW/2, 124
     rc = ROLE.get(pr.get("role"), MUTED)
@@ -641,6 +652,7 @@ def pcard(pr, col):
     sx = 16
     for sym, val, c in st:
         o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
+    o += f'<text x="{w-12}" y="{h-14}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
     return o, w, h
 for i, pr in enumerate(ranked[:TOP]):
     col = i % 2
@@ -703,7 +715,7 @@ pct = [("UPSTREAM DL", human(T_CON["dl"]), "registries + assets", TEAL), ("UPSTR
        ("PACKAGES", str(T_CON["packages"]), f"{T_CON['repos']} repos", AMBER), ("UPSTREAM STARS", human(T_CON["stars"]), "on GitHub", TEAL)]
 psvg("contributors/head", PHW, 180, pedges(PHW, 180, color=PURPLE, top=True) +
      f'<text x="12" y="21" font-size="10" class="m" letter-spacing="1.5">CONTRIBUTIONS · NOT MINE</text>'
-     f'<text x="{PHW-12}" y="21" font-size="9" text-anchor="end" style="fill:{PURPLE}">CONTRIBUTOR</text>' + ptiles(pct, 40, accent=PURPLE) +
+     + role_key(["contributor"], PHW-12, 21, 8, 8) + ptiles(pct, 40, accent=PURPLE) +
      f'<text x="12" y="172" font-size="8" class="m">{esc(basis_note(T_CON))}</text>', ct_alt)
 for i, pr in enumerate(cranked):
     col = i % 3; w, h = PHW/3, 64
