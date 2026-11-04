@@ -61,7 +61,7 @@ def logo_at(owner, x, y, size):
     return (f'<g transform="translate({x},{y}) scale({k:.4f})"><rect width="64" height="64" rx="12" fill="#fff"/>'
             f'<use href="#lg-{esc(owner)}"/></g><rect x="{x}" y="{y}" width="{size}" height="{size}" rx="{size*12/64:.1f}" fill="none" stroke="{EDGE}"/>')
 def is_new(p):
-    d = first_release.get(f"{p['ecosystem']}:{p['name']}")
+    d = p.get("_first_release") or first_release.get(f"{p['ecosystem']}:{p['name']}")
     return bool(d) and (TODAY - datetime.date.fromisoformat(d)).days <= 365
 def ago(d):
     n = (TODAY - datetime.date.fromisoformat(d)).days
@@ -244,6 +244,22 @@ def wrap(s, n, k):
     return lines
 # Featured cards: mine, still maintained (not archived) and not up for adoption. Totals above still count everything I own.
 featured = [p for p in owned if not p.get("adoptable") and p.get("status") != "archived"]
+# The one multi-gem monorepo ranks, and shows, as a single card: downloads summed, first release = its earliest gem's.
+MONOREPOS = {"https://github.com/structuredmerge/structuredmerge-ruby"}
+def monorepo_card(repo, plist):
+    g = dict(plist[0])
+    g["name"] = repo.split("/")[-1]; g["_monorepo"] = True; g["_pkgs"] = len(plist); g["ecosystem"] = None
+    g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist)
+    g["daily_downloads"] = sum(q.get("daily_downloads") or 0 for q in plist)
+    g["github_stars"] = max(q.get("github_stars") or 0 for q in plist)
+    firsts = [d for q in plist if (d := first_release.get(f"{q['ecosystem']}:{q['name']}"))]
+    g["_first_release"] = min(firsts) if firsts else None
+    g["description"] = f"{len(plist)} gems in one repo: " + ", ".join(sorted((q["name"] for q in plist), key=str.lower))
+    return g
+_mono = {}
+for p in featured:
+    if gh_repo(p) in MONOREPOS: _mono.setdefault(gh_repo(p), []).append(p)
+featured = [p for p in featured if gh_repo(p) not in MONOREPOS] + [monorepo_card(k, v) for k, v in _mono.items()]
 ranked = sorted(featured, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 24
 CW, CHT = (W-32-12)/2, 128
@@ -454,26 +470,11 @@ svg("projects/foot", 0, foot, "Data source and scrape date", vb=(0, yf, W, 34))
 readme_row(("projects/foot", "Data source and scrape date", 100, None))
 
 # ---- new projects: first released in the last 12 months, not already in the top list above.
-# Gems of the one multi-gem monorepo (structuredmerge-ruby) collapse into a single card with summed downloads.
 NEW_TOP = 10
-MONOREPOS = {"https://github.com/structuredmerge/structuredmerge-ruby"}
 def new_candidates():
     in_top = {id(p) for p in ranked[:TOP]}
     fresh = [p for p in featured if id(p) not in in_top and is_new(p)]
-    cards, mono = [], {}
-    for p in fresh:
-        if gh_repo(p) in MONOREPOS: mono.setdefault(gh_repo(p), []).append(p)
-        else: cards.append(p)
-    for repo, plist in mono.items():
-        g = dict(plist[0])
-        g["name"] = repo.split("/")[-1]; g["_monorepo"] = True; g["_pkgs"] = len(plist); g["ecosystem"] = None
-        g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist)
-        g["daily_downloads"] = sum(q.get("daily_downloads") or 0 for q in plist)
-        g["github_stars"] = max(q.get("github_stars") or 0 for q in plist)
-        names = sorted((q["name"] for q in plist), key=str.lower)
-        g["description"] = f"{len(plist)} gems in one repo: " + ", ".join(names)
-        cards.append(g)
-    return sorted(cards, key=lambda p: -(p.get("total_downloads") or 0))[:NEW_TOP]
+    return sorted(fresh, key=lambda p: -(p.get("total_downloads") or 0))[:NEW_TOP]
 newp = new_candidates()
 NEW_LABEL = "new projects · first released in the last 12 months · not in the top 24"
 if newp:
