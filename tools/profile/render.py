@@ -9,7 +9,7 @@ import yaml, pngalpha
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / "assets" / "profile"; OUT.mkdir(parents=True, exist_ok=True)
 import shutil
-for _d in ("projects", "feed", "contributors", "trending", "history", "banner", "sponsors", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
+for _d in ("projects", "new", "feed", "contributors", "trending", "history", "banner", "sponsors", "phone"): shutil.rmtree(OUT/_d, ignore_errors=True)
 for _f in ("projects.svg", "feed.svg", "contributors.svg"): (OUT/_f).unlink(missing_ok=True)
 projects = yaml.safe_load((ROOT/"data/projects.yml").read_text())
 person = yaml.safe_load((ROOT/"data/person.yml").read_text())
@@ -61,7 +61,7 @@ def logo_at(owner, x, y, size):
     return (f'<g transform="translate({x},{y}) scale({k:.4f})"><rect width="64" height="64" rx="12" fill="#fff"/>'
             f'<use href="#lg-{esc(owner)}"/></g><rect x="{x}" y="{y}" width="{size}" height="{size}" rx="{size*12/64:.1f}" fill="none" stroke="{EDGE}"/>')
 def is_new(p):
-    d = first_release.get(f"{p['ecosystem']}:{p['name']}")
+    d = p.get("_first_release") or first_release.get(f"{p['ecosystem']}:{p['name']}")
     return bool(d) and (TODAY - datetime.date.fromisoformat(d)).days <= 365
 def ago(d):
     n = (TODAY - datetime.date.fromisoformat(d)).days
@@ -244,6 +244,22 @@ def wrap(s, n, k):
     return lines
 # Featured cards: mine, still maintained (not archived) and not up for adoption. Totals above still count everything I own.
 featured = [p for p in owned if not p.get("adoptable") and p.get("status") != "archived"]
+# The one multi-gem monorepo ranks, and shows, as a single card: downloads summed, first release = its earliest gem's.
+MONOREPOS = {"https://github.com/structuredmerge/structuredmerge-ruby"}
+def monorepo_card(repo, plist):
+    g = dict(plist[0])
+    g["name"] = repo.split("/")[-1]; g["_monorepo"] = True; g["_pkgs"] = len(plist); g["ecosystem"] = None
+    g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist)
+    g["daily_downloads"] = sum(q.get("daily_downloads") or 0 for q in plist)
+    g["github_stars"] = max(q.get("github_stars") or 0 for q in plist)
+    firsts = [d for q in plist if (d := first_release.get(f"{q['ecosystem']}:{q['name']}"))]
+    g["_first_release"] = min(firsts) if firsts else None
+    g["description"] = f"{len(plist)} gems in one repo: " + ", ".join(sorted((q["name"] for q in plist), key=str.lower))
+    return g
+_mono = {}
+for p in featured:
+    if gh_repo(p) in MONOREPOS: _mono.setdefault(gh_repo(p), []).append(p)
+featured = [p for p in featured if gh_repo(p) not in MONOREPOS] + [monorepo_card(k, v) for k, v in _mono.items()]
 ranked = sorted(featured, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 24
 CW, CHT = (W-32-12)/2, 128
@@ -296,7 +312,9 @@ def card(i, p, y0=46, link=False):
     sx = x+18
     for sym, val, c in st:
         g += f'<text x="{sx}" y="{y+CHT-14}" font-size="12" style="fill:{c}">{sym} {val}</text>'; sx += 86
-    if p.get("_pkgs", 1) > 1:
+    if p.get("_monorepo"):
+        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">multi-gem monorepo · {p["_pkgs"]} gems</text>'
+    elif p.get("_pkgs", 1) > 1:
         g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
     g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(str(p.get("role", "")).upper())}</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
@@ -450,6 +468,33 @@ foot = edges(yf, yf+34, bottom=True)
 foot += f'<text x="{W-16}" y="{yf+21}" font-size="10" class="m" text-anchor="end">data: galtzo.com · scraped {scraped}</text>'
 svg("projects/foot", 0, foot, "Data source and scrape date", vb=(0, yf, W, 34))
 readme_row(("projects/foot", "Data source and scrape date", 100, None))
+
+# ---- new projects: first released in the last 12 months, not already in the top list above.
+NEW_TOP = 10
+def new_candidates():
+    in_top = {id(p) for p in ranked[:TOP]}
+    fresh = [p for p in featured if id(p) not in in_top and is_new(p)]
+    return sorted(fresh, key=lambda p: -(p.get("total_downloads") or 0))[:NEW_TOP]
+newp = new_candidates()
+NEW_LABEL = "new projects · first released in the last 12 months · not in the top 24"
+if newp:
+    svg("new/head", 40, head_bar(NEW_LABEL, 40), "New projects first released in the last 12 months, not in the top 24 list, by lifetime downloads", vb=(0, 0, W, 40))
+    readme_row(("new/head", "New projects first released in the last 12 months, not in the top 24 list", 100, None))
+    nrows = math.ceil(len(newp)/2)
+    for r in range(nrows):
+        items = []
+        for col in range(2):
+            i = r*2 + col
+            if i >= len(newp): break
+            pr = newp[i]; y = 46 + r*(CHT+12)
+            body = logo_defs([owner_of(pr)]) + card(i, pr) + edges(y-6, y+CHT+6, col*W/2, (col+1)*W/2)
+            name = f"new/{i+1:02d}"
+            svg(name, 0, body, card_alt(pr), vb=(col*W/2, y-6, W/2, CHT+12))
+            items.append((name, card_alt(pr), 50, gh_url(pr)))
+        readme_row(*items)
+    yf = 46 + nrows*(CHT+12) - 6
+    svg("new/foot", 0, edges(yf, yf+10, bottom=True), "", vb=(0, yf, W, 10))
+    readme_row(("new/foot", "", 100, None))
 
 # ---- recent releases + writing (data: tools/profile/feeds.py)
 seen = set(); latest = []
@@ -660,7 +705,9 @@ def pcard(pr, col):
     sx = 16
     for sym, val, c in st:
         o += f'<text x="{sx}" y="{h-14}" font-size="9.5" style="fill:{c}">{sym}{val}</text>'; sx += 56
-    o += f'<text x="{w-12}" y="{h-14}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
+    o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
+    if pr.get("_monorepo"):
+        o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">multi-gem monorepo · {pr["_pkgs"]} gems</text>'
     return o, w, h
 for i, pr in enumerate(ranked[:TOP]):
     col = i % 2
@@ -668,6 +715,12 @@ for i, pr in enumerate(ranked[:TOP]):
     psvg(f"projects/{i+1:02d}", w, h, logo_defs([owner_of(pr)]) + body, card_alt(pr))
 fb = pedges(PHW, 30, bottom=True) + f'<text x="{PHW-12}" y="17" font-size="8" class="m" text-anchor="end">data: galtzo.com · {scraped}</text>'
 psvg("projects/foot", PHW, 30, fb, "Data source and scrape date")
+if newp:
+    psvg("new/head", PHW, 34, pbar("new projects · last 12 months · not in top 24"), "New projects first released in the last 12 months, not in the top 24 list")
+    for i, pr in enumerate(newp):
+        body, w, h = pcard(pr, i % 2)
+        psvg(f"new/{i+1:02d}", w, h, logo_defs([owner_of(pr)]) + body, card_alt(pr))
+    psvg("new/foot", PHW, 10, pedges(PHW, 10, bottom=True), "")
 
 # feed: head, release rows, post rows (195 wide, two per row)
 psvg("feed/head", PHW, 34, pbar("releases") + f'<text x="{PHW/2+8}" y="21" font-size="10" class="m" letter-spacing="1.5">WRITING{esc(stale.replace(" · LATEST", " ·"))}</text>', "Recent releases and writing")
