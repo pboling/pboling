@@ -201,5 +201,6 @@
  "cargo:tree-sitter-language-pack": "2026-03-16",
  "cargo:ts-pack-cli": "2026-04-08",
  "npm:@xberg-io/tree-sitter-language-pack": "2026-06-26",
- "npm:@xberg-io/tree-sitter-language-pack-wasm": "2026-06-26"
+ "npm:@xberg-io/tree-sitter-language-pack-wasm": "2026-06-26",
+ "rubygems:cyclonedx-ruby": "2019-07-13"
 }

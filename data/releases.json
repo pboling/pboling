@@ -1,5 +1,13 @@
 [
  {
+  "name": "kettle-changelog",
+  "version": "1.0.16",
+  "date": "2026-11-04",
+  "at": "2026-11-04T03:17:02.512Z",
+  "url": "https://rubygems.org/gems/kettle-changelog/versions/1.0.16",
+  "registry": "rubygems"
+ },
+ {
   "name": "nomono",
   "version": "1.1.18",
   "date": "2026-11-03",
@@ -229,14 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:13:49.789Z",
   "url": "https://rubygems.org/gems/markdown-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "json-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:13:49.192Z",
-  "url": "https://rubygems.org/gems/json-merge/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
