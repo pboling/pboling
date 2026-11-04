@@ -50,10 +50,10 @@ def build(cal, W, CH, pal, total):
     a, b = c_mid + train_len + .5, cols + .5 - c_mid        # travel before / after the base position
     out.append(
         '<style>'
-        '.tw{animation:twk 4s ease-in-out infinite}.fk{animation:fk 2.6s steps(1) infinite}.rg{animation:rg 3s ease-in-out infinite}'
+        '.tw{animation:twk 4s ease-in-out infinite}.fk{animation:fk 50s linear infinite}.rg{animation:rg 3s ease-in-out infinite}'
         '.pl{animation:fly 34s linear infinite}.bk{animation:bk 1.4s steps(1) infinite}'
         f'.tr{{animation:ride 30s linear infinite}}'
-        '@keyframes twk{50%{opacity:.25}}@keyframes fk{50%{opacity:0}}@keyframes rg{50%{opacity:.55}}@keyframes bk{50%{opacity:0}}'
+        '@keyframes twk{50%{opacity:.25}}@keyframes fk{0%,90%{opacity:1}91%,96%{opacity:0}97%,100%{opacity:1}}@keyframes rg{50%{opacity:.55}}@keyframes bk{50%{opacity:0}}'
         f'@keyframes fly{{from{{transform:translate(0,0)}}to{{transform:translate({W+80},-26px)}}}}'
         f'@keyframes ride{{from{{transform:translate({-a*T:.1f}px,{-a*TA:.1f}px)}}to{{transform:translate({b*T:.1f}px,{b*TA:.1f}px)}}}}'
         '@media (prefers-reduced-motion:reduce){.tw,.fk,.rg,.pl,.bk,.tr{animation:none}}'
@@ -103,7 +103,7 @@ def build(cal, W, CH, pal, total):
                     if u < .55: (flick if rng.random() < .04 else lit).append((seg, rng.random() < .12))
                     else: dark.append(seg)
         if dark: out.append(f'<path d="{"".join(dark)}" fill="#0c1717"/>')
-        for group, cls in ((lit, ""), (flick, ' class="fk" style="animation-delay:%.1fs"' % (rng.random()*2.6))):
+        for group, cls in ((lit, ""), (flick, ' class="fk" style="animation-duration:%.0fs;animation-delay:-%.0fs"' % (rng.uniform(40, 90), rng.uniform(0, 90)))):
             for color, warm in ((WARM, False), (COOL, True)):
                 segs = "".join(s for s, cool in group if cool == warm)
                 if segs: out.append(f'<path d="{segs}" fill="{color if not warm else COOL}"{cls}/>')
