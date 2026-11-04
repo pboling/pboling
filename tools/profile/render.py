@@ -55,6 +55,30 @@ def star_mark(x, y, size, c):
     ri = ro*.42
     pts_ = " ".join(f"{cx + (ro if k % 2 == 0 else ri)*math.sin(k*math.pi/5):.1f},{cy - (ro if k % 2 == 0 else ri)*math.cos(k*math.pi/5):.1f}" for k in range(10))
     return f'<polygon points="{pts_}" fill="{c}" filter="url(#nglow)"/>'
+def spark(p, n=25):
+    """Cumulative stars at n evenly spaced days over the last year (summed over the card's repos), or None.
+    From the star-event history in data/stars.json: the count a year ago plus each day's gains."""
+    repos = p.get("_repos") or ([gh_repo(p)] if gh_repo(p) else [])
+    dates = [(TODAY - datetime.timedelta(days=round(365*(n-1-i)/(n-1)))).isoformat() for i in range(n)]
+    series, found = [0]*n, False
+    for repo in repos:
+        c = stars_cache.get(repo.replace("https://github.com/", ""))
+        if not c: continue
+        found = True
+        start = max(0, c["total"] - c["gain"])
+        for i, d in enumerate(dates): series[i] += start + sum(v for day, v in c["days"].items() if day <= d)
+    return series if found else None
+def spark_mark(p, x, y, w, h):
+    """The star history as a tiny glowing line (y = text baseline of the row it sits in), or ''."""
+    series = spark(p)
+    if not series or len(series) < 2: return ""
+    lo, hi = min(series), max(series)
+    span = (hi - lo) or 1
+    pts_ = [(x + i*w/(len(series)-1), y - 1 - (v - lo)/span*(h-2)) for i, v in enumerate(series)]
+    line = " ".join(f"{a:.1f},{b:.1f}" for a, b in pts_)
+    return (f'<polygon points="{pts_[0][0]:.1f},{y-1:.1f} {line} {pts_[-1][0]:.1f},{y-1:.1f}" fill="{AMBER}" fill-opacity=".14"/>'
+            f'<g filter="url(#nglow)"><polyline points="{line}" fill="none" stroke="{AMBER}" stroke-width="1.2" stroke-linejoin="round"/>'
+            f'<circle cx="{pts_[-1][0]:.1f}" cy="{pts_[-1][1]:.1f}" r="1.5" fill="{AMBER}"/></g>')   # grouped: a flat line alone has no height for the filter to use
 def stat_text(sym, val, c, x, y, fs, gap=" "):
     """One bottom-row number: a drawn star or the symbol, then the value, all glowing."""
     if sym == "★":
@@ -389,7 +413,11 @@ def card(i, p, y0=46, link=False):
           ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
     sx = x+18
     for sym, val, c in st:
-        g += stat_text(sym, val, c, sx, y+CHT-14, 12); sx += 80
+        g += stat_text(sym, val, c, sx, y+CHT-14, 12)
+        sx += (17 + len(val)*7.2 if sym == "★" else len(sym + " " + val)*7.2) + 14
+        if sym == "★":
+            m = spark_mark(p, sx, y+CHT-14, 30, 12)
+            if m: g += m; sx += 30 + 12
     if p.get("coverage") is not None:
         cc = cov_color(p["coverage"])
         g += (f'<text x="{sx}" y="{y+CHT-14}" font-size="12"><tspan style="fill:{MUTED}">cov</tspan> '
@@ -781,7 +809,11 @@ def pcard(pr, col):
     st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), DLGREEN), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
     sx = 16
     for sym, val, c in st:
-        o += stat_text(sym, val, c, sx, h-14, 9.5, gap=""); sx += 56
+        o += stat_text(sym, val, c, sx, h-14, 9.5, gap="")
+        sx += (14 + len(val)*5.7 if sym == "★" else len(sym + val)*5.7) + 9
+        if sym == "★":
+            m = spark_mark(pr, sx, h-14, 18, 9)
+            if m: o += m; sx += 18 + 8
     o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
     facts = [t for t, on in (("OWNER", pr.get("owner")), ("RELEASER", pr.get("releaser"))) if on]
     if pr.get("coverage") is not None: facts.append(f'cov <tspan style="fill:{cov_color(pr["coverage"])}">{pr["coverage"]:.0f}%</tspan>')
@@ -944,19 +976,6 @@ Browse all 200+ projects at <a href="https://galtzo.com">galtzo.com</a> ·
 """)
 # ---- cards.json: the collapsed, ordered cards (roll-ups included) for peterboling.com to render as HTML.
 # Same selection as the profile's top list without the cap: mine, maintained, not adoptable, not archived.
-def spark(p, n=25):
-    """Cumulative stars at n evenly spaced days over the last year (summed over the card's repos), or None.
-    From the star-event history in data/stars.json: the count a year ago plus each day's gains."""
-    repos = p.get("_repos") or ([gh_repo(p)] if gh_repo(p) else [])
-    dates = [(TODAY - datetime.timedelta(days=round(365*(n-1-i)/(n-1)))).isoformat() for i in range(n)]
-    series, found = [0]*n, False
-    for repo in repos:
-        c = stars_cache.get(repo.replace("https://github.com/", ""))
-        if not c: continue
-        found = True
-        start = max(0, c["total"] - c["gain"])
-        for i, d in enumerate(dates): series[i] += start + sum(v for day, v in c["days"].items() if day <= d)
-    return series if found else None
 def site_card(p):
     cov = p.get("coverage")
     return {
