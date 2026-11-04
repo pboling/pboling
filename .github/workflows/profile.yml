@@ -23,7 +23,8 @@ jobs:
       - run: python3 tools/profile/stars.py
       - run: python3 tools/profile/render.py
       - run: |
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Automated commits are authored by the machine user autobolt so they never count as pboling's own.
+          git config user.name "autobolt"; git config user.email "32689569+autobolt@users.noreply.github.com"
           git add -A data assets/profile assets/logos README.md
           git diff --staged --quiet && exit 0
           git commit -m "chore: refresh profile"
