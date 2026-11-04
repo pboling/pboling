@@ -36,6 +36,11 @@
   license_url: https://github.com/galtzo-floss/active_security/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 94.83
+  coverage_lines_covered: 220
+  coverage_lines_total: 232
+  coverage_branch: 83.33
+  coverage_release: 1.0.2
 - name: activerecord-tablefree
   description: ActiveRecord Tablefree Models provides a simple mixin for creating
     models that are not bound to the database. This approach is useful for taking
@@ -77,6 +82,11 @@
   license_url: https://github.com/galtzo-floss/activerecord-tablefree/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 5
+  coverage_lines_total: 5
+  coverage_branch: 0.0
+  coverage_release: 3.1.9
 - name: activerecord-transactionable
   description: Getting transactions right is hard, and this gem makes it easier.
   description_source: site
@@ -122,6 +132,11 @@
   license_url: https://github.com/galtzo-floss/activerecord-transactionable/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 97.93
+  coverage_lines_covered: 142
+  coverage_lines_total: 145
+  coverage_branch: 88.64
+  coverage_release: 3.0.4
 - name: activesupport-broadcast_logger
   description: "\U0001F48E Rails v8 ActiveSupport::BroadcastLogger, fixed & backported
     to Rails v5.2+ & Ruby 2.7+"
@@ -161,6 +176,11 @@
   license_url: https://github.com/galtzo-floss/activesupport-broadcast_logger/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 98.46
+  coverage_lines_covered: 64
+  coverage_lines_total: 65
+  coverage_branch: 90.0
+  coverage_release: 3.0.0
 - name: activesupport-logger
   description: "\U0001F48E Rails v8 ActiveSupport::Logger backported to Rails v5.2+
     & Ruby 3.1+"
@@ -200,6 +220,11 @@
   license_url: https://github.com/galtzo-floss/activesupport-logger/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 96.09
+  coverage_lines_covered: 123
+  coverage_lines_total: 128
+  coverage_branch: 86.21
+  coverage_release: 3.0.1
 - name: activesupport-tagged_logging
   description: "\U0001F48E Rails v8 ActiveSupport::TaggedLogging, fixed & backported
     to Rails v5.2+ & Ruby 2.7+"
@@ -239,6 +264,11 @@
   license_url: https://github.com/galtzo-floss/activesupport-tagged_logging/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 98.11
+  coverage_lines_covered: 104
+  coverage_lines_total: 106
+  coverage_branch: 81.82
+  coverage_release: 3.0.0
 - name: anonymous_active_record
   description: Replacement for broken Class.new(ActiveRecord::Base)
   description_source: site
@@ -366,6 +396,11 @@
   license_url: https://github.com/appraisal-rb/appraisal2/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 91.0
+  coverage_lines_covered: 940
+  coverage_lines_total: 1033
+  coverage_branch: 79.07
+  coverage_release: 3.2.6
 - name: archivist-client
   description: archivist-client queries archive.org for book data and downloads some
     things.
@@ -783,6 +818,11 @@
   license_url: https://github.com/galtzo-floss/debug_logging/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 97.46
+  coverage_lines_covered: 730
+  coverage_lines_total: 749
+  coverage_branch: 86.34
+  coverage_release: 4.1.6
 - name: destination_errors
   description: Useful when a presenter deals with multiple objects that may enter
     into error states, and the errors need to be collected at a single point.
@@ -995,6 +1035,11 @@
   license_url: https://github.com/galtzo-floss/flag_shih_tzu/blob/main/LICENSE
   owner: true
   releaser: true
+  coverage: 90.75
+  coverage_lines_covered: 412
+  coverage_lines_total: 454
+  coverage_branch: 76.76
+  coverage_release: 1.0.7
 - name: floss_funding
   description: Help overlooked open source projects - the ones at the bottom of the
     stack, and the dev dependencies - by funding them.
@@ -1034,6 +1079,11 @@
   license_url: https://github.com/floss-funding/floss_funding/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 283
+  coverage_lines_total: 283
+  coverage_branch: 100.0
+  coverage_release: 1.0.0-alpha.3
 - name: gem_bench
   description: |-
     * Benchmark different versions of same or similar gems
@@ -1080,6 +1130,11 @@
   license_url: https://github.com/galtzo-floss/gem_bench/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 99.6
+  coverage_lines_covered: 502
+  coverage_lines_total: 504
+  coverage_branch: 93.71
+  coverage_release: 2.0.6
 - name: gitmoji-regex
   description: "\U0001F3C1 A regular expression matching Gitmoji (a subset of Unicode
     Emoji) symbolsFund overlooked open source projects - bottom of stack, dev/test
@@ -1121,6 +1176,11 @@
   license_url: https://github.com/galtzo-floss/gitmoji-regex/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 58
+  coverage_lines_total: 58
+  coverage_branch: 100.0
+  coverage_release: 2.0.16
 - name: humorous_log_formatter
   description: Humorous Log Levels and Color For Rails.  Customizable!
   description_source: site
@@ -1198,6 +1258,11 @@
   license_url: https://github.com/galtzo-floss/include_with_respect/blob/main/LICENSE
   owner: true
   releaser: true
+  coverage: 98.7
+  coverage_lines_covered: 76
+  coverage_lines_total: 77
+  coverage_branch: 81.25
+  coverage_release: 1.0.2
 - name: json_schemer-fuzz
   description: Fuzz generator for json_schemer
   description_source: site
@@ -1293,6 +1358,11 @@
   license_url: https://github.com/kettle-dev/kettle-dev/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 92.03
+  coverage_lines_covered: 5828
+  coverage_lines_total: 6333
+  coverage_branch: 75.91
+  coverage_release: 3.1.26
 - name: kettle-soup-cover
   description: "\U0001F958 A Covered Kettle of Test Coverage SOUP (Software of Unknown
     Provenance)\nFour-line SimpleCov config, w/ curated, opinionated, pre-configured,
@@ -1340,6 +1410,11 @@
   license_url: https://github.com/kettle-dev/kettle-soup-cover/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 99.67
+  coverage_lines_covered: 303
+  coverage_lines_total: 304
+  coverage_branch: 91.11
+  coverage_release: 3.0.16
 - name: kettle-test
   description: "\U0001F372 Kettle::Test is a meta tool from kettle-dev to streamline
     testing. Acts as a shim dependency, pulling in many other dependencies, to give
@@ -1393,6 +1468,11 @@
   license_url: https://github.com/kettle-dev/kettle-test/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 96.84
+  coverage_lines_covered: 92
+  coverage_lines_total: 95
+  coverage_branch: 100.0
+  coverage_release: 2.0.29
 - name: letter_group
   description: Organize data results from raw sql queries (as with PGresult, or Dossier)
     intelligently.
@@ -1468,6 +1548,11 @@
   license_url: https://github.com/galtzo-floss/library_tree/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 94
+  coverage_lines_total: 94
+  coverage_branch: 100.0
+  coverage_release: 1.0.0
 - name: logos
   description: "\U0001FAB5 A resource for logos, with proper attribution information,
     including license and copyright, for open source projects I care about."
@@ -1631,6 +1716,11 @@
   license_url: https://github.com/galtzo-floss/month-serializer/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 90.0
+  coverage_lines_covered: 36
+  coverage_lines_total: 40
+  coverage_branch: 60.0
+  coverage_release: 1.0.3
 - name: oauth
   description: "\U0001F52E A Ruby wrapper for the original OAuth 1.0 / 1.0a spec."
   description_source: registry
@@ -1663,18 +1753,23 @@
   github_stars: 669
   gitlab_stars: 5
   codeberg_stars: 0
-  total_downloads: 174091555
+  total_downloads: 174129554
   daily_downloads: 99343
-  release_downloads: 1386077
+  release_downloads: 1397158
   release_date: 2026/07/15
   last_commit_on: 2026/10/25
   status: active
-  last_scrape_at: '2026-11-03T14:47:27Z'
+  last_scrape_at: '2026-11-04T02:17:28Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 87.71
+  coverage_lines_covered: 849
+  coverage_lines_total: 968
+  coverage_branch: 61.37
+  coverage_release: 1.1.9
 - name: oauth-tty
   description: "\U0001F5A5️ OAuth 1.0 / 1.0a TTY Command Line Interface"
   description_source: site
@@ -1708,18 +1803,23 @@
   github_stars: 7
   gitlab_stars: 1
   codeberg_stars: 1
-  total_downloads: 29374244
+  total_downloads: 29401438
   daily_downloads: 82514
-  release_downloads: 5234971
+  release_downloads: 5247490
   release_date: 2026/07/15
   last_commit_on: 2026/09/26
   status: active
-  last_scrape_at: '2026-11-03T14:47:30Z'
+  last_scrape_at: '2026-11-04T02:17:31Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth-tty/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 99.68
+  coverage_lines_covered: 311
+  coverage_lines_total: 312
+  coverage_branch: 96.55
+  coverage_release: 1.0.13
 - name: oauth2
   description: "\U0001F510 A Ruby wrapper for the OAuth 2.0 Authorization Framework,
     including the OAuth 2.1 draft spec, and OpenID Connect (OIDC)"
@@ -1753,18 +1853,23 @@
   github_stars: 2181
   gitlab_stars: 24
   codeberg_stars: 2
-  total_downloads: 284212796
+  total_downloads: 284328504
   daily_downloads: 161185
-  release_downloads: 128631
+  release_downloads: 141548
   release_date: 2026/10/25
   last_commit_on: 2026/11/03
   status: active
-  last_scrape_at: '2026-11-03T14:47:34Z'
+  last_scrape_at: '2026-11-04T02:17:35Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-oauth/oauth2/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 98.48
+  coverage_lines_covered: 649
+  coverage_lines_total: 659
+  coverage_branch: 93.53
+  coverage_release: 2.1.0
 - name: omniauth-identity
   description: "\U0001FAF5 Traditional username/password based authentication system
     for OmniAuth"
@@ -1790,18 +1895,23 @@
   - security
   docs_site: https://omniauth-identity.galtzo.com
   github_stars: 363
-  total_downloads: 2456776
+  total_downloads: 2457661
   daily_downloads: 1145
-  release_downloads: 19044
+  release_downloads: 19234
   release_date: 2026/07/15
   last_commit_on: 2026/08/11
   status: active
-  last_scrape_at: '2026-11-03T14:47:37Z'
+  last_scrape_at: '2026-11-04T02:17:38Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-identity/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 22.91
+  coverage_lines_covered: 93
+  coverage_lines_total: 406
+  coverage_branch: 20.75
+  coverage_release: 3.2.1
 - name: omniauth-jwt
   description: An OmniAuth strategy to accept JWT-based single sign-on.
   description_source: site
@@ -1874,6 +1984,11 @@
   license_url: https://github.com/omniauth/omniauth-jwt2/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 98.84
+  coverage_lines_covered: 85
+  coverage_lines_total: 86
+  coverage_branch: 92.31
+  coverage_release: 1.0.1
 - name: omniauth-ldap
   description: "\U0001F4C1 LDAP strategy for OmniAuth."
   description_source: registry
@@ -1898,18 +2013,23 @@
   - security
   docs_site:
   github_stars: 148
-  total_downloads: 774095
+  total_downloads: 774121
   daily_downloads: 100
-  release_downloads: 4949
+  release_downloads: 4968
   release_date: 2026/07/14
   last_commit_on: 2026/09/21
   status: active
-  last_scrape_at: '2026-11-03T14:47:40Z'
+  last_scrape_at: '2026-11-04T02:17:41Z'
   licenses:
   - MIT
   license_url: https://github.com/omniauth/omniauth-ldap/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 97.5
+  coverage_lines_covered: 312
+  coverage_lines_total: 320
+  coverage_branch: 79.41
+  coverage_release: 3.0.2
 - name: omniauth-openid
   description: OpenID (not OIDC) strategy for OmniAuth.
   description_source: site
@@ -1942,18 +2062,23 @@
   github_stars: 95
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 4991177
+  total_downloads: 4992014
   daily_downloads: 973
-  release_downloads: 108027
+  release_downloads: 108671
   release_date: 2025/06/08
   last_commit_on: 2026/08/16
   status: active
-  last_scrape_at: '2026-11-03T14:47:43Z'
+  last_scrape_at: '2026-11-04T02:17:45Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/omniauth-openid/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 92.06
+  coverage_lines_covered: 348
+  coverage_lines_total: 378
+  coverage_branch: 79.49
+  coverage_release: 2.0.2
 - name: open_id_authentication
   description: Provides a thin wrapper around the excellent rack-openid2 gem.
   description_source: site
@@ -2187,13 +2312,13 @@
   github_stars: 5
   gitlab_stars: 0
   codeberg_stars: 0
-  total_downloads: 8359209
+  total_downloads: 8360217
   daily_downloads: 1283
-  release_downloads: 4046402
+  release_downloads: 4047345
   release_date: 2014/01/20
   last_commit_on: 2026/06/29
   status: active
-  last_scrape_at: '2026-11-03T14:47:47Z'
+  last_scrape_at: '2026-11-04T02:17:48Z'
   licenses:
   - MIT
   license_url: https://github.com/ruby-openid/rack-openid/blob/master/LICENSE.txt
@@ -2450,6 +2575,11 @@
   license_url: https://github.com/galtzo-floss/require_bench/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 93.59
+  coverage_lines_covered: 146
+  coverage_lines_total: 156
+  coverage_branch: 59.32
+  coverage_release: 1.0.5
 - name: resque
   description: Resque is a Redis-backed Ruby library for creating background jobs,
     placing them on multiple queues, and processing them later.
@@ -2533,6 +2663,11 @@
   license_url: https://github.com/resque/resque-lonely_job/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 41
+  coverage_lines_total: 41
+  coverage_branch: 100.0
+  coverage_release: 1.1.4
 - name: resque-unique_at_runtime
   description: |
     Ensures that for a given queue, only one worker is working on a job at any given time.
@@ -2582,6 +2717,11 @@
   license_url: https://github.com/resque/resque-unique_at_runtime/blob/main/LICENSE
   owner: true
   releaser: true
+  coverage: 99.21
+  coverage_lines_covered: 126
+  coverage_lines_total: 127
+  coverage_branch: 86.21
+  coverage_release: 4.0.2
 - name: resque-unique_by_arity
   description: "\U0001F48E Configure resque-unique_in_queue and resque-unique_at_runtime
     uniqueness by arity of perform method, with automated cleanup tools"
@@ -2623,6 +2763,11 @@
   license_url: https://github.com/resque/resque-unique_by_arity/blob/main/LICENSE
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 318
+  coverage_lines_total: 318
+  coverage_branch: 82.71
+  coverage_release: 3.0.3
 - name: resque-unique_in_queue
   description: "\U0001F48E A resque plugin that ensures job uniqueness at enqueue
     time."
@@ -2662,6 +2807,11 @@
   license_url: https://github.com/resque/resque-unique_in_queue/blob/main/LICENSE
   owner: true
   releaser: true
+  coverage: 93.26
+  coverage_lines_covered: 180
+  coverage_lines_total: 193
+  coverage_branch: 78.57
+  coverage_release: 2.0.2
 - name: rots
   description: |
     Ruby OpenID Test Server (ROTS) provides a basic OpenID server made in top of the Rack gem.
@@ -2803,6 +2953,11 @@
   license_url: https://github.com/galtzo-floss/rspec-pending_for/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 99
+  coverage_lines_total: 99
+  coverage_branch: 100.0
+  coverage_release: 0.1.28
 - name: rspec-stubbed_env
   description: "\U0001FAE5 Stub or hide environment variables in a scoped context
     for testing\nstub_env('REDIS_URL' => 'redis://localhost:6379/')\nhide_env('SESSION_SECRET')\n"
@@ -2850,6 +3005,11 @@
   license_url: https://github.com/galtzo-floss/rspec-stubbed_env/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 84
+  coverage_lines_total: 84
+  coverage_branch: 100.0
+  coverage_release: 1.0.17
 - name: rubocop-lts
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby code"
@@ -2933,6 +3093,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby1_8/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 2.0.9
 - name: rubocop-ruby1_9
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 1.9 code"
@@ -2973,6 +3138,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby1_9/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_0
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.0 code"
@@ -3013,6 +3183,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_0/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_1
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.1 code"
@@ -3053,6 +3228,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_1/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_2
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.2 code"
@@ -3093,6 +3273,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_2/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_3
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.3 code"
@@ -3133,6 +3318,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_4
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.4 code"
@@ -3173,6 +3363,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_4/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_5
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.5 code"
@@ -3213,6 +3408,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_5/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_6
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.6 code"
@@ -3253,6 +3453,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_6/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby2_7
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 2.7 code"
@@ -3293,6 +3498,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby2_7/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby3_0
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 3.0 code"
@@ -3336,6 +3546,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_0/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby3_1
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 3.1 code"
@@ -3376,6 +3591,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_1/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.9
 - name: rubocop-ruby3_2
   description: "\U0001F9BE Configure RuboCop + a bevy of friends to gradually lint
     Ruby 3.2 code"
@@ -3416,6 +3636,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-ruby3_2/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 3.0.10
 - name: ruby-openid
   description: A library for consuming and serving OpenID identities.
   description_source: site
@@ -3554,6 +3779,11 @@
   license_url: https://github.com/galtzo-floss/sanitize_email/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 95.58
+  coverage_lines_covered: 368
+  coverage_lines_total: 385
+  coverage_branch: 82.91
+  coverage_release: 2.0.17
 - name: seed_migration
   description: Rails gem for Data Migrations
   description_source: site
@@ -3716,6 +3946,11 @@
   license_url: https://github.com/galtzo-floss/shields-badge/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 99.48
+  coverage_lines_covered: 379
+  coverage_lines_total: 381
+  coverage_branch: 94.29
+  coverage_release: 1.0.1
 - name: shiftable
   description: Move single records (has_one) or collections (has_many) from one parent
     (belongs_to) to another
@@ -3804,6 +4039,11 @@
   license_url: https://github.com/galtzo-floss/silent_stream/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 81
+  coverage_lines_total: 81
+  coverage_branch: 100.0
+  coverage_release: 1.0.13
 - name: simple_column-scopes
   description: "\U0001F3DB️ Dynamic modules which define dynamic methods for scopes
     based on a dynamic array of column names"
@@ -3842,6 +4082,11 @@
   license_url: https://github.com/galtzo-floss/simple_column-scopes/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 29
+  coverage_lines_total: 29
+  coverage_branch: 100.0
+  coverage_release: 0.1.1
 - name: snaky_hash
   description: "\U0001F52E A Hashie::Mash joint to make #snakelife better"
   description_source: registry
@@ -3885,6 +4130,11 @@
   license_url: https://github.com/ruby-oauth/snaky_hash/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 133
+  coverage_lines_total: 133
+  coverage_branch: 100.0
+  coverage_release: 2.0.9
 - name: spyke-connection_lambda
   description: Dynamic Spyke API connection plugin for the Enterprise Cloud
   description_source: site
@@ -4008,6 +4258,11 @@
   license_url: https://github.com/rubocop-lts/standard-rubocop-lts/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 19
+  coverage_lines_total: 19
+  coverage_branch: 0.0
+  coverage_release: 2.0.15
 - name: status_tag
   description: |-
     Provides content_tag_for method signature to create customizable and logic-gated labels from objects.
@@ -4105,6 +4360,11 @@
   license_url: https://github.com/galtzo-floss/stone_checksums/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 129
+  coverage_lines_total: 129
+  coverage_branch: 95.24
+  coverage_release: 1.0.10
 - name: strict_states
   description: Safely access state machine states with guarantee that there are no
     typos.  Compatible with all Ruby state machine libraries.
@@ -4229,6 +4489,11 @@
   license_url: https://github.com/galtzo-floss/timecop-rspec/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 132
+  coverage_lines_total: 132
+  coverage_branch: 100.0
+  coverage_release: 1.0.3
 - name: undrive_google
   description: "\U0001F3F4‍☠️ Liberate files from your Google Drive with transformations"
   description_source: registry
@@ -4275,6 +4540,11 @@
   license_url: https://github.com/galtzo-floss/undrive_google/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 98.94
+  coverage_lines_covered: 373
+  coverage_lines_total: 377
+  coverage_branch: 80.17
+  coverage_release: 1.1.2
 - name: version_gem
   description: "\U0001F516 Versions are good. Versions are cool. Versions will win."
   description_source: registry
@@ -4321,6 +4591,11 @@
   license_url: https://github.com/ruby-oauth/version_gem/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 119
+  coverage_lines_total: 119
+  coverage_branch: 100.0
+  coverage_release: 1.1.17
 - name: warden_oauth
   description: "\U0001F6E1️ warden_oauth will help you create oauth authentication
     strategies using the oauth\n      helper method on the Warden::Manager config
@@ -4361,6 +4636,11 @@
   license_url: https://github.com/ruby-oauth/warden_oauth/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 96.84
+  coverage_lines_covered: 153
+  coverage_lines_total: 158
+  coverage_branch: 80.56
+  coverage_release: 0.1.3
 - name: yacs
   description: Yet Another Crypto Scanner; Alternative Front End Demo for DEX
   description_source: site
@@ -4429,6 +4709,11 @@
   license_url: https://github.com/galtzo-floss/yard-fence/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 95.41
+  coverage_lines_covered: 208
+  coverage_lines_total: 218
+  coverage_branch: 84.62
+  coverage_release: 0.9.11
 - name: yaml-converter
   description: "\U0001F968 yaml-converter parses YAML files (with inline #note: annotations
     and validation markers) and emits polished Markdown, HTML, and PDF/DOCX (via pandoc)
@@ -4467,6 +4752,11 @@
   license_url: https://github.com/galtzo-floss/yaml-converter/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 92.69
+  coverage_lines_covered: 444
+  coverage_lines_total: 479
+  coverage_branch: 68.42
+  coverage_release: 0.2.8
 - name: yard-yaml
   description: "\U0001F997 A YARD plugin for YAML documents"
   description_source: registry
@@ -4502,6 +4792,11 @@
   license_url: https://github.com/galtzo-floss/yard-yaml/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 95.13
+  coverage_lines_covered: 527
+  coverage_lines_total: 554
+  coverage_branch: 83.25
+  coverage_release: 0.2.6
 - name: tree_haver
   description: "\U0001F334 Backend registry, parser request/result contracts, and
     tree-sitter language-pack integration for Structured Merge."
@@ -4628,6 +4923,11 @@
   license_url: https://github.com/kettle-dev/token-resolver/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 267
+  coverage_lines_total: 267
+  coverage_branch: 100.0
+  coverage_release: 2.0.16
 - name: bash-merge
   description: "☯️ Bash statement, comment, freeze-block, and template merge behavior
     for Structured Merge."
@@ -5724,6 +6024,11 @@
   license_url: https://github.com/kettle-dev/nomono/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 97.57
+  coverage_lines_covered: 201
+  coverage_lines_total: 206
+  coverage_branch: 85.54
+  coverage_release: 1.1.18
 - name: ast-template
   description: "\U0001F48E Product-level directory session reporting above ast-merge
     for Structured Merge."
@@ -6227,6 +6532,11 @@
   license_url: https://github.com/ruby-oauth/auth-sanitizer/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 184
+  coverage_lines_total: 184
+  coverage_branch: 100.0
+  coverage_release: 0.2.5
 - name: turbo_tests2
   description: "\U0001F680 turbo_tests2` is an RSpec parallel test runner. It uses
     runtime_groups for process counts, pid bookkeeping, file grouping, and runtime
@@ -6266,6 +6576,11 @@
   license_url: https://github.com/galtzo-floss/turbo_tests2/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 96.01
+  coverage_lines_covered: 1034
+  coverage_lines_total: 1077
+  coverage_branch: 82.42
+  coverage_release: 4.0.0
 - name: yard-timekeeper
   description: "\U0001F570️ A YARD plugin that post-processes generated docs, detects
     timestamp-only diffs in tracked HTML files under docs/, and restores those files
@@ -6302,6 +6617,11 @@
   license_url: https://github.com/galtzo-floss/yard-timekeeper/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 96.6
+  coverage_lines_covered: 142
+  coverage_lines_total: 147
+  coverage_branch: 84.38
+  coverage_release: 0.2.10
 - name: kettle-drift
   description: "\U0001F372 Kettle::Drift tracks repeated adjacent-line chunks that
     usually signal template drift or copy/paste corruption."
@@ -6337,6 +6657,11 @@
   license_url: https://github.com/kettle-dev/kettle-drift/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 81.69
+  coverage_lines_covered: 455
+  coverage_lines_total: 557
+  coverage_branch: 67.42
+  coverage_release: 1.0.19
 - name: oauth2-mcp
   description: "\U0001F372 oauth2-mcp provides Ruby helpers for securing HTTP Model
     Context Protocol servers with OAuth protected-resource metadata, bearer challenges,
@@ -6374,6 +6699,11 @@
   license_url: https://github.com/ruby-oauth/oauth2-mcp/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 285
+  coverage_lines_total: 285
+  coverage_branch: 100.0
+  coverage_release: 0.1.2
 - name: rubocop-lts-rspec
   description: |
     Enables Ruby projects that test with RSpec to more confidently support even the most finely-aged Rubies.
@@ -6412,6 +6742,11 @@
   license_url: https://github.com/rubocop-lts/rubocop-lts-rspec/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 16
+  coverage_lines_total: 16
+  coverage_branch: 0.0
+  coverage_release: 1.0.8
 - name: appraisal2-rubocop
   description: "\U0001F48E Appraisal2::Rubocop registers Appraisal2 generation hooks
     that run RuboCop against generated appraisal gemfiles."
@@ -6446,6 +6781,11 @@
   license_url: https://github.com/appraisal-rb/appraisal2-rubocop/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 86
+  coverage_lines_total: 86
+  coverage_branch: 95.83
+  coverage_release: 1.0.5
 - name: kettle-family
   description: "\U0001F469‍\U0001F469‍\U0001F467‍\U0001F467 Kettle::Family provides
     scripts and conventions for coordinating related Ruby gems as one family."
@@ -6481,6 +6821,11 @@
   license_url: https://github.com/kettle-dev/kettle-family/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 93.13
+  coverage_lines_covered: 7665
+  coverage_lines_total: 8230
+  coverage_branch: 77.52
+  coverage_release: 1.3.37
 - name: gem_mine
   description: "⛏️ Provides helpers for setting up temporary scaffolded gem projects
     and reliably tearing them down after tests."
@@ -6517,6 +6862,11 @@
   license_url: https://github.com/appraisal-rb/gem_mine/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 99.18
+  coverage_lines_covered: 121
+  coverage_lines_total: 122
+  coverage_branch: 87.5
+  coverage_release: 0.1.9
 - name: anonymous_loader
   description: "\U0001F48E AnonymousLoader resolves Ruby files from paths, gem metadata,
     or $LOAD_PATH and evaluates them inside anonymous modules to avoid top-level namespace
@@ -6553,6 +6903,11 @@
   license_url: https://github.com/ruby-oauth/anonymous_loader/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 96.33
+  coverage_lines_covered: 105
+  coverage_lines_total: 109
+  coverage_branch: 81.58
+  coverage_release: 0.1.5
 - name: kettle-rb
   description: "\U0001F4CF Provides the shared Ruby, engine, Rails, RuboCop, and RuboCop
     LTS compatibility matrix used by Kettle-managed gems."
@@ -6589,6 +6944,11 @@
   license_url: https://github.com/kettle-dev/kettle-rb/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 421
+  coverage_lines_total: 421
+  coverage_branch: 98.15
+  coverage_release: 0.1.21
 - name: kettle-wash
   description: "\U0001F6BF Constant deletion and reset helpers for gems that need
     repeatable reloads while testing constant-backed runtime configuration."
@@ -6627,6 +6987,11 @@
   license_url: https://github.com/kettle-dev/kettle-wash/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 63
+  coverage_lines_total: 63
+  coverage_branch: 86.36
+  coverage_release: 0.1.14
 - name: kettle-gha-pins
   description: "\U0001F4CC GitHub Actions workflow SHA pin maintenance, including
     deterministic release-tag parsing, canonicalization, cache-backed GitHub ref resolution,
@@ -6663,6 +7028,11 @@
   license_url: https://github.com/kettle-dev/kettle-gha-pins/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 95.16
+  coverage_lines_covered: 1081
+  coverage_lines_total: 1136
+  coverage_branch: 83.65
+  coverage_release: 0.3.20
 - name: kettle-ndjson
   description: "\U0001F4DF️ NDJSON event stream primitives, filters, recorders, and
     payload helpers shared by Kettle CLI tools."
@@ -6699,6 +7069,11 @@
   license_url: https://github.com/kettle-dev/kettle-ndjson/blob/main/LICENSE.md
   owner: true
   releaser: true
+  coverage: 100.0
+  coverage_lines_covered: 74
+  coverage_lines_total: 74
+  coverage_branch: 96.15
+  coverage_release: 0.1.23
 - name: "@structuredmerge/ast-merge"
   description: 'StructuredMerge TypeScript package: ast-merge.'
   description_source: site
@@ -7084,19 +7459,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 112
+  total_downloads: 157
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:03Z'
+  last_scrape_at: '2026-11-04T03:12:56Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/plain-merge"
   description: 'StructuredMerge TypeScript package: plain-merge.'
   description_source: site
@@ -7122,19 +7499,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 101
+  total_downloads: 140
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:06Z'
+  last_scrape_at: '2026-11-04T03:12:59Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/ruby-merge"
   description: 'StructuredMerge TypeScript package: ruby-merge.'
   description_source: site
@@ -7160,19 +7539,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 111
+  total_downloads: 157
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:09Z'
+  last_scrape_at: '2026-11-04T03:13:01Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/rust-merge"
   description: 'StructuredMerge TypeScript package: rust-merge.'
   description_source: site
@@ -7198,19 +7579,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 117
+  total_downloads: 152
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:11Z'
+  last_scrape_at: '2026-11-04T03:13:04Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/toml-merge"
   description: 'StructuredMerge TypeScript package: toml-merge.'
   description_source: site
@@ -7236,19 +7619,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 110
+  total_downloads: 152
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:14Z'
+  last_scrape_at: '2026-11-04T03:13:07Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/tree-haver"
   description: 'StructuredMerge TypeScript package: tree-haver.'
   description_source: site
@@ -7274,19 +7659,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 146
+  total_downloads: 206
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:16Z'
+  last_scrape_at: '2026-11-04T03:13:09Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/typescript-compiler-merge"
   description: 'StructuredMerge TypeScript package: typescript-compiler-merge.'
   description_source: site
@@ -7312,19 +7699,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 100
+  total_downloads: 148
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:19Z'
+  last_scrape_at: '2026-11-04T03:13:12Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/typescript-merge"
   description: 'StructuredMerge TypeScript package: typescript-merge.'
   description_source: site
@@ -7350,19 +7739,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 108
+  total_downloads: 149
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:22Z'
+  last_scrape_at: '2026-11-04T03:13:14Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/yaml-merge"
   description: 'StructuredMerge TypeScript package: yaml-merge.'
   description_source: site
@@ -7388,19 +7779,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 109
+  total_downloads: 149
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:24Z'
+  last_scrape_at: '2026-11-04T03:13:17Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: "@structuredmerge/zip-merge"
   description: 'StructuredMerge TypeScript package: zip-merge.'
   description_source: site
@@ -7426,19 +7819,21 @@
   - structuredmerge
   - typescript
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 112
+  total_downloads: 152
   release_downloads:
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-typescript/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:27Z'
+  last_scrape_at: '2026-11-04T03:13:19Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: 18mo
 - name: ast-merge
   description: Core Structured Merge AST, ruleset, planning, and review contracts
   description_source: registry
@@ -7463,18 +7858,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 440
-  release_downloads: 426
+  total_downloads: 950
+  release_downloads: 934
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:29Z'
+  last_scrape_at: '2026-11-04T03:13:22Z'
   owner: true
   releaser: true
+  daily_downloads: 5
+  downloads_basis: lifetime
 - name: ast-template
   description: Recipe and template helpers for Structured Merge AST libraries
   description_source: registry
@@ -7499,18 +7896,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 12
-  release_downloads: 12
+  total_downloads: 18
+  release_downloads: 18
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:31Z'
+  last_scrape_at: '2026-11-04T03:13:24Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: structuredmerge-binary-merge
   description: Binary preservation planning and diagnostics for Structured Merge
   description_source: site
@@ -7535,18 +7934,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 14
-  release_downloads: 14
+  total_downloads: 17
+  release_downloads: 17
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:34Z'
+  last_scrape_at: '2026-11-04T03:13:26Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: go-merge
   description: Go syntax merge helpers for Structured Merge
   description_source: registry
@@ -7571,18 +7972,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 14
-  release_downloads: 14
+  total_downloads: 19
+  release_downloads: 19
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:36Z'
+  last_scrape_at: '2026-11-04T03:13:28Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: json-merge
   description: JSON merge helpers for Structured Merge
   description_source: registry
@@ -7607,18 +8010,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 19
-  release_downloads: 19
+  total_downloads: 28
+  release_downloads: 28
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:38Z'
+  last_scrape_at: '2026-11-04T03:13:31Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: kettle-rusty
   description: Rust crate recipe helpers for Structured Merge
   description_source: site
@@ -7643,18 +8048,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 15
-  release_downloads: 15
+  total_downloads: 19
+  release_downloads: 19
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:40Z'
+  last_scrape_at: '2026-11-04T03:13:33Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: markdown-merge
   description: Markdown merge helpers for Structured Merge
   description_source: registry
@@ -7679,18 +8086,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 76
-  release_downloads: 76
+  total_downloads: 156
+  release_downloads: 156
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:42Z'
+  last_scrape_at: '2026-11-04T03:13:35Z'
   owner: true
   releaser: true
+  daily_downloads: 1
+  downloads_basis: lifetime
 - name: pest-toml-merge
   description: Pest TOML merge helpers for Structured Merge
   description_source: site
@@ -7715,18 +8124,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 14
-  release_downloads: 14
+  total_downloads: 16
+  release_downloads: 16
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:44Z'
+  last_scrape_at: '2026-11-04T03:13:37Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: plain-merge
   description: Plain text merge helpers for Structured Merge
   description_source: registry
@@ -7751,18 +8162,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 14
-  release_downloads: 14
+  total_downloads: 16
+  release_downloads: 16
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:46Z'
+  last_scrape_at: '2026-11-04T03:13:39Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: pulldown-cmark-merge
   description: Pulldown-cmark Markdown merge helpers for Structured Merge
   description_source: site
@@ -7787,18 +8200,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 16
-  release_downloads: 16
+  total_downloads: 18
+  release_downloads: 18
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:48Z'
+  last_scrape_at: '2026-11-04T03:13:41Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: ruby-merge
   description: Ruby syntax merge helpers for Structured Merge
   description_source: registry
@@ -7823,18 +8238,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 46
-  release_downloads: 46
+  total_downloads: 87
+  release_downloads: 87
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:50Z'
+  last_scrape_at: '2026-11-04T03:13:43Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: rust-merge
   description: Rust syntax merge helpers for Structured Merge
   description_source: registry
@@ -7859,18 +8276,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 16
-  release_downloads: 16
+  total_downloads: 18
+  release_downloads: 18
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:52Z'
+  last_scrape_at: '2026-11-04T03:13:45Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: structuredmerge-toml-merge
   description: TOML merge helpers for Structured Merge
   description_source: site
@@ -7895,18 +8314,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 78
-  release_downloads: 78
+  total_downloads: 158
+  release_downloads: 158
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:54Z'
+  last_scrape_at: '2026-11-04T03:13:47Z'
   owner: true
   releaser: true
+  daily_downloads: 1
+  downloads_basis: lifetime
 - name: tree-haver
   description: Tree substrate and binary location contracts for Structured Merge
   description_source: site
@@ -7931,18 +8352,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 496
-  release_downloads: 478
+  total_downloads: 1060
+  release_downloads: 1042
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:57Z'
+  last_scrape_at: '2026-11-04T03:13:50Z'
   owner: true
   releaser: true
+  daily_downloads: 6
+  downloads_basis: lifetime
 - name: typescript-merge
   description: TypeScript syntax merge helpers for Structured Merge
   description_source: registry
@@ -7967,18 +8390,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 16
-  release_downloads: 16
+  total_downloads: 18
+  release_downloads: 18
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:57:59Z'
+  last_scrape_at: '2026-11-04T03:13:52Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: yaml-merge
   description: YAML merge helpers for Structured Merge
   description_source: registry
@@ -8003,18 +8428,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 50
-  release_downloads: 50
+  total_downloads: 91
+  release_downloads: 91
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:01Z'
+  last_scrape_at: '2026-11-04T03:13:54Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: yaml-serde-merge
   description: yaml-serde merge helpers for Structured Merge
   description_source: site
@@ -8039,18 +8466,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 16
-  release_downloads: 16
+  total_downloads: 18
+  release_downloads: 18
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:03Z'
+  last_scrape_at: '2026-11-04T03:13:56Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: structuredmerge-zip-merge
   description: ZIP inventory, planning, nested dispatch, and raw-preservation helpers
     for Structured Merge
@@ -8076,18 +8505,20 @@
   - rust
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
-  total_downloads: 15
-  release_downloads: 15
+  total_downloads: 18
+  release_downloads: 18
   release_date: 2026/05/06
   licenses:
   - AGPL-3.0-only OR PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-rust/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:05Z'
+  last_scrape_at: '2026-11-04T03:13:58Z'
   owner: true
   releaser: true
+  daily_downloads: 0
+  downloads_basis: lifetime
 - name: github.com/structuredmerge/structuredmerge-go
   description: Go implementation of the StructuredMerge contract.
   description_source: site
@@ -8111,7 +8542,7 @@
   - go
   - structuredmerge
   docs_site: https://structuredmerge.org
-  github_stars: 0
+  github_stars: 1
   last_commit_on: 2026/11/01
   status: active
   release_date: 2026/05/06
@@ -8119,7 +8550,7 @@
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
   license_url: https://github.com/structuredmerge/structuredmerge-go/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:09Z'
+  last_scrape_at: '2026-11-04T03:14:01Z'
   owner: true
 - name: ast-crispr
   description: "\U0001F9EC A thin structural edit tool layer over ast-merge structured-edit
@@ -8143,15 +8574,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 14689
+  total_downloads: 14850
   daily_downloads: 235
-  release_downloads: 250
+  release_downloads: 333
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:12Z'
+  last_scrape_at: '2026-11-04T03:14:03Z'
   theme: family
   family_id: smorg-rb
   family_position: 26
@@ -8179,15 +8610,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 14232
+  total_downloads: 14333
   daily_downloads: 226
-  release_downloads: 232
+  release_downloads: 260
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:16Z'
+  last_scrape_at: '2026-11-04T03:14:06Z'
   theme: family
   family_id: smorg-rb
   family_position: 28
@@ -8215,15 +8646,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 14538
+  total_downloads: 14697
   daily_downloads: 227
-  release_downloads: 228
+  release_downloads: 307
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:19Z'
+  last_scrape_at: '2026-11-04T03:14:08Z'
   theme: family
   family_id: smorg-rb
   family_position: 27
@@ -8250,15 +8681,15 @@
   licenses:
   - AGPL-3.0-only
   - PolyForm-Small-Business-1.0.0
-  total_downloads: 6614
+  total_downloads: 6622
   daily_downloads: 86
-  release_downloads: 171
+  release_downloads: 172
   release_date: 2026/10/30
   github_stars: 19
-  last_commit_on: 2026/11/01
+  last_commit_on: 2026/11/04
   status: active
   license_url: https://github.com/structuredmerge/structuredmerge-ruby/blob/main/LICENSE.md
-  last_scrape_at: '2026-11-02T07:58:22Z'
+  last_scrape_at: '2026-11-04T03:14:09Z'
   theme: family
   family_id: smorg-rb
   family_position: 31
@@ -8374,6 +8805,11 @@
   family_position: 12
   owner: true
   releaser: true
+  coverage: 95.69
+  coverage_lines_covered: 976
+  coverage_lines_total: 1020
+  coverage_branch: 83.93
+  coverage_release: 0.1.8
 - name: rubocop-lts-ruby
   description: |
     RuboCop cops that detect use of Ruby core and standard library APIs that are
@@ -8411,6 +8847,11 @@
   family_position: 17
   owner: true
   releaser: true
+  coverage: 97.47
+  coverage_lines_covered: 77
+  coverage_lines_total: 79
+  coverage_branch: 78.57
+  coverage_release: 0.1.7
 - name: kettle-changelog
   description: "\U0001F4DD kettle-changelog formats release sections, manages Unreleased
     entries, and emits machine-readable release events for Ruby gems."
@@ -8446,6 +8887,11 @@
   family_position: 11
   owner: true
   releaser: true
+  coverage: 93.68
+  coverage_lines_covered: 1185
+  coverage_lines_total: 1265
+  coverage_branch: 77.96
+  coverage_release: 1.0.16
 - name: kettle-paths
   description: |-
     Path helpers that compare two filesystem paths by identity (inode / file
@@ -8485,6 +8931,11 @@
   family_position: 13
   owner: true
   releaser: true
+  coverage: 96.15
+  coverage_lines_covered: 100
+  coverage_lines_total: 104
+  coverage_branch: 82.5
+  coverage_release: 0.1.5
 - name: runtime_groups
   description: "\U0001F372 RuntimeGroups extracts the small parallel-runner primitives
     from turbo_tests2 — worker process count resolution, pid-file bookkeeping, runtime
@@ -8523,6 +8974,11 @@
   family_position: 14
   owner: true
   releaser: true
+  coverage: 99.22
+  coverage_lines_covered: 127
+  coverage_lines_total: 128
+  coverage_branch: 96.88
+  coverage_release: 0.1.3
 - name: ast-crispr-toml
   description: "\U0001F9EC TOML table and dotted-key-path selectors and edit helpers
     for ast-crispr, backed by toml-merge."
@@ -8757,8 +9213,8 @@
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
     owner: xberg-io
-    total_downloads: 9270229
-    release_downloads: 1535
+    total_downloads: 9407437
+    release_downloads: 25655
   tags:
   - parsing
   - python
@@ -8766,16 +9222,16 @@
   funding_sites: []
   docs_site:
   status: active
-  github_stars: 480
+  github_stars: 481
   licenses:
   - MIT
   license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
-  total_downloads: 45572893
-  daily_downloads: 181255
+  total_downloads: 46034681
+  daily_downloads: 183441
   downloads_basis: 180d
   release_date: 2026/11/01
-  last_commit_on: 2026/11/02
-  last_scrape_at: '2026-11-02T16:57:52Z'
+  last_commit_on: 2026/11/03
+  last_scrape_at: '2026-11-04T02:17:23Z'
   first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
   first_commit_by_person_on: 2026/04/20
   owner: false
