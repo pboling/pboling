@@ -62,9 +62,13 @@
   position: 19
   rollup: rubocop-lts
   rollup_lead: rubocop-lts
-- id: xberg-io
-  name: xberg.io
+- id: tree-sitter-language-pack
+  name: Tree-sitter Language Pack
   position: 20
+  rollup: tree-sitter-language-pack
+- id: alef
+  name: alef
+  position: 21
 - id: miscellaneous
   name: Miscellanous
-  position: 21
+  position: 22

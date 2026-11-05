@@ -1,12 +1,12 @@
 {
  "days": 365,
- "generated": "2026-11-04",
+ "generated": "2026-11-05",
  "repos": [
   {
    "repo": "resque/resque",
    "name": "resque",
    "owner": "resque",
-   "gain": 65,
+   "gain": 64,
    "gain30": 5,
    "total": 9468
   },
@@ -14,7 +14,7 @@
    "repo": "ruby-oauth/oauth2",
    "name": "oauth2",
    "owner": "ruby-oauth",
-   "gain": 42,
+   "gain": 41,
    "gain30": 2,
    "total": 2181
   },
@@ -22,7 +22,7 @@
    "repo": "contriboss/ore-light",
    "name": "ore-light",
    "owner": "contriboss",
-   "gain": 26,
+   "gain": 25,
    "gain30": 0,
    "total": 61
   },
