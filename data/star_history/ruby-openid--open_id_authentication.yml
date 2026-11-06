@@ -1,12 +1,13 @@
 ---
 repo: ruby-openid/open_id_authentication
-synced_through: '2026-11-05'
+synced_through: '2026-11-06'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
   '2026-11-03': 10
   '2026-11-04': 10
   '2026-11-05': 10
+  '2026-11-06': 10
 stars:
   '2024-09-20': ['16:49:16']
   '2025-06-10': ['04:16:16']
