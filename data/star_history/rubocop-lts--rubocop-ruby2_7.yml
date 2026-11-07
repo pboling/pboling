@@ -1,6 +1,6 @@
 ---
 repo: rubocop-lts/rubocop-ruby2_7
-synced_through: '2026-11-06'
+synced_through: '2026-11-07'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -8,6 +8,7 @@ observed:
   '2026-11-04': 6
   '2026-11-05': 6
   '2026-11-06': 6
+  '2026-11-07': 6
 stars:
   '2022-05-23': ['13:23:42']
   '2025-06-27': ['12:22:32', '13:11:17', '13:42:10']
