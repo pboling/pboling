@@ -372,7 +372,7 @@ def collapse(plists):
 featured = collapse(featured)
 ranked = sorted(featured, key=lambda p: -(p.get("total_downloads") or 0))
 TOP = 24
-CW, CHT = (W-32-12)/2, 128
+CW, CHT = (W-32-12)/2, 168
 def mini_card(i, p, y0, cols=3, link=False):
     cw, ch = (W-32-(cols-1)*12)/cols, 84
     col, row = i % cols, i//cols
@@ -394,56 +394,52 @@ def mini_card(i, p, y0, cols=3, link=False):
         g += stat_text(sym, val, c, sx, y+ch-12, 11); sx += 80
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
+def clip(s, n):
+    """Ellipsise s to at most n characters."""
+    s = str(s or "")
+    return s if len(s) <= n else s[:max(n-1, 1)].rstrip(" -_.") + "…"
+def pkg_tag(p, short=False):
+    """'16 packages · 14 languages' for rollups and multi-package projects (short form drops nothing; it is already minimal)."""
+    n = p.get("_pkgs", 1)
+    if not (p.get("_rollup") or n > 1): return ""
+    langs = p.get("_langs", 0)
+    return f"{n} packages" + (f" · {langs} languages" if p.get("_rollup") and langs > 1 else "")
 def card(i, p, y0=46, link=False):
+    # Public-facing card: few elements, 11px minimum text. Detail (coverage, per-day downloads, chips, sparkline) stays in data/cards.json.
     col, row = i % 2, i//2
     x, y = 16 + col*(CW+12), y0 + row*(CHT+12)
-    rc = ROLE.get(p.get("role"), MUTED); lc = LANG.get(p.get("language"), MUTED)
-    nx0 = x + (48 if logo_uri(owner_of(p) or "") else 18)
+    rc = ROLE.get(p.get("role"), MUTED)
+    has_logo = bool(logo_uri(owner_of(p) or ""))
+    nx0 = x + (48 if has_logo else 18)
+    n_icons = min(4, len(p["_lang_list"])) if p.get("_lang_list") else 1
+    right = x + CW - 14 - 24*n_icons - (46 if p.get("minimum_version") and n_icons == 1 else 0) - 8
+    fs = 16 if len(p["name"]) > 20 else 17
+    name = clip(p["name"], int((right - nx0) / (fs*0.6)))
     g = (f'<rect x="{x}" y="{y}" width="{CW}" height="{CHT}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
-         f'<text x="{nx0}" y="{y+26}" class="s" font-size="{14 if len(p["name"]) > 24 else 16}" font-weight="700">{esc(p["name"])}</text>'
-         + logo_at(owner_of(p), x+16, y+8, 24) +
-         lang_badge(p, x+CW-14, y+22, 18))
-    if is_new(p) and p.get("role") != "contributor":
-        nx = x + CW - 132 - (22*min(4, len(p['_lang_list'])) - 40 if p.get('_lang_list') else 0)
-        g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
-              f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
-    # A rollup/multi-package tag shares the row above the install box, so it only gets 2 description lines.
-    has_tag = bool(p.get("_rollup") or p.get("_pkgs", 1) > 1)
-    tag_above = has_tag and bool(install_cmd(p, 52))
-    for k, line in enumerate(wrap(p.get("description"), 46, 2 if tag_above else 3)):
-        g += f'<text x="{x+18}" y="{y+48+k*15}" class="s m" font-size="11.5">{esc(line)}</text>'
-    cmd = install_cmd(p, 52)
+         f'<text x="{nx0}" y="{y+31}" class="s" font-size="{fs}" font-weight="700">{esc(name)}</text>'
+         + logo_at(owner_of(p), x+16, y+11, 26) +
+         lang_badge(p, x+CW-14, y+24, 20, fs=12))
+    for k, line in enumerate(wrap(p.get("description"), 44, 2)):
+        g += f'<text x="{x+18}" y="{y+60+k*19}" class="s m" font-size="12.5">{esc(line)}</text>'
+    tag = pkg_tag(p)
+    if tag:
+        g += f'<text x="{x+18}" y="{y+100}" font-size="11" class="m">{esc(tag)}</text>'
+    cmd = install_cmd(p, 44)
     if cmd:
-        wpx = len(cmd)*6.2 + 24
-        g += (f'<rect x="{x+18}" y="{y+85}" width="{wpx:.0f}" height="18" rx="3" fill="{BG}" stroke="{EDGE}"/>'
-              f'<text x="{x+27}" y="{y+98}" font-size="10"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
-    st = [("★", human(p.get("github_stars") or 0), AMBER), ("↓", human(p.get("total_downloads") or 0), DLGREEN),
-          ("↓/d", human(p.get("daily_downloads") or 0), VIOLET)]
-    sx = x+18
-    for sym, val, c in st:
-        g += stat_text(sym, val, c, sx, y+CHT-14, 12)
-        sx += (17 + len(val)*7.2 if sym == "★" else len(sym + " " + val)*7.2) + 14
-        if sym == "★":
-            m = spark_mark(p, sx, y+CHT-14, 30, 12)
-            if m: g += m; sx += 30 + 12
-    if p.get("coverage") is not None:
-        cc = cov_color(p["coverage"])
-        g += (f'<text x="{sx}" y="{y+CHT-14}" font-size="12"><tspan style="fill:{MUTED}">cov</tspan> '
-              f'<tspan style="fill:{cc}" filter="url(#nglow)">{p["coverage"]:.0f}%</tspan></text>')
-    cy = y + 50
-    for flag, label in (("owner", "OWNER"), ("releaser", "RELEASER")):
-        if p.get(flag):
-            wch = len(label)*6.4 + 12
-            g += (f'<rect x="{x+CW-14-wch:.0f}" y="{cy}" width="{wch:.0f}" height="15" rx="7.5" fill="none" stroke="{rc}" stroke-opacity=".7"/>'
-                  f'<text x="{x+CW-14-wch/2:.0f}" y="{cy+11}" font-size="8.5" font-weight="700" letter-spacing=".5" text-anchor="middle" style="fill:{rc}">{label}</text>')
-            cy += 21
-    ty = y + (78 if tag_above else CHT-32)
-    if p.get("_rollup"):
-        g += f'<text x="{x+CW-14}" y="{ty}" font-size="9" class="m" text-anchor="end">{esc(p["_tag"])}</text>'
-    elif p.get("_pkgs", 1) > 1:
-        g += f'<text x="{x+CW-14}" y="{ty}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
-    g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(str(p.get("role", "")).upper())}</text>'
+        wpx = len(cmd)*7 + 26
+        g += (f'<rect x="{x+18}" y="{y+108}" width="{wpx:.0f}" height="22" rx="3" fill="{BG}" stroke="{EDGE}"/>'
+              f'<text x="{x+28}" y="{y+123}" font-size="11.5"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
+    by = y + CHT - 16
+    g += stat_text("★", human(p.get("github_stars") or 0), AMBER, x+18, by, 13)
+    sx = x + 18 + 17 + len(human(p.get("github_stars") or 0))*7.8 + 18
+    g += stat_text("↓", human(p.get("total_downloads") or 0), DLGREEN, sx, by, 13)
+    role = str(p.get("role", "")).upper()
+    g += f'<text x="{x+CW-14}" y="{by}" font-size="11" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(role)}</text>'
+    if is_new(p) and p.get("role") != "contributor":
+        nx = x + CW - 14 - len(role)*8.4 - 12 - 40
+        g += (f'<rect x="{nx:.0f}" y="{by-13}" width="40" height="18" rx="9" fill="{AMBER}"/>'
+              f'<text x="{nx+20:.0f}" y="{by}" font-size="10" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
 # ---- trending: stars gained (tools/profile/stars.py). 30 days is too quiet to show (+5 at best), so the headline is 12 months.
@@ -799,38 +795,30 @@ psvg("stats", PHW, 172, pedges(PHW, 172) + f'<text x="12" y="22" font-size="10" 
 # projects: head, cards (195 wide, two per row), foot
 psvg("projects/head", PHW, 34, pbar("projects I author & maintain", right=role_key(["author", "maintainer"], PHW-12, 21, 8, 8)) , "Projects I author and maintain")
 def pcard(pr, col):
-    w, h = PHW/2, 124
+    w, h = PHW/2, 152
     rc = ROLE.get(pr.get("role"), MUTED)
     o = (pedges(w, h, col, 2) + f'<rect x="6" y="6" width="{w-12}" height="{h-8}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="6" y="6" width="3" height="{h-8}" fill="{rc}"/>')
     has = bool(logo_uri(owner_of(pr) or ""))
-    o += logo_at(owner_of(pr), 16, 14, 20)
-    nx = 42 if has else 16
-    o += f'<text x="{nx}" y="29" class="s" font-size="12.5" font-weight="700">{esc(pr["name"][:(13 if has else 17)])}</text>'
-    if is_new(pr) and pr.get("role") != "contributor":
-        o += f'<rect x="{w-40}" y="12" width="28" height="13" rx="6" fill="{AMBER}"/><text x="{w-26}" y="22" font-size="7.5" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>'
-    o += lang_badge(pr, w-12, 36, 13, text=False)
-    for k, line in enumerate(wrap(pr.get("description"), 31, 2 if install_cmd(pr, 27) else 3)):
-        o += f'<text x="16" y="{50+k*12}" class="s m" font-size="9.5">{esc(line)}</text>'
-    cmd = install_cmd(pr, 27)
+    o += logo_at(owner_of(pr), 16, 14, 22)
+    nx = 44 if has else 16
+    o += f'<text x="{nx}" y="31" class="s" font-size="14" font-weight="700">{esc(clip(pr["name"], (11 if has else 14) - (4 if len(pr.get("_lang_list") or []) > 2 else 0)))}</text>'
+    o += lang_badge(pr, w-12, 26, 14, text=False)
+    for k, line in enumerate(wrap(pr.get("description"), 27, 2)):
+        o += f'<text x="16" y="{55+k*15}" class="s m" font-size="11">{esc(line)}</text>'
+    tag = pkg_tag(pr)
+    if tag:
+        o += f'<text x="16" y="91" font-size="9.5" class="m">{esc(tag)}</text>'
+    cmd = install_cmd(pr, 24)
     if cmd:
-        o += (f'<rect x="14" y="{h-40}" width="{len(cmd)*5.2+18:.0f}" height="14" rx="3" fill="{BG}" stroke="{EDGE}"/>'
-              f'<text x="21" y="{h-30}" font-size="8.5"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
-    st = [("★", human(pr.get("github_stars") or 0), AMBER), ("↓", human(pr.get("total_downloads") or 0), DLGREEN), ("/d", human(pr.get("daily_downloads") or 0), VIOLET)]
-    sx = 16
-    for sym, val, c in st:
-        o += stat_text(sym, val, c, sx, h-14, 9.5, gap="")
-        sx += (14 + len(val)*5.7 if sym == "★" else len(sym + val)*5.7) + 9
-        if sym == "★":
-            m = spark_mark(pr, sx, h-14, 18, 9)
-            if m: o += m; sx += 18 + 8
-    o += f'<text x="{w-12}" y="{h-23}" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{rc}">{esc(str(pr.get("role", "")).upper())}</text>'
-    facts = [t for t, on in (("OWNER", pr.get("owner")), ("RELEASER", pr.get("releaser"))) if on]
-    if pr.get("coverage") is not None: facts.append(f'cov <tspan style="fill:{cov_color(pr["coverage"])}">{pr["coverage"]:.0f}%</tspan>')
-    if facts:
-        o += f'<text x="{w-12}" y="{h-6}" font-size="7.5" class="m" text-anchor="end">{" · ".join(facts)}</text>'
-    if pr.get("_rollup"):
-        o += f'<text x="{w-12}" y="{h-33}" font-size="7.5" class="m" text-anchor="end">{esc(pr["_tag_phone"])}</text>'
+        o += (f'<rect x="14" y="97" width="{len(cmd)*6+18:.0f}" height="18" rx="3" fill="{BG}" stroke="{EDGE}"/>'
+              f'<text x="21" y="110" font-size="10"><tspan style="fill:{MUTED}">$</tspan> {esc(cmd)}</text>')
+    by = h - 16
+    o += stat_text("★", human(pr.get("github_stars") or 0), AMBER, 16, by, 11.5)
+    sx = 16 + 17 + len(human(pr.get("github_stars") or 0))*6.7 + 12
+    o += stat_text("↓", human(pr.get("total_downloads") or 0), DLGREEN, sx, by, 11.5)
+    role = "NEW" if is_new(pr) and pr.get("role") != "contributor" else str(pr.get("role", "")).upper()
+    o += f'<text x="{w-12}" y="{by}" font-size="9" font-weight="700" letter-spacing="0.5" text-anchor="end" style="fill:{AMBER if role == "NEW" else rc}">{esc(role)}</text>'
     return o, w, h
 for i, pr in enumerate(ranked[:TOP]):
     col = i % 2
