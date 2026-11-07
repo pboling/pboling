@@ -408,7 +408,10 @@ def card(i, p, y0=46, link=False):
         nx = x + CW - 132 - (22*min(4, len(p['_lang_list'])) - 40 if p.get('_lang_list') else 0)
         g += (f'<rect x="{nx:.0f}" y="{y+12}" width="36" height="16" rx="8" fill="{AMBER}"/>'
               f'<text x="{nx+18:.0f}" y="{y+24}" font-size="9" font-weight="700" text-anchor="middle" style="fill:{BG}">NEW</text>')
-    for k, line in enumerate(wrap(p.get("description"), 46, 3)):
+    # A rollup/multi-package tag shares the row above the install box, so it only gets 2 description lines.
+    has_tag = bool(p.get("_rollup") or p.get("_pkgs", 1) > 1)
+    tag_above = has_tag and bool(install_cmd(p, 52))
+    for k, line in enumerate(wrap(p.get("description"), 46, 2 if tag_above else 3)):
         g += f'<text x="{x+18}" y="{y+48+k*15}" class="s m" font-size="11.5">{esc(line)}</text>'
     cmd = install_cmd(p, 52)
     if cmd:
@@ -435,10 +438,11 @@ def card(i, p, y0=46, link=False):
             g += (f'<rect x="{x+CW-14-wch:.0f}" y="{cy}" width="{wch:.0f}" height="15" rx="7.5" fill="none" stroke="{rc}" stroke-opacity=".7"/>'
                   f'<text x="{x+CW-14-wch/2:.0f}" y="{cy+11}" font-size="8.5" font-weight="700" letter-spacing=".5" text-anchor="middle" style="fill:{rc}">{label}</text>')
             cy += 21
+    ty = y + (78 if tag_above else CHT-32)
     if p.get("_rollup"):
-        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{esc(p["_tag"])}</text>'
+        g += f'<text x="{x+CW-14}" y="{ty}" font-size="9" class="m" text-anchor="end">{esc(p["_tag"])}</text>'
     elif p.get("_pkgs", 1) > 1:
-        g += f'<text x="{x+CW-14}" y="{y+CHT-32}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
+        g += f'<text x="{x+CW-14}" y="{ty}" font-size="9" class="m" text-anchor="end">{p["_pkgs"]} packages · {p["_regs"]} registries</text>'
     g += f'<text x="{x+CW-14}" y="{y+CHT-14}" font-size="10" font-weight="700" letter-spacing="1" text-anchor="end" style="fill:{rc}">{esc(str(p.get("role", "")).upper())}</text>'
     url = next((f["url"] for f in p.get("forges", []) if f["type"] == "GitHub"), None)
     return f'<a href="{esc(url)}">{g}</a>' if url and link else g
