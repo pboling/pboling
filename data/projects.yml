@@ -8804,7 +8804,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 2
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -8878,7 +8878,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 4
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -8915,7 +8915,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 5
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -8951,7 +8951,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 6
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -8987,7 +8987,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 7
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -9023,7 +9023,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 8
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -9059,7 +9059,7 @@
   theme: family
   family_id: tree-sitter-language-pack
   family_position: 9
-  role: contributor
+  role: maintainer
   forges:
   - type: GitHub
     url: https://github.com/xberg-io/tree-sitter-language-pack
@@ -9085,6 +9085,348 @@
   first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
   first_commit_by_person_on: 2026/04/20
   owner: false
+- name: tree-sitter-language-pack
+  description: Java binding published to Maven Central for 371 languages
+  description_source: site
+  language: Java
+  ecosystem: maven
+  registry_url: https://central.sonatype.com/artifact/io.xberg.treesitterlanguagepack/tree-sitter-language-pack
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 10
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - java
+  - parsing
+  - tree-sitter
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: github.com/xberg-io/tree-sitter-language-pack/packages/go
+  description: Go binding published as a Go module for 371 languages
+  description_source: site
+  language: Go
+  ecosystem: go
+  registry_url: https://pkg.go.dev/github.com/xberg-io/tree-sitter-language-pack/packages/go
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 11
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - go
+  - parsing
+  - tree-sitter
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: tree_sitter_language_pack
+  description: Dart and Flutter binding published to pub.dev for 371 languages
+  description_source: site
+  language: Dart
+  ecosystem: pub
+  registry_url: https://pub.dev/packages/tree_sitter_language_pack
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 12
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - dart
+  - flutter
+  - parsing
+  - tree-sitter
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: tree-sitter-language-pack-android
+  description: Kotlin Android binding published to Maven Central for 371 languages
+  description_source: site
+  language: Kotlin
+  ecosystem: maven
+  registry_url: https://central.sonatype.com/artifact/io.xberg.tslp.android/tree-sitter-language-pack-android
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 13
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - android
+  - kotlin
+  - parsing
+  - tree-sitter
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: TreeSitterLanguagePack
+  description: Swift binding shipped with this monorepo release
+  description_source: site
+  language: Swift
+  ecosystem: none
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 14
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - parsing
+  - swift
+  - tree-sitter
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: tree_sitter_language_pack
+  description: Zig binding shipped with this monorepo release
+  description_source: site
+  language: Zig
+  ecosystem: none
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 15
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - parsing
+  - tree-sitter
+  - zig
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: tree-sitter-language-pack-ffi
+  description: C FFI headers and libraries published as GitHub release assets
+  description_source: site
+  language: C
+  ecosystem: none
+  registry_url: https://github.com/xberg-io/tree-sitter-language-pack/releases
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 16
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - c
+  - ffi
+  - parsing
+  - tree-sitter
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: @xberg-io/ts-pack-cli
+  description: Node.js launcher for the ts-pack CLI
+  description_source: site
+  language: JavaScript
+  ecosystem: npm
+  registry_url: https://www.npmjs.com/package/@xberg-io/ts-pack-cli
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 17
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - cli
+  - javascript
+  - nodejs
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: @xberg-io/opencode-tree-sitter-language-pack
+  description: OpenCode and Pi plugin package
+  description_source: site
+  language: JavaScript
+  ecosystem: npm
+  registry_url: https://www.npmjs.com/package/@xberg-io/opencode-tree-sitter-language-pack
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 18
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - cli
+  - javascript
+  - nodejs
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: tree-sitter-language-pack-hermes-plugin
+  description: Hermes Agent plugin package
+  description_source: site
+  language: Python
+  ecosystem: pypi
+  registry_url: https://pypi.org/project/tree-sitter-language-pack-hermes-plugin/
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 19
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - hermes
+  - plugin
+  - python
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+- name: ts-pack
+  description: CLI binary distributed through Homebrew and Scoop
+  description_source: site
+  language: Rust
+  ecosystem: none
+  registry_url: https://github.com/xberg-io/tree-sitter-language-pack/releases
+  theme: family
+  family_id: tree-sitter-language-pack
+  family_position: 20
+  role: maintainer
+  forges:
+  - type: GitHub
+    url: https://github.com/xberg-io/tree-sitter-language-pack
+    owner: xberg-io
+  tags:
+  - cli
+  - rust
+  funding_sites: []
+  docs_site: https://docs.tree-sitter-language-pack.xberg.io
+  status: active
+  github_stars: 482
+  licenses:
+  - MIT
+  license_url: https://github.com/xberg-io/tree-sitter-language-pack/blob/main/LICENSE
+  release_date: 2026/11/06
+  last_commit_on: 2026/11/07
+  first_commit_by_person: https://github.com/xberg-io/tree-sitter-language-pack/commit/7f947b49631d086a8812caebaf5e91f69e8987bf
+  first_commit_by_person_on: 2026/04/20
+  owner: false
+  releaser: false
+
 - name: galtzo-os
   description: "\U0001F4BF️ My Operating System \U0001F4BF️- An Atomic Fedora Universal
     Blue Aurora DX Spin w/ Ruby, Java, 1Password, & NordVPN"

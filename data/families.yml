@@ -66,6 +66,7 @@
   name: Tree-sitter Language Pack
   position: 20
   rollup: tree-sitter-language-pack
+  rollup_lead: tree-sitter-language-pack
 - id: alef
   name: alef
   position: 21
