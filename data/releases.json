@@ -1,5 +1,29 @@
 [
  {
+  "name": "tree_sitter_language_pack",
+  "version": "1.25.0",
+  "date": "2026-11-06",
+  "at": "2026-11-06T22:16:13.726Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.25.0",
+  "registry": "rubygems"
+ },
+ {
+  "name": "tree_sitter_language_pack",
+  "version": "1.25.0",
+  "date": "2026-11-06",
+  "at": "2026-11-06T22:16:12.377Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.25.0",
+  "registry": "rubygems"
+ },
+ {
+  "name": "tree_sitter_language_pack",
+  "version": "1.25.0",
+  "date": "2026-11-06",
+  "at": "2026-11-06T22:16:10.300Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.25.0",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-changelog",
   "version": "1.0.16",
   "date": "2026-11-04",
@@ -213,30 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:13:53.015Z",
   "url": "https://rubygems.org/gems/ruby-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "bash-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:13:52.009Z",
-  "url": "https://rubygems.org/gems/bash-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "plain-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:13:50.752Z",
-  "url": "https://rubygems.org/gems/plain-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "markdown-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:13:49.789Z",
-  "url": "https://rubygems.org/gems/markdown-merge/versions/7.1.17",
   "registry": "rubygems"
  }
 ]

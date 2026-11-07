@@ -9303,7 +9303,7 @@
   first_commit_by_person_on: 2026/04/20
   owner: false
   releaser: false
-- name: @xberg-io/ts-pack-cli
+- name: "@xberg-io/ts-pack-cli"
   description: Node.js launcher for the ts-pack CLI
   description_source: site
   language: JavaScript
@@ -9334,7 +9334,7 @@
   first_commit_by_person_on: 2026/04/20
   owner: false
   releaser: false
-- name: @xberg-io/opencode-tree-sitter-language-pack
+- name: "@xberg-io/opencode-tree-sitter-language-pack"
   description: OpenCode and Pi plugin package
   description_source: site
   language: JavaScript
@@ -9426,7 +9426,6 @@
   first_commit_by_person_on: 2026/04/20
   owner: false
   releaser: false
-
 - name: galtzo-os
   description: "\U0001F4BF️ My Operating System \U0001F4BF️- An Atomic Fedora Universal
     Blue Aurora DX Spin w/ Ruby, Java, 1Password, & NordVPN"
