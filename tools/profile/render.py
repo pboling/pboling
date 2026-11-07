@@ -326,13 +326,19 @@ def rollup_card(rid, plist):
     lead = next((q for q in plist if q["name"] == lead_name), None)
     g = dict(lead or plist[0])
     langs = sorted({q.get("language") for q in plist if q.get("language")})
-    if not lead: g.update(name=rid, ecosystem=None, language="multi-lang", description=f"{len(plist)} packages across {', '.join(langs)}")
-    g.update(_rollup=True, _pkgs=len(plist), _langs=len(langs))
+    if not lead: g.update(name=rid, ecosystem=None, language="multi-lang", description=f"{len(plist)} release publications across {len(langs)} languages")
+    publications = {(q.get("ecosystem"), q.get("name")) for q in plist}
+    registry_publications = {item for item in publications if item[0] not in (None, "none")}
+    registries = {eco for eco, _ in registry_publications}
+    n_packages = len(registry_publications)
+    n_publications = len(publications)
+    n_registries = len(registries)
+    g.update(_rollup=True, _pkgs=n_packages, _publications=n_publications, _registries=n_registries, _langs=len(langs))
     if len(langs) > 1: g["_lang_list"] = [l for l, _ in __import__("collections").Counter(q.get("language") for q in plist).most_common()]
-    g["_tag"] = (f"multi-language monorepos · {len(plist)} packages · {len(langs)} languages" if len(langs) > 1
-                 else f"{fams[0]['name']} · {len(plist)} packages")
-    g["_tag_phone"] = f"multi-language · {len(plist)} packages · {len(langs)} langs" if len(langs) > 1 else f"{len(plist)} pkgs"
-    g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist)
+    g["_tag"] = (f"{fams[0]['name']} · {n_packages} packages · {n_publications} publications · {len(langs)} languages"
+                 if len(langs) > 1 else f"{fams[0]['name']} · {n_packages} packages · {n_publications} publications")
+    g["_tag_phone"] = f"{n_packages} packages · {n_publications} pubs · {len(langs)} langs"
+    g["total_downloads"] = sum(q.get("total_downloads") or 0 for q in plist) + max((gh_release_dl(q) for q in plist), default=0)
     g["daily_downloads"] = sum(q.get("daily_downloads") or 0 for q in plist)
     per_repo = {}
     for q in plist: per_repo[gh_repo(q)] = max(per_repo.get(gh_repo(q), 0), q.get("github_stars") or 0)
@@ -395,7 +401,7 @@ def card(i, p, y0=46, link=False):
     nx0 = x + (48 if logo_uri(owner_of(p) or "") else 18)
     g = (f'<rect x="{x}" y="{y}" width="{CW}" height="{CHT}" rx="4" fill="{PANEL}" stroke="{EDGE}"/>'
          f'<rect x="{x}" y="{y}" width="4" height="{CHT}" fill="{rc}"/>'
-         f'<text x="{nx0}" y="{y+26}" class="s" font-size="16" font-weight="700">{esc(p["name"][:24])}</text>'
+         f'<text x="{nx0}" y="{y+26}" class="s" font-size="{14 if len(p["name"]) > 24 else 16}" font-weight="700">{esc(p["name"])}</text>'
          + logo_at(owner_of(p), x+16, y+8, 24) +
          lang_badge(p, x+CW-14, y+22, 18))
     if is_new(p) and p.get("role") != "contributor":
