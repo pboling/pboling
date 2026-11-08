@@ -1,12 +1,12 @@
 {
  "days": 365,
- "generated": "2026-11-07",
+ "generated": "2026-11-08",
  "repos": [
   {
    "repo": "resque/resque",
    "name": "resque",
    "owner": "resque",
-   "gain": 63,
+   "gain": 62,
    "gain30": 5,
    "total": 9468
   },
