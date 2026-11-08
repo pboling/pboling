@@ -1,5 +1,29 @@
 [
  {
+  "name": "stone_checksums",
+  "version": "1.0.10",
+  "date": "2026-11-08",
+  "at": "2026-11-08T17:18:06.589Z",
+  "url": "https://rubygems.org/gems/stone_checksums/versions/1.0.10",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-changelog",
+  "version": "1.0.18",
+  "date": "2026-11-08",
+  "at": "2026-11-08T16:56:24.149Z",
+  "url": "https://rubygems.org/gems/kettle-changelog/versions/1.0.18",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-dev",
+  "version": "3.1.28",
+  "date": "2026-11-08",
+  "at": "2026-11-08T16:49:20.353Z",
+  "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.28",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-changelog",
   "version": "1.0.17",
   "date": "2026-11-08",
@@ -213,30 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:20:45.251Z",
   "url": "https://rubygems.org/gems/markly-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "kramdown-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:20:44.239Z",
-  "url": "https://rubygems.org/gems/kramdown-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "commonmarker-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:20:42.916Z",
-  "url": "https://rubygems.org/gems/commonmarker-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "typescript-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:15:04.949Z",
-  "url": "https://rubygems.org/gems/typescript-merge/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
