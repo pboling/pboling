@@ -1,5 +1,21 @@
 [
  {
+  "name": "kettle-family",
+  "version": "1.3.39",
+  "date": "2026-11-09",
+  "at": "2026-11-09T02:10:45.048Z",
+  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.39",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-gha-pins",
+  "version": "0.3.21",
+  "date": "2026-11-09",
+  "at": "2026-11-09T02:02:47.708Z",
+  "url": "https://rubygems.org/gems/kettle-gha-pins/versions/0.3.21",
+  "registry": "rubygems"
+ },
+ {
   "name": "stone_checksums",
   "version": "1.0.10",
   "date": "2026-11-08",
@@ -221,22 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:20:47.040Z",
   "url": "https://rubygems.org/gems/html-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "prism-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:20:46.315Z",
-  "url": "https://rubygems.org/gems/prism-merge/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "markly-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:20:45.251Z",
-  "url": "https://rubygems.org/gems/markly-merge/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
