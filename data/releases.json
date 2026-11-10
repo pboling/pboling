@@ -1,5 +1,13 @@
 [
  {
+  "name": "rspec-stubbed_env",
+  "version": "1.0.18",
+  "date": "2026-11-10",
+  "at": "2026-11-10T00:31:07.836Z",
+  "url": "https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.18",
+  "registry": "rubygems"
+ },
+ {
   "name": "yard-timekeeper",
   "version": "0.2.10",
   "date": "2026-11-09",
@@ -229,14 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:23:08.129Z",
   "url": "https://rubygems.org/gems/ast-crispr-yaml-psych/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "parslet-toml-merge",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:20:54.216Z",
-  "url": "https://rubygems.org/gems/parslet-toml-merge/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
