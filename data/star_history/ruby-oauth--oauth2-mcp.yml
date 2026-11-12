@@ -1,6 +1,6 @@
 ---
 repo: ruby-oauth/oauth2-mcp
-synced_through: '2026-11-10'
+synced_through: '2026-11-11'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -11,6 +11,7 @@ observed:
   '2026-11-08': 4
   '2026-11-09': 4
   '2026-11-10': 4
+  '2026-11-11': 4
 stars:
   '2026-05-28': ['10:23:13', '13:41:44', '14:02:45']
   '2026-06-04': ['02:01:38']
