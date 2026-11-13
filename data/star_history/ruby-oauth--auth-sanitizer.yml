@@ -1,6 +1,6 @@
 ---
 repo: ruby-oauth/auth-sanitizer
-synced_through: '2026-11-12'
+synced_through: '2026-11-13'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -14,6 +14,7 @@ observed:
   '2026-11-10': 15
   '2026-11-11': 15
   '2026-11-12': 15
+  '2026-11-13': 15
 stars:
   '2026-05-17': ['03:00:46', '03:00:56']
   '2026-05-18': ['08:38:52']

@@ -1,6 +1,6 @@
 ---
 repo: pboling/yacs
-synced_through: '2026-11-12'
+synced_through: '2026-11-13'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -13,6 +13,7 @@ observed:
   '2026-11-10': 2
   '2026-11-11': 2
   '2026-11-12': 2
+  '2026-11-13': 2
 stars:
   '2025-10-27': ['06:01:58']
   '2025-12-17': ['09:14:59']
