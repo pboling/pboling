@@ -1,20 +1,20 @@
 {
  "days": 365,
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "repos": [
   {
    "repo": "resque/resque",
    "name": "resque",
    "owner": "resque",
-   "gain": 61,
-   "gain30": 4,
+   "gain": 60,
+   "gain30": 3,
    "total": 9468
   },
   {
    "repo": "ruby-oauth/oauth2",
    "name": "oauth2",
    "owner": "ruby-oauth",
-   "gain": 40,
+   "gain": 39,
    "gain30": 0,
    "total": 2181
   },
