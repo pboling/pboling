@@ -1,6 +1,6 @@
 ---
 repo: ruby-oauth/oauth-tty
-synced_through: '2026-11-13'
+synced_through: '2026-11-14'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -15,6 +15,7 @@ observed:
   '2026-11-11': 7
   '2026-11-12': 7
   '2026-11-13': 7
+  '2026-11-14': 7
 stars:
   '2025-05-23': ['18:09:15']
   '2025-05-31': ['21:34:32']

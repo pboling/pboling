@@ -1,5 +1,13 @@
 [
  {
+  "name": "runtime_groups",
+  "version": "0.1.5",
+  "date": "2026-11-14",
+  "at": "2026-11-14T03:23:01.461Z",
+  "url": "https://rubygems.org/gems/runtime_groups/versions/0.1.5",
+  "registry": "rubygems"
+ },
+ {
   "name": "turbo_tests2",
   "version": "4.0.1",
   "date": "2026-11-11",
@@ -229,14 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T03:24:11.082Z",
   "url": "https://rubygems.org/gems/ast-crispr-ruby-prism/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "ast-crispr-markdown-markly",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:24:08.870Z",
-  "url": "https://rubygems.org/gems/ast-crispr-markdown-markly/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
