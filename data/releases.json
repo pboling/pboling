@@ -1,5 +1,21 @@
 [
  {
+  "name": "turbo_tests2",
+  "version": "4.0.2",
+  "date": "2026-11-15",
+  "at": "2026-11-15T04:37:17.628Z",
+  "url": "https://rubygems.org/gems/turbo_tests2/versions/4.0.2",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-ndjson",
+  "version": "0.1.24",
+  "date": "2026-11-15",
+  "at": "2026-11-15T03:58:48.815Z",
+  "url": "https://rubygems.org/gems/kettle-ndjson/versions/0.1.24",
+  "registry": "rubygems"
+ },
+ {
   "name": "runtime_groups",
   "version": "0.1.5",
   "date": "2026-11-14",
@@ -221,22 +237,6 @@
   "date": "2026-10-30",
   "at": "2026-10-30T22:53:25.201Z",
   "url": "https://rubygems.org/gems/kettle-jem/versions/7.1.41",
-  "registry": "rubygems"
- },
- {
-  "name": "ast-merge-git",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:25:25.313Z",
-  "url": "https://rubygems.org/gems/ast-merge-git/versions/7.1.17",
-  "registry": "rubygems"
- },
- {
-  "name": "ast-crispr-ruby-prism",
-  "version": "7.1.17",
-  "date": "2026-10-30",
-  "at": "2026-10-30T03:24:11.082Z",
-  "url": "https://rubygems.org/gems/ast-crispr-ruby-prism/versions/7.1.17",
   "registry": "rubygems"
  }
 ]
