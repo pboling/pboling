@@ -1,5 +1,101 @@
 [
  {
+  "name": "sanitize_email",
+  "version": "2.0.17",
+  "date": "2026-11-16",
+  "at": "2026-11-16T05:31:31.034Z",
+  "url": "https://rubygems.org/gems/sanitize_email/versions/2.0.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "debug_logging",
+  "version": "4.1.7",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:34:33.193Z",
+  "url": "https://rubygems.org/gems/debug_logging/versions/4.1.7",
+  "registry": "rubygems"
+ },
+ {
+  "name": "month-serializer",
+  "version": "1.0.4",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:32:28.413Z",
+  "url": "https://rubygems.org/gems/month-serializer/versions/1.0.4",
+  "registry": "rubygems"
+ },
+ {
+  "name": "yaml-converter",
+  "version": "0.2.8",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:32:08.317Z",
+  "url": "https://rubygems.org/gems/yaml-converter/versions/0.2.8",
+  "registry": "rubygems"
+ },
+ {
+  "name": "flag_shih_tzu",
+  "version": "1.0.8",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:28:51.762Z",
+  "url": "https://rubygems.org/gems/flag_shih_tzu/versions/1.0.8",
+  "registry": "rubygems"
+ },
+ {
+  "name": "stone_checksums",
+  "version": "1.0.11",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:27:44.210Z",
+  "url": "https://rubygems.org/gems/stone_checksums/versions/1.0.11",
+  "registry": "rubygems"
+ },
+ {
+  "name": "rspec-stubbed_env",
+  "version": "1.0.19",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:26:24.437Z",
+  "url": "https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.19",
+  "registry": "rubygems"
+ },
+ {
+  "name": "rspec-pending_for",
+  "version": "0.1.29",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:26:04.843Z",
+  "url": "https://rubygems.org/gems/rspec-pending_for/versions/0.1.29",
+  "registry": "rubygems"
+ },
+ {
+  "name": "yard-timekeeper",
+  "version": "0.2.11",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:24:39.391Z",
+  "url": "https://rubygems.org/gems/yard-timekeeper/versions/0.2.11",
+  "registry": "rubygems"
+ },
+ {
+  "name": "yard-fence",
+  "version": "0.9.12",
+  "date": "2026-11-16",
+  "at": "2026-11-16T01:10:04.482Z",
+  "url": "https://rubygems.org/gems/yard-fence/versions/0.9.12",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-family",
+  "version": "1.3.43",
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:27:51.184Z",
+  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.43",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-family",
+  "version": "1.3.42",
+  "date": "2026-11-15",
+  "at": "2026-11-15T22:21:37.655Z",
+  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.42",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-dev",
   "version": "3.1.29",
   "date": "2026-11-15",
@@ -112,22 +208,6 @@
   "registry": "rubygems"
  },
  {
-  "name": "kettle-family",
-  "version": "1.3.40",
-  "date": "2026-11-09",
-  "at": "2026-11-09T08:32:11.530Z",
-  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.40",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-family",
-  "version": "1.3.39",
-  "date": "2026-11-09",
-  "at": "2026-11-09T02:10:45.048Z",
-  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.39",
-  "registry": "rubygems"
- },
- {
   "name": "kettle-gha-pins",
   "version": "0.3.21",
   "date": "2026-11-09",
@@ -157,86 +237,6 @@
   "date": "2026-11-08",
   "at": "2026-11-08T16:49:20.353Z",
   "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.28",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-changelog",
-  "version": "1.0.17",
-  "date": "2026-11-08",
-  "at": "2026-11-08T05:55:13.925Z",
-  "url": "https://rubygems.org/gems/kettle-changelog/versions/1.0.17",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-dev",
-  "version": "3.1.27",
-  "date": "2026-11-08",
-  "at": "2026-11-08T05:29:00.864Z",
-  "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.27",
-  "registry": "rubygems"
- },
- {
-  "name": "oauth",
-  "version": "1.1.9",
-  "date": "2026-11-08",
-  "at": "2026-11-08T04:29:27.005Z",
-  "url": "https://rubygems.org/gems/oauth/versions/1.1.9",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.25.0",
-  "date": "2026-11-06",
-  "at": "2026-11-06T22:16:13.726Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.25.0",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.25.0",
-  "date": "2026-11-06",
-  "at": "2026-11-06T22:16:12.377Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.25.0",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.25.0",
-  "date": "2026-11-06",
-  "at": "2026-11-06T22:16:10.300Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.25.0",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-changelog",
-  "version": "1.0.16",
-  "date": "2026-11-04",
-  "at": "2026-11-04T03:17:02.512Z",
-  "url": "https://rubygems.org/gems/kettle-changelog/versions/1.0.16",
-  "registry": "rubygems"
- },
- {
-  "name": "nomono",
-  "version": "1.1.18",
-  "date": "2026-11-03",
-  "at": "2026-11-03T22:59:53.865Z",
-  "url": "https://rubygems.org/gems/nomono/versions/1.1.18",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-jem",
-  "version": "7.1.42",
-  "date": "2026-10-31",
-  "at": "2026-10-31T04:26:17.314Z",
-  "url": "https://rubygems.org/gems/kettle-jem/versions/7.1.42",
-  "registry": "rubygems"
- },
- {
-  "name": "ast-crispr-toml",
-  "version": "7.1.18",
-  "date": "2026-10-31",
-  "at": "2026-10-31T01:13:01.011Z",
-  "url": "https://rubygems.org/gems/ast-crispr-toml/versions/7.1.18",
   "registry": "rubygems"
  }
 ]
