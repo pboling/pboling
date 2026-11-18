@@ -1,6 +1,6 @@
 ---
 repo: ruby-oauth/version_gem
-synced_through: '2026-11-17'
+synced_through: '2026-11-18'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -19,6 +19,7 @@ observed:
   '2026-11-15': 22
   '2026-11-16': 22
   '2026-11-17': 22
+  '2026-11-18': 22
 stars:
   '2022-07-05': ['10:56:31']
   '2022-07-09': ['02:16:33']

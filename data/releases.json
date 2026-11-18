@@ -1,5 +1,13 @@
 [
  {
+  "name": "shields-badge",
+  "version": "1.0.1",
+  "date": "2026-11-18",
+  "at": "2026-11-18T10:53:15.145Z",
+  "url": "https://rubygems.org/gems/shields-badge/versions/1.0.1",
+  "registry": "rubygems"
+ },
+ {
   "name": "active_security",
   "version": "1.0.2",
   "date": "2026-11-18",
@@ -229,14 +237,6 @@
   "date": "2026-11-11",
   "at": "2026-11-11T01:03:40.509Z",
   "url": "https://rubygems.org/gems/turbo_tests2/versions/4.0.1",
-  "registry": "rubygems"
- },
- {
-  "name": "rspec-stubbed_env",
-  "version": "1.0.18",
-  "date": "2026-11-10",
-  "at": "2026-11-10T00:31:07.836Z",
-  "url": "https://rubygems.org/gems/rspec-stubbed_env/versions/1.0.18",
   "registry": "rubygems"
  }
 ]
