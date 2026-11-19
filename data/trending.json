@@ -1,6 +1,6 @@
 {
  "days": 365,
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "repos": [
   {
    "repo": "resque/resque",
@@ -83,20 +83,20 @@
    "total": 22
   },
   {
-   "repo": "appraisal-rb/appraisal2",
-   "name": "appraisal2",
-   "owner": "appraisal-rb",
-   "gain": 10,
-   "gain30": 0,
-   "total": 22
-  },
-  {
    "repo": "galtzo-floss/turbo_tests2",
    "name": "turbo_tests2",
    "owner": "galtzo-floss",
    "gain": 10,
    "gain30": 1,
    "total": 10
+  },
+  {
+   "repo": "appraisal-rb/appraisal2",
+   "name": "appraisal2",
+   "owner": "appraisal-rb",
+   "gain": 8,
+   "gain30": 0,
+   "total": 22
   }
  ]
 }

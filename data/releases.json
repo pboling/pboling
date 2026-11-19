@@ -1,5 +1,13 @@
 [
  {
+  "name": "kettle-changelog",
+  "version": "1.0.20",
+  "date": "2026-11-19",
+  "at": "2026-11-19T01:52:22.674Z",
+  "url": "https://rubygems.org/gems/kettle-changelog/versions/1.0.20",
+  "registry": "rubygems"
+ },
+ {
   "name": "shields-badge",
   "version": "1.0.1",
   "date": "2026-11-18",
@@ -229,14 +237,6 @@
   "date": "2026-11-14",
   "at": "2026-11-14T03:23:01.461Z",
   "url": "https://rubygems.org/gems/runtime_groups/versions/0.1.5",
-  "registry": "rubygems"
- },
- {
-  "name": "turbo_tests2",
-  "version": "4.0.1",
-  "date": "2026-11-11",
-  "at": "2026-11-11T01:03:40.509Z",
-  "url": "https://rubygems.org/gems/turbo_tests2/versions/4.0.1",
   "registry": "rubygems"
  }
 ]
