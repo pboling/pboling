@@ -1,6 +1,6 @@
 ---
 repo: ruby-openid/rack-openid2
-synced_through: '2026-11-18'
+synced_through: '2026-11-19'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -18,6 +18,7 @@ observed:
   '2026-11-15': 10
   '2026-11-16': 10
   '2026-11-18': 10
+  '2026-11-19': 10
 stars:
   '2024-09-05': ['06:47:27']
   '2025-05-31': ['21:39:18']
