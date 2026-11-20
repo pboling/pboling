@@ -1,5 +1,13 @@
 [
  {
+  "name": "kettle-dev",
+  "version": "3.1.30",
+  "date": "2026-11-20",
+  "at": "2026-11-20T03:38:37.447Z",
+  "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.30",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-changelog",
   "version": "1.0.20",
   "date": "2026-11-19",
@@ -229,14 +237,6 @@
   "date": "2026-11-15",
   "at": "2026-11-15T03:58:48.815Z",
   "url": "https://rubygems.org/gems/kettle-ndjson/versions/0.1.24",
-  "registry": "rubygems"
- },
- {
-  "name": "runtime_groups",
-  "version": "0.1.5",
-  "date": "2026-11-14",
-  "at": "2026-11-14T03:23:01.461Z",
-  "url": "https://rubygems.org/gems/runtime_groups/versions/0.1.5",
   "registry": "rubygems"
  }
 ]
