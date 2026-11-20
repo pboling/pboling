@@ -1,5 +1,21 @@
 [
  {
+  "name": "kettle-family",
+  "version": "1.3.46",
+  "date": "2026-11-20",
+  "at": "2026-11-20T17:51:29.130Z",
+  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.46",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-dev",
+  "version": "3.1.31",
+  "date": "2026-11-20",
+  "at": "2026-11-20T16:45:23.251Z",
+  "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.31",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-dev",
   "version": "3.1.30",
   "date": "2026-11-20",
@@ -200,14 +216,6 @@
   "registry": "rubygems"
  },
  {
-  "name": "kettle-family",
-  "version": "1.3.43",
-  "date": "2026-11-15",
-  "at": "2026-11-15T23:27:51.184Z",
-  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.43",
-  "registry": "rubygems"
- },
- {
   "name": "kettle-dev",
   "version": "3.1.29",
   "date": "2026-11-15",
@@ -229,14 +237,6 @@
   "date": "2026-11-15",
   "at": "2026-11-15T04:37:17.628Z",
   "url": "https://rubygems.org/gems/turbo_tests2/versions/4.0.2",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-ndjson",
-  "version": "0.1.24",
-  "date": "2026-11-15",
-  "at": "2026-11-15T03:58:48.815Z",
-  "url": "https://rubygems.org/gems/kettle-ndjson/versions/0.1.24",
   "registry": "rubygems"
  }
 ]
