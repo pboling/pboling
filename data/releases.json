@@ -1,5 +1,29 @@
 [
  {
+  "name": "tree_sitter_language_pack",
+  "version": "1.27.1",
+  "date": "2026-11-23",
+  "at": "2026-11-23T00:47:07.946Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.1",
+  "registry": "rubygems"
+ },
+ {
+  "name": "tree_sitter_language_pack",
+  "version": "1.27.1",
+  "date": "2026-11-23",
+  "at": "2026-11-23T00:47:06.795Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.1",
+  "registry": "rubygems"
+ },
+ {
+  "name": "tree_sitter_language_pack",
+  "version": "1.27.1",
+  "date": "2026-11-23",
+  "at": "2026-11-23T00:47:04.759Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.1",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-family",
   "version": "1.3.46",
   "date": "2026-11-20",
@@ -213,30 +237,6 @@
   "date": "2026-11-16",
   "at": "2026-11-16T01:10:04.482Z",
   "url": "https://rubygems.org/gems/yard-fence/versions/0.9.12",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-dev",
-  "version": "3.1.29",
-  "date": "2026-11-15",
-  "at": "2026-11-15T15:19:04.123Z",
-  "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.29",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-test",
-  "version": "2.0.30",
-  "date": "2026-11-15",
-  "at": "2026-11-15T15:02:44.900Z",
-  "url": "https://rubygems.org/gems/kettle-test/versions/2.0.30",
-  "registry": "rubygems"
- },
- {
-  "name": "turbo_tests2",
-  "version": "4.0.2",
-  "date": "2026-11-15",
-  "at": "2026-11-15T04:37:17.628Z",
-  "url": "https://rubygems.org/gems/turbo_tests2/versions/4.0.2",
   "registry": "rubygems"
  }
 ]
