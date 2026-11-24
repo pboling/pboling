@@ -1,5 +1,45 @@
 [
  {
+  "name": "ast-crispr-toml",
+  "version": "7.1.19",
+  "date": "2026-11-24",
+  "at": "2026-11-24T14:09:04.793Z",
+  "url": "https://rubygems.org/gems/ast-crispr-toml/versions/7.1.19",
+  "registry": "rubygems"
+ },
+ {
+  "name": "smorg-rb",
+  "version": "7.1.19",
+  "date": "2026-11-24",
+  "at": "2026-11-24T14:03:52.013Z",
+  "url": "https://rubygems.org/gems/smorg-rb/versions/7.1.19",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-merge-git",
+  "version": "7.1.19",
+  "date": "2026-11-24",
+  "at": "2026-11-24T13:58:47.032Z",
+  "url": "https://rubygems.org/gems/ast-merge-git/versions/7.1.19",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-crispr-markdown-markly",
+  "version": "7.1.19",
+  "date": "2026-11-24",
+  "at": "2026-11-24T13:51:52.542Z",
+  "url": "https://rubygems.org/gems/ast-crispr-markdown-markly/versions/7.1.19",
+  "registry": "rubygems"
+ },
+ {
+  "name": "ast-crispr-ruby-prism",
+  "version": "7.1.19",
+  "date": "2026-11-24",
+  "at": "2026-11-24T13:50:37.621Z",
+  "url": "https://rubygems.org/gems/ast-crispr-ruby-prism/versions/7.1.19",
+  "registry": "rubygems"
+ },
+ {
   "name": "tree_sitter_language_pack",
   "version": "1.27.2",
   "date": "2026-11-24",
@@ -197,46 +237,6 @@
   "date": "2026-11-23",
   "at": "2026-11-23T22:52:40.340Z",
   "url": "https://rubygems.org/gems/ast-crispr/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "markdown-merge",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:39.452Z",
-  "url": "https://rubygems.org/gems/markdown-merge/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "rbs-merge",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:38.578Z",
-  "url": "https://rubygems.org/gems/rbs-merge/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "config-merge",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:37.375Z",
-  "url": "https://rubygems.org/gems/config-merge/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "ruby-merge",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:36.387Z",
-  "url": "https://rubygems.org/gems/ruby-merge/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "go-merge",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:36.116Z",
-  "url": "https://rubygems.org/gems/go-merge/versions/7.1.19",
   "registry": "rubygems"
  }
 ]
