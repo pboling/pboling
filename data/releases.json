@@ -1,5 +1,37 @@
 [
  {
+  "name": "tree_sitter_language_pack",
+  "version": "1.27.3",
+  "date": "2026-11-25",
+  "at": "2026-11-25T07:02:39.909Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.3",
+  "registry": "rubygems"
+ },
+ {
+  "name": "tree_sitter_language_pack",
+  "version": "1.27.3",
+  "date": "2026-11-25",
+  "at": "2026-11-25T07:02:38.574Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.3",
+  "registry": "rubygems"
+ },
+ {
+  "name": "tree_sitter_language_pack",
+  "version": "1.27.3",
+  "date": "2026-11-25",
+  "at": "2026-11-25T07:02:36.232Z",
+  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.3",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-jem",
+  "version": "7.1.43",
+  "date": "2026-11-25",
+  "at": "2026-11-25T04:00:20.616Z",
+  "url": "https://rubygems.org/gems/kettle-jem/versions/7.1.43",
+  "registry": "rubygems"
+ },
+ {
   "name": "ast-crispr-toml",
   "version": "7.1.19",
   "date": "2026-11-24",
@@ -37,30 +69,6 @@
   "date": "2026-11-24",
   "at": "2026-11-24T13:50:37.621Z",
   "url": "https://rubygems.org/gems/ast-crispr-ruby-prism/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.27.2",
-  "date": "2026-11-24",
-  "at": "2026-11-24T08:42:11.696Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.2",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.27.2",
-  "date": "2026-11-24",
-  "at": "2026-11-24T08:42:10.029Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.2",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.27.2",
-  "date": "2026-11-24",
-  "at": "2026-11-24T08:42:07.187Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.27.2",
   "registry": "rubygems"
  },
  {
@@ -229,14 +237,6 @@
   "date": "2026-11-23",
   "at": "2026-11-23T22:52:41.364Z",
   "url": "https://rubygems.org/gems/plain-merge/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "ast-crispr",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:40.340Z",
-  "url": "https://rubygems.org/gems/ast-crispr/versions/7.1.19",
   "registry": "rubygems"
  }
 ]
