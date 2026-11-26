@@ -1,5 +1,13 @@
 [
  {
+  "name": "kettle-soup-cover",
+  "version": "3.0.17",
+  "date": "2026-11-26",
+  "at": "2026-11-26T02:15:54.584Z",
+  "url": "https://rubygems.org/gems/kettle-soup-cover/versions/3.0.17",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-family",
   "version": "1.3.49",
   "date": "2026-11-25",
@@ -229,14 +237,6 @@
   "date": "2026-11-23",
   "at": "2026-11-23T22:52:44.258Z",
   "url": "https://rubygems.org/gems/binary-merge/versions/7.1.19",
-  "registry": "rubygems"
- },
- {
-  "name": "bash-merge",
-  "version": "7.1.19",
-  "date": "2026-11-23",
-  "at": "2026-11-23T22:52:43.390Z",
-  "url": "https://rubygems.org/gems/bash-merge/versions/7.1.19",
   "registry": "rubygems"
  }
 ]
