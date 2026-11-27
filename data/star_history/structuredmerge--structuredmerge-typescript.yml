@@ -1,6 +1,6 @@
 ---
 repo: structuredmerge/structuredmerge-typescript
-synced_through: '2026-11-26'
+synced_through: '2026-11-27'
 last_full_resync: '2026-11-03'
 unaligned_delta: 0
 observed:
@@ -26,5 +26,6 @@ observed:
   '2026-11-23': 1
   '2026-11-25': 1
   '2026-11-26': 1
+  '2026-11-27': 1
 stars:
   '2026-11-02': ['20:48:36']

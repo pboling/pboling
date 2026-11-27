@@ -1,5 +1,77 @@
 [
  {
+  "name": "kettle-soup-cover",
+  "version": "3.0.18",
+  "date": "2026-11-27",
+  "at": "2026-11-27T21:02:25.612Z",
+  "url": "https://rubygems.org/gems/kettle-soup-cover/versions/3.0.18",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-gha-pins",
+  "version": "0.3.22",
+  "date": "2026-11-27",
+  "at": "2026-11-27T21:02:24.345Z",
+  "url": "https://rubygems.org/gems/kettle-gha-pins/versions/0.3.22",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-paths",
+  "version": "0.1.6",
+  "date": "2026-11-27",
+  "at": "2026-11-27T19:51:30.145Z",
+  "url": "https://rubygems.org/gems/kettle-paths/versions/0.1.6",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-rb",
+  "version": "0.1.22",
+  "date": "2026-11-27",
+  "at": "2026-11-27T18:12:44.803Z",
+  "url": "https://rubygems.org/gems/kettle-rb/versions/0.1.22",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-wash",
+  "version": "0.1.15",
+  "date": "2026-11-27",
+  "at": "2026-11-27T18:06:03.432Z",
+  "url": "https://rubygems.org/gems/kettle-wash/versions/0.1.15",
+  "registry": "rubygems"
+ },
+ {
+  "name": "token-resolver",
+  "version": "2.0.17",
+  "date": "2026-11-27",
+  "at": "2026-11-27T18:05:21.938Z",
+  "url": "https://rubygems.org/gems/token-resolver/versions/2.0.17",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-ndjson",
+  "version": "0.1.25",
+  "date": "2026-11-27",
+  "at": "2026-11-27T18:02:56.355Z",
+  "url": "https://rubygems.org/gems/kettle-ndjson/versions/0.1.25",
+  "registry": "rubygems"
+ },
+ {
+  "name": "nomono",
+  "version": "1.1.19",
+  "date": "2026-11-27",
+  "at": "2026-11-27T18:01:35.227Z",
+  "url": "https://rubygems.org/gems/nomono/versions/1.1.19",
+  "registry": "rubygems"
+ },
+ {
+  "name": "kettle-drift",
+  "version": "1.0.20",
+  "date": "2026-11-27",
+  "at": "2026-11-27T17:54:32.266Z",
+  "url": "https://rubygems.org/gems/kettle-drift/versions/1.0.20",
+  "registry": "rubygems"
+ },
+ {
   "name": "kettle-family",
   "version": "1.3.52",
   "date": "2026-11-27",
@@ -165,78 +237,6 @@
   "date": "2026-11-26",
   "at": "2026-11-26T19:33:41.206Z",
   "url": "https://rubygems.org/gems/html-merge/versions/7.1.20",
-  "registry": "rubygems"
- },
- {
-  "name": "typescript-merge",
-  "version": "7.1.20",
-  "date": "2026-11-26",
-  "at": "2026-11-26T19:12:01.414Z",
-  "url": "https://rubygems.org/gems/typescript-merge/versions/7.1.20",
-  "registry": "rubygems"
- },
- {
-  "name": "ruby-merge",
-  "version": "7.1.20",
-  "date": "2026-11-26",
-  "at": "2026-11-26T19:09:41.518Z",
-  "url": "https://rubygems.org/gems/ruby-merge/versions/7.1.20",
-  "registry": "rubygems"
- },
- {
-  "name": "yaml-merge",
-  "version": "7.1.20",
-  "date": "2026-11-26",
-  "at": "2026-11-26T19:09:39.862Z",
-  "url": "https://rubygems.org/gems/yaml-merge/versions/7.1.20",
-  "registry": "rubygems"
- },
- {
-  "name": "toml-merge",
-  "version": "7.1.20",
-  "date": "2026-11-26",
-  "at": "2026-11-26T19:09:33.037Z",
-  "url": "https://rubygems.org/gems/toml-merge/versions/7.1.20",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-family",
-  "version": "1.3.50",
-  "date": "2026-11-26",
-  "at": "2026-11-26T18:33:18.497Z",
-  "url": "https://rubygems.org/gems/kettle-family/versions/1.3.50",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.28.0",
-  "date": "2026-11-26",
-  "at": "2026-11-26T18:10:39.476Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.28.0",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.28.0",
-  "date": "2026-11-26",
-  "at": "2026-11-26T18:10:37.962Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.28.0",
-  "registry": "rubygems"
- },
- {
-  "name": "tree_sitter_language_pack",
-  "version": "1.28.0",
-  "date": "2026-11-26",
-  "at": "2026-11-26T18:10:35.282Z",
-  "url": "https://rubygems.org/gems/tree_sitter_language_pack/versions/1.28.0",
-  "registry": "rubygems"
- },
- {
-  "name": "kettle-dev",
-  "version": "3.1.32",
-  "date": "2026-11-26",
-  "at": "2026-11-26T18:09:05.569Z",
-  "url": "https://rubygems.org/gems/kettle-dev/versions/3.1.32",
   "registry": "rubygems"
  }
 ]
